@@ -2,6 +2,8 @@ import Image from "next/image";
 import React from "react";
 
 const Footer = () => {
+  const d = new Date();
+  let year = d.getFullYear();
   return (
     <footer className="bg-[#304D30]  text-white ">
       <div className="md:px-20 px-8 pb-10 py-5 space-y-10 text-center md:text-left">
@@ -66,8 +68,8 @@ const Footer = () => {
           </div>
         </div>
         <div className="border border-x-white "></div>
-        <div className="text-center text-sm">
-          Copyright 2023 Seventh Day Adventist Church, OGBA. All Rights reserved
+        <div className="text-center text-sm text-orange-400">
+          &copy; {year} Seventh-Day Adventist Church, OGBA. All Rights reserved
         </div>
       </div>
     </footer>

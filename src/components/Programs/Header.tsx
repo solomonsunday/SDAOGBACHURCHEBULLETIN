@@ -44,7 +44,7 @@ const Header = () => {
             />
           </div>
           <p className="text-orange-400 font-mono text-sm">
-            SDA Church,Ogba e-Bulletin
+            SDA Church Ogba E-Bulletin
           </p>
           <div className="items-center hidden h-10 font-serif md:flex md:space-x-8 text-sm">
             <div className="group">

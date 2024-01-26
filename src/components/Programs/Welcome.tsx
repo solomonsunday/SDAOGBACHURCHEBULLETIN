@@ -23,9 +23,9 @@ const Welcome = () => {
       <div className="font-serif text-3xl pb-2 mb-5 text-[#304D30] text-center italic ">
         Welcome to{" "}
         <span className="text-base italic text-orange-500">
-          Seventh-Day Adventist Church, OGBA
-        </span>{" "}
-        <span className="text-base">{todaysDate}</span>
+          Seventh-Day Adventist Church, OGBA{" "}
+          <span className="text-sm text-[#304D30]">E-Bulletin</span>
+        </span>
         <div className="border border-orange-500 "></div>
       </div>
       <div className="space-y-2">
