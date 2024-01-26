@@ -28,7 +28,7 @@ const AdminPriceList = () => {
           buttonClassName={
             " w-[15.8125rem] flex gap-x-[1.875rem] items-center justify-center bg-[#304D30]"
           }
-          buttonText="Update Bulletin"
+          buttonText="Create/Update"
           buttonIcon={
             <Image
               src={"/assets/svgs/refresh-icon.svg"}
@@ -39,7 +39,7 @@ const AdminPriceList = () => {
             />
           }
           hasButton
-          buttonOnClick={() => router.push("/admin/bulletin/create")}
+          buttonOnClick={() => router.push("/admin/divineservice/create")}
         />
       </Container>
     </AdminLayout>
