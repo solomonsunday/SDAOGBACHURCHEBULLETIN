@@ -36,7 +36,7 @@ const SideBar = ({
           <SideBarLink key={item.key} item={item} />
         ))}
       </div>
-      <div className="flex justify-between items-center w-[6.5625rem] h-[1.5625rem] hover:text-red-600 cursor-pointer ml-[4.3125rem]">
+      <div className="flex justify-between items-center w-[6.5625rem] h-[1.5625rem] text-red-500 hover:text-red-600 cursor-pointer ml-[4.3125rem]">
         <Image
           src={"/assets/svgs/logout-icon.svg"}
           className=""
