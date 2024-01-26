@@ -32,7 +32,7 @@ const Welcome = () => {
       <div className="space-y-2">
         <div>
           <blockquote className="capitalize bg-[#EEF0E5] py-2 pl-8 ">
-            <p className="underline text-orange-400">Theme For The Quater</p>
+            <p className="underline text-orange-400">THEME FOR THIS QUARTER</p>
             God's Mission, My Mission
           </blockquote>
         </div>
