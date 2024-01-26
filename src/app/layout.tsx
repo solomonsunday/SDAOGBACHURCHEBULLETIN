@@ -16,8 +16,8 @@ const raleWay = Open_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "The Drycleaner's Son | Drycleaners ",
-  description: "Your fabric best friend",
+  title: "Seventh-Day Adventist Church, Ogba  | E-Bulletin ",
+  description: "Stay Updated Globally & remain blessed",
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
