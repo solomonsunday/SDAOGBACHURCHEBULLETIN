@@ -23,7 +23,7 @@ const Footer = () => {
             </div>
             <div className="flex flex-col text-center">
               <p className="text-lg">Head Elder</p>
-              <span className="text-sm text-orange-400">Adeoti</span>
+              <span className="text-sm text-orange-400">Gbenga Adeoti</span>
             </div>
             <div className="flex flex-col text-center">
               <p className="text-lg">Churc Clerk</p>
@@ -33,9 +33,9 @@ const Footer = () => {
         </div>
 
         <div className="flex xs:flex-col justify-between md:justify-center md:space-x-10 pt-5  md:px-0 px-20 items-center">
-          <div>
+          {/* <div>
             <p>Follow us on: </p>
-          </div>
+          </div> */}
           <div>
             <a href="#">
               <img
