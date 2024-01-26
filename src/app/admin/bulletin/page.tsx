@@ -9,14 +9,14 @@ const AdminPriceList = () => {
   const router = useRouter();
 
   const data = [
-    { key: 1, id: 1, name: "John Doe", age: 30 },
-    { key: 2, id: 2, name: "Jane Smith", age: 25 },
+    { key: 1, id: 1, name: "John Doe", date: "30 / 12 / 2023" },
+    { key: 2, id: 2, name: "Jane Smith", date: "25 / 12 / 2023" },
   ];
 
   const columns = [
     { column: "id", key: "id" },
     { column: "name", key: "name" },
-    { column: "age", key: "age" },
+    { column: "date", key: "date" },
   ];
 
   return (
@@ -26,9 +26,9 @@ const AdminPriceList = () => {
           data={data}
           columns={columns}
           buttonClassName={
-            " w-[15.8125rem] flex gap-x-[1.875rem] items-center justify-center"
+            " w-[15.8125rem] flex gap-x-[1.875rem] items-center justify-center bg-[#304D30]"
           }
-          buttonText="Update Price List"
+          buttonText="Update Bulletin"
           buttonIcon={
             <Image
               src={"/assets/svgs/refresh-icon.svg"}
@@ -39,9 +39,7 @@ const AdminPriceList = () => {
             />
           }
           hasButton
-          buttonOnClick={() =>
-            router.push("/admin/price-list/create-price-list")
-          }
+          buttonOnClick={() => router.push("/admin/bulletin/create")}
         />
       </Container>
     </AdminLayout>

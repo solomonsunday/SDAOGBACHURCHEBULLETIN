@@ -20,20 +20,12 @@ const SideBar = ({
       ref={sidebarRef}
       className={`${
         isOpen ? "flex" : "hidden"
-      } md:flex bg-primary w-[15.1875rem] pr-[1.4375rem] md:pt-[2.8125rem] pt-[2.5125rem] pb-[4rem] flex-col text-white z-[99999999] md:static absolute h-screen`}
+      } md:flex bg-[#304D30] w-[15.1875rem] pr-[1.4375rem] md:pt-[2.8125rem] pt-[2.5125rem] pb-[4rem] flex-col text-white z-[99999999] md:static absolute h-screen`}
     >
       <div className="flex items-center justify-center gap-5 ml-[3.375rem] w-fit">
         <Image
-          src={"/assets/svgs/logo-light-dots.svg"}
-          className=""
-          alt="icon"
-          width={44.9}
-          height={44.9}
-        />
-
-        <Image
-          src={"/assets/svgs/logo.svg"}
-          className=""
+          src={"/assets/imgs/sda-logo.jpeg"}
+          className="rounded-full w-20 h-20"
           alt="icon"
           width={59}
           height={62}

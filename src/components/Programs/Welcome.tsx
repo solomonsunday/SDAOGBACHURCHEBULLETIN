@@ -38,13 +38,21 @@ const Welcome = () => {
         <div>
           <blockquote className="capitalize bg-[#EEF0E5] py-2 pl-8 ">
             <p className="underline text-orange-400">TOPIC FOR THE WEEK</p>
-            God's Mission, My Mission
+            Mission to the unreached Part 2
           </blockquote>
         </div>
         <div>
           <blockquote className="capitalize bg-[#EEF0E5] py-2 pl-8 ">
             <p className="underline text-orange-400">MEMORY TEXT</p>
-            God's Mission, My Mission
+            Matthew 15: 28:
+            <span className="text-xs italic">
+              {" "}
+              Then Jesus answered and said unto her,O woman, great is thy faith:
+              be it unto thee even as thou wilt. And her daughter was made whole
+              from that very hour. 28 Then Jesus answered her, "O woman, great
+              is your faith! Be it done for you as you desire." And her daughter
+              was healed instantly.
+            </span>
           </blockquote>
         </div>
 
