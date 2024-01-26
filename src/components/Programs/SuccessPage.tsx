@@ -1,12 +1,7 @@
 import React from "react";
-import { useToggleModalContext } from "@/contexts/toggleRightModalContext";
 import Image from "next/image";
 
 const SuccessPage = () => {
-  const { setModal } = useToggleModalContext();
-  const closeModal = () => {
-    setModal(false);
-  };
   return (
     <div>
       <div className="py-5 text-xl font-semibold text-center">
@@ -31,14 +26,6 @@ const SuccessPage = () => {
             <div className="text-xs"></div>
           </div>
         </div>
-      </div>
-      <div className="my-4 cursor-pointer">
-        <button
-          className="w-full p-3 text-white rounded-xl bg-primary hover:bg-secondary"
-          onClick={closeModal}
-        >
-          Done
-        </button>
       </div>
     </div>
   );

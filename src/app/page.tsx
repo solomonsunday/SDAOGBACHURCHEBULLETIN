@@ -5,7 +5,6 @@ import Footer from "@/components/Programs/Footer";
 import Header from "@/components/Programs/Header";
 import PastorDesk from "@/components/Programs/PastorDesk";
 import SabbathSchool from "@/components/Programs/SabbathSchool";
-import Services from "@/components/Programs/Services";
 import Welcome from "@/components/Programs/Welcome";
 
 import React, { useRef } from "react";
@@ -18,7 +17,6 @@ const Home = () => {
       <div ref={ref} className="duration-300 ease-in"></div>
       <Header />
       <div className="w-9/12 mx-auto">
-        {/* <LandingPageCarousel /> */}
         <Welcome />
         <SabbathSchool />
         <DivineService />
