@@ -43,6 +43,9 @@ const Header = () => {
               className="h-15 w-15 rounded-full"
             />
           </div>
+          <p className="text-orange-400 font-mono text-sm">
+            SDA Church,Ogba e-Bulletin
+          </p>
           <div className="items-center hidden h-10 font-serif md:flex md:space-x-8 text-sm">
             <div className="group">
               <Link href="#welcome">Welcome</Link>
