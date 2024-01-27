@@ -19,8 +19,8 @@ const Welcome = () => {
   }, []);
 
   return (
-    <section className="pt-5 md:pt-10 bg-white text-black" id="sabbathschool">
-      <div className="font-serif text-3xl pb-2 mb-5 text-[#304D30] text-center italic ">
+    <section className="pt-5 md:pt-10 " id="sabbathschool">
+      <div className="font-serif text-3xl pb-2 mb-5 dark:text-orange-400 text-[#304D30] text-center italic ">
         Welcome to{" "}
         <span className="text-base italic text-orange-500">
           Seventh-Day Adventist Church, OGBA{" "}
@@ -30,19 +30,19 @@ const Welcome = () => {
       </div>
       <div className="space-y-2">
         <div>
-          <blockquote className="capitalize bg-[#EEF0E5] py-2 pl-8 ">
+          <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 pl-8 ">
             <p className="underline text-orange-400">THEME FOR THIS QUARTER</p>
             God's Mission, My Mission
           </blockquote>
         </div>
         <div>
-          <blockquote className="capitalize bg-[#EEF0E5] py-2 pl-8 ">
+          <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 pl-8 ">
             <p className="underline text-orange-400">TOPIC FOR THE WEEK</p>
             Mission to the unreached Part 2
           </blockquote>
         </div>
         <div>
-          <blockquote className="capitalize bg-[#EEF0E5] py-2 pl-8 ">
+          <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 pl-8 ">
             <p className="underline text-orange-400">MEMORY TEXT</p>
             Matthew 15: 28:
             <span className="text-xs italic">
@@ -57,7 +57,7 @@ const Welcome = () => {
         </div>
 
         <div>
-          <blockquote className="capitalize bg-[#EEF0E5] py-2 pl-8  overflow-auto">
+          <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 pl-8  overflow-auto">
             <a
               href="https://us02web.zoom.us/j/82591974493?pwd=Yk8vUEwrR1ZtZ1hvWEcvdFdjLzVWZz09"
               target="_blank"

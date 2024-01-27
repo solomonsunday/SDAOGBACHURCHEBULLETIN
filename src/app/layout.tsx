@@ -26,7 +26,9 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       lang="en"
       className={`${(openSans.className, raleWay.className)}"light "`}
     >
-      <body className="bg-white text-black font-opensans">{children}</body>
+      <body className="bg-white text-black dark:bg-slate-700 font-opensans">
+        {children}
+      </body>
     </html>
   );
 }
