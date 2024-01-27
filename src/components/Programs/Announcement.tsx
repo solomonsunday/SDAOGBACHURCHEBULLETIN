@@ -2,11 +2,11 @@ import React from "react";
 
 const Announcement = () => {
   return (
-    <section className="pt-10 bg-white text-black" id="announcement">
-      <div className="font-serif text-3xl pb-2 mb-5 text-[#304D30] text-center border-b border-[#304D30]">
+    <section className="pt-10 " id="announcement">
+      <div className="dark:text-orange-400 font-serif text-3xl pb-2 mb-5 text-[#304D30] text-center border-b border-[#304D30]">
         Combined Announcement
       </div>
-      <div className="space-y-4">
+      <div className="space-y-4 dark:text-white">
         <ol className="list-decimal space-y-4">
           <li className="border-b border-orange-200 pb-2">
             Use the Prayer box at the entrance of the Church- drop your prayer

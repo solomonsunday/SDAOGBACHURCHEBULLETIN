@@ -3,8 +3,8 @@ import React from "react";
 const DivineService = () => {
   return (
     <div id="divineservice">
-      <section className="pt-10 bg-white text-black" id="features">
-        <div className="font-serif text-3xl pb-2 mb-5 text-[#304D30] text-center border-b border-[#304D30]">
+      <section className="pt-10 dark:text-white" id="features">
+        <div className="font-serif text-3xl pb-2 mb-5 text-[#304D30] text-center dark:text-orange-400 border-b border-[#304D30]">
           Divine Service{" "}
           <span className="text-base">(11:00 AM - 12:30 PM)</span>
         </div>

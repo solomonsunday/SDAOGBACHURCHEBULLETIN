@@ -2,8 +2,8 @@ import React from "react";
 
 const SabbathSchool = () => {
   return (
-    <section className="pt-10 bg-white text-black" id="sabbathschool">
-      <div className="font-serif text-3xl pb-2 mb-5 text-[#304D30] text-center border-b border-[#304D30]">
+    <section className="pt-10  dark:text-white " id="sabbathschool">
+      <div className="font-serif dark:text-orange-400 text-3xl pb-2 mb-5 text-[#304D30] text-center border-b border-[#304D30]">
         Sabbath School <span className="text-base">(8:45 - 10:45 AM)</span>
       </div>
       <div className="grid grid-cols-4 gap-2">
