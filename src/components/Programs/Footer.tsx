@@ -22,14 +22,19 @@ const Footer = () => {
             <div className="flex flex-col text-center">
               <p className="text-lg">Church Pastor</p>
               <span className="text-sm text-orange-400">Happy Kona</span>
+              <span className="text-sm text-orange-400">07036586617</span>
             </div>
             <div className="flex flex-col text-center">
               <p className="text-lg">Head Elder</p>
               <span className="text-sm text-orange-400">Gbenga Adeoti</span>
+              <span className="text-sm text-orange-400">07036074086</span>
             </div>
             <div className="flex flex-col text-center">
-              <p className="text-lg">Churc Clerk</p>
-              <span className="text-sm text-orange-400">Ugochukwu</span>
+              <p className="text-lg">Church Clerk</p>
+              <span className="text-sm text-orange-400">
+                Ugochukwu Azomaukwu
+              </span>
+              <span className="text-sm text-orange-400">08020581351</span>
             </div>
           </div>
         </div>
