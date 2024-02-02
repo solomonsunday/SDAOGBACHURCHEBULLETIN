@@ -9,13 +9,16 @@ const PastorDesk = () => {
         </div>
         <div className="space-y-3">
           <div className="underline text-lg font-semibold">
-            <p className="dark:text-white">Romans 15: 3</p>
+            <p className="dark:text-white">Counsels for the Church. p357</p>
           </div>
           <p className="text-orange-500">
-            For Christ did not please himself, but as it is written, "The
-            reproaches of those who reproached you fell on me." 3 For even
-            Christ didn't live to please himself. As the Scriptures say, “The
-            insults of those who insult you, O God, have fallen on me.”
+            We have nothing to fear for the future except as we shall forget the
+            way the Lord has led us and His teaching in our past history. Ellen
+            G. White, Counsels for the Church. p357.
+            <br />
+            Although we cannot change the past, and we should not be stuck to
+            it, there are valuable lesson in our history. If we fail to learn
+            them, We may end up repeating history in negative ways”
           </p>
         </div>
       </section>
