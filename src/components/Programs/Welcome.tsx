@@ -25,7 +25,7 @@ const Welcome = () => {
         <span className="text-base italic text-orange-500">
           Seventh-Day Adventist Church, OGBA{" "}
           <span className="text-sm text-[#304D30] dark:text-orange-400">
-            {todaysDate}
+            ( {todaysDate} )
           </span>
         </span>
         <div className="border border-orange-500 "></div>
