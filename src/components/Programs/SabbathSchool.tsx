@@ -36,9 +36,9 @@ const SabbathSchool = () => {
         </div>
         <div className="text-xs capitalize"> Deacon Chimezie Mbagwu</div>
         <div className="col-span-3 text-sm capitalize">
-          Unit Activities (40 Minutes)
+          Unit Activities / Lesson Study (40 Mins)
         </div>
-        <div className="text-xs capitalize"> Mrs. J. Chima</div>
+        <div className="text-xs capitalize"> - </div>
         <div className="col-span-3 text-sm capitalize">Lesson Summary</div>
         <div className="text-xs capitalize"> Deacon Chimezie Mbagwu</div>
         <div className="col-span-3 text-sm capitalize">Friend's time</div>

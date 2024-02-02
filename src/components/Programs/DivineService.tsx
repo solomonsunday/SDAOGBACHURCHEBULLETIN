@@ -18,7 +18,7 @@ const DivineService = () => {
           <div className="text-xs"> Pst. H. kona</div>
           <div className="col-span-3 text-sm">
             {" "}
-            Welcome / opening Hymn (SDAH 375)
+            Welcome / opening Hymn (SDAH 350)
           </div>
           <div className="text-xs"> Elder G. Adeoti</div>
           <div className="col-span-3 text-sm"> Pastoral Prayer</div>
