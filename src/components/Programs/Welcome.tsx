@@ -25,7 +25,7 @@ const Welcome = () => {
         <span className="text-base italic text-orange-500">
           Seventh-Day Adventist Church, OGBA{" "}
           <span className="text-sm text-[#304D30] dark:text-orange-400">
-            {todaysDate}
+            ( {todaysDate} )
           </span>
         </span>
         <div className="border border-orange-500 "></div>
@@ -34,7 +34,7 @@ const Welcome = () => {
         <div>
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 pl-8 ">
             <p className="underline text-orange-400">THEME FOR THIS QUARTER</p>
-            God's Mission, My Mission
+            Psalms
           </blockquote>
         </div>
         <div>
@@ -50,7 +50,7 @@ const Welcome = () => {
             <span className="text-xs italic px-1">
               {" "}
               How shall we sing The LORD's song in a strange land?{" "}
-              <span className="font-bold">(Psalm 137: 4)</span>
+              <span className="font-bold">(Psalm 137: 4 NKJV)</span>
             </span>
           </blockquote>
         </div>

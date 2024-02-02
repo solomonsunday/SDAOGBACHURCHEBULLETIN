@@ -14,7 +14,7 @@ const SabbathSchool = () => {
         <div className="text-xs capitalize"> Song Leader</div>
 
         <div className="col-span-3 text-sm capitalize">
-          Openning Remark (Welcome & Prayer):
+          Openning Remark (Welcome & Prayer)
         </div>
         <div className="text-xs"> Mrs Chika Nwaejigh</div>
 
@@ -22,11 +22,11 @@ const SabbathSchool = () => {
           {" "}
           Welcome / Opening Hymn (SDAH 297)
         </div>
-        <div className="text-xs capitalize"> Bro U. Imo</div>
+        <div className="text-xs capitalize"> Bro. Uchendu Imo</div>
         <div className="col-span-3 text-sm capitalize"> Mission Spotlight </div>
-        <div className="text-xs capitalize"> Bro Bright</div>
+        <div className="text-xs capitalize"> Bro. Bright</div>
         <div className="col-span-3 text-sm capitalize"> Keeping on Course</div>
-        <div className="text-xs capitalize"> Mrs Walson</div>
+        <div className="text-xs capitalize"> Mrs. Walson</div>
         <div className="col-span-3 text-sm capitalize"> Special Feature</div>
         <div className="text-xs capitalize"> Ogba & Akiode Churches</div>
 
@@ -36,13 +36,13 @@ const SabbathSchool = () => {
         </div>
         <div className="text-xs capitalize"> Deacon Chimezie Mbagwu</div>
         <div className="col-span-3 text-sm capitalize">
-          Unit Activities (35 Minutes)
+          Unit Activities (40 Minutes)
         </div>
         <div className="text-xs capitalize"> Mrs. J. Chima</div>
         <div className="col-span-3 text-sm capitalize">Lesson Summary</div>
         <div className="text-xs capitalize"> Deacon Chimezie Mbagwu</div>
         <div className="col-span-3 text-sm capitalize">Friend's time</div>
-        <div className="text-xs capitalize"> Bro U. Imo</div>
+        <div className="text-xs capitalize"> Bro. Uchendu Imo</div>
         <div className="col-span-3 text-sm capitalize">
           Announcement / Closing Remark
         </div>
@@ -50,11 +50,11 @@ const SabbathSchool = () => {
         <div className="col-span-3 text-sm capitalize">
           Closing Hymn (SDAH 537)
         </div>
-        <div className="text-xs"> Mrs Walson</div>
+        <div className="text-xs"> Mrs. Walson</div>
         <div className="col-span-3 text-sm capitalize">
           Sabbath School Closing Prayer
         </div>
-        <div className="text-xs"> Mrs Chika Nwaejigh</div>
+        <div className="text-xs"> Mrs. Chika Nwaejigh</div>
       </div>
     </section>
   );
