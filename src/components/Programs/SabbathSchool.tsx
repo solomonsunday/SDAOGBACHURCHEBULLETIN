@@ -13,47 +13,48 @@ const SabbathSchool = () => {
         </div>
         <div className="text-xs capitalize"> Song Leader</div>
 
-        <div className="col-span-3 text-sm capitalize">Openning Prayer:</div>
-        <div className="text-xs"> Past. H. Kona</div>
+        <div className="col-span-3 text-sm capitalize">
+          Openning Remark (Welcome & Prayer):
+        </div>
+        <div className="text-xs"> Mrs Chika Nwaejigh</div>
+
         <div className="col-span-3 text-sm capitalize">
           {" "}
-          Welcome /Supt's Openning remark
+          Welcome / Opening Hymn (SDAH 297)
         </div>
-        <div className="text-xs capitalize"> Pst. H. kona</div>
-        <div className="col-span-3 text-sm capitalize">
-          {" "}
-          Welcome / Opening Hymn (SDAH 375)
-        </div>
-        <div className="text-xs capitalize"> Deacon K. Nwaogu</div>
-        <div className="col-span-3 text-sm capitalize"> Keeping on Course</div>
-        <div className="text-xs capitalize"> Eld E. Agbara</div>
+        <div className="text-xs capitalize"> Bro U. Imo</div>
         <div className="col-span-3 text-sm capitalize"> Mission Spotlight </div>
-        <div className="text-xs capitalize"> Eld G.A.I Olusona</div>
+        <div className="text-xs capitalize"> Bro Bright</div>
+        <div className="col-span-3 text-sm capitalize"> Keeping on Course</div>
+        <div className="text-xs capitalize"> Mrs Walson</div>
+        <div className="col-span-3 text-sm capitalize"> Special Feature</div>
+        <div className="text-xs capitalize"> Ogba & Akiode Churches</div>
+
         <div className="col-span-3 text-sm capitalize">
           {" "}
           Study Time, Lession Introduction
         </div>
-        <div className="text-xs capitalize"> Eld G.A.I Olusona</div>
+        <div className="text-xs capitalize"> Deacon Chimezie Mbagwu</div>
         <div className="col-span-3 text-sm capitalize">
           Unit Activities (35 Minutes)
         </div>
         <div className="text-xs capitalize"> Mrs. J. Chima</div>
         <div className="col-span-3 text-sm capitalize">Lesson Summary</div>
-        <div className="text-xs capitalize"> Mrs. J. Chima</div>
+        <div className="text-xs capitalize"> Deacon Chimezie Mbagwu</div>
         <div className="col-span-3 text-sm capitalize">Friend's time</div>
-        <div className="text-xs capitalize"> Pst. H. kona</div>
+        <div className="text-xs capitalize"> Bro U. Imo</div>
         <div className="col-span-3 text-sm capitalize">
           Announcement / Closing Remark
         </div>
-        <div className="text-xs capitalize"> Eld E. Agbara</div>
+        <div className="text-xs capitalize"> Deacon Chimezie Mbagwu</div>
         <div className="col-span-3 text-sm capitalize">
-          Closing Hymn (SDAH 367)
+          Closing Hymn (SDAH 537)
         </div>
-        <div className="text-xs"> Pst. H. kona</div>
+        <div className="text-xs"> Mrs Walson</div>
         <div className="col-span-3 text-sm capitalize">
           Sabbath School Closing Prayer
         </div>
-        <div className="text-xs"> Sis Tofunmi Olusona</div>
+        <div className="text-xs"> Mrs Chika Nwaejigh</div>
       </div>
     </section>
   );

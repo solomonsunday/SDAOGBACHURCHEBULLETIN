@@ -29,6 +29,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       <body className="bg-white text-black dark:bg-slate-700 font-opensans">
         {children}
       </body>
+      {/* OgbachurchAWS94! */}
     </html>
   );
 }

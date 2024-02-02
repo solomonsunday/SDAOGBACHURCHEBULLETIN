@@ -24,7 +24,9 @@ const Welcome = () => {
         Welcome to{" "}
         <span className="text-base italic text-orange-500">
           Seventh-Day Adventist Church, OGBA{" "}
-          <span className="text-sm text-[#304D30]">{todaysDate}</span>
+          <span className="text-sm text-[#304D30] dark:text-orange-400">
+            {todaysDate}
+          </span>
         </span>
         <div className="border border-orange-500 "></div>
       </div>
@@ -38,20 +40,17 @@ const Welcome = () => {
         <div>
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 pl-8 ">
             <p className="underline text-orange-400">TOPIC FOR THE WEEK</p>
-            Mission to the unreached Part 2
+            Singing the Lords song in a Strange Land
           </blockquote>
         </div>
         <div>
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 pl-8 ">
             <p className="underline text-orange-400">MEMORY TEXT</p>
-            Matthew 15: 28:
-            <span className="text-xs italic">
+
+            <span className="text-xs italic px-1">
               {" "}
-              Then Jesus answered and said unto her,O woman, great is thy faith:
-              be it unto thee even as thou wilt. And her daughter was made whole
-              from that very hour. 28 Then Jesus answered her, "O woman, great
-              is your faith! Be it done for you as you desire." And her daughter
-              was healed instantly.
+              How shall we sing The LORD's song in a strange land?{" "}
+              <span className="font-bold">(Psalm 137: 4)</span>
             </span>
           </blockquote>
         </div>
