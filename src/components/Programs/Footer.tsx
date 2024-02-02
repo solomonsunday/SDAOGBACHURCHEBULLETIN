@@ -74,7 +74,7 @@ const Footer = () => {
         </div>
         <div className="border border-x-white "></div>
         <div className="text-center text-sm text-orange-400">
-          &copy; {year} Seventh-Day Adventist Church, OGBA. All Rights reserved
+          &copy; {year} Seventh-Day Adventist Church, OGBA. All Rights Reserved
         </div>
       </div>
     </footer>
