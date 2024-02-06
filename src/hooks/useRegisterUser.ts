@@ -1,6 +1,6 @@
 import { ISignUpUser } from "@/common/interfaces";
 import { httpRegister } from "@/services/requests";
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useState } from "react";
 
 export const useRegisterUser = () => {
   const [usersData, setUsersData] = useState<any>();
