@@ -25,12 +25,16 @@ export async function httpRegister(authObject: ISignUpUser) {
 //   }
 // }
 
-export async function getBulettin() {
-  return axios.get(API_URL, {
-    headers: {
-      Authorization: "Bearer " + getAuthFromLocal(),
-    },
-  });
+export async function httpGetBulettins() {
+  try {
+    return axios.get(`${API_URL}/bulletin`, {
+      // headers: {
+      //   Authorization: "Bearer " + getAuthFromLocal(),
+      // },
+    });
+  } catch (error) {
+    console.log(error);
+  }
 }
 
 export async function getBulletinById(id: string) {
@@ -41,27 +45,14 @@ export async function getBulletinById(id: string) {
   });
 }
 
-export async function createBulletin(featureObj: {
-  name: string;
-  value: number;
-  companyId: string;
-}) {
-  // https://implementationtools.lightspeeddev.com/api/companies/749983/features/add
-  return axios.post(
-    `https://implementationtools.lightspeeddev.com/api/companies/${featureObj.companyId}/features/add`,
-    {
-      value: {
-        value: featureObj.value,
-        feature: featureObj.name,
-        companyid: featureObj.companyId,
-      },
-    },
-    {
-      headers: {
-        Authorization: "Bearer " + getAuthFromLocal(),
-      },
-    }
-  );
+export async function httpCreateBulletin(featureObj: any) {
+  try {
+    return axios.post(`${API_URL}/bulletin/create`, featureObj, {
+      headers: { Authorization: "Bearer " + getAuthFromLocal() },
+    });
+  } catch (error) {
+    console.log(error);
+  }
 }
 
 export async function deleteBulletin(companyId: string, name: string) {

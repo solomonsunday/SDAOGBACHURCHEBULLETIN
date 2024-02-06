@@ -26,7 +26,7 @@ const AdminPriceList = () => {
           data={data}
           columns={columns}
           buttonClassName={
-            " w-[15.8125rem] flex gap-x-[1.875rem] items-center justify-center bg-[#304D30]"
+            "w-[15.8125rem] flex gap-x-[1.875rem] items-center justify-center bg-[#304D30]"
           }
           buttonText="Create/Update"
           buttonIcon={
