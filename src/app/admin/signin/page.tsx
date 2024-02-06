@@ -17,10 +17,12 @@ const SignIn = () => {
     console.log(data, "data");
   };
   return (
-    <div className="min-h-screen w-auto flex justify-center items-center">
+    <div className="min-h-screen w-auto flex justify-center items-center bg-[#304D30] text-white">
       <form onSubmit={handleSubmit(loginUser)}>
         <div className="border border-slate-200 shadow-md p-10 rounded-2xl">
-          <div className="flex justify-center font-bold">Signin</div>
+          <div className="flex justify-center font-bold text-orange-500">
+            Signin
+          </div>
           <div className="">
             <label className="pb-10 text-xs">Username</label>
             <input
@@ -50,14 +52,17 @@ const SignIn = () => {
           <div className="text-right mt-0 pt-0 pb-5 cursor-pointer hover:underline">
             <p className="text-xs">Forget password</p>
           </div>
-          <Button type="submit" className="w-full hover:bg-purple-700 ">
+          <Button
+            type="submit"
+            className="w-full hover:bg-orange-500  bg-orange-400"
+          >
             Login
           </Button>
           <div className="text-center mt-0 pt-0 ">
             <p className="text-sm">
               Don't have an account yet?
               <Link href="/admin/signup">
-                <span className="text-green-900 hover:underline cursor-pointer px-1">
+                <span className="text-orange-500 hover:underline cursor-pointer px-1">
                   Sign up
                 </span>
               </Link>
