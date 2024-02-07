@@ -9,22 +9,97 @@ import dayjs from "dayjs";
 import Search from "@/components/Admin/Search";
 import Button from "@/components/Admin/button";
 import { useRouter } from "next/navigation";
+import Swal from "sweetalert2";
+import { useDeleteBulletinItem } from "@/hooks/useDeleteItem";
+import Link from "next/link";
 
 const BulletinListPage = () => {
-  const router = useRouter();
-
-  const [searchValue, setSearchValue] = useState("");
-  const [usersData] = useState([
-    {
-      firstName: "solomon",
-      surName: "Sunday",
-      email: "s.king@gmail.com",
-      phoneNumber: "898824822",
-    },
-  ]);
-
+  const { DeleteBulletinItem } = useDeleteBulletinItem();
   const { bulletins, loading } = useGetbulletins();
+  const [searchValue, setSearchValue] = useState("");
+
+  const router = useRouter();
   console.log(bulletins, "bulletins");
+
+  const deleteItem = (id: string) => {
+    const swalWithBootstrapButtons = Swal.mixin({
+      customClass: {
+        confirmButton: "bg-green-700 p-3 rounded-lg text-white mx-2",
+        cancelButton: "p-3 bg-red-700 rounded-lg text-white ",
+      },
+      buttonsStyling: false,
+    });
+    swalWithBootstrapButtons
+      .fire({
+        title: "Are you sure?",
+        text: "You won't be able to revert this!",
+        icon: "warning",
+        showCancelButton: true,
+        confirmButtonText: "Yes, delete it!",
+        cancelButtonText: "No, cancel!",
+        reverseButtons: true,
+      })
+      .then((result) => {
+        if (result.isConfirmed) {
+          DeleteBulletinItem(id);
+          swalWithBootstrapButtons.fire({
+            title: "Deleted!",
+            text: "Your file has been deleted.",
+            icon: "success",
+          });
+          // fetchBulletins(); //TODO: Optimize the responsd afte deleting files
+        } else if (
+          /* Read more about handling dismissals below */
+          result.dismiss === Swal.DismissReason.cancel
+        ) {
+          swalWithBootstrapButtons.fire({
+            title: "Cancelled",
+            text: "Your imaginary file is safe :)",
+            icon: "error",
+          });
+        }
+      });
+  };
+
+  const handlePublishBulletin = (id: string) => {
+    const swalWithBootstrapButtons = Swal.mixin({
+      customClass: {
+        confirmButton: "bg-green-700 p-3 rounded-lg text-white mx-2",
+        cancelButton: "p-3 bg-red-700 rounded-lg text-white ",
+      },
+      buttonsStyling: false,
+    });
+    swalWithBootstrapButtons
+      .fire({
+        title: "Are you sure?",
+        text: "Everyone will see this!",
+        icon: "warning",
+        showCancelButton: true,
+        confirmButtonText: "Yes, publish it!",
+        cancelButtonText: "No, cancel!",
+        reverseButtons: true,
+      })
+      .then((result) => {
+        if (result.isConfirmed) {
+          // DeleteBulletinItem(id);
+          swalWithBootstrapButtons.fire({
+            title: "Deleted!",
+            text: "Your file has been published Successfully.",
+            icon: "success",
+          });
+          // fetchBulletins(); //TODO: Optimize the responsd afte deleting files
+        } else if (
+          /* Read more about handling dismissals below */
+          result.dismiss === Swal.DismissReason.cancel
+        ) {
+          swalWithBootstrapButtons.fire({
+            title: "Cancelled",
+            text: "No one else will see this except you :)",
+            icon: "error",
+          });
+        }
+      });
+  };
 
   return (
     <AdminLayout>
@@ -34,7 +109,7 @@ const BulletinListPage = () => {
 
           <Button
             type="button"
-            className="py-2 px-8 bg-orange-400 hover:bg-orange-500"
+            className="py-2 px-8  hover:bg-orange-600"
             onClick={() => router.push("/admin/bulletin/create")}
           >
             Create
@@ -52,16 +127,13 @@ const BulletinListPage = () => {
                   Created Date
                 </th>
                 <th className="p-3 text-sm font-bold tracking-wide text-left">
+                  Theme For The Quarter
+                </th>
+                <th className="p-3 text-sm font-bold tracking-wide text-left">
                   Topic For The Week
                 </th>
                 <th className="p-3 text-sm font-bold tracking-wide text-left">
-                  Email Name
-                </th>
-                <th className="p-3 text-sm font-bold tracking-wide text-left">
-                  Phone Number
-                </th>
-                <th className="p-3 text-sm font-bold tracking-wide text-left">
-                  Network Provider
+                  preacher
                 </th>
                 <th className="p-3 text-sm font-bold tracking-wide text-left">
                   Action
@@ -81,17 +153,13 @@ const BulletinListPage = () => {
                         {dayjs(data?.createdDate).format("MMM D, YYYY")}
                       </td>
                       <td className="p-2 text-sm text-gray-700 capitalize whitespace-nowrap">
-                        {" "}
+                        {data.themeForTheQuarter}
+                      </td>
+                      <td className="p-2 text-sm text-gray-700 whitespace-nowrap">
                         {data.topicForTheWeek}
                       </td>
                       <td className="p-2 text-sm text-gray-700 whitespace-nowrap">
-                        {data.email}{" "}
-                      </td>
-                      <td className="p-2 text-sm text-gray-700 whitespace-nowrap">
-                        {data.phoneNumber}{" "}
-                      </td>
-                      <td className="p-2 text-sm text-gray-700 whitespace-nowrap">
-                        {data.phoneNumber}{" "}
+                        {data.preacher}{" "}
                       </td>
                       <td className="p-2 text-sm text-gray-700">
                         {" "}
@@ -147,15 +215,34 @@ const BulletinListPage = () => {
                                 <div className="px-1 py-1 ">
                                   <Menu.Item>
                                     {({ active }) => (
+                                      <Link
+                                        href={`/admin/bulletin/edit/${data.id}`}
+                                      >
+                                        <button
+                                          className={`${
+                                            active
+                                              ? "bg-gray-200 text-black"
+                                              : "text-black-900"
+                                          } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
+                                        >
+                                          Edit
+                                        </button>
+                                      </Link>
+                                    )}
+                                  </Menu.Item>
+                                </div>
+                                <div className="px-1 py-1 ">
+                                  <Menu.Item>
+                                    {({ active }) => (
                                       <button
-                                        onClick={() => {}}
+                                        onClick={() => deleteItem(data.id)}
                                         className={`${
                                           active
-                                            ? "bg-gray-200 text-black"
-                                            : "text-black-900"
+                                            ? "bg-gray-200 text-red-700"
+                                            : "text-red-500"
                                         } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                                       >
-                                        Edit
+                                        Delete
                                       </button>
                                     )}
                                   </Menu.Item>
@@ -164,11 +251,13 @@ const BulletinListPage = () => {
                                   <Menu.Item>
                                     {({ active }) => (
                                       <button
-                                        onClick={() => {}}
+                                        onClick={() =>
+                                          handlePublishBulletin(data.id)
+                                        }
                                         className={`${
                                           active
                                             ? "bg-gray-200 text-black"
-                                            : "text-black-900"
+                                            : "text-green-600"
                                         } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                                       >
                                         Publish
@@ -193,7 +282,11 @@ const BulletinListPage = () => {
               <Spinner color="orange" />
             </div>
           ) : (
-            usersData.length === 0 && "No Data created yet"
+            bulletins.length === 0 && (
+              <div className="flex justify-center items-center h-96 font-bold">
+                No Data created yet
+              </div>
+            )
           )}
         </div>
       </Container>

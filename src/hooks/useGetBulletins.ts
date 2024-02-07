@@ -1,8 +1,9 @@
+import { IBulletin } from "@/common/interfaces";
 import { httpGetBulettins } from "@/services/requests";
 import { useCallback, useEffect, useState } from "react";
 
 export const useGetbulletins = () => {
-  const [bulletins, setBulletins] = useState<any>([]);
+  const [bulletins, setBulletins] = useState<IBulletin[]>([]);
   const [loading, setLoading] = useState(true);
   //   const { setError } = useErrorContext();
 
@@ -25,5 +26,5 @@ export const useGetbulletins = () => {
     fetchBulletins();
   }, [fetchBulletins]);
 
-  return { bulletins, loading };
+  return { fetchBulletins, bulletins, loading };
 };

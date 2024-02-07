@@ -6,28 +6,244 @@ import Container from "@/components/Admin/Container";
 import AdminLayout from "@/components/Admin/layout";
 import { useForm } from "react-hook-form";
 import Input from "@/components/Admin/input";
-import { useCreateBulletins } from "@/hooks/useCreateBulletin";
 import { Spinner } from "@/components/Common/Spinner";
-import { IBulletin } from "@/common/interfaces";
+import { useEffect } from "react";
+import { useGetBulletinById } from "@/hooks/useGetBulletinById";
+import { useUpdateeBulletinById } from "@/hooks/useUpdateBulletinById";
+import { useRouter } from "next/navigation";
 
-export default function CreateBulletin() {
+export default function EditBulletin({ params }: { params: { slug: string } }) {
+  const router = useRouter();
+
   const {
     register,
     handleSubmit,
-    reset,
+    setValue,
     // formState: { errors, isValid },
-  } = useForm<IBulletin>();
-  const { CreateBulletins, loading, bulletins } = useCreateBulletins();
-  console.log(bulletins, "create");
+  } = useForm();
+  const { fetchBulletinById, bulletin, isLoading } = useGetBulletinById();
+  const { UpdateBulletinData, loading } = useUpdateeBulletinById();
+  const bulletinId = params.slug;
+  console.log(bulletin, "bulletin");
 
-  const submitData = (data: IBulletin) => {
+  useEffect(() => {
+    fetchBulletinById(bulletinId);
+  }, [bulletinId]);
+
+  useEffect(() => {
+    if (!bulletin) return;
+    setValue("themeForTheQuarter", bulletin?.themeForTheQuarter, {
+      shouldDirty: true,
+      shouldValidate: true,
+    });
+    setValue("topicForTheWeek", bulletin?.topicForTheWeek, {
+      shouldDirty: true,
+      shouldValidate: true,
+    });
+    setValue("lessonMemoryTest", bulletin?.lessonMemoryTest, {
+      shouldDirty: true,
+      shouldValidate: true,
+    });
+    setValue("onLineZoomLink", bulletin?.onLineZoomLink, {
+      shouldDirty: true,
+      shouldValidate: true,
+    });
+
+    setValue("singspirationTime", bulletin?.singspirationTime, {
+      shouldDirty: true,
+      shouldValidate: true,
+    });
+    setValue("songLeader", bulletin?.songLeader, {
+      shouldDirty: true,
+      shouldValidate: true,
+    });
+    setValue("openingPrayerBy", bulletin?.openingPrayerBy, {
+      shouldDirty: true,
+      shouldValidate: true,
+    });
+    setValue("openningRemarkBy", bulletin?.openningRemarkBy, {
+      shouldDirty: true,
+      shouldValidate: true,
+    });
+    setValue("openingHymnBy", bulletin?.openingHymnBy, {
+      shouldDirty: true,
+      shouldValidate: true,
+    });
+    setValue("openingHymn", bulletin?.openingHymn, {
+      shouldDirty: true,
+      shouldValidate: true,
+    });
+    setValue("missionSpotlightBy", bulletin?.missionSpotlightBy, {
+      shouldDirty: true,
+      shouldValidate: true,
+    });
+    setValue("lessonIntroductionBy", bulletin?.lessonIntroductionBy, {
+      shouldDirty: true,
+      shouldValidate: true,
+    });
+    setValue("unitActivities", bulletin?.unitActivities, {
+      shouldDirty: true,
+      shouldValidate: true,
+    });
+    setValue("lessonSummaryBy", bulletin?.lessonSummaryBy, {
+      shouldDirty: true,
+      shouldValidate: true,
+    });
+    setValue("friendTimeBy", bulletin?.friendTimeBy, {
+      shouldDirty: true,
+      shouldValidate: true,
+    });
+    setValue(
+      "annnouncementClosingRemarkBy",
+      bulletin?.annnouncementClosingRemarkBy,
+      {
+        shouldDirty: true,
+        shouldValidate: true,
+      }
+    );
+    setValue("SSClosingHymnNo", bulletin?.SSClosingHymnNo, {
+      shouldDirty: true,
+      shouldValidate: true,
+    });
+    setValue("SSClosingHymnBy", bulletin?.SSClosingHymnBy, {
+      shouldDirty: true,
+      shouldValidate: true,
+    });
+    setValue("SSclosingPrayerBy", bulletin?.SSclosingPrayerBy, {
+      shouldDirty: true,
+      shouldValidate: true,
+    });
+    setValue("prelude", bulletin?.prelude, {
+      shouldDirty: true,
+      shouldValidate: true,
+    });
+    setValue("callToWorshipHymnNo", bulletin?.callToWorshipHymnNo, {
+      shouldDirty: true,
+      shouldValidate: true,
+    });
+    setValue("callToWorshipBy", bulletin?.callToWorshipBy, {
+      shouldDirty: true,
+      shouldValidate: true,
+    });
+    setValue("invocation", bulletin?.invocation, {
+      shouldDirty: true,
+      shouldValidate: true,
+    });
+    setValue(
+      "divineServiceOpeningHymnNo",
+      bulletin?.divineServiceOpeningHymnNo,
+      {
+        shouldDirty: true,
+        shouldValidate: true,
+      }
+    );
+    setValue(
+      "divineServiceOpeningHymnBy",
+      bulletin?.divineServiceOpeningHymnBy,
+      {
+        shouldDirty: true,
+        shouldValidate: true,
+      }
+    );
+    setValue("pastoralPrayerBy", bulletin?.pastoralPrayerBy, {
+      shouldDirty: true,
+      shouldValidate: true,
+    });
+    setValue("stewardshipBy", bulletin?.stewardshipBy, {
+      shouldDirty: true,
+      shouldValidate: true,
+    });
+    setValue("musicalSelectionBy", bulletin?.musicalSelectionBy, {
+      shouldDirty: true,
+      shouldValidate: true,
+    });
+    setValue("hymnOfConcecrationNo", bulletin?.hymnOfConcecrationNo, {
+      shouldDirty: true,
+      shouldValidate: true,
+    });
+    setValue("hymnOfConcecrationNoBy", bulletin?.hymnOfConcecrationNoBy, {
+      shouldDirty: true,
+      shouldValidate: true,
+    });
+    setValue("preacher", bulletin?.preacher, {
+      shouldDirty: true,
+      shouldValidate: true,
+    });
+    setValue("sermonTitle", bulletin?.sermonTitle, {
+      shouldDirty: true,
+      shouldValidate: true,
+    });
+    setValue(
+      "divinceServiceClosingHymnNo",
+      bulletin?.divinceServiceClosingHymnNo,
+      {
+        shouldDirty: true,
+        shouldValidate: true,
+      }
+    );
+    setValue(
+      "divinceServiceClosingHymnBy",
+      bulletin?.divineServiceOpeningHymnBy,
+      {
+        shouldDirty: true,
+        shouldValidate: true,
+      }
+    );
+    setValue("benediction", bulletin?.benediction, {
+      shouldDirty: true,
+      shouldValidate: true,
+    });
+    setValue("doxology", bulletin?.doxology, {
+      shouldDirty: true,
+      shouldValidate: true,
+    });
+    setValue("pastorDeskBibleVerse", bulletin?.pastorDeskBibleVerse, {
+      shouldDirty: true,
+      shouldValidate: true,
+    });
+    setValue(
+      "pastorDeskBibleVerseDescription",
+      bulletin?.pastorDeskBibleVerseDescription,
+      {
+        shouldDirty: true,
+        shouldValidate: true,
+      }
+    );
+    setValue("keepingOnCourseBy", bulletin?.keepingOnCourseBy, {
+      shouldDirty: true,
+      shouldValidate: true,
+    });
+    setValue("specialFeature", bulletin?.specialFeature, {
+      shouldDirty: true,
+      shouldValidate: true,
+    });
+    setValue(
+      "spiritualReadingBibleVerse",
+      bulletin?.spiritualReadingBibleVerse,
+      {
+        shouldDirty: true,
+        shouldValidate: true,
+      }
+    );
+    setValue(
+      "spiritualReadingBibleVerseBy",
+      bulletin?.spiritualReadingBibleVerseBy,
+      {
+        shouldDirty: true,
+        shouldValidate: true,
+      }
+    );
+  }, [bulletin]);
+
+  const submitData = (data: any) => {
     try {
-      CreateBulletins(data);
+      UpdateBulletinData(bulletinId, data);
       console.log(data, "data");
     } catch (error) {
       console.log(error);
     } finally {
-      reset();
+      router.push("/admin/bulletin");
+      // Todo: make bulletin list page auto fetch data after an update and delete without refreshing it
     }
   };
   return (
@@ -42,10 +258,10 @@ export default function CreateBulletin() {
               className=" w-28 disabled:bg-slate-500"
               disabled={loading}
             >
-              Save
+              {loading ? "Updating..." : "Update"}
             </Button>
           </div>
-          {loading ? (
+          {isLoading ? (
             <div className="flex justify-center items-center h-96">
               {" "}
               <Spinner color="orange" />

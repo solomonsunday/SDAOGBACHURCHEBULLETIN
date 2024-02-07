@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 import { DASHBOARD_SIDEBAR_LINK } from "../../common/constants/navigation";
 
 const linkClasses =
-  "flex items-center pl-[2.5rem] gap-4 text-white w-[13.75rem] h-[2.625rem] hover:bg-[#B6C4B6] hover:no-underline active:bg-[#B6C4B6] rounded-r-[.875rem] hover:border-r-[1px] active:border-r-[1px] text-base";
+  "flex items-center pl-[2.5rem] gap-4 text-white w-[13.75rem] h-[2.625rem] hover:bg-orange-500 hover:no-underline active:bg-orange-500 rounded-r-[.875rem] hover:border-r-[1px] active:border-r-[1px] text-base";
 
 const SideBar = ({
   isOpen,
@@ -61,7 +61,7 @@ function SideBarLink({ item }: { item: any }) {
       href={item.path}
       className={classNames(
         pathname === item.path || pathname.includes(item.path)
-          ? "bg-[#B6C4B6] font-bold border-r-[1px]"
+          ? "bg-orange-500 font-bold border-r-[1px]"
           : " font-normal",
         linkClasses
       )}

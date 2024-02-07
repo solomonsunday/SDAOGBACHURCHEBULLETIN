@@ -19,7 +19,7 @@ export default function Button({
       disabled={disabled}
       type={type}
       onClick={onClick}
-      className={`${className} text-white bg-primary h-12 rounded-lg font-poppins capitalize`}
+      className={`${className} text-white bg-orange-500 h-12 rounded-lg font-poppins capitalize`}
     >
       {children}
     </button>

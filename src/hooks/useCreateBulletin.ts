@@ -1,3 +1,4 @@
+import { IBulletin } from "@/common/interfaces";
 import { httpCreateBulletin } from "@/services/requests";
 import { useCallback, useState } from "react";
 
@@ -6,7 +7,7 @@ export const useCreateBulletins = () => {
   const [loading, setLoading] = useState(false);
   //   const { setError } = useErrorContext();
 
-  const CreateBulletins = useCallback(async (data: any) => {
+  const CreateBulletins = useCallback(async (data: IBulletin) => {
     try {
       setLoading(true);
       const fetchData = await httpCreateBulletin(data);
