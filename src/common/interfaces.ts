@@ -3,11 +3,7 @@ export interface ISignUpUser {
   password: string;
   firstName: string;
   lastName: string;
-}
-
-export interface ILoginUser {
-  userName: string;
-  password: string;
+  confirmPassword: string;
 }
 
 export interface IAnnouncement {
@@ -21,6 +17,24 @@ export interface IBaseEntity {
   createdBy: string;
   updatedDate: string;
   updatedBy: string;
+}
+
+export interface ISignIn {
+  userName: string;
+  password: string;
+}
+
+export interface IAnnouncement {
+  content: string;
+  createdDate: string;
+}
+
+export interface IUser extends ISignUpUser, Omit<ISignUpUser, "password"> {
+  id: string;
+}
+
+export interface IKeywords {
+  onSearch: (query: string) => void;
 }
 
 export interface IBulletin extends IBaseEntity {

@@ -1,8 +1,9 @@
+import { IAnnouncement } from "@/common/interfaces";
 import { httpGetAnnouncements } from "@/services/requests";
 import { useCallback, useEffect, useState } from "react";
 
 export const useGetAnnouncements = () => {
-  const [announcements, setAnnouncement] = useState<any>([]);
+  const [announcements, setAnnouncement] = useState<IAnnouncement[]>([]);
   const [loading, setLoading] = useState(true);
   //   const { setError } = useErrorContext();
 

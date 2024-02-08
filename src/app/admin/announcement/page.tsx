@@ -2,7 +2,7 @@
 import Container from "@/components/Admin/Container";
 import AdminLayout from "../../../components/Admin/layout";
 import { Menu, Transition } from "@headlessui/react";
-import { Fragment, useState } from "react";
+import { Fragment, useEffect, useState } from "react";
 import { Spinner } from "@/components/Common/Spinner";
 import dayjs from "dayjs";
 import Search from "@/components/Admin/Search";
@@ -12,15 +12,35 @@ import Swal from "sweetalert2";
 import Link from "next/link";
 import { useGetAnnouncements } from "@/hooks/useGetAnnouncements";
 import { useDeleteAnnouncementItem } from "@/hooks/useDeleteAnnouncementById";
+import { IAnnouncement } from "@/common/interfaces";
 
 const AnnouncementListPage = () => {
+  const router = useRouter();
+
   const { deleteAnnouncementItem } = useDeleteAnnouncementItem();
   const { announcements, loading } = useGetAnnouncements();
-  const [searchValue, setSearchValue] = useState("");
+  const [fillteredAnnouncements, setFilteredAnnouncement] = useState<
+    IAnnouncement[]
+  >([]);
 
-  const router = useRouter();
-  console.log(announcements, "announcements");
+  useEffect(() => {
+    setFilteredAnnouncement(announcements);
+  }, [announcements]);
 
+  const handleSearch = (query: string) => {
+    if (query.trim() === "") {
+      setFilteredAnnouncement(announcements);
+    } else {
+      const announcementSearchResults =
+        announcements &&
+        announcements.filter((item) => {
+          return item.content
+            .toLocaleLowerCase()
+            .includes(query.toLocaleLowerCase());
+        });
+      setFilteredAnnouncement(announcementSearchResults);
+    }
+  };
   const deleteItem = (id: string) => {
     const swalWithBootstrapButtons = Swal.mixin({
       customClass: {
@@ -65,8 +85,7 @@ const AnnouncementListPage = () => {
     <AdminLayout>
       <Container className=" md:pl-[3.75rem] md:pr-[4.625rem] pl-[2.5rem] pt-10 pb-7 min-h-screen">
         <div className=" flex flex-col lg:flex-row gap-y-5 justify-between mb-5">
-          <Search searchValue={searchValue} setSearchValue={setSearchValue} />
-
+          <Search onSearch={handleSearch} />
           <Button
             type="button"
             className="py-2 px-8  hover:bg-orange-600"
@@ -97,7 +116,7 @@ const AnnouncementListPage = () => {
 
             <tbody className="divide-y divide-y-50">
               {!loading &&
-                announcements.map((data: any, idx: number) => {
+                fillteredAnnouncements.map((data: any, idx: number) => {
                   return (
                     <tr className="" key={idx}>
                       <td className="p-2 text-sm text-gray-700 capitalize whitespace-nowrap">
@@ -228,7 +247,7 @@ const AnnouncementListPage = () => {
               <Spinner color="orange" />
             </div>
           ) : (
-            announcements.length === 0 && (
+            fillteredAnnouncements.length === 0 && (
               <div className="flex justify-center items-center h-96 font-bold">
                 No Announcement created yet
               </div>

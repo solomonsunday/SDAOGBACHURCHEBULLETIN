@@ -4,7 +4,7 @@ import { useCallback, useState } from "react";
 
 export const useRegisterUser = () => {
   const [usersData, setUsersData] = useState<any>();
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
   //   const { setError } = useErrorContext();
 
   const setRegisterUser = useCallback(async (registerData: ISignUpUser) => {

@@ -1,11 +1,21 @@
 import axios from "axios";
-import { IAnnouncement, IBulletin, ISignUpUser } from "@/common/interfaces";
+import {
+  IAnnouncement,
+  IBulletin,
+  ISignIn,
+  ISignUpUser,
+} from "@/common/interfaces";
+import { getAuthFromLocal } from "./store";
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL;
 
 // Auth Request
-export function login(authObject: { username: string; password: string }) {
-  return axios.post(`${API_URL}/auth`, authObject);
+export function httpLogin(authObject: ISignIn) {
+  try {
+    return axios.post(`${API_URL}/auth/login`, authObject);
+  } catch (error) {
+    console.log(error);
+  }
 }
 export async function httpRegister(authObject: ISignUpUser) {
   try {
@@ -19,7 +29,9 @@ export async function httpRegister(authObject: ISignUpUser) {
 export async function httpCreateBulletin(featureObj: IBulletin) {
   try {
     return axios.post(`${API_URL}/bulletin/create`, featureObj, {
-      // headers: { Authorization: "Bearer " + getAuthFromLocal() },
+      headers: {
+        Authorization: "Bearer " + getAuthFromLocal(),
+      },
     });
   } catch (error) {
     console.log(error);
@@ -39,9 +51,9 @@ export async function httpUpdateBulletinById(
 export async function httpGetBulettins() {
   try {
     return axios.get(`${API_URL}/bulletin`, {
-      // headers: {
-      //   Authorization: "Bearer " + getAuthFromLocal(),
-      // },
+      headers: {
+        Authorization: "Bearer " + getAuthFromLocal(),
+      },
     });
   } catch (error) {
     console.log(error);

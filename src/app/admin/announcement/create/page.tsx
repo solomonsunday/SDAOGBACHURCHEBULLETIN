@@ -34,7 +34,7 @@ export default function CreateAnnouncement() {
       <Container className=" md:px-[3.125rem] px-[2.5rem] pt-6 pb-7 ">
         <form onSubmit={handleSubmit(submitData)}>
           <div className=" flex flex-wrap gap-5 justify-between ml-[.125rem] mr-[.625rem]">
-            <BackButton text="Create Bulletin Information" />
+            <BackButton text="Back to Announcement List " />
 
             <Button
               type="submit"

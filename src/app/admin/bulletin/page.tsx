@@ -2,7 +2,7 @@
 import Container from "@/components/Admin/Container";
 import AdminLayout from "../../../components/Admin/layout";
 import { Menu, Transition } from "@headlessui/react";
-import { Fragment, useState } from "react";
+import { Fragment, useEffect, useState } from "react";
 import { useGetbulletins } from "@/hooks/useGetBulletins";
 import { Spinner } from "@/components/Common/Spinner";
 import dayjs from "dayjs";
@@ -12,14 +12,18 @@ import { useRouter } from "next/navigation";
 import Swal from "sweetalert2";
 import { useDeleteBulletinItem } from "@/hooks/useDeleteItem";
 import Link from "next/link";
+import { IBulletin } from "@/common/interfaces";
 
 const BulletinListPage = () => {
+  const router = useRouter();
+
   const { DeleteBulletinItem } = useDeleteBulletinItem();
   const { bulletins, loading } = useGetbulletins();
-  const [searchValue, setSearchValue] = useState("");
+  const [fillteredBulletins, setFilteedBulletins] = useState<IBulletin[]>([]);
 
-  const router = useRouter();
-  console.log(bulletins, "bulletins");
+  useEffect(() => {
+    setFilteedBulletins(bulletins);
+  }, [bulletins]);
 
   const deleteItem = (id: string) => {
     const swalWithBootstrapButtons = Swal.mixin({
@@ -59,6 +63,21 @@ const BulletinListPage = () => {
           });
         }
       });
+  };
+
+  const handleSearch = (query: string) => {
+    if (query.trim() === "") {
+      setFilteedBulletins(bulletins);
+    } else {
+      const bulletinSearchResults =
+        bulletins &&
+        bulletins.filter((item) => {
+          return item.themeForTheQuarter
+            .toLocaleLowerCase()
+            .includes(query.toLocaleLowerCase());
+        });
+      setFilteedBulletins(bulletinSearchResults);
+    }
   };
 
   const handlePublishBulletin = (id: string) => {
@@ -103,10 +122,9 @@ const BulletinListPage = () => {
 
   return (
     <AdminLayout>
-      <Container className=" md:pl-[3.75rem] md:pr-[4.625rem] pl-[2.5rem] pt-10 pb-7 min-h-screen">
+      <Container className="md:pl-[3.75rem] md:pr-[4.625rem] pl-[2.5rem] pt-10 pb-7">
         <div className=" flex flex-col lg:flex-row gap-y-5 justify-between mb-5">
-          <Search searchValue={searchValue} setSearchValue={setSearchValue} />
-
+          <Search onSearch={handleSearch} />
           <Button
             type="button"
             className="py-2 px-8  hover:bg-orange-600"
@@ -143,7 +161,7 @@ const BulletinListPage = () => {
 
             <tbody className="divide-y divide-y-50">
               {!loading &&
-                bulletins.map((data: any, idx: number) => {
+                fillteredBulletins.map((data, idx: number) => {
                   return (
                     <tr className="" key={idx}>
                       <td className="p-2 text-sm text-gray-700 capitalize whitespace-nowrap">
@@ -163,7 +181,7 @@ const BulletinListPage = () => {
                       </td>
                       <td className="p-2 text-sm text-gray-700">
                         {" "}
-                        <div className="z-10">
+                        <div className="z-10 ">
                           <Menu
                             as="div"
                             className="relative inline-block text-left"
@@ -282,7 +300,7 @@ const BulletinListPage = () => {
               <Spinner color="orange" />
             </div>
           ) : (
-            bulletins.length === 0 && (
+            fillteredBulletins.length === 0 && (
               <div className="flex justify-center items-center h-96 font-bold">
                 No Data created yet
               </div>
