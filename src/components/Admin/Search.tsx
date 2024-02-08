@@ -1,14 +1,18 @@
+import { IKeywords } from "@/common/interfaces";
 import Image from "next/image";
+import { ChangeEvent, useState } from "react";
 
-export default function Search({
-  searchValue,
-  setSearchValue,
-}: {
-  searchValue: string;
-  setSearchValue: (a: string) => void;
-}) {
+export default function Search({ onSearch }: IKeywords) {
+  const [searchQuery, setSearchQuery] = useState<string>("");
+
+  const handleInputChange = (event: ChangeEvent<HTMLInputElement>) => {
+    const newQuery = event.target.value;
+    setSearchQuery(newQuery);
+    onSearch(newQuery);
+  };
+
   return (
-    <div className=" w-[17.9375rem] h-[2.9375rem] border border-black rounded-lg flex pl-[.9375rem] gap-x-5 font-poppins">
+    <div className=" bg-white w-[17.9375rem] h-[2.9375rem] border border-black rounded-lg flex pl-[.9375rem] gap-x-5 font-poppins">
       <Image
         src={"/assets/svgs/search-icon.svg"}
         className=""
@@ -18,10 +22,10 @@ export default function Search({
       />
       <input
         type="text"
-        value={searchValue}
+        value={searchQuery}
         className=" w-full h-full focus:outline-none rounded-lg"
         placeholder="Search..."
-        onChange={(e) => setSearchValue(e.target.value)}
+        onChange={handleInputChange}
       />
     </div>
   );

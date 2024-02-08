@@ -3,44 +3,28 @@ import Container from "@/components/Admin/Container";
 import AdminLayout from "../../../components/Admin/layout";
 import { Menu, Transition } from "@headlessui/react";
 import { Fragment, useEffect, useState } from "react";
+import { useGetbulletins } from "@/hooks/useGetBulletins";
 import { Spinner } from "@/components/Common/Spinner";
 import dayjs from "dayjs";
 import Search from "@/components/Admin/Search";
 import Button from "@/components/Admin/button";
 import { useRouter } from "next/navigation";
 import Swal from "sweetalert2";
+import { useDeleteBulletinItem } from "@/hooks/useDeleteItem";
 import Link from "next/link";
-import { useGetAnnouncements } from "@/hooks/useGetAnnouncements";
-import { useDeleteAnnouncementItem } from "@/hooks/useDeleteAnnouncementById";
-import { IAnnouncement } from "@/common/interfaces";
+import { IBulletin } from "@/common/interfaces";
 
-const AnnouncementListPage = () => {
+const BulletinListPage = () => {
   const router = useRouter();
 
-  const { deleteAnnouncementItem } = useDeleteAnnouncementItem();
-  const { announcements, loading } = useGetAnnouncements();
-  const [fillteredAnnouncements, setFilteredAnnouncement] = useState<
-    IAnnouncement[]
-  >([]);
+  const { DeleteBulletinItem } = useDeleteBulletinItem();
+  const { bulletins, loading } = useGetbulletins();
+  const [fillteredBulletins, setFilteedBulletins] = useState<IBulletin[]>([]);
 
   useEffect(() => {
-    setFilteredAnnouncement(announcements);
-  }, [announcements]);
+    setFilteedBulletins(bulletins);
+  }, [bulletins]);
 
-  const handleSearch = (query: string) => {
-    if (query.trim() === "") {
-      setFilteredAnnouncement(announcements);
-    } else {
-      const announcementSearchResults =
-        announcements &&
-        announcements.filter((item) => {
-          return item.content
-            .toLocaleLowerCase()
-            .includes(query.toLocaleLowerCase());
-        });
-      setFilteredAnnouncement(announcementSearchResults);
-    }
-  };
   const deleteItem = (id: string) => {
     const swalWithBootstrapButtons = Swal.mixin({
       customClass: {
@@ -61,7 +45,7 @@ const AnnouncementListPage = () => {
       })
       .then((result) => {
         if (result.isConfirmed) {
-          deleteAnnouncementItem(id);
+          DeleteBulletinItem(id);
           swalWithBootstrapButtons.fire({
             title: "Deleted!",
             text: "Your file has been deleted.",
@@ -81,15 +65,70 @@ const AnnouncementListPage = () => {
       });
   };
 
+  const handleSearch = (query: string) => {
+    if (query.trim() === "") {
+      setFilteedBulletins(bulletins);
+    } else {
+      const bulletinSearchResults =
+        bulletins &&
+        bulletins.filter((item) => {
+          return item.themeForTheQuarter
+            .toLocaleLowerCase()
+            .includes(query.toLocaleLowerCase());
+        });
+      setFilteedBulletins(bulletinSearchResults);
+    }
+  };
+
+  const handlePublishBulletin = (id: string) => {
+    const swalWithBootstrapButtons = Swal.mixin({
+      customClass: {
+        confirmButton: "bg-green-700 p-3 rounded-lg text-white mx-2",
+        cancelButton: "p-3 bg-red-700 rounded-lg text-white ",
+      },
+      buttonsStyling: false,
+    });
+    swalWithBootstrapButtons
+      .fire({
+        title: "Are you sure?",
+        text: "Everyone will see this!",
+        icon: "warning",
+        showCancelButton: true,
+        confirmButtonText: "Yes, publish it!",
+        cancelButtonText: "No, cancel!",
+        reverseButtons: true,
+      })
+      .then((result) => {
+        if (result.isConfirmed) {
+          // DeleteBulletinItem(id);
+          swalWithBootstrapButtons.fire({
+            title: "Deleted!",
+            text: "Your file has been published Successfully.",
+            icon: "success",
+          });
+          // fetchBulletins(); //TODO: Optimize the responsd afte deleting files
+        } else if (
+          /* Read more about handling dismissals below */
+          result.dismiss === Swal.DismissReason.cancel
+        ) {
+          swalWithBootstrapButtons.fire({
+            title: "Cancelled",
+            text: "No one else will see this except you :)",
+            icon: "error",
+          });
+        }
+      });
+  };
+
   return (
     <AdminLayout>
-      <Container className=" md:pl-[3.75rem] md:pr-[4.625rem] pl-[2.5rem] pt-10 pb-7 min-h-screen">
+      <Container className="md:pl-[3.75rem] md:pr-[4.625rem] pl-[2.5rem] pt-10 pb-7">
         <div className=" flex flex-col lg:flex-row gap-y-5 justify-between mb-5">
           <Search onSearch={handleSearch} />
           <Button
             type="button"
             className="py-2 px-8  hover:bg-orange-600"
-            onClick={() => router.push("/admin/announcement/create")}
+            onClick={() => router.push("/admin/bulletin/create")}
           >
             Create
           </Button>
@@ -106,7 +145,13 @@ const AnnouncementListPage = () => {
                   Created Date
                 </th>
                 <th className="p-3 text-sm font-bold tracking-wide text-left">
-                  Content
+                  Theme For The Quarter
+                </th>
+                <th className="p-3 text-sm font-bold tracking-wide text-left">
+                  Topic For The Week
+                </th>
+                <th className="p-3 text-sm font-bold tracking-wide text-left">
+                  preacher
                 </th>
                 <th className="p-3 text-sm font-bold tracking-wide text-left">
                   Action
@@ -116,7 +161,7 @@ const AnnouncementListPage = () => {
 
             <tbody className="divide-y divide-y-50">
               {!loading &&
-                fillteredAnnouncements.map((data: any, idx: number) => {
+                fillteredBulletins.map((data, idx: number) => {
                   return (
                     <tr className="" key={idx}>
                       <td className="p-2 text-sm text-gray-700 capitalize whitespace-nowrap">
@@ -126,12 +171,17 @@ const AnnouncementListPage = () => {
                         {dayjs(data?.createdDate).format("MMM D, YYYY")}
                       </td>
                       <td className="p-2 text-sm text-gray-700 capitalize whitespace-nowrap">
-                        {data.content}
+                        {data.themeForTheQuarter}
                       </td>
-
+                      <td className="p-2 text-sm text-gray-700 whitespace-nowrap">
+                        {data.topicForTheWeek}
+                      </td>
+                      <td className="p-2 text-sm text-gray-700 whitespace-nowrap">
+                        {data.preacher}{" "}
+                      </td>
                       <td className="p-2 text-sm text-gray-700">
                         {" "}
-                        <div className="z-10">
+                        <div className="z-10 ">
                           <Menu
                             as="div"
                             className="relative inline-block text-left"
@@ -184,7 +234,7 @@ const AnnouncementListPage = () => {
                                   <Menu.Item>
                                     {({ active }) => (
                                       <Link
-                                        href={`/admin/announcement/edit/${data.id}`}
+                                        href={`/admin/bulletin/edit/${data.id}`}
                                       >
                                         <button
                                           className={`${
@@ -219,13 +269,16 @@ const AnnouncementListPage = () => {
                                   <Menu.Item>
                                     {({ active }) => (
                                       <button
+                                        onClick={() =>
+                                          handlePublishBulletin(data.id)
+                                        }
                                         className={`${
                                           active
                                             ? "bg-gray-200 text-black"
                                             : "text-green-600"
                                         } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                                       >
-                                        Include
+                                        Publish
                                       </button>
                                     )}
                                   </Menu.Item>
@@ -247,9 +300,9 @@ const AnnouncementListPage = () => {
               <Spinner color="orange" />
             </div>
           ) : (
-            fillteredAnnouncements.length === 0 && (
+            fillteredBulletins.length === 0 && (
               <div className="flex justify-center items-center h-96 font-bold">
-                No Announcement created yet
+                No Data created yet
               </div>
             )
           )}
@@ -259,4 +312,4 @@ const AnnouncementListPage = () => {
   );
 };
 
-export default AnnouncementListPage;
+export default BulletinListPage;

@@ -46,6 +46,7 @@ const Header = () => {
           <p className="text-orange-400 font-mono text-sm">
             SDA Church Ogba E-Bulletin
           </p>
+
           <div className="items-center hidden h-10 font-serif md:flex md:space-x-8 text-sm">
             <div className="group">
               <Link href="#welcome">Welcome</Link>
@@ -68,6 +69,7 @@ const Header = () => {
               <div className="mx-2 group-hover:border-b group-hover:border-white"></div>
             </div>
           </div>
+
           {/* Hamburger button goes here */}
           <div className="md:hidden">
             <button

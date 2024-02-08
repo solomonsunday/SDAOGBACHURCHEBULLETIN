@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Header = ({ open }: { open: () => void }) => {
   return (
-    <div className="bg-[#F4F4F4] h-[5.3125rem] w-full flex justify-between md:justify-end lg:justify-between items-center  md:pr-[4.625rem] pr-[2.625rem] lg:pl-[25.8125rem] shadow-xl v-2 blur-4 bg-opacity-20">
+    <div className="bg-[#F4F4F4] h-[4rem] w-full flex justify-between md:justify-end lg:justify-between items-center  md:pr-[4.625rem] pr-[2.625rem] lg:pl-[25.8125rem] shadow-xl v-2 blur-4 bg-opacity-20">
       <p
         className={`text-[#304D30] text-base md:text-[1.5rem] lg:block hidden md-block font-bold font-charm`}
       >

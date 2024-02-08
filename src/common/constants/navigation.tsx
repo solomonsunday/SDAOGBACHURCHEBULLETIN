@@ -17,10 +17,11 @@ export const DASHBOARD_SIDEBAR_LINK = [
       />
     ),
   },
+
   {
-    key: "sabbathschool",
-    label: "Sabbath School",
-    path: "/admin/sabbathschool",
+    key: "bulletin",
+    label: "Bulletin",
+    path: "/admin/bulletin",
     icon: (
       <Image
         src={"/assets/svgs/price-list-icon.svg"}
@@ -33,37 +34,9 @@ export const DASHBOARD_SIDEBAR_LINK = [
   },
 
   {
-    key: "divine Service",
-    label: "Divine Service",
-    path: "/admin/divineservice",
-    icon: (
-      <Image
-        src={"/assets/svgs/price-list-icon.svg"}
-        className=""
-        alt="icon"
-        width={21.75}
-        height={29}
-      />
-    ),
-  },
-  {
     key: "announcement",
     label: "Announcement",
     path: "/admin/announcement",
-    icon: (
-      <Image
-        src={"/assets/svgs/price-list-icon.svg"}
-        className=""
-        alt="icon"
-        width={21.75}
-        height={29}
-      />
-    ),
-  },
-  {
-    key: "pastordesk",
-    label: "Pastor Desk",
-    path: "/admin/pastordesk",
     icon: (
       <Image
         src={"/assets/svgs/price-list-icon.svg"}
