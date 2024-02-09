@@ -31,31 +31,45 @@ const Announcement = () => {
             2.5 million naira urgently. Please send your donation to the Church
             account . Seventh-day Adventist Church Ogba. 2020086453. First Bank.
           </li>
+
+          <li className="border-b border-orange-200 pb-2">
+            Daniel Seminar/Online Evangelism holds from 17th -26th February,
+            2024. Send in the WhatsApp phone number of your prospects as
+            directed.
+          </li>
+
+          <li className="border-b border-orange-200 pb-2">
+            Family Life Week of Emphasis starts today and continues every
+            evening, 6:00p.m – 7:00p.m till next Sabbath. Plan to attend with
+            your family.
+          </li>
+          <li className="border-b border-orange-200 pb-2">
+            Ogba Church Business Meeting comes up on 24/02/2024.
+          </li>
+          <li className="border-b border-orange-200 pb-2">
+            Exchange of Pulpit holds from March 2nd - 16th, 2024. Venue is
+            Oke-Ira. Let’s pray and plan for its success. All members living in
+            Oke-Ira are to kindly wait behind for an important meeting after the
+            divine service.
+          </li>
+          <li className="border-b border-orange-200 pb-2">
+            Limited copies of the Book “The Great Controversy are now available
+            at ₦1,500 per copy. Pick a copy for your family and friends today.
+          </li>
           <li className="border-b border-orange-200 pb-2">
             The WAD 2024 devotional reading with the theme “Complete wellness”
             is available, Price is 2,900. Grab a copy for your family and
             friends
           </li>
           <li className="border-b border-orange-200 pb-2">
-            ⁠AMO monthly meeting holds tomorrow 4/2/2024 venue: Ogba church
-            Board room and Time: 9:30am
+            AYM Enrolment program is ongoing at various club levels, contact the
+            club director and get enrolled for the year. Fee: Junior Youth -
+            ₦500. Senior Youth- ₦1,000.
           </li>
           <li className="border-b border-orange-200 pb-2">
-            Evangelism; Daniel Seminar holds from 17th - 26th February 2024.
-          </li>
-          <li className="border-b border-orange-200 pb-2">
-            Today is our District Combined Service/ Sendforth of our former
-            Pastor Pst. Adekola F.M
-          </li>
-          <li className="border-b border-orange-200 pb-2">
-            Family life week holds from 10-17 Feb. 2024.
-          </li>
-          <li className="border-b border-orange-200 pb-2">
-            Ogba Church Business Meeting comes up on 24/02/2024.
-          </li>
-          <li className="border-b border-orange-200 pb-2">
-            There will be pulpit exchange on March 2 - 16, 2024, venue is Oke
-            Ira. Let’s pray and plan for its success.
+            Remnant Federation Senior Youth programme tagged: “UNDAUNTED
+            HERITAGE holds on 18/02/2024 at Ojokoro Church. Registration is
+            ₦500. Dress code: Class B Uniform
           </li>
           <li className="border-b border-orange-200 pb-2">
             Please donate towards the acquisition of a permanent camp site.

@@ -9,16 +9,16 @@ const PastorDesk = () => {
         </div>
         <div className="space-y-3">
           <div className="underline text-lg font-semibold">
-            <p className="dark:text-white">Counsels for the Church. p357</p>
+            <p className="dark:text-white">David O. Mckay</p>
           </div>
           <p className="text-orange-500">
-            We have nothing to fear for the future except as we shall forget the
-            way the Lord has led us and His teaching in our past history. Ellen
-            G. White, Counsels for the Church. p357.
-            <br />
-            Although we cannot change the past, and we should not be stuck to
-            it, there are valuable lesson in our history. If we fail to learn
-            them, We may end up repeating history in negative ways”
+            “ No other success can compensate for failure in the home. The
+            poorest shack in which love prevails over a united family is of
+            greater value to God and future humanity that any other riches. In
+            such a home God can work miracles and will work miracles" David O.
+            Mckay.
+            <br /> It’s family week, let’s make the best out by participating
+            and committing ourselves to living out the inspiring messages
           </p>
         </div>
       </section>
