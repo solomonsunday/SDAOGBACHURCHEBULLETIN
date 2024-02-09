@@ -12,37 +12,37 @@ const DivineService = () => {
           <div className="col-span-3 text-sm "> Prelude</div>
           <div className="text-xs"> Organist</div>
 
-          <div className="col-span-3 text-sm">Call to Worship: (Psalm 133)</div>
-          <div className="text-xs"> Past. H. Kona</div>
+          <div className="col-span-3 text-sm">Call to Worship: (SDA 853)</div>
+          <div className="text-xs"> Elder Chilaka A.C.</div>
           <div className="col-span-3 text-sm"> Invocation</div>
-          <div className="text-xs"> Pst. H. kona</div>
+          <div className="text-xs"> Elder Chilaka A.C.</div>
           <div className="col-span-3 text-sm">
             {" "}
-            Welcome / opening Hymn (SDAH 350)
+            Welcome / opening Hymn (SDAH 655)
           </div>
-          <div className="text-xs"> Elder G. Adeoti</div>
+          <div className="text-xs"> Elder P. Nwaejigh</div>
           <div className="col-span-3 text-sm"> Pastoral Prayer</div>
-          <div className="text-xs"> Eld I. Oyinjie</div>
+          <div className="text-xs"> Elder A.B. Adedokun</div>
           <div className="col-span-3 text-sm"> Stewardship </div>
-          <div className="text-xs"> Eld V. Njoku</div>
+          <div className="text-xs"> Bro. S. Sunday</div>
           <div className="col-span-3 text-sm"> Musical Selection (Choir)</div>
-          <div className="text-xs"> MG k. Onwukwe</div>
+          <div className="text-xs"> Mrs. A. Adedokun</div>
           <div className="col-span-3 text-sm">
-            Spiritual Reading (Deut: 4:9)
+            Spiritual Reading (John: 6:34)
           </div>
           <div className="text-xs"> Mrs. B. Chilaka</div>
           <div className="col-span-3 text-sm">
-            Hymn of Concecration (SDAH: 537)
+            Hymn of Concecration (SDAH: 286)
           </div>
-          <div className="text-xs"> Chisom Promise</div>
+          <div className="text-xs"> Mrs. C. Promise</div>
           <div className="col-span-3 text-sm">
-            Sermon Title "Lesson From The Past"
+            Sermon Title "The Bread every Marriage and Family Needs today"
           </div>
-          <div className="text-xs"> Pst. H. kona</div>
-          <div className="col-span-3 text-sm">Closing Hymn (SDAH 625)</div>
-          <div className="text-xs"> Eld I. Oyinjie</div>
+          <div className="text-xs"> Elder Chilaka A.C.</div>
+          <div className="col-span-3 text-sm">Closing Hymn (SDAH 290)</div>
+          <div className="text-xs"> Sis. K. Ejukwu</div>
           <div className="col-span-3 text-sm">Benediction</div>
-          <div className="text-xs"> Pst. H. kona</div>
+          <div className="text-xs"> Elder Chilaka A.C.</div>
           <div className="col-span-3 text-sm">Doxology</div>
           <div className="text-xs"> Congregation</div>
         </div>

@@ -13,48 +13,52 @@ const SabbathSchool = () => {
         </div>
         <div className="text-xs capitalize"> Song Leader</div>
 
+        <div className="col-span-3 text-sm capitalize">Openning Prayer</div>
+        <div className="text-xs"> Bro. Iruka Johnson</div>
+
         <div className="col-span-3 text-sm capitalize">
-          Openning Remark (Welcome & Prayer)
+          Welcome / Supt's Opening Remark
         </div>
-        <div className="text-xs"> Mrs Chika Nwaejigh</div>
+        <div className="text-xs"> Deacon Idowu Oyeniyi</div>
 
         <div className="col-span-3 text-sm capitalize">
           {" "}
-          Welcome / Opening Hymn (SDAH 297)
+          Welcome / Opening Hymn (SDAH 416)
         </div>
-        <div className="text-xs capitalize"> Bro. Uchendu Imo</div>
-        <div className="col-span-3 text-sm capitalize"> Mission Spotlight </div>
-        <div className="text-xs capitalize"> Bro. Bright</div>
+        <div className="text-xs capitalize"> Deacon Lucky Ezekiel </div>
         <div className="col-span-3 text-sm capitalize"> Keeping on Course</div>
-        <div className="text-xs capitalize"> Mrs. Walson</div>
-        <div className="col-span-3 text-sm capitalize"> Special Feature</div>
-        <div className="text-xs capitalize"> Ogba & Akiode Churches</div>
-
+        <div className="text-xs capitalize">Bro. Iruka Johnson</div>
+        <div className="col-span-3 text-sm capitalize"> Mission Spotlight </div>
+        <div className="text-xs capitalize"> Deacon Lucky Ezekiel</div>
         <div className="col-span-3 text-sm capitalize">
           {" "}
           Study Time, Lession Introduction
         </div>
-        <div className="text-xs capitalize"> Deacon Chimezie Mbagwu</div>
+        <div className="text-xs capitalize"> Deacon Idowu Oyeniyi</div>
         <div className="col-span-3 text-sm capitalize">
           Unit Activities / Lesson Study (40 Mins)
         </div>
         <div className="text-xs capitalize"> - </div>
         <div className="col-span-3 text-sm capitalize">Lesson Summary</div>
-        <div className="text-xs capitalize"> Deacon Chimezie Mbagwu</div>
+        <div className="text-xs capitalize"> Elder Promise Nwaejigh </div>
+        <div className="col-span-3 text-sm capitalize">
+          AMO Special Feature (SDA 604)
+        </div>
+        <div className="text-xs capitalize"> Deacon Idowu Oyeniyi </div>
         <div className="col-span-3 text-sm capitalize">Friend's time</div>
         <div className="text-xs capitalize"> Bro. Uchendu Imo</div>
         <div className="col-span-3 text-sm capitalize">
           Announcement / Closing Remark
         </div>
-        <div className="text-xs capitalize"> Deacon Chimezie Mbagwu</div>
+        <div className="text-xs capitalize"> Deacon Idowu Oyeniyi</div>
         <div className="col-span-3 text-sm capitalize">
-          Closing Hymn (SDAH 537)
+          Closing Hymn (SDAH 595)
         </div>
-        <div className="text-xs"> Mrs. Walson</div>
+        <div className="text-xs">Deacon Lucky Ezekiel</div>
         <div className="col-span-3 text-sm capitalize">
-          Sabbath School Closing Prayer
+          Sabbath School Closing Prayer (Elder Olusona G.A.I.)
         </div>
-        <div className="text-xs"> Mrs. Chika Nwaejigh</div>
+        <div className="text-xs"> Deacon Idowu Oyeniyi</div>
       </div>
     </section>
   );

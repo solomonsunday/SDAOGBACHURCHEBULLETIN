@@ -39,8 +39,8 @@ const Welcome = () => {
         </div>
         <div>
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 pl-8 ">
-            <p className="underline text-orange-400">TOPIC FOR THE WEEK</p>
-            Singing the Lords song in a Strange Land
+            <p className="underline text-orange-400">TOPIC FOR THE WEEK</p>I
+            WILL ARISE
           </blockquote>
         </div>
         <div>
@@ -48,9 +48,10 @@ const Welcome = () => {
             <p className="underline text-orange-400">MEMORY TEXT</p>
 
             <span className="text-xs italic px-1">
-              {" "}
-              How shall we sing The LORD's song in a strange land?{" "}
-              <span className="font-bold">(Psalm 137: 4 NKJV)</span>
+              “For the oppression of the poor, for the sighing of the needy, now
+              I will arise; says the Lord; I will set him in the safety for
+              which he yearns”
+              <span className="font-bold"> (Psalm 12:5 NKJV) </span>
             </span>
           </blockquote>
         </div>

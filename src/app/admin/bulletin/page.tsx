@@ -72,9 +72,13 @@ const BulletinListPage = () => {
       const bulletinSearchResults =
         bulletins &&
         bulletins.filter((item) => {
-          return item.themeForTheQuarter
-            .toLocaleLowerCase()
-            .includes(query.toLocaleLowerCase());
+          return (
+            item.themeForTheQuarter
+              .toLowerCase()
+              .includes(query.toLowerCase()) ||
+            item.preacher.toLowerCase().includes(query.toLowerCase()) ||
+            item.topicForTheWeek.toLowerCase().includes(query.toLowerCase())
+          );
         });
       setFilteedBulletins(bulletinSearchResults);
     }
