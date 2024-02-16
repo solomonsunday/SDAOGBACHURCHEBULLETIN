@@ -8,17 +8,27 @@ const Announcement = () => {
       </div>
       <div className="space-y-4 dark:text-white">
         <ol className="list-decimal space-y-4">
+          <li className="border-b border-orange-200 font-bold pb-2">
+            Members are encouraged to use the barcode at the entrance of the
+            church to get the e-bulletin as the hard copy in limited quantity is
+            only for the Elderly ones who are not tech savvy or those without a
+            smart phone.
+          </li>
           <li className="border-b border-orange-200 pb-2">
             Drop your prayer requests in the prayer box provided at the entrance
             of the church auditorium anytime, the Pastor and the Elders will
             interceed for you.
           </li>
           <li className="border-b border-orange-200 pb-2">
+            Personal Ministry Council Meeting holds today immediately after the
+            worship.
+          </li>
+          <li className="border-b border-orange-200 pb-2">
             Sabbath evening Bible studies holds every Saturday by 4:30pm.
           </li>
           <li className="border-b border-orange-200 pb-2">
             ⁠LMC Children ministry convention holds as follows: Date: 28/3/2024
-            Venue: St. Joseph sec. School Mangoro, Lagos Registration: 5,000
+            Venue: St. Joseph sec. School Mangoro, Lagos Registration: 6,000
           </li>
           <li className="border-b border-orange-200 pb-2">
             AWM Leadership training holds as follows: Date: 27/2/2024 to
@@ -39,9 +49,15 @@ const Announcement = () => {
           </li>
 
           <li className="border-b border-orange-200 pb-2">
-            Family Life Week of Emphasis starts today and continues every
-            evening, 6:00p.m – 7:00p.m till next Sabbath. Plan to attend with
-            your family.
+            Family Life Week of Emphasis ends today, thanks to all the families
+            that attended, may God keep us all in unity and love as one family
+            in Christ Jesus.
+          </li>
+          <li className="border-b border-orange-200 pb-2">
+            The burial of Late Eld. Celestine O. Ajuonu is slated to hols as
+            follows: Service of Song 25/2/2024 at the family residence. Funerals
+            Service 21/3/2024 at his home town in Umuanunu autonomous community,
+            Obingwa LGA of Abia State
           </li>
           <li className="border-b border-orange-200 pb-2">
             Ogba Church Business Meeting comes up on 24/02/2024.
@@ -51,6 +67,11 @@ const Announcement = () => {
             Oke-Ira. Let’s pray and plan for its success. All members living in
             Oke-Ira are to kindly wait behind for an important meeting after the
             divine service.
+          </li>
+          <li className="border-b border-orange-200 pb-2">
+            Bereavement: Mrs Ajuonu Gift lost her son, Chidi to the cold hands
+            of death on Thursday this week. Please remember the family in your
+            prayers.
           </li>
           <li className="border-b border-orange-200 pb-2">
             Limited copies of the Book “The Great Controversy are now available

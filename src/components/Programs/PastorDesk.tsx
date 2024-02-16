@@ -9,16 +9,19 @@ const PastorDesk = () => {
         </div>
         <div className="space-y-3">
           <div className="underline text-lg font-semibold">
-            <p className="dark:text-white">David O. Mckay</p>
+            <p className="dark:text-white">
+              Ellen G. White, Adventist Home, p305.
+            </p>
           </div>
           <p className="text-orange-500">
-            “ No other success can compensate for failure in the home. The
-            poorest shack in which love prevails over a united family is of
-            greater value to God and future humanity that any other riches. In
-            such a home God can work miracles and will work miracles" David O.
-            Mckay.
-            <br /> It’s family week, let’s make the best out by participating
-            and committing ourselves to living out the inspiring messages
+            “Every Christian home should have rules; and parents should, in
+            their words and in their deportment toward each other, give to the
+            children a precious living example of what they desire them to
+            be….Teach the children and youth to respect themselves, to be true
+            to God, true to principles; teach them to respect and obey the law
+            of God. Then these principles will control their lives and will be
+            carried out in their association with others…Ellen G. White,
+            Adventist Home, p305.
           </p>
         </div>
       </section>

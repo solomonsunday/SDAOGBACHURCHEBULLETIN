@@ -37,7 +37,7 @@ export interface IKeywords {
   onSearch: (query: string) => void;
 }
 
-export interface IBulletin extends IBaseEntity {
+export interface IBulletin extends IBaseEntity, Pick<IAnnouncement, "content"> {
   status: "published" | "";
 
   // welcome

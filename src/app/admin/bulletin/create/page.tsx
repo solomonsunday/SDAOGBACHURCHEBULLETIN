@@ -9,6 +9,9 @@ import Input from "@/components/Admin/input";
 import { useCreateBulletins } from "@/hooks/useCreateBulletin";
 import { Spinner } from "@/components/Common/Spinner";
 import { IBulletin } from "@/common/interfaces";
+import Multiselect from "multiselect-react-dropdown";
+import { useGetAnnouncements } from "@/hooks/useGetAnnouncements";
+import { useEffect } from "react";
 
 export default function CreateBulletin() {
   const {
@@ -17,13 +20,18 @@ export default function CreateBulletin() {
     reset,
     // formState: { errors, isValid },
   } = useForm<IBulletin>();
-  const { CreateBulletins, loading, bulletins } = useCreateBulletins();
-  console.log(bulletins, "create");
+  const { CreateBulletins, loading } = useCreateBulletins();
+  const { announcements, fetchAnnouncements } = useGetAnnouncements();
+  // const [selectedAnnouncements, setSelectedAnnouncements] = useState();
+  // console.log(selectedValues, "selectedAnnouncements");
+  useEffect(() => {
+    fetchAnnouncements();
+  }, [fetchAnnouncements]);
 
   const submitData = (data: IBulletin) => {
     try {
+      // console.log(data, "created-data");
       CreateBulletins(data);
-      console.log(data, "data");
     } catch (error) {
       console.log(error);
     } finally {
@@ -372,6 +380,28 @@ export default function CreateBulletin() {
                       {...register("pastorDeskBibleVerseDescription", {})}
                     />
                   </div>
+                </div>
+
+                <div className="font-semibold text-2xl">
+                  <h2>Announcements</h2>
+                </div>
+                <div className=" h-[3.75rem] w-full">
+                  {/* <Input
+                    type="text"
+                    placeHolder="announcement description"
+                    {...register("content", { required: true })}
+                  /> */}
+                  <Multiselect
+                    isObject={false}
+                    onKeyPressFn={function noRefCheck() {}}
+                    onRemove={function noRefCheck() {}}
+                    onSearch={function noRefCheck() {}}
+                    onSelect={function noRefCheck() {}}
+                    options={announcements.map((item) => item.content)}
+                    placeholder="Select Announcements"
+                    selectedValues={[]}
+                    // {...register("content", { required: true })}
+                  />
                 </div>
               </div>
             </div>
