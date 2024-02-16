@@ -65,8 +65,6 @@ const Announcement = () => {
           <li className="border-b border-orange-200 pb-2">
             Exchange of Pulpit holds from March 2nd - 16th, 2024. Venue is
             Oke-Ira. Let’s pray and plan for its success. All members living in
-            Oke-Ira are to kindly wait behind for an important meeting after the
-            divine service.
           </li>
           <li className="border-b border-orange-200 pb-2">
             Bereavement: Mrs Ajuonu Gift lost her son, Chidi to the cold hands
