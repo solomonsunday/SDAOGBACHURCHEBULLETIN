@@ -23,7 +23,7 @@ const SabbathSchool = () => {
 
         <div className="col-span-3 text-sm capitalize">
           {" "}
-          Welcome / Opening Hymn (SDAH 416)
+          Welcome / Opening Hymn (SDAH 109)
         </div>
         <div className="text-xs capitalize"> Sis. Adaoha Alala </div>
         <div className="col-span-3 text-sm capitalize"> Keeping on Course</div>
@@ -50,7 +50,7 @@ const SabbathSchool = () => {
         </div>
         <div className="text-xs capitalize"> Bro. Chimezie Mbagwu</div>
         <div className="col-span-3 text-sm capitalize">
-          Closing Hymn (SDAH 595)
+          Closing Hymn (SDAH 412)
         </div>
         <div className="text-xs">Sis. Maurine Gospel</div>
         <div className="col-span-3 text-sm capitalize">Closing Prayer</div>

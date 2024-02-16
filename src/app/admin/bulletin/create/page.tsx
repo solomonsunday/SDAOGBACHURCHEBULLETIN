@@ -9,21 +9,27 @@ import Input from "@/components/Admin/input";
 import { useCreateBulletins } from "@/hooks/useCreateBulletin";
 import { Spinner } from "@/components/Common/Spinner";
 import { IBulletin } from "@/common/interfaces";
-import Multiselect from "multiselect-react-dropdown";
 import { useGetAnnouncements } from "@/hooks/useGetAnnouncements";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
+import { CheckCircleIcon } from "@heroicons/react/20/solid";
+import CreatableSelect from "react-select/creatable";
+import makeAnimated from "react-select/animated";
+
+const animatedComponents = makeAnimated();
 
 export default function CreateBulletin() {
   const {
     register,
     handleSubmit,
     reset,
-    // formState: { errors, isValid },
+    formState: { errors, isValid },
   } = useForm<IBulletin>();
   const { CreateBulletins, loading } = useCreateBulletins();
   const { announcements, fetchAnnouncements } = useGetAnnouncements();
-  // const [selectedAnnouncements, setSelectedAnnouncements] = useState();
-  // console.log(selectedValues, "selectedAnnouncements");
+  const [selectedAnnouncements, setSelectedAnnouncements] = useState<string[]>(
+    []
+  );
+  console.log(selectedAnnouncements, "selectedAnnouncements");
   useEffect(() => {
     fetchAnnouncements();
   }, [fetchAnnouncements]);
@@ -391,7 +397,7 @@ export default function CreateBulletin() {
                     placeHolder="announcement description"
                     {...register("content", { required: true })}
                   /> */}
-                  <Multiselect
+                  {/* <Multiselect
                     isObject={false}
                     onKeyPressFn={function noRefCheck() {}}
                     onRemove={function noRefCheck() {}}
@@ -400,8 +406,58 @@ export default function CreateBulletin() {
                     options={announcements.map((item) => item.content)}
                     placeholder="Select Announcements"
                     selectedValues={[]}
-                    // {...register("content", { required: true })}
-                  />
+                  /> */}
+                  <div className="mb-12">
+                    <div className="flex items-center mt-1">
+                      <CreatableSelect
+                        isMulti={true}
+                        className="w-full mb-6"
+                        instanceId="announcement"
+                        placeholder="Select permissions"
+                        hideSelectedOptions={true}
+                        minMenuHeight={10}
+                        closeMenuOnSelect={false}
+                        components={animatedComponents}
+                        value={announcements.map((item) => {
+                          return {
+                            label: item.content,
+                            value: item.content,
+                          };
+                        })}
+                        theme={
+                          {
+                            borderRadius: 10,
+                            spacing: {
+                              baseUnit: 6.3,
+                              menuGutter: 4,
+                            },
+                          } as any
+                        }
+                        options={announcements.map((item) => {
+                          return {
+                            label: item.createdDate,
+                            value: item.content,
+                          };
+                        })}
+                        onChange={(announcements) => {
+                          const anounce = announcements.map(
+                            (item) => item.value
+                          );
+                          setSelectedAnnouncements(anounce);
+                          // setValue("permissions", announcements);
+                        }}
+                      />
+                      {isValid && (
+                        <CheckCircleIcon className="h-6 mt-1 text-green-500 -ml-9" />
+                      )}
+                    </div>
+
+                    {errors.content?.type === "required" && (
+                      <p className="mt-1 text-xs text-red-500">
+                        {errors.content?.message}
+                      </p>
+                    )}
+                  </div>
                 </div>
               </div>
             </div>
