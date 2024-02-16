@@ -35,7 +35,9 @@ const DivineService = () => {
             Hymn of Concecration (SDAH 595)
           </div>
           <div className="text-xs"> Mrs. F. Abioye</div>
-          <div className="col-span-3 text-sm">Sermon Title “Turn the Page”</div>
+          <div className="col-span-3 text-sm">
+            Sermon Title <span className="font-bold">“Turn the Page”</span>
+          </div>
           <div className="text-xs"> Elder Chilaka A.C.</div>
           <div className="col-span-3 text-sm">Closing Hymn (SDAH 655)</div>
           <div className="text-xs"> Bro. S. Hillary</div>
