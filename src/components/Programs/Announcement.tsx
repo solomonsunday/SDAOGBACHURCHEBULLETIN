@@ -20,8 +20,9 @@ const Announcement = () => {
             interceed for you.
           </li>
           <li className="border-b border-orange-200 pb-2">
-            Personal Ministry Council Meeting holds today immediately after the
-            worship.
+            The LMC EXCOs and directors retreat is currently ongoing; as such
+            the LMC officers & directors/Exco members as well as the Union
+            President are worshiping with us today.
           </li>
           <li className="border-b border-orange-200 pb-2">
             Sabbath evening Bible studies holds every Saturday by 4:30pm.
@@ -36,22 +37,25 @@ const Announcement = () => {
             individual basis Venue: SDA church Ogba Registration: 2,500
           </li>
           <li className="border-b border-orange-200 pb-2">
-            The Current Church generator does not power all the equipments in
-            the Church. We need a bigger Generator. To meet this need, we need
-            2.5 million naira urgently. Please send your donation to the Church
-            account . Seventh-day Adventist Church Ogba. 2020086453. First Bank.
+            The Church generator: The church leadership is thanking all members
+            for your contributions/pledges we have received so far. Based on
+            this, we have reached out to the vendor and awaiting him to provide
+            us one for inspection.
           </li>
 
           <li className="border-b border-orange-200 pb-2">
-            Daniel Seminar/Online Evangelism holds from 17th -26th February,
-            2024. Send in the WhatsApp phone number of your prospects as
-            directed.
+            Daniel Seminar/Online Evangelism is currently ongoing and will end
+            on 26 February, 2024. Members are encouraged to participate and
+            invite friends/prospects by sharing the link provided.
           </li>
 
           <li className="border-b border-orange-200 pb-2">
-            Family Life Week of Emphasis ends today, thanks to all the families
-            that attended, may God keep us all in unity and love as one family
-            in Christ Jesus.
+            WNUC Stewardship Advisory holds from 29/2/2024 – 03/3/2024. Venue is
+            Ondo Mission Headquarters Akure. Registration is ₦15,000. All
+            Pastors, Local District stewardship leaders, Local and District
+            Treasurers and their assistants, Welfare leaders and Conference
+            Treasurers are to attend. Registration covers feeding, materials &
+            accommodations.
           </li>
           <li className="border-b border-orange-200 pb-2">
             The burial of Late Eld. Celestine O. Ajuonu is slated to hols as
@@ -60,16 +64,16 @@ const Announcement = () => {
             Obingwa LGA of Abia State
           </li>
           <li className="border-b border-orange-200 pb-2">
-            Ogba Church Business Meeting comes up on 24/02/2024.
+            Ogba Church Business Meeting holds today immediately after service.
           </li>
           <li className="border-b border-orange-200 pb-2">
-            Exchange of Pulpit holds from March 2nd - 16th, 2024. Venue is
-            Oke-Ira. Let’s pray and plan for its success. All members living in
+            Pulpit Exchange Evangelism comes up on 2nd -16th March, 2024. Venue
+            is Ogba Church Premises. Time: 6:00p. -8:00p.m . Preacher is Pst.
+            Bambi Mathew. Let’s pray and plan for its success.
           </li>
           <li className="border-b border-orange-200 pb-2">
             Bereavement: Mrs Ajuonu Gift lost her son, Chidi to the cold hands
-            of death on Thursday this week. Please remember the family in your
-            prayers.
+            of death. Please remember the family in your prayers.
           </li>
           <li className="border-b border-orange-200 pb-2">
             Limited copies of the Book “The Great Controversy are now available
