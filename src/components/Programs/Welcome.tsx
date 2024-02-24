@@ -39,8 +39,8 @@ const Welcome = () => {
         </div>
         <div>
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 pl-8 ">
-            <p className="underline text-orange-400">TOPIC FOR THE WEEK</p>Your
-            Mercy Reaches Unto the Heaven
+            <p className="underline text-orange-400">TOPIC FOR THE WEEK</p>
+            Wisdom for Righteous Living
           </blockquote>
         </div>
         <div>
@@ -48,10 +48,9 @@ const Welcome = () => {
             <p className="underline text-orange-400">MEMORY TEXT</p>
 
             <span className="text-xs italic px-1">
-              “I will praise You, O Lord, among the peoples; I will sing to You
-              among the nations. For your mercy reaches unto the heavens and
-              Your truth unto the clouds”
-              <span className="font-bold"> ((Psalm 57:9-10 NKJV) </span>
+              “So teach us to number our days, that we may gain a heart of
+              wisdom”
+              <span className="font-bold">(Psalm 90:12 NKJV)</span>
             </span>
           </blockquote>
         </div>

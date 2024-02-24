@@ -9,19 +9,13 @@ const PastorDesk = () => {
         </div>
         <div className="space-y-3">
           <div className="underline text-lg font-semibold">
-            <p className="dark:text-white">
-              Ellen G. White, Adventist Home, p305.
-            </p>
+            <p className="dark:text-white">Isaiah 41:10</p>
           </div>
           <p className="text-orange-500">
-            “Every Christian home should have rules; and parents should, in
-            their words and in their deportment toward each other, give to the
-            children a precious living example of what they desire them to
-            be….Teach the children and youth to respect themselves, to be true
-            to God, true to principles; teach them to respect and obey the law
-            of God. Then these principles will control their lives and will be
-            carried out in their association with others…Ellen G. White,
-            Adventist Home, p305.
+            Fear not, for I am with you; be not dismayed, for I am your God; I
+            will strengthen you, I will help you, I will uphold you with my
+            righteous right hand. In times like these, we need to trust the Lord
+            to lead us. Happy Sabbath my Brethren
           </p>
         </div>
       </section>

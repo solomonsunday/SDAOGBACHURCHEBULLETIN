@@ -12,37 +12,39 @@ const DivineService = () => {
           <div className="col-span-3 text-sm "> Prelude</div>
           <div className="text-xs"> Organist</div>
 
-          <div className="col-span-3 text-sm">Call to Worship: (SDAH 879)</div>
-          <div className="text-xs"> Elder Chilaka A.C.</div>
+          <div className="col-span-3 text-sm">
+            Call to Worship: (2 Cor. 5:17)
+          </div>
+          <div className="text-xs"> Pst. Uchegbue U.O</div>
           <div className="col-span-3 text-sm"> Invocation</div>
-          <div className="text-xs"> Elder Chilaka A.C.</div>
+          <div className="text-xs"> Pst. Adeleye E.A.</div>
           <div className="col-span-3 text-sm">
             {" "}
-            Welcome / opening Hymn (SDAH 655)
+            Welcome / opening Hymn (SDAH 319)
           </div>
-          <div className="text-xs"> Bro. S. Hillary</div>
+          <div className="text-xs"> Pst. Kona Happy U.</div>
           <div className="col-span-3 text-sm"> Pastoral Prayer</div>
-          <div className="text-xs">Bro. C. Nwaesiaba</div>
+          <div className="text-xs">Pst. Oyinloye E.</div>
           <div className="col-span-3 text-sm"> Stewardship </div>
-          <div className="text-xs"> Bro. S. Sunday</div>
+          <div className="text-xs"> Elder. Adedokun A.B.</div>
           <div className="col-span-3 text-sm"> Musical Selection (Choir)</div>
-          <div className="text-xs"> Mrs. O. Happy Kona</div>
+          <div className="text-xs">Pst. Salami A. </div>
           <div className="col-span-3 text-sm">
-            Spiritual Reading (Jeremiah 27:4-7)
+            Spiritual Reading (Jeremiah 18:1-4)
           </div>
-          <div className="text-xs"> Mrs. T. Alonge</div>
+          <div className="text-xs"> Elder Edafe D.</div>
           <div className="col-span-3 text-sm">
-            Hymn of Concecration (SDAH 595)
+            Hymn of Concecration (SDAH 265)
           </div>
-          <div className="text-xs"> Mrs. F. Abioye</div>
+          <div className="text-xs"> Elder Edafe D.</div>
           <div className="col-span-3 text-sm">
-            Sermon Title <span className="font-bold">“Turn the Page”</span>
+            Sermon Title <span className="font-bold">“A New Vessel”</span>
           </div>
-          <div className="text-xs"> Elder Chilaka A.C.</div>
-          <div className="col-span-3 text-sm">Closing Hymn (SDAH 655)</div>
-          <div className="text-xs"> Bro. S. Hillary</div>
+          <div className="text-xs"> Pst. Adeleye E.A.</div>
+          <div className="col-span-3 text-sm">Closing Hymn (SDAH 109)</div>
+          <div className="text-xs"> Pst. Uchegbue U.O</div>
           <div className="col-span-3 text-sm">Benediction</div>
-          <div className="text-xs"> Elder Chilaka A.C.</div>
+          <div className="text-xs"> Pst. Adeleye E.A.</div>
           <div className="col-span-3 text-sm">Doxology</div>
           <div className="text-xs"> Congregation</div>
         </div>
