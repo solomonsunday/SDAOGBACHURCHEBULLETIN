@@ -29,15 +29,15 @@ export default function CreateBulletin() {
   const [selectedAnnouncements, setSelectedAnnouncements] = useState<string[]>(
     []
   );
-  console.log(selectedAnnouncements, "selectedAnnouncements");
   useEffect(() => {
     fetchAnnouncements();
   }, [fetchAnnouncements]);
 
   const submitData = (data: IBulletin) => {
     try {
-      // console.log(data, "created-data");
+      data.announcementDescription = selectedAnnouncements;
       CreateBulletins(data);
+      console.log(data, "created-data");
     } catch (error) {
       console.log(error);
     } finally {
@@ -65,34 +65,42 @@ export default function CreateBulletin() {
               <Spinner color="orange" />
             </div>
           ) : (
-            <div className=" mt-4 flex flex-wrap gap-5 justify-between">
+            <div className="mt-4 flex flex-wrap gap-5 justify-between">
               <div className="w-full flex flex-wrap gap-5 justify-between  md:flex-row flex-col h-fit rounded-lg gap-y-3 gap-x-3 pb-8 pt-6 px-3 bg-white font-poppins">
                 <div className="font-semibold text-2xl">
                   <h2>Welcome</h2>
                 </div>
-                <div className=" md:w-full w-full grid grid-cols-3 gap-4 gap-y-3">
-                  <div className=" h-[3.75rem]">
+                <div className="md:w-full w-full grid grid-cols-3 gap-4 gap-y-3">
+                  <div className="h-[3.75rem]">
                     <Input
                       type="text"
                       placeHolder="theme for this quarter"
                       {...register("themeForTheQuarter", {})}
                     />
                   </div>
-                  <div className=" h-[3.75rem]">
+                  <div className="h-[3.75rem]">
                     <Input
                       type="text"
                       placeHolder="topic for the week"
                       {...register("topicForTheWeek", {})}
                     />
                   </div>
-                  <div className=" h-[3.75rem]">
+                  <div className="h-[3.75rem]">
+                    <Input
+                      type="text"
+                      placeHolder="memory verse"
+                      {...register("lessonMemoryVerse", {})}
+                    />
+                  </div>
+                  <div className="h-[3.75rem]">
                     <Input
                       type="text"
                       placeHolder="memory test"
                       {...register("lessonMemoryTest", {})}
                     />
                   </div>
-                  <div className=" h-[3.75rem]">
+
+                  <div className="h-[3.75rem]">
                     <Input
                       type="text"
                       placeHolder="zoom link account"
@@ -104,7 +112,7 @@ export default function CreateBulletin() {
                 <div className="font-semibold text-2xl">
                   <h2>Sabbath School</h2>
                 </div>
-                <div className=" md:w-full w-full grid grid-cols-3 gap-4 gap-y-3">
+                <div className="md:w-full w-full grid grid-cols-3 gap-4 gap-y-3">
                   <div className=" h-[3.75rem]">
                     <Input
                       type="text"
@@ -147,14 +155,14 @@ export default function CreateBulletin() {
                       {...register("openingHymnBy", {})}
                     />
                   </div>{" "}
-                  <div className=" h-[3.75rem]">
+                  <div className="h-[3.75rem]">
                     <Input
                       type="text"
                       placeHolder="keeping On Course by"
                       {...register("keepingOnCourseBy", {})}
                     />
                   </div>{" "}
-                  <div className=" h-[3.75rem]">
+                  <div className="h-[3.75rem]">
                     <Input
                       type="text"
                       placeHolder="Mission Spotlight by"
@@ -392,21 +400,6 @@ export default function CreateBulletin() {
                   <h2>Announcements</h2>
                 </div>
                 <div className=" h-[3.75rem] w-full">
-                  {/* <Input
-                    type="text"
-                    placeHolder="announcement description"
-                    {...register("content", { required: true })}
-                  /> */}
-                  {/* <Multiselect
-                    isObject={false}
-                    onKeyPressFn={function noRefCheck() {}}
-                    onRemove={function noRefCheck() {}}
-                    onSearch={function noRefCheck() {}}
-                    onSelect={function noRefCheck() {}}
-                    options={announcements.map((item) => item.content)}
-                    placeholder="Select Announcements"
-                    selectedValues={[]}
-                  /> */}
                   <div className="mb-12">
                     <div className="flex items-center mt-1">
                       <CreatableSelect
@@ -418,12 +411,12 @@ export default function CreateBulletin() {
                         minMenuHeight={10}
                         closeMenuOnSelect={false}
                         components={animatedComponents}
-                        value={announcements.map((item) => {
-                          return {
-                            label: item.content,
-                            value: item.content,
-                          };
-                        })}
+                        // value={announcements.map((item) => {
+                        //   return {
+                        //     label: item.content,
+                        //     value: item.content,
+                        //   };
+                        // })}
                         theme={
                           {
                             borderRadius: 10,
@@ -435,16 +428,16 @@ export default function CreateBulletin() {
                         }
                         options={announcements.map((item) => {
                           return {
-                            label: item.createdDate,
+                            label: item.content,
                             value: item.content,
                           };
                         })}
                         onChange={(announcements) => {
                           const anounce = announcements.map(
-                            (item) => item.value
+                            (item: any) => item.value
                           );
                           setSelectedAnnouncements(anounce);
-                          // setValue("permissions", announcements);
+                          // setValue("content", anounce);
                         }}
                       />
                       {isValid && (

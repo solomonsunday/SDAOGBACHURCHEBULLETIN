@@ -44,6 +44,10 @@ export default function EditBulletin({ params }: { params: { slug: string } }) {
       shouldDirty: true,
       shouldValidate: true,
     });
+    setValue("lessonMemoryVerse", bulletin?.lessonMemoryVerse, {
+      shouldDirty: true,
+      shouldValidate: true,
+    });
     setValue("onLineZoomLink", bulletin?.onLineZoomLink, {
       shouldDirty: true,
       shouldValidate: true,
@@ -285,6 +289,13 @@ export default function EditBulletin({ params }: { params: { slug: string } }) {
                       type="text"
                       placeHolder="topic for the week"
                       {...register("topicForTheWeek", {})}
+                    />
+                  </div>
+                  <div className="h-[3.75rem]">
+                    <Input
+                      type="text"
+                      placeHolder="memory verse"
+                      {...register("lessonMemoryVerse", {})}
                     />
                   </div>
                   <div className=" h-[3.75rem]">

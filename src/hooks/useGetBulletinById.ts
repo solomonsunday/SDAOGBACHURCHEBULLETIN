@@ -1,9 +1,10 @@
+import { IBulletin } from "@/common/interfaces";
 import { httpGetBulletinById } from "@/services/requests";
 import { useCallback, useState } from "react";
 
 export const useGetBulletinById = () => {
-  const [bulletin, setBulletin] = useState<any>({});
-  const [isLoading, setIsLoading] = useState(true);
+  const [bulletin, setBulletin] = useState<IBulletin>();
+  const [isLoading, setIsLoading] = useState(false);
   //   const { setError } = useErrorContext();
 
   const fetchBulletinById = useCallback(async (id: string) => {

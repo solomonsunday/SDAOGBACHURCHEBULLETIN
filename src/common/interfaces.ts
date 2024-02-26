@@ -44,6 +44,7 @@ export interface IBulletin extends IBaseEntity, Pick<IAnnouncement, "content"> {
   themeForTheQuarter: string;
   topicForTheWeek: string;
   lessonMemoryTest: string;
+  lessonMemoryVerse: string;
   onLineZoomLink: string;
 
   // sabbath school
@@ -90,4 +91,7 @@ export interface IBulletin extends IBaseEntity, Pick<IAnnouncement, "content"> {
   //   pastor's desk
   pastorDeskBibleVerse: string;
   pastorDeskBibleVerseDescription: string;
+
+  // announcement
+  announcementDescription: string[];
 }
