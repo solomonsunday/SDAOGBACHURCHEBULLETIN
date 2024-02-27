@@ -1,3 +1,5 @@
+import { IBaseEntity } from "./base.interface";
+
 export interface ISignUpUser {
   userName: string;
   password: string;
@@ -6,17 +8,8 @@ export interface ISignUpUser {
   confirmPassword: string;
 }
 
-export interface IAnnouncement {
+export interface IAnnouncement extends IBaseEntity {
   content: string;
-}
-
-export interface IBaseEntity {
-  id: string;
-  entityName: string;
-  createdDate: string;
-  createdBy: string;
-  updatedDate: string;
-  updatedBy: string;
 }
 
 export interface ISignIn {
@@ -93,5 +86,26 @@ export interface IBulletin extends IBaseEntity, Pick<IAnnouncement, "content"> {
   pastorDeskBibleVerseDescription: string;
 
   // announcement
-  announcementDescription: string[];
+  announcements?: IAnnouncement[];
+  announcementIds: string[];
 }
+
+export enum BulletinStatusEnum {
+  DRAFT = "draft",
+  PAST = "past",
+  PUBLISHED = "published",
+}
+
+export interface CreateBulletinDTO
+  extends Omit<
+    IBulletin,
+    | "id"
+    | " createdAt"
+    | "updatedAt"
+    | "entityName"
+    | "createdDate"
+    | "createdBy"
+    | "updatedDate"
+    | "updatedBy"
+    | "announcements"
+  > {}

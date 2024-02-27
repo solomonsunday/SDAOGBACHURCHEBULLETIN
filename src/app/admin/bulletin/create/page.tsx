@@ -8,12 +8,12 @@ import { useForm } from "react-hook-form";
 import Input from "@/components/Admin/input";
 import { useCreateBulletins } from "@/hooks/useCreateBulletin";
 import { Spinner } from "@/components/Common/Spinner";
-import { IBulletin } from "@/common/interfaces";
+import { CreateBulletinDTO } from "@/common/interfaces";
 import { useGetAnnouncements } from "@/hooks/useGetAnnouncements";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { CheckCircleIcon } from "@heroicons/react/20/solid";
-import CreatableSelect from "react-select/creatable";
 import makeAnimated from "react-select/animated";
+import Select from "react-select";
 
 const animatedComponents = makeAnimated();
 
@@ -22,22 +22,23 @@ export default function CreateBulletin() {
     register,
     handleSubmit,
     reset,
+    setValue,
+    getValues,
     formState: { errors, isValid },
-  } = useForm<IBulletin>();
+  } = useForm<CreateBulletinDTO>();
   const { CreateBulletins, loading } = useCreateBulletins();
   const { announcements, fetchAnnouncements } = useGetAnnouncements();
-  const [selectedAnnouncements, setSelectedAnnouncements] = useState<string[]>(
-    []
-  );
+
+  console.log(announcements, "announcements");
   useEffect(() => {
     fetchAnnouncements();
   }, [fetchAnnouncements]);
 
-  const submitData = (data: IBulletin) => {
+  const submitData = () => {
     try {
-      data.announcementDescription = selectedAnnouncements;
+      let data = getValues();
+      // return console.log(data, " data to send");
       CreateBulletins(data);
-      console.log(data, "created-data");
     } catch (error) {
       console.log(error);
     } finally {
@@ -56,7 +57,7 @@ export default function CreateBulletin() {
               className=" w-28 disabled:bg-slate-500"
               disabled={loading}
             >
-              Save
+              Create
             </Button>
           </div>
           {loading ? (
@@ -374,6 +375,72 @@ export default function CreateBulletin() {
                     />
                   </div>
                 </div>
+                <div className="w-full">
+                  <div className="font-semibold text-2xl">
+                    <h2>Announcements</h2>
+                  </div>
+                  <div className=" h-[3.75rem] w-full">
+                    <div className="mb-12">
+                      <div className="flex items-center mt-1">
+                        <Select
+                          isMulti={true}
+                          className="w-full mb-6"
+                          instanceId="announcements"
+                          placeholder="Select permissions"
+                          hideSelectedOptions={true}
+                          minMenuHeight={10}
+                          closeMenuOnSelect={false}
+                          components={animatedComponents}
+                          // value={announcements.map((item) => {
+                          //   return {
+                          //     label: item.content,
+                          //     value: item.content,
+                          //   };
+                          // })}
+                          theme={
+                            {
+                              borderRadius: 10,
+                              spacing: {
+                                baseUnit: 6.3,
+                                menuGutter: 4,
+                              },
+                            } as any
+                          }
+                          options={announcements.map((item) => {
+                            return {
+                              label: item.content,
+                              value: item.id,
+                            };
+                          })}
+                          onChange={(selectedAnnouncements) => {
+                            const anounce = selectedAnnouncements.map(
+                              (item: any) => item.value as string
+                            );
+                            console.log(
+                              selectedAnnouncements,
+                              "selectedAnnouncementsrst"
+                            );
+                            // setSelectedAnnouncements(anounce);
+                            setValue("announcementIds", anounce, {
+                              shouldValidate: true,
+                              shouldDirty: true,
+                              shouldTouch: true,
+                            });
+                          }}
+                        />
+                        {isValid && (
+                          <CheckCircleIcon className="h-6 mt-1 text-green-500 -ml-9" />
+                        )}
+                      </div>
+
+                      {errors.content?.type === "required" && (
+                        <p className="mt-1 text-xs text-red-500">
+                          {errors.content?.message}
+                        </p>
+                      )}
+                    </div>
+                  </div>
+                </div>
 
                 <div className="font-semibold text-2xl">
                   <h2>Pastor's Desk</h2>
@@ -393,63 +460,6 @@ export default function CreateBulletin() {
                       placeHolder="Bible Verse Description"
                       {...register("pastorDeskBibleVerseDescription", {})}
                     />
-                  </div>
-                </div>
-
-                <div className="font-semibold text-2xl">
-                  <h2>Announcements</h2>
-                </div>
-                <div className=" h-[3.75rem] w-full">
-                  <div className="mb-12">
-                    <div className="flex items-center mt-1">
-                      <CreatableSelect
-                        isMulti={true}
-                        className="w-full mb-6"
-                        instanceId="announcement"
-                        placeholder="Select permissions"
-                        hideSelectedOptions={true}
-                        minMenuHeight={10}
-                        closeMenuOnSelect={false}
-                        components={animatedComponents}
-                        // value={announcements.map((item) => {
-                        //   return {
-                        //     label: item.content,
-                        //     value: item.content,
-                        //   };
-                        // })}
-                        theme={
-                          {
-                            borderRadius: 10,
-                            spacing: {
-                              baseUnit: 6.3,
-                              menuGutter: 4,
-                            },
-                          } as any
-                        }
-                        options={announcements.map((item) => {
-                          return {
-                            label: item.content,
-                            value: item.content,
-                          };
-                        })}
-                        onChange={(announcements) => {
-                          const anounce = announcements.map(
-                            (item: any) => item.value
-                          );
-                          setSelectedAnnouncements(anounce);
-                          // setValue("content", anounce);
-                        }}
-                      />
-                      {isValid && (
-                        <CheckCircleIcon className="h-6 mt-1 text-green-500 -ml-9" />
-                      )}
-                    </div>
-
-                    {errors.content?.type === "required" && (
-                      <p className="mt-1 text-xs text-red-500">
-                        {errors.content?.message}
-                      </p>
-                    )}
                   </div>
                 </div>
               </div>

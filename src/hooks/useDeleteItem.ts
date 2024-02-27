@@ -2,16 +2,12 @@ import { httpDeleteBulletinById } from "@/services/requests";
 import { useCallback, useState } from "react";
 
 export const useDeleteBulletinItem = () => {
-  const [bulletins, setBulletins] = useState<any>([]);
   const [isBusy, setIsBusy] = useState(false);
 
   const DeleteBulletinItem = useCallback(async (id: string) => {
     try {
       setIsBusy(true);
-      const result = await httpDeleteBulletinById(id);
-      if (result) {
-        setBulletins(result.data.data);
-      }
+      return await httpDeleteBulletinById(id);
     } catch (error) {
       //@ts-ignore
       //   setError(error.message);
@@ -20,5 +16,5 @@ export const useDeleteBulletinItem = () => {
     }
   }, []);
 
-  return { DeleteBulletinItem, bulletins, isBusy };
+  return { DeleteBulletinItem, isBusy };
 };

@@ -1,14 +1,14 @@
-import { IBulletin } from "@/common/interfaces";
+import { CreateBulletinDTO, IBulletin } from "@/common/interfaces";
 import { httpUpdateBulletinById } from "@/services/requests";
 import { useCallback, useState } from "react";
 
 export const useUpdateeBulletinById = () => {
-  const [bulletins, setBulletins] = useState<any>([]);
+  const [bulletins, setBulletins] = useState<IBulletin[]>([]);
   const [loading, setLoading] = useState(false);
   //   const { setError } = useErrorContext();
 
   const UpdateBulletinData = useCallback(
-    async (id: string, data: IBulletin) => {
+    async (id: string, data: CreateBulletinDTO) => {
       try {
         setLoading(true);
         const result = await httpUpdateBulletinById(id, data);
@@ -19,6 +19,7 @@ export const useUpdateeBulletinById = () => {
       } catch (error) {
         //@ts-ignore
         //   setError(error.message);
+        console.log(error);
       } finally {
         setLoading(false);
       }

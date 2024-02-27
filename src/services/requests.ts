@@ -1,7 +1,8 @@
 import axios from "axios";
 import {
+  BulletinStatusEnum,
+  CreateBulletinDTO,
   IAnnouncement,
-  IBulletin,
   ISignIn,
   ISignUpUser,
 } from "@/common/interfaces";
@@ -26,7 +27,7 @@ export async function httpRegister(authObject: ISignUpUser) {
 }
 // Bulletin Request
 
-export async function httpCreateBulletin(featureObj: IBulletin) {
+export async function httpCreateBulletin(featureObj: CreateBulletinDTO) {
   try {
     return axios.post(`${API_URL}/bulletin/create`, featureObj, {
       headers: {
@@ -39,7 +40,7 @@ export async function httpCreateBulletin(featureObj: IBulletin) {
 }
 export async function httpUpdateBulletinById(
   id: string,
-  authObject: IBulletin
+  authObject: CreateBulletinDTO
 ) {
   try {
     return await axios.patch(`${API_URL}/bulletin/${id}`, authObject);
@@ -126,7 +127,20 @@ export async function httpDeleteAnnouncementById(id: string) {
   }
 }
 
-// async function httpGetGithubUsers(setError: (error: ErrorResponse) => void) {
+export async function httpPublishBulletin(
+  id: string,
+  status: BulletinStatusEnum
+) {
+  try {
+    return await axios.patch(
+      `${API_URL}/bulletin/${id}/status?status=${status}`
+    );
+  } catch (error) {
+    console.log(error);
+  }
+}
+
+// async function httpPublishBulletin(setError: (error: ErrorResponse) => void) {
 //   try {
 //     const res = await fetch(`${API_URL}/users`, httpHeaders);
 //     await handleErrors(res);

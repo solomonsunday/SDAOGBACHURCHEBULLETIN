@@ -11,6 +11,13 @@ import { useEffect } from "react";
 import { useGetBulletinById } from "@/hooks/useGetBulletinById";
 import { useUpdateeBulletinById } from "@/hooks/useUpdateBulletinById";
 import { useRouter } from "next/navigation";
+import Select from "react-select";
+import { CheckCircleIcon } from "@heroicons/react/24/outline";
+import makeAnimated from "react-select/animated";
+import { useGetAnnouncements } from "@/hooks/useGetAnnouncements";
+import { CreateBulletinDTO } from "@/common/interfaces";
+
+const animatedComponents = makeAnimated();
 
 export default function EditBulletin({ params }: { params: { slug: string } }) {
   const router = useRouter();
@@ -19,10 +26,13 @@ export default function EditBulletin({ params }: { params: { slug: string } }) {
     register,
     handleSubmit,
     setValue,
-    // formState: { errors, isValid },
-  } = useForm();
+    getValues,
+    formState: { errors, isValid },
+  } = useForm<CreateBulletinDTO>();
   const { fetchBulletinById, bulletin, isLoading } = useGetBulletinById();
   const { UpdateBulletinData, loading } = useUpdateeBulletinById();
+  const { announcements } = useGetAnnouncements();
+
   const bulletinId = params.slug;
   console.log(bulletin, "bulletin");
 
@@ -239,10 +249,10 @@ export default function EditBulletin({ params }: { params: { slug: string } }) {
     );
   }, [bulletin]);
 
-  const submitData = (data: any) => {
+  const submitData = () => {
+    const data = getValues();
     try {
       UpdateBulletinData(bulletinId, data);
-      console.log(data, "data");
     } catch (error) {
       console.log(error);
     } finally {
@@ -577,6 +587,73 @@ export default function EditBulletin({ params }: { params: { slug: string } }) {
                       placeHolder="Doxology"
                       {...register("doxology", {})}
                     />
+                  </div>
+                </div>
+
+                <div className="w-full pb-2">
+                  <div className="font-semibold text-2xl">
+                    <h2>Announcements</h2>
+                  </div>
+                  <div className=" h-[3.75rem] w-full">
+                    <div className="mb-12">
+                      <div className="flex items-center mt-1">
+                        <Select
+                          isMulti={true}
+                          className="w-full mb-6"
+                          instanceId="announcements"
+                          placeholder="Select permissions"
+                          hideSelectedOptions={true}
+                          minMenuHeight={10}
+                          closeMenuOnSelect={false}
+                          components={animatedComponents}
+                          defaultValue={bulletin?.announcements!.map((item) => {
+                            return {
+                              label: item.content,
+                              value: item.id,
+                            };
+                          })}
+                          theme={
+                            {
+                              borderRadius: 10,
+                              spacing: {
+                                baseUnit: 6.3,
+                                menuGutter: 4,
+                              },
+                            } as any
+                          }
+                          options={announcements.map((item) => {
+                            return {
+                              label: item.content,
+                              value: item.id,
+                            };
+                          })}
+                          onChange={(selectedAnnouncements) => {
+                            const anounce = selectedAnnouncements.map(
+                              (item: any) => item.value as string
+                            );
+                            console.log(
+                              selectedAnnouncements,
+                              "selectedAnnouncementsrst"
+                            );
+                            // setSelectedAnnouncements(anounce);
+                            setValue("announcementIds", anounce, {
+                              shouldValidate: true,
+                              shouldDirty: true,
+                              shouldTouch: true,
+                            });
+                          }}
+                        />
+                        {isValid && (
+                          <CheckCircleIcon className="h-6 mt-1 text-green-500 -ml-9" />
+                        )}
+                      </div>
+
+                      {errors.content?.type === "required" && (
+                        <p className="mt-1 text-xs text-red-500">
+                          {errors.content?.message}
+                        </p>
+                      )}
+                    </div>
                   </div>
                 </div>
 

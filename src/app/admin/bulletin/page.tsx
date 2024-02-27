@@ -12,12 +12,14 @@ import { useRouter } from "next/navigation";
 import Swal from "sweetalert2";
 import { useDeleteBulletinItem } from "@/hooks/useDeleteItem";
 import Link from "next/link";
-import { IBulletin } from "@/common/interfaces";
+import { BulletinStatusEnum, IBulletin } from "@/common/interfaces";
+import { usePublishBulletin } from "@/hooks/usePublishBulletin";
 
 const BulletinListPage = () => {
   const router = useRouter();
 
   const { DeleteBulletinItem } = useDeleteBulletinItem();
+  const { PublishBulletin, message } = usePublishBulletin();
   const { bulletins, loading } = useGetbulletins();
   const [fillteredBulletins, setFilteedBulletins] = useState<IBulletin[]>([]);
 
@@ -28,8 +30,8 @@ const BulletinListPage = () => {
   const deleteItem = (id: string) => {
     const swalWithBootstrapButtons = Swal.mixin({
       customClass: {
-        confirmButton: "bg-green-700 p-3 rounded-lg text-white mx-2",
-        cancelButton: "p-3 bg-red-700 rounded-lg text-white ",
+        confirmButton: "p-3 bg-red-700  rounded-lg text-white mx-2",
+        cancelButton: "p-3 bg-green-700 rounded-lg text-white ",
       },
       buttonsStyling: false,
     });
@@ -43,9 +45,9 @@ const BulletinListPage = () => {
         cancelButtonText: "No, cancel!",
         reverseButtons: true,
       })
-      .then((result) => {
+      .then(async (result) => {
         if (result.isConfirmed) {
-          DeleteBulletinItem(id);
+          await DeleteBulletinItem(id);
           swalWithBootstrapButtons.fire({
             title: "Deleted!",
             text: "Your file has been deleted.",
@@ -104,13 +106,12 @@ const BulletinListPage = () => {
       })
       .then((result) => {
         if (result.isConfirmed) {
-          // DeleteBulletinItem(id);
+          PublishBulletin(id, BulletinStatusEnum.PUBLISHED);
           swalWithBootstrapButtons.fire({
-            title: "Deleted!",
-            text: "Your file has been published Successfully.",
+            title: "Published!",
+            text: message.toString(),
             icon: "success",
           });
-          // fetchBulletins(); //TODO: Optimize the responsd afte deleting files
         } else if (
           /* Read more about handling dismissals below */
           result.dismiss === Swal.DismissReason.cancel
