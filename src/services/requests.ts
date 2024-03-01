@@ -8,6 +8,14 @@ import {
 } from "@/common/interfaces";
 import { getAuthFromLocal } from "./store";
 
+export interface QueryParamDto {
+  limit?: number;
+  start_date?: Date;
+  end_date?: Date;
+  search?: string;
+  next_page_token?: string | null;
+}
+
 const API_URL = process.env.NEXT_PUBLIC_API_URL;
 
 // Auth Request
@@ -49,13 +57,15 @@ export async function httpUpdateBulletinById(
   }
 }
 
-export async function httpGetBulettins() {
+export async function httpGetBulettins(query?: QueryParamDto) {
   try {
-    return axios.get(`${API_URL}/bulletin`, {
+    const response = await axios.get(`${API_URL}/bulletin`, {
       headers: {
         Authorization: "Bearer " + getAuthFromLocal(),
       },
+      params: { ...query },
     });
+    return response.data.data;
   } catch (error) {
     console.log(error);
   }

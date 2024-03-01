@@ -14,10 +14,11 @@ import { useEffect } from "react";
 import { CheckCircleIcon } from "@heroicons/react/20/solid";
 import makeAnimated from "react-select/animated";
 import Select from "react-select";
+import withAuth from "@/common/HOC/withAuth";
 
 const animatedComponents = makeAnimated();
 
-export default function CreateBulletin() {
+const CreateBulletin = () => {
   const {
     register,
     handleSubmit,
@@ -469,4 +470,6 @@ export default function CreateBulletin() {
       </Container>
     </AdminLayout>
   );
-}
+};
+
+export default withAuth(CreateBulletin);

@@ -31,7 +31,7 @@ export interface IKeywords {
 }
 
 export interface IBulletin extends IBaseEntity, Pick<IAnnouncement, "content"> {
-  status: "published" | "";
+  status: BulletinStatusEnum;
 
   // welcome
   themeForTheQuarter: string;
@@ -95,6 +95,7 @@ export enum BulletinStatusEnum {
   PAST = "past",
   PUBLISHED = "published",
 }
+export type BulletinStatusType = `${BulletinStatusEnum}`;
 
 export interface CreateBulletinDTO
   extends Omit<

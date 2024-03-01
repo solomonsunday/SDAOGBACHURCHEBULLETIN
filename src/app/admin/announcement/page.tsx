@@ -13,11 +13,12 @@ import Link from "next/link";
 import { useGetAnnouncements } from "@/hooks/useGetAnnouncements";
 import { useDeleteAnnouncementItem } from "@/hooks/useDeleteAnnouncementById";
 import { IAnnouncement } from "@/common/interfaces";
+import withAuth from "@/common/HOC/withAuth";
 
 const AnnouncementListPage = () => {
   const router = useRouter();
 
-  const { deleteAnnouncementItem } = useDeleteAnnouncementItem();
+  const { deleteAnnouncementItem, isBusy } = useDeleteAnnouncementItem();
   const { announcements, loading } = useGetAnnouncements();
   const [fillteredAnnouncements, setFilteredAnnouncement] = useState<
     IAnnouncement[]
@@ -62,11 +63,13 @@ const AnnouncementListPage = () => {
       .then((result) => {
         if (result.isConfirmed) {
           deleteAnnouncementItem(id);
-          swalWithBootstrapButtons.fire({
-            title: "Deleted!",
-            text: "Your file has been deleted.",
-            icon: "success",
-          });
+          if (!isBusy) {
+            swalWithBootstrapButtons.fire({
+              title: "Deleted!",
+              text: "Your file has been deleted.",
+              icon: "success",
+            });
+          } else "Loading";
           // fetchBulletins(); //TODO: Optimize the responsd afte deleting files
         } else if (
           /* Read more about handling dismissals below */
@@ -215,21 +218,6 @@ const AnnouncementListPage = () => {
                                     )}
                                   </Menu.Item>
                                 </div>
-                                <div className="px-1 py-1 ">
-                                  <Menu.Item>
-                                    {({ active }) => (
-                                      <button
-                                        className={`${
-                                          active
-                                            ? "bg-gray-200 text-black"
-                                            : "text-green-600"
-                                        } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
-                                      >
-                                        Include
-                                      </button>
-                                    )}
-                                  </Menu.Item>
-                                </div>
                               </Menu.Items>
                             </Transition>
                           </Menu>
@@ -259,4 +247,4 @@ const AnnouncementListPage = () => {
   );
 };
 
-export default AnnouncementListPage;
+export default withAuth(AnnouncementListPage);

@@ -16,10 +16,11 @@ import { CheckCircleIcon } from "@heroicons/react/24/outline";
 import makeAnimated from "react-select/animated";
 import { useGetAnnouncements } from "@/hooks/useGetAnnouncements";
 import { CreateBulletinDTO } from "@/common/interfaces";
+import withAuth from "@/common/HOC/withAuth";
 
 const animatedComponents = makeAnimated();
 
-export default function EditBulletin({ params }: { params: { slug: string } }) {
+const EditBulletin = ({ params }: { params: { slug: string } }) => {
   const router = useRouter();
 
   const {
@@ -276,17 +277,17 @@ export default function EditBulletin({ params }: { params: { slug: string } }) {
             </Button>
           </div>
           {isLoading ? (
-            <div className="flex justify-center items-center h-96">
+            <div className="flex items-center justify-center h-96">
               {" "}
               <Spinner color="orange" />
             </div>
           ) : (
-            <div className=" mt-4 flex flex-wrap gap-5 justify-between">
-              <div className="w-full flex flex-wrap gap-5 justify-between  md:flex-row flex-col h-fit rounded-lg gap-y-3 gap-x-3 pb-8 pt-6 px-3 bg-white font-poppins">
-                <div className="font-semibold text-2xl">
+            <div className="flex flex-wrap justify-between gap-5 mt-4 ">
+              <div className="flex flex-col flex-wrap justify-between w-full gap-5 px-3 pt-6 pb-8 bg-white rounded-lg md:flex-row h-fit gap-y-3 gap-x-3 font-poppins">
+                <div className="text-2xl font-semibold">
                   <h2>Welcome</h2>
                 </div>
-                <div className=" md:w-full w-full grid grid-cols-3 gap-4 gap-y-3">
+                <div className="grid w-full grid-cols-3 gap-4  md:w-full gap-y-3">
                   <div className=" h-[3.75rem]">
                     <Input
                       type="text"
@@ -324,10 +325,10 @@ export default function EditBulletin({ params }: { params: { slug: string } }) {
                   </div>
                 </div>
 
-                <div className="font-semibold text-2xl">
+                <div className="text-2xl font-semibold">
                   <h2>Sabbath School</h2>
                 </div>
-                <div className=" md:w-full w-full grid grid-cols-3 gap-4 gap-y-3">
+                <div className="grid w-full grid-cols-3 gap-4  md:w-full gap-y-3">
                   <div className=" h-[3.75rem]">
                     <Input
                       type="text"
@@ -450,11 +451,11 @@ export default function EditBulletin({ params }: { params: { slug: string } }) {
                 </div>
                 {/* <div className="border-b border-slate-500"></div> */}
 
-                <div className="font-semibold text-2xl">
+                <div className="text-2xl font-semibold">
                   <h2>Divine Service</h2>
                 </div>
 
-                <div className=" md:w-full w-full grid grid-cols-3 gap-4 gap-y-3">
+                <div className="grid w-full grid-cols-3 gap-4  md:w-full gap-y-3">
                   <div className=" h-[3.75rem]">
                     <Input
                       type="text"
@@ -591,7 +592,7 @@ export default function EditBulletin({ params }: { params: { slug: string } }) {
                 </div>
 
                 <div className="w-full pb-2">
-                  <div className="font-semibold text-2xl">
+                  <div className="text-2xl font-semibold">
                     <h2>Announcements</h2>
                   </div>
                   <div className=" h-[3.75rem] w-full">
@@ -601,17 +602,21 @@ export default function EditBulletin({ params }: { params: { slug: string } }) {
                           isMulti={true}
                           className="w-full mb-6"
                           instanceId="announcements"
-                          placeholder="Select permissions"
+                          placeholder="Select announcement"
                           hideSelectedOptions={true}
                           minMenuHeight={10}
                           closeMenuOnSelect={false}
                           components={animatedComponents}
-                          defaultValue={bulletin?.announcements!.map((item) => {
-                            return {
-                              label: item.content,
-                              value: item.id,
-                            };
-                          })}
+                          defaultValue={
+                            bulletin?.announcements &&
+                            bulletin.announcements.length > 0 &&
+                            bulletin?.announcements.map((item) => {
+                              return {
+                                label: item.content,
+                                value: item.id,
+                              };
+                            })
+                          }
                           theme={
                             {
                               borderRadius: 10,
@@ -657,11 +662,11 @@ export default function EditBulletin({ params }: { params: { slug: string } }) {
                   </div>
                 </div>
 
-                <div className="font-semibold text-2xl">
+                <div className="text-2xl font-semibold">
                   <h2>Pastor's Desk</h2>
                 </div>
 
-                <div className=" md:w-full w-full grid grid-cols-2 gap-4 gap-y-3">
+                <div className="grid w-full grid-cols-2 gap-4  md:w-full gap-y-3">
                   <div className=" h-[3.75rem]">
                     <Input
                       type="text"
@@ -684,4 +689,5 @@ export default function EditBulletin({ params }: { params: { slug: string } }) {
       </Container>
     </AdminLayout>
   );
-}
+};
+export default withAuth(EditBulletin);

@@ -13,38 +13,39 @@ const DivineService = () => {
           <div className="text-xs"> Organist</div>
 
           <div className="col-span-3 text-sm">
-            Call to Worship: (2 Cor. 5:17)
+            Call to Worship: (Psalms 99:5)
           </div>
-          <div className="text-xs"> Pst. Uchegbue U.O</div>
+          <div className="text-xs">Elder P. Nwaejigh</div>
           <div className="col-span-3 text-sm"> Invocation</div>
-          <div className="text-xs"> Pst. Adeleye E.A.</div>
+          <div className="text-xs"> Elder P. Nwaejigh </div>
           <div className="col-span-3 text-sm">
             {" "}
-            Welcome / opening Hymn (SDAH 319)
+            Welcome / opening Hymn (SDAH 483)
           </div>
-          <div className="text-xs"> Pst. Kona Happy U.</div>
+          <div className="text-xs"> Mrs. A. Ogbenyia</div>
           <div className="col-span-3 text-sm"> Pastoral Prayer</div>
-          <div className="text-xs">Pst. Oyinloye E.</div>
+          <div className="text-xs">Mrs. M. Alabi</div>
           <div className="col-span-3 text-sm"> Stewardship </div>
-          <div className="text-xs"> Elder. Adedokun A.B.</div>
+          <div className="text-xs"> Mrs. C. Kingsley</div>
           <div className="col-span-3 text-sm"> Musical Selection (Choir)</div>
-          <div className="text-xs">Pst. Salami A. </div>
+          <div className="text-xs">Esther Okorie </div>
           <div className="col-span-3 text-sm">
-            Spiritual Reading (Jeremiah 18:1-4)
+            Spiritual Reading (2 Peter 1:3,4)
           </div>
-          <div className="text-xs"> Elder Edafe D.</div>
+          <div className="text-xs"> Esther Okorie </div>
           <div className="col-span-3 text-sm">
-            Hymn of Concecration (SDAH 265)
+            Hymn of Concecration (SDAH 500)
           </div>
-          <div className="text-xs"> Elder Edafe D.</div>
+          <div className="text-xs"> Mrs. A. Ogbenyia</div>
           <div className="col-span-3 text-sm">
-            Sermon Title <span className="font-bold">“A New Vessel”</span>
+            Sermon Title{" "}
+            <span className="font-bold">“Ignite Your Prayer Life ”</span>
           </div>
-          <div className="text-xs"> Pst. Adeleye E.A.</div>
-          <div className="col-span-3 text-sm">Closing Hymn (SDAH 109)</div>
-          <div className="text-xs"> Pst. Uchegbue U.O</div>
+          <div className="text-xs"> Elder P. Nwaejigh</div>
+          <div className="col-span-3 text-sm">Closing Hymn (SDAH 485) </div>
+          <div className="text-xs"> Mrs. N. Chidi</div>
           <div className="col-span-3 text-sm">Benediction</div>
-          <div className="text-xs"> Pst. Adeleye E.A.</div>
+          <div className="text-xs">Elder P. Nwaejigh.</div>
           <div className="col-span-3 text-sm">Doxology</div>
           <div className="text-xs"> Congregation</div>
         </div>

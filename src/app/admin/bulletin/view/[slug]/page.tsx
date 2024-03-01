@@ -9,31 +9,31 @@ import { useGetBulletinById } from "@/hooks/useGetBulletinById";
 import Button from "@/components/Admin/button";
 import { usePublishBulletin } from "@/hooks/usePublishBulletin";
 import { BulletinStatusEnum } from "@/common/interfaces";
+import withAuth from "@/common/HOC/withAuth";
 
-export default function EditBulletin({ params }: { params: { slug: string } }) {
+const ListBulletin = ({ params }: { params: { slug: string } }) => {
   const { fetchBulletinById, bulletin, isLoading } = useGetBulletinById();
-  const { PublishBulletin, loading } = usePublishBulletin();
+  const { PublishBulletin, loading, message } = usePublishBulletin();
   const bulletinId = params.slug;
   console.log(bulletin, "bulletin");
 
   useEffect(() => {
     fetchBulletinById(bulletinId);
-  }, [bulletinId]);
+  }, [bulletinId, message]);
 
   const handlePublish = () => {
     if (bulletin?.status === BulletinStatusEnum.PUBLISHED) {
       PublishBulletin(bulletinId, BulletinStatusEnum.PAST);
-      window.location.reload;
     } else {
       PublishBulletin(bulletinId, BulletinStatusEnum.PUBLISHED);
-      window.location.reload;
     }
+    fetchBulletinById(bulletinId);
   };
 
   return (
     <AdminLayout>
       <Container className="md:px-[3.125rem] px-[2.5rem] pt-6 pb-7 ">
-        <div className="flex justify-between items-center">
+        <div className="flex items-center justify-between">
           <div className="flex flex-wrap gap-5 justify-between ml-[.125rem] mr-[.625rem]">
             <BackButton text="Bulletin List Page" />
           </div>
@@ -53,12 +53,12 @@ export default function EditBulletin({ params }: { params: { slug: string } }) {
           </div>
         </div>
         {isLoading ? (
-          <div className="flex justify-center items-center h-96">
+          <div className="flex items-center justify-center h-96">
             {" "}
             <Spinner color="orange" />
           </div>
         ) : (
-          <div className="w-full md:flex-row flex-col h-fit rounded-lg gap-y-3 gap-x-3 pb-8 pt-6 px-5 bg-white font-poppins">
+          <div className="flex-col w-full px-5 pt-6 pb-8 bg-white rounded-lg md:flex-row h-fit gap-y-3 gap-x-3 font-poppins">
             <section className="pt-5 md:pt-0" id="sabbathschool">
               <div className="font-serif text-3xl pb-2 mb-5 dark:text-orange-400 text-[#304D30] text-center italic ">
                 Welcome to{" "}
@@ -70,7 +70,7 @@ export default function EditBulletin({ params }: { params: { slug: string } }) {
               <div className="space-y-2">
                 <div>
                   <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 pl-8 ">
-                    <p className="underline text-orange-400">
+                    <p className="text-orange-400 underline">
                       THEME FOR THIS QUARTER
                     </p>
                     {bulletin?.themeForTheQuarter
@@ -80,7 +80,7 @@ export default function EditBulletin({ params }: { params: { slug: string } }) {
                 </div>
                 <div>
                   <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 pl-8 ">
-                    <p className="underline text-orange-400">
+                    <p className="text-orange-400 underline">
                       TOPIC FOR THE WEEK
                     </p>
                     {bulletin?.topicForTheWeek ? bulletin.topicForTheWeek : "-"}
@@ -88,9 +88,9 @@ export default function EditBulletin({ params }: { params: { slug: string } }) {
                 </div>
                 <div>
                   <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 pl-8 ">
-                    <p className="underline text-orange-400">MEMORY TEXT</p>
+                    <p className="text-orange-400 underline">MEMORY TEXT</p>
 
-                    <span className=" italic px-1">
+                    <span className="px-1 italic ">
                       {bulletin?.lessonMemoryTest
                         ? bulletin.lessonMemoryTest
                         : "-"}
@@ -110,13 +110,13 @@ export default function EditBulletin({ params }: { params: { slug: string } }) {
                     <a
                       href={bulletin?.onLineZoomLink}
                       target="_blank"
-                      className="cursor-pointer text-blue-700"
+                      className="text-blue-700 cursor-pointer"
                     >
                       <div className="">
                         <p className="underline">Join us Online via Zoom</p>
 
                         <p>Click here to join us online </p>
-                        <span className=" text-orange-500">
+                        <span className="text-orange-500 ">
                           Every Sabbath Morning
                         </span>
                       </div>
@@ -127,19 +127,19 @@ export default function EditBulletin({ params }: { params: { slug: string } }) {
             </section>
 
             <div>
-              <section className="pt-10  dark:text-white " id="sabbathschool">
+              <section className="pt-10 dark:text-white " id="sabbathschool">
                 <div className="font-serif dark:text-orange-400 text-3xl pb-2 mb-5 text-[#304D30] text-center border-b border-[#304D30]">
                   Sabbath School{" "}
                   <span className="text-base">(8:45 - 10:45 AM)</span>
                 </div>
                 <div className="grid grid-cols-4 gap-2">
-                  <div className="col-span-3  capitalize">
+                  <div className="col-span-3 capitalize">
                     {" "}
                     Singspiration (8:45 AM)
                   </div>
                   <div className="capitalize"> Song Leader</div>
 
-                  <div className="col-span-3  capitalize">
+                  <div className="col-span-3 capitalize">
                     Opening Remark (Welcome & Prayer)
                   </div>
                   <div className="">
@@ -149,81 +149,81 @@ export default function EditBulletin({ params }: { params: { slug: string } }) {
                       : "-"}
                   </div>
 
-                  <div className="col-span-3  capitalize">
+                  <div className="col-span-3 capitalize">
                     Welcome / Supt's Opening Remark
                   </div>
                   <div className=""> - </div>
 
-                  <div className="col-span-3  capitalize">
+                  <div className="col-span-3 capitalize">
                     {" "}
                     Welcome / Opening Hymn (
                     {bulletin?.openingHymn ? bulletin.openingHymn : "-"})
                   </div>
-                  <div className=" capitalize">
+                  <div className="capitalize ">
                     {" "}
                     {bulletin?.openingHymnBy ? bulletin.openingHymnBy : "-"}
                   </div>
-                  <div className="col-span-3  capitalize">
+                  <div className="col-span-3 capitalize">
                     {" "}
                     Mission Spotlight{" "}
                   </div>
-                  <div className=" capitalize">
+                  <div className="capitalize ">
                     {" "}
                     {bulletin?.missionSpotlightBy
                       ? bulletin.missionSpotlightBy
                       : "-"}
                   </div>
-                  <div className="col-span-3  capitalize">
+                  <div className="col-span-3 capitalize">
                     {" "}
                     Keeping on Course
                   </div>
-                  <div className=" capitalize">
+                  <div className="capitalize ">
                     {" "}
                     {bulletin?.keepingOnCourseBy
                       ? bulletin.keepingOnCourseBy
                       : "-"}
                   </div>
-                  <div className="col-span-3  capitalize">
+                  <div className="col-span-3 capitalize">
                     {" "}
                     Study Time, Lession Introduction
                   </div>
-                  <div className=" capitalize">
+                  <div className="capitalize ">
                     {" "}
                     {bulletin?.lessonIntroductionBy
                       ? bulletin.lessonIntroductionBy
                       : "-"}
                   </div>
-                  <div className="col-span-3  capitalize">
+                  <div className="col-span-3 capitalize">
                     Unit Activities / Lesson Study (40 Mins)
                   </div>
-                  <div className=" capitalize"> - </div>
-                  <div className="col-span-3  capitalize">Lesson Summary</div>
-                  <div className=" capitalize">
+                  <div className="capitalize "> - </div>
+                  <div className="col-span-3 capitalize">Lesson Summary</div>
+                  <div className="capitalize ">
                     {" "}
                     {bulletin?.lessonSummaryBy
                       ? bulletin.lessonSummaryBy
                       : "-"}{" "}
                   </div>
-                  <div className="col-span-3  capitalize">Friend's time</div>
-                  <div className=" capitalize">
+                  <div className="col-span-3 capitalize">Friend's time</div>
+                  <div className="capitalize ">
                     {" "}
                     {bulletin?.friendTimeBy ? bulletin.friendTimeBy : "-"}
                   </div>
-                  <div className="col-span-3  capitalize">Special Feature</div>
-                  <div className=" capitalize">
+                  <div className="col-span-3 capitalize">Special Feature</div>
+                  <div className="capitalize ">
                     {" "}
                     {bulletin?.specialFeature ? bulletin.specialFeature : "-"}
                   </div>
-                  <div className="col-span-3  capitalize">
+                  <div className="col-span-3 capitalize">
                     Announcement / Closing Remark
                   </div>
-                  <div className=" capitalize">
+                  <div className="capitalize ">
                     {" "}
                     {bulletin?.annnouncementClosingRemarkBy
                       ? bulletin.annnouncementClosingRemarkBy
                       : "-"}
                   </div>
-                  <div className="col-span-3  capitalize">
+                  <div className="col-span-3 capitalize">
                     Closing Hymn (
                     {bulletin?.SSClosingHymnNo ? bulletin.SSClosingHymnNo : "-"}
                     )
@@ -231,7 +231,7 @@ export default function EditBulletin({ params }: { params: { slug: string } }) {
                   <div className="">
                     {bulletin?.SSClosingHymnBy ? bulletin.SSClosingHymnBy : "-"}
                   </div>
-                  <div className="col-span-3  capitalize">Closing Prayer</div>
+                  <div className="col-span-3 capitalize">Closing Prayer</div>
                   <div className="">
                     {" "}
                     {bulletin?.SSclosingPrayerBy
@@ -248,7 +248,7 @@ export default function EditBulletin({ params }: { params: { slug: string } }) {
                   <span className="text-base">(11:00 AM - 12:30 PM)</span>
                 </div>
                 <div className="grid grid-cols-4 gap-2">
-                  <div className="col-span-3  "> Prelude</div>
+                  <div className="col-span-3 "> Prelude</div>
                   <div className=""> Organist</div>
 
                   <div className="col-span-3 ">
@@ -347,20 +347,20 @@ export default function EditBulletin({ params }: { params: { slug: string } }) {
               </section>
             </div>
             <div>
-              <section className="pt-10  px-5" id="announcement">
+              <section className="px-5 pt-10" id="announcement">
                 <div className="dark:text-orange-400 font-serif text-3xl pb-2 mb-5 text-[#304D30] text-center border-b border-[#304D30]">
                   Combined Announcement
                 </div>
                 <div className="space-y-4 dark:text-white">
-                  <ol className="list-decimal space-y-4">
+                  <ol className="space-y-4 list-decimal">
                     {bulletin?.announcements! ? (
                       bulletin?.announcements?.map((item) => (
-                        <li className="border-b border-orange-200 pb-2">
+                        <li className="pb-2 border-b border-orange-200">
                           {item.content}
                         </li>
                       ))
                     ) : (
-                      <div className="flex justify-center items-center italic">
+                      <div className="flex items-center justify-center italic">
                         {" "}
                         No announcement created for this week
                       </div>
@@ -376,7 +376,7 @@ export default function EditBulletin({ params }: { params: { slug: string } }) {
                   Pastor's Desk
                 </div>
                 <div className="space-y-3">
-                  <div className="underline text-lg font-semibold">
+                  <div className="text-lg font-semibold underline">
                     <p className="dark:text-white">
                       {bulletin?.pastorDeskBibleVerse
                         ? bulletin?.pastorDeskBibleVerse
@@ -396,4 +396,5 @@ export default function EditBulletin({ params }: { params: { slug: string } }) {
       </Container>
     </AdminLayout>
   );
-}
+};
+export default withAuth(ListBulletin);

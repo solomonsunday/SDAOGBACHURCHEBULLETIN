@@ -33,24 +33,25 @@ const Welcome = () => {
       <div className="space-y-2">
         <div>
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 pl-8 ">
-            <p className="underline text-orange-400">THEME FOR THIS QUARTER</p>
+            <p className="text-orange-400 underline">THEME FOR THIS QUARTER</p>
             Psalms
           </blockquote>
         </div>
         <div>
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 pl-8 ">
-            <p className="underline text-orange-400">TOPIC FOR THE WEEK</p>
-            Wisdom for Righteous Living
+            <p className="text-orange-400 underline">TOPIC FOR THE WEEK</p>
+            Blessed is He who comes in the Name of the Lord
           </blockquote>
         </div>
         <div>
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 pl-8 ">
-            <p className="underline text-orange-400">MEMORY TEXT</p>
+            <p className="text-orange-400 underline">MEMORY TEXT</p>
 
-            <span className="text-xs italic px-1">
-              “So teach us to number our days, that we may gain a heart of
-              wisdom”
-              <span className="font-bold">(Psalm 90:12 NKJV)</span>
+            <span className="px-1 text-xs italic">
+              The stone which the builder rejected has become the chief
+              cornerstone. This was the Lord’s doing; it is marvelous in our
+              eyes”
+              <span className="font-bold">(Psalm 118:22-23 NKJV)</span>
             </span>
           </blockquote>
         </div>
@@ -60,7 +61,7 @@ const Welcome = () => {
             <a
               href="https://us02web.zoom.us/j/82591974493?pwd=Yk8vUEwrR1ZtZ1hvWEcvdFdjLzVWZz09"
               target="_blank"
-              className="cursor-pointer text-blue-700"
+              className="text-blue-700 cursor-pointer"
             >
               <div className="">
                 <p className="underline">Join us Online via Zoom</p>

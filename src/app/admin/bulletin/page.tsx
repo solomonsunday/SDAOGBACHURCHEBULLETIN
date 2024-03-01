@@ -14,18 +14,23 @@ import { useDeleteBulletinItem } from "@/hooks/useDeleteItem";
 import Link from "next/link";
 import { BulletinStatusEnum, IBulletin } from "@/common/interfaces";
 import { usePublishBulletin } from "@/hooks/usePublishBulletin";
+import withAuth from "@/common/HOC/withAuth";
 
 const BulletinListPage = () => {
   const router = useRouter();
 
   const { DeleteBulletinItem } = useDeleteBulletinItem();
   const { PublishBulletin, message } = usePublishBulletin();
-  const { bulletins, loading } = useGetbulletins();
+  const { fetchBulletins, bulletins, loading } = useGetbulletins();
   const [fillteredBulletins, setFilteedBulletins] = useState<IBulletin[]>([]);
 
   useEffect(() => {
     setFilteedBulletins(bulletins);
   }, [bulletins]);
+
+  useEffect(() => {
+    fetchBulletins({ limit: 2 });
+  }, []);
 
   const deleteItem = (id: string) => {
     const swalWithBootstrapButtons = Swal.mixin({
@@ -128,11 +133,11 @@ const BulletinListPage = () => {
   return (
     <AdminLayout>
       <Container className="md:pl-[3.75rem] md:pr-[4.625rem] pl-[2.5rem] pt-10 pb-7">
-        <div className=" flex flex-col lg:flex-row gap-y-5 justify-between mb-5">
+        <div className="flex flex-col justify-between mb-5 lg:flex-row gap-y-5">
           <Search onSearch={handleSearch} />
           <Button
             type="button"
-            className="py-2 px-8  hover:bg-orange-600"
+            className="px-8 py-2 hover:bg-orange-600"
             onClick={() => router.push("/admin/bulletin/create")}
           >
             Create
@@ -156,7 +161,10 @@ const BulletinListPage = () => {
                   Topic For The Week
                 </th>
                 <th className="p-3 text-sm font-bold tracking-wide text-left">
-                  preacher
+                  Preacher
+                </th>{" "}
+                <th className="p-3 text-sm font-bold tracking-wide text-left">
+                  Status
                 </th>
                 <th className="p-3 text-sm font-bold tracking-wide text-left">
                   Action
@@ -183,6 +191,23 @@ const BulletinListPage = () => {
                       </td>
                       <td className="p-2 text-sm text-gray-700 whitespace-nowrap">
                         {data.preacher}{" "}
+                      </td>
+                      <td className="text-sm whitespace-nowrap">
+                        {data.status === BulletinStatusEnum.PAST && (
+                          <p className="p-1 text-xs text-center text-white capitalize bg-red-700 rounded-lg ">
+                            Past
+                          </p>
+                        )}
+                        {data.status === BulletinStatusEnum.DRAFT && (
+                          <p className="p-1 text-xs text-center text-white capitalize bg-yellow-500 rounded-lg">
+                            Draft
+                          </p>
+                        )}
+                        {data.status === BulletinStatusEnum.PUBLISHED && (
+                          <p className="p-1 text-xs text-center text-white capitalize bg-green-700 rounded-lg">
+                            Published
+                          </p>
+                        )}
                       </td>
                       <td className="p-2 text-sm text-gray-700">
                         {" "}
@@ -304,13 +329,13 @@ const BulletinListPage = () => {
           </table>
 
           {loading ? (
-            <div className="flex justify-center items-center h-96">
+            <div className="flex items-center justify-center h-96">
               {" "}
               <Spinner color="orange" />
             </div>
           ) : (
             fillteredBulletins.length === 0 && (
-              <div className="flex justify-center items-center h-96 font-bold">
+              <div className="flex items-center justify-center font-bold h-96">
                 No Data created yet
               </div>
             )
@@ -321,4 +346,4 @@ const BulletinListPage = () => {
   );
 };
 
-export default BulletinListPage;
+export default withAuth(BulletinListPage);
