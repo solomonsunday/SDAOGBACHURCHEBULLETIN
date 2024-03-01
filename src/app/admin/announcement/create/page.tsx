@@ -9,8 +9,9 @@ import Input from "@/components/Admin/input";
 import { Spinner } from "@/components/Common/Spinner";
 import { useCreateAnnouncement } from "@/hooks/useCreateAnnouncement";
 import { IAnnouncement } from "@/common/interfaces";
+import withAuth from "@/common/HOC/withAuth";
 
-export default function CreateAnnouncement() {
+const CreateAnnouncement = () => {
   const {
     register,
     handleSubmit,
@@ -75,4 +76,6 @@ export default function CreateAnnouncement() {
       </Container>
     </AdminLayout>
   );
-}
+};
+
+export default withAuth(CreateAnnouncement);

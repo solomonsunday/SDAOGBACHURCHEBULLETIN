@@ -12,12 +12,9 @@ import { useRouter } from "next/navigation";
 import { useGetAnnouncementById } from "@/hooks/useGetAnnouncementbyId";
 import { IAnnouncement } from "@/common/interfaces";
 import { useUpdateeAnnouncementById } from "@/hooks/useUpdateAnnouncementById";
+import withAuth from "@/common/HOC/withAuth";
 
-export default function EditAnnouncement({
-  params,
-}: {
-  params: { slug: string };
-}) {
+const EditAnnouncement = ({ params }: { params: { slug: string } }) => {
   const router = useRouter();
 
   const {
@@ -103,4 +100,5 @@ export default function EditAnnouncement({
       </Container>
     </AdminLayout>
   );
-}
+};
+export default withAuth(EditAnnouncement);

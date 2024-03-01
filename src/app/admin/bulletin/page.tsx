@@ -12,24 +12,31 @@ import { useRouter } from "next/navigation";
 import Swal from "sweetalert2";
 import { useDeleteBulletinItem } from "@/hooks/useDeleteItem";
 import Link from "next/link";
-import { IBulletin } from "@/common/interfaces";
+import { BulletinStatusEnum, IBulletin } from "@/common/interfaces";
+import { usePublishBulletin } from "@/hooks/usePublishBulletin";
+import withAuth from "@/common/HOC/withAuth";
 
 const BulletinListPage = () => {
   const router = useRouter();
 
   const { DeleteBulletinItem } = useDeleteBulletinItem();
-  const { bulletins, loading } = useGetbulletins();
+  const { PublishBulletin, message } = usePublishBulletin();
+  const { fetchBulletins, bulletins, loading } = useGetbulletins();
   const [fillteredBulletins, setFilteedBulletins] = useState<IBulletin[]>([]);
 
   useEffect(() => {
     setFilteedBulletins(bulletins);
   }, [bulletins]);
 
+  useEffect(() => {
+    fetchBulletins({ limit: 2 });
+  }, []);
+
   const deleteItem = (id: string) => {
     const swalWithBootstrapButtons = Swal.mixin({
       customClass: {
-        confirmButton: "bg-green-700 p-3 rounded-lg text-white mx-2",
-        cancelButton: "p-3 bg-red-700 rounded-lg text-white ",
+        confirmButton: "p-3 bg-red-700  rounded-lg text-white mx-2",
+        cancelButton: "p-3 bg-green-700 rounded-lg text-white ",
       },
       buttonsStyling: false,
     });
@@ -43,9 +50,9 @@ const BulletinListPage = () => {
         cancelButtonText: "No, cancel!",
         reverseButtons: true,
       })
-      .then((result) => {
+      .then(async (result) => {
         if (result.isConfirmed) {
-          DeleteBulletinItem(id);
+          await DeleteBulletinItem(id);
           swalWithBootstrapButtons.fire({
             title: "Deleted!",
             text: "Your file has been deleted.",
@@ -104,13 +111,12 @@ const BulletinListPage = () => {
       })
       .then((result) => {
         if (result.isConfirmed) {
-          // DeleteBulletinItem(id);
+          PublishBulletin(id, BulletinStatusEnum.PUBLISHED);
           swalWithBootstrapButtons.fire({
-            title: "Deleted!",
-            text: "Your file has been published Successfully.",
+            title: "Published!",
+            text: message.toString(),
             icon: "success",
           });
-          // fetchBulletins(); //TODO: Optimize the responsd afte deleting files
         } else if (
           /* Read more about handling dismissals below */
           result.dismiss === Swal.DismissReason.cancel
@@ -127,11 +133,11 @@ const BulletinListPage = () => {
   return (
     <AdminLayout>
       <Container className="md:pl-[3.75rem] md:pr-[4.625rem] pl-[2.5rem] pt-10 pb-7">
-        <div className=" flex flex-col lg:flex-row gap-y-5 justify-between mb-5">
+        <div className="flex flex-col justify-between mb-5 lg:flex-row gap-y-5">
           <Search onSearch={handleSearch} />
           <Button
             type="button"
-            className="py-2 px-8  hover:bg-orange-600"
+            className="px-8 py-2 hover:bg-orange-600"
             onClick={() => router.push("/admin/bulletin/create")}
           >
             Create
@@ -155,7 +161,10 @@ const BulletinListPage = () => {
                   Topic For The Week
                 </th>
                 <th className="p-3 text-sm font-bold tracking-wide text-left">
-                  preacher
+                  Preacher
+                </th>{" "}
+                <th className="p-3 text-sm font-bold tracking-wide text-left">
+                  Status
                 </th>
                 <th className="p-3 text-sm font-bold tracking-wide text-left">
                   Action
@@ -182,6 +191,23 @@ const BulletinListPage = () => {
                       </td>
                       <td className="p-2 text-sm text-gray-700 whitespace-nowrap">
                         {data.preacher}{" "}
+                      </td>
+                      <td className="text-sm whitespace-nowrap">
+                        {data.status === BulletinStatusEnum.PAST && (
+                          <p className="p-1 text-xs text-center text-white capitalize bg-red-700 rounded-lg ">
+                            Past
+                          </p>
+                        )}
+                        {data.status === BulletinStatusEnum.DRAFT && (
+                          <p className="p-1 text-xs text-center text-white capitalize bg-yellow-500 rounded-lg">
+                            Draft
+                          </p>
+                        )}
+                        {data.status === BulletinStatusEnum.PUBLISHED && (
+                          <p className="p-1 text-xs text-center text-white capitalize bg-green-700 rounded-lg">
+                            Published
+                          </p>
+                        )}
                       </td>
                       <td className="p-2 text-sm text-gray-700">
                         {" "}
@@ -221,15 +247,19 @@ const BulletinListPage = () => {
                                 <div className="px-1 py-1 ">
                                   <Menu.Item>
                                     {({ active }) => (
-                                      <button
-                                        className={`${
-                                          active
-                                            ? "bg-gray-200 text-black"
-                                            : "text-black-900"
-                                        } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
+                                      <Link
+                                        href={`/admin/bulletin/view/${data.id}`}
                                       >
-                                        View Detail
-                                      </button>
+                                        <button
+                                          className={`${
+                                            active
+                                              ? "bg-gray-200 text-black"
+                                              : "text-black-900"
+                                          } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
+                                        >
+                                          View
+                                        </button>
+                                      </Link>
                                     )}
                                   </Menu.Item>
                                 </div>
@@ -299,13 +329,13 @@ const BulletinListPage = () => {
           </table>
 
           {loading ? (
-            <div className="flex justify-center items-center h-96">
+            <div className="flex items-center justify-center h-96">
               {" "}
               <Spinner color="orange" />
             </div>
           ) : (
             fillteredBulletins.length === 0 && (
-              <div className="flex justify-center items-center h-96 font-bold">
+              <div className="flex items-center justify-center font-bold h-96">
                 No Data created yet
               </div>
             )
@@ -316,4 +346,4 @@ const BulletinListPage = () => {
   );
 };
 
-export default BulletinListPage;
+export default withAuth(BulletinListPage);

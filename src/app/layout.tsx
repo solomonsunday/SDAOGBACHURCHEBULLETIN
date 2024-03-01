@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Open_Sans, Raleway } from "next/font/google";
 import { ReactNode } from "react";
 import "./globals.css";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const openSans = Raleway({
   subsets: ["latin"],
@@ -26,7 +28,8 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       lang="en"
       className={`${(openSans.className, raleWay.className)}"light "`}
     >
-      <body className="bg-white text-black dark:bg-slate-700 font-opensans">
+      <body className="text-black bg-white dark:bg-slate-700 font-opensans">
+        <ToastContainer />
         {children}
       </body>
       {/* OgbachurchAWS94! */}

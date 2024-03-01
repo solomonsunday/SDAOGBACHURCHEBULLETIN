@@ -1,11 +1,20 @@
 import axios from "axios";
 import {
+  BulletinStatusEnum,
+  CreateBulletinDTO,
   IAnnouncement,
-  IBulletin,
   ISignIn,
   ISignUpUser,
 } from "@/common/interfaces";
 import { getAuthFromLocal } from "./store";
+
+export interface QueryParamDto {
+  limit?: number;
+  start_date?: Date;
+  end_date?: Date;
+  search?: string;
+  next_page_token?: string | null;
+}
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL;
 
@@ -26,7 +35,7 @@ export async function httpRegister(authObject: ISignUpUser) {
 }
 // Bulletin Request
 
-export async function httpCreateBulletin(featureObj: IBulletin) {
+export async function httpCreateBulletin(featureObj: CreateBulletinDTO) {
   try {
     return axios.post(`${API_URL}/bulletin/create`, featureObj, {
       headers: {
@@ -39,7 +48,7 @@ export async function httpCreateBulletin(featureObj: IBulletin) {
 }
 export async function httpUpdateBulletinById(
   id: string,
-  authObject: IBulletin
+  authObject: CreateBulletinDTO
 ) {
   try {
     return await axios.patch(`${API_URL}/bulletin/${id}`, authObject);
@@ -48,13 +57,15 @@ export async function httpUpdateBulletinById(
   }
 }
 
-export async function httpGetBulettins() {
+export async function httpGetBulettins(query?: QueryParamDto) {
   try {
-    return axios.get(`${API_URL}/bulletin`, {
+    const response = await axios.get(`${API_URL}/bulletin`, {
       headers: {
         Authorization: "Bearer " + getAuthFromLocal(),
       },
+      params: { ...query },
     });
+    return response.data.data;
   } catch (error) {
     console.log(error);
   }
@@ -126,7 +137,20 @@ export async function httpDeleteAnnouncementById(id: string) {
   }
 }
 
-// async function httpGetGithubUsers(setError: (error: ErrorResponse) => void) {
+export async function httpPublishBulletin(
+  id: string,
+  status: BulletinStatusEnum
+) {
+  try {
+    return await axios.patch(
+      `${API_URL}/bulletin/${id}/status?status=${status}`
+    );
+  } catch (error) {
+    console.log(error);
+  }
+}
+
+// async function httpPublishBulletin(setError: (error: ErrorResponse) => void) {
 //   try {
 //     const res = await fetch(`${API_URL}/users`, httpHeaders);
 //     await handleErrors(res);

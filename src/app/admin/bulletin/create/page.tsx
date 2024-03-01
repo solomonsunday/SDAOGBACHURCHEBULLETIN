@@ -8,35 +8,37 @@ import { useForm } from "react-hook-form";
 import Input from "@/components/Admin/input";
 import { useCreateBulletins } from "@/hooks/useCreateBulletin";
 import { Spinner } from "@/components/Common/Spinner";
-import { IBulletin } from "@/common/interfaces";
+import { CreateBulletinDTO } from "@/common/interfaces";
 import { useGetAnnouncements } from "@/hooks/useGetAnnouncements";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { CheckCircleIcon } from "@heroicons/react/20/solid";
-import CreatableSelect from "react-select/creatable";
 import makeAnimated from "react-select/animated";
+import Select from "react-select";
+import withAuth from "@/common/HOC/withAuth";
 
 const animatedComponents = makeAnimated();
 
-export default function CreateBulletin() {
+const CreateBulletin = () => {
   const {
     register,
     handleSubmit,
     reset,
+    setValue,
+    getValues,
     formState: { errors, isValid },
-  } = useForm<IBulletin>();
+  } = useForm<CreateBulletinDTO>();
   const { CreateBulletins, loading } = useCreateBulletins();
   const { announcements, fetchAnnouncements } = useGetAnnouncements();
-  const [selectedAnnouncements, setSelectedAnnouncements] = useState<string[]>(
-    []
-  );
-  console.log(selectedAnnouncements, "selectedAnnouncements");
+
+  console.log(announcements, "announcements");
   useEffect(() => {
     fetchAnnouncements();
   }, [fetchAnnouncements]);
 
-  const submitData = (data: IBulletin) => {
+  const submitData = () => {
     try {
-      // console.log(data, "created-data");
+      let data = getValues();
+      // return console.log(data, " data to send");
       CreateBulletins(data);
     } catch (error) {
       console.log(error);
@@ -56,7 +58,7 @@ export default function CreateBulletin() {
               className=" w-28 disabled:bg-slate-500"
               disabled={loading}
             >
-              Save
+              Create
             </Button>
           </div>
           {loading ? (
@@ -65,34 +67,42 @@ export default function CreateBulletin() {
               <Spinner color="orange" />
             </div>
           ) : (
-            <div className=" mt-4 flex flex-wrap gap-5 justify-between">
+            <div className="mt-4 flex flex-wrap gap-5 justify-between">
               <div className="w-full flex flex-wrap gap-5 justify-between  md:flex-row flex-col h-fit rounded-lg gap-y-3 gap-x-3 pb-8 pt-6 px-3 bg-white font-poppins">
                 <div className="font-semibold text-2xl">
                   <h2>Welcome</h2>
                 </div>
-                <div className=" md:w-full w-full grid grid-cols-3 gap-4 gap-y-3">
-                  <div className=" h-[3.75rem]">
+                <div className="md:w-full w-full grid grid-cols-3 gap-4 gap-y-3">
+                  <div className="h-[3.75rem]">
                     <Input
                       type="text"
                       placeHolder="theme for this quarter"
                       {...register("themeForTheQuarter", {})}
                     />
                   </div>
-                  <div className=" h-[3.75rem]">
+                  <div className="h-[3.75rem]">
                     <Input
                       type="text"
                       placeHolder="topic for the week"
                       {...register("topicForTheWeek", {})}
                     />
                   </div>
-                  <div className=" h-[3.75rem]">
+                  <div className="h-[3.75rem]">
+                    <Input
+                      type="text"
+                      placeHolder="memory verse"
+                      {...register("lessonMemoryVerse", {})}
+                    />
+                  </div>
+                  <div className="h-[3.75rem]">
                     <Input
                       type="text"
                       placeHolder="memory test"
                       {...register("lessonMemoryTest", {})}
                     />
                   </div>
-                  <div className=" h-[3.75rem]">
+
+                  <div className="h-[3.75rem]">
                     <Input
                       type="text"
                       placeHolder="zoom link account"
@@ -104,7 +114,7 @@ export default function CreateBulletin() {
                 <div className="font-semibold text-2xl">
                   <h2>Sabbath School</h2>
                 </div>
-                <div className=" md:w-full w-full grid grid-cols-3 gap-4 gap-y-3">
+                <div className="md:w-full w-full grid grid-cols-3 gap-4 gap-y-3">
                   <div className=" h-[3.75rem]">
                     <Input
                       type="text"
@@ -147,14 +157,14 @@ export default function CreateBulletin() {
                       {...register("openingHymnBy", {})}
                     />
                   </div>{" "}
-                  <div className=" h-[3.75rem]">
+                  <div className="h-[3.75rem]">
                     <Input
                       type="text"
                       placeHolder="keeping On Course by"
                       {...register("keepingOnCourseBy", {})}
                     />
                   </div>{" "}
-                  <div className=" h-[3.75rem]">
+                  <div className="h-[3.75rem]">
                     <Input
                       type="text"
                       placeHolder="Mission Spotlight by"
@@ -366,6 +376,72 @@ export default function CreateBulletin() {
                     />
                   </div>
                 </div>
+                <div className="w-full">
+                  <div className="font-semibold text-2xl">
+                    <h2>Announcements</h2>
+                  </div>
+                  <div className=" h-[3.75rem] w-full">
+                    <div className="mb-12">
+                      <div className="flex items-center mt-1">
+                        <Select
+                          isMulti={true}
+                          className="w-full mb-6"
+                          instanceId="announcements"
+                          placeholder="Select permissions"
+                          hideSelectedOptions={true}
+                          minMenuHeight={10}
+                          closeMenuOnSelect={false}
+                          components={animatedComponents}
+                          // value={announcements.map((item) => {
+                          //   return {
+                          //     label: item.content,
+                          //     value: item.content,
+                          //   };
+                          // })}
+                          theme={
+                            {
+                              borderRadius: 10,
+                              spacing: {
+                                baseUnit: 6.3,
+                                menuGutter: 4,
+                              },
+                            } as any
+                          }
+                          options={announcements.map((item) => {
+                            return {
+                              label: item.content,
+                              value: item.id,
+                            };
+                          })}
+                          onChange={(selectedAnnouncements) => {
+                            const anounce = selectedAnnouncements.map(
+                              (item: any) => item.value as string
+                            );
+                            console.log(
+                              selectedAnnouncements,
+                              "selectedAnnouncementsrst"
+                            );
+                            // setSelectedAnnouncements(anounce);
+                            setValue("announcementIds", anounce, {
+                              shouldValidate: true,
+                              shouldDirty: true,
+                              shouldTouch: true,
+                            });
+                          }}
+                        />
+                        {isValid && (
+                          <CheckCircleIcon className="h-6 mt-1 text-green-500 -ml-9" />
+                        )}
+                      </div>
+
+                      {errors.content?.type === "required" && (
+                        <p className="mt-1 text-xs text-red-500">
+                          {errors.content?.message}
+                        </p>
+                      )}
+                    </div>
+                  </div>
+                </div>
 
                 <div className="font-semibold text-2xl">
                   <h2>Pastor's Desk</h2>
@@ -387,78 +463,6 @@ export default function CreateBulletin() {
                     />
                   </div>
                 </div>
-
-                <div className="font-semibold text-2xl">
-                  <h2>Announcements</h2>
-                </div>
-                <div className=" h-[3.75rem] w-full">
-                  {/* <Input
-                    type="text"
-                    placeHolder="announcement description"
-                    {...register("content", { required: true })}
-                  /> */}
-                  {/* <Multiselect
-                    isObject={false}
-                    onKeyPressFn={function noRefCheck() {}}
-                    onRemove={function noRefCheck() {}}
-                    onSearch={function noRefCheck() {}}
-                    onSelect={function noRefCheck() {}}
-                    options={announcements.map((item) => item.content)}
-                    placeholder="Select Announcements"
-                    selectedValues={[]}
-                  /> */}
-                  <div className="mb-12">
-                    <div className="flex items-center mt-1">
-                      <CreatableSelect
-                        isMulti={true}
-                        className="w-full mb-6"
-                        instanceId="announcement"
-                        placeholder="Select permissions"
-                        hideSelectedOptions={true}
-                        minMenuHeight={10}
-                        closeMenuOnSelect={false}
-                        components={animatedComponents}
-                        value={announcements.map((item) => {
-                          return {
-                            label: item.content,
-                            value: item.content,
-                          };
-                        })}
-                        theme={
-                          {
-                            borderRadius: 10,
-                            spacing: {
-                              baseUnit: 6.3,
-                              menuGutter: 4,
-                            },
-                          } as any
-                        }
-                        options={announcements.map((item) => {
-                          return {
-                            label: item.createdDate,
-                            value: item.content,
-                          };
-                        })}
-                        onChange={(announcements) => {
-                          const anounce = announcements.map(
-                            (item) => item.value
-                          );
-                          setSelectedAnnouncements(anounce);
-                          // setValue("permissions", announcements);
-                        }}
-                      />
-                      {isValid && (
-                        <CheckCircleIcon className="h-6 mt-1 text-green-500 -ml-9" />
-                      )}
-                    </div>
-
-                    {errors.content?.type === "required" && (
-                      <p className="mt-1 text-xs text-red-500">
-                        {errors.content?.message}
-                      </p>
-                    )}
-                  </div>
-                </div>
               </div>
             </div>
           )}
@@ -466,4 +470,6 @@ export default function CreateBulletin() {
       </Container>
     </AdminLayout>
   );
-}
+};
+
+export default withAuth(CreateBulletin);

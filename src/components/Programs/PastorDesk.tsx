@@ -8,7 +8,7 @@ const PastorDesk = () => {
           Pastor's Desk
         </div>
         <div className="space-y-3">
-          <div className="underline text-lg font-semibold">
+          <div className="text-lg font-semibold underline">
             <p className="dark:text-white">Isaiah 41:10</p>
           </div>
           <p className="text-orange-500">

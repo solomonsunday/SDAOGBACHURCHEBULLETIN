@@ -1,19 +1,22 @@
 import { IBulletin } from "@/common/interfaces";
-import { httpGetBulettins } from "@/services/requests";
-import { useCallback, useEffect, useState } from "react";
+import { QueryParamDto, httpGetBulettins } from "@/services/requests";
+import { useCallback, useState } from "react";
 
 export const useGetbulletins = () => {
   const [bulletins, setBulletins] = useState<IBulletin[]>([]);
+  const [nextPageToken, setNextPageToken] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
   //   const { setError } = useErrorContext();
 
-  const fetchBulletins = useCallback(async () => {
+  const fetchBulletins = useCallback(async (query?: QueryParamDto) => {
     try {
       setLoading(true);
-      const data = await httpGetBulettins();
-      if (data) {
-        setBulletins(data.data.data);
-      }
+      const response = await httpGetBulettins({
+        next_page_token: nextPageToken,
+        ...query,
+      });
+      setBulletins(response.bulletins!);
+      setNextPageToken(response.paginationHash!);
     } catch (error) {
       //@ts-ignore
       //   setError(error.message);
@@ -22,9 +25,9 @@ export const useGetbulletins = () => {
     }
   }, []);
 
-  useEffect(() => {
-    fetchBulletins();
-  }, [fetchBulletins]);
+  // useEffect(() => {
+  //   fetchBulletins();
+  // }, [fetchBulletins]);
 
-  return { fetchBulletins, bulletins, loading };
+  return { fetchBulletins, nextPageToken, bulletins, loading };
 };

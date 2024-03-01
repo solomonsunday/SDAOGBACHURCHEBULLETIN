@@ -1,6 +1,7 @@
 import { IAnnouncement } from "@/common/interfaces";
 import { httpCreateAnnouncement } from "@/services/requests";
 import { useCallback, useState } from "react";
+import { toast } from "react-toastify";
 
 export const useCreateAnnouncement = () => {
   const [announcements, setAnnouncement] = useState<IAnnouncement[]>([]);
@@ -13,8 +14,10 @@ export const useCreateAnnouncement = () => {
       const fetchData = await httpCreateAnnouncement(data);
       if (fetchData) {
         setAnnouncement(fetchData.data.data);
+        toast.success("Announcement created successfully");
       }
     } catch (error) {
+      toast.error("Failed to create announcement");
       //@ts-ignore
       //   setError(error.message);
     } finally {

@@ -5,6 +5,7 @@ import OrdersChart from "@/components/Admin/OrdersChart";
 import SalesChart from "@/components/Admin/SalesChart";
 import StatisticsCardGroup from "@/components/Admin/StatisticsCardGroup";
 import UsersChart from "@/components/Admin/UsersChart";
+import withAuth from "@/common/HOC/withAuth";
 
 const Dashboard = () => {
   return (
@@ -33,4 +34,4 @@ const Dashboard = () => {
   );
 };
 
-export default Dashboard;
+export default withAuth(Dashboard);

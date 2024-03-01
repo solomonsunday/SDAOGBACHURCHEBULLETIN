@@ -1,6 +1,7 @@
 import { IAnnouncement } from "@/common/interfaces";
 import { httpUpdateAnnouncementById } from "@/services/requests";
 import { useCallback, useState } from "react";
+import { toast } from "react-toastify";
 
 export const useUpdateeAnnouncementById = () => {
   const [announcement, setAnnouncement] = useState<any>([]);
@@ -13,12 +14,11 @@ export const useUpdateeAnnouncementById = () => {
         setLoading(true);
         const result = await httpUpdateAnnouncementById(id, data);
         if (result) {
-          console.log(result, "result");
           setAnnouncement(result.data.data);
+          toast.success("Announcement updated successfully");
         }
       } catch (error) {
-        //@ts-ignore
-        //   setError(error.message);
+        toast.error("Failed to update announcement");
       } finally {
         setLoading(false);
       }
