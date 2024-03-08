@@ -13,16 +13,22 @@ import Swal from "sweetalert2";
 import { useDeleteBulletinItem } from "@/hooks/useDeleteItem";
 import Link from "next/link";
 import { BulletinStatusEnum, IBulletin } from "@/common/interfaces";
-import { usePublishBulletin } from "@/hooks/usePublishBulletin";
 import withAuth from "@/common/HOC/withAuth";
+import PaginationButton from "@/components/Common/Pagination";
+// import PaginationButton from "@/components/Common/PaginationButton.old";
 
 const BulletinListPage = () => {
   const router = useRouter();
 
   const { DeleteBulletinItem } = useDeleteBulletinItem();
-  const { PublishBulletin, message } = usePublishBulletin();
-  const { fetchBulletins, bulletins, loading } = useGetbulletins();
+  const { fetchBulletins, bulletins, nextPageToken, loading } =
+    useGetbulletins();
   const [fillteredBulletins, setFilteedBulletins] = useState<IBulletin[]>([]);
+
+  const [params, setParams] = useState<{
+    limit: number;
+    search: string | null;
+  }>({ limit: 10, search: null });
 
   useEffect(() => {
     setFilteedBulletins(bulletins);
@@ -90,44 +96,19 @@ const BulletinListPage = () => {
       setFilteedBulletins(bulletinSearchResults);
     }
   };
-
-  const handlePublishBulletin = (id: string) => {
-    const swalWithBootstrapButtons = Swal.mixin({
-      customClass: {
-        confirmButton: "bg-green-700 p-3 rounded-lg text-white mx-2",
-        cancelButton: "p-3 bg-red-700 rounded-lg text-white ",
-      },
-      buttonsStyling: false,
+  const handleFetchMoreData = () => {
+    const newLimit = params.limit + 10;
+    fetchBulletins({
+      limit: newLimit,
+      search: params.search,
+      next_page_token: nextPageToken,
     });
-    swalWithBootstrapButtons
-      .fire({
-        title: "Are you sure?",
-        text: "Everyone will see this!",
-        icon: "warning",
-        showCancelButton: true,
-        confirmButtonText: "Yes, publish it!",
-        cancelButtonText: "No, cancel!",
-        reverseButtons: true,
-      })
-      .then((result) => {
-        if (result.isConfirmed) {
-          PublishBulletin(id, BulletinStatusEnum.PUBLISHED);
-          swalWithBootstrapButtons.fire({
-            title: "Published!",
-            text: message.toString(),
-            icon: "success",
-          });
-        } else if (
-          /* Read more about handling dismissals below */
-          result.dismiss === Swal.DismissReason.cancel
-        ) {
-          swalWithBootstrapButtons.fire({
-            title: "Cancelled",
-            text: "No one else will see this except you :)",
-            icon: "error",
-          });
-        }
-      });
+    setParams((initialValue) => {
+      return {
+        ...initialValue,
+        limit: newLimit,
+      };
+    });
   };
 
   return (
@@ -299,24 +280,6 @@ const BulletinListPage = () => {
                                     )}
                                   </Menu.Item>
                                 </div>
-                                <div className="px-1 py-1 ">
-                                  <Menu.Item>
-                                    {({ active }) => (
-                                      <button
-                                        onClick={() =>
-                                          handlePublishBulletin(data.id)
-                                        }
-                                        className={`${
-                                          active
-                                            ? "bg-gray-200 text-black"
-                                            : "text-green-600"
-                                        } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
-                                      >
-                                        Publish
-                                      </button>
-                                    )}
-                                  </Menu.Item>
-                                </div>
                               </Menu.Items>
                             </Transition>
                           </Menu>
@@ -341,6 +304,18 @@ const BulletinListPage = () => {
             )
           )}
         </div>
+        {/* {loading ? (
+          ""
+        ) : (
+          <PaginationButton
+            currentPage={currentPage}
+            totalPages={totalPages}
+            setCurrentPage={setCurrentPage}
+          />
+        )} */}
+        {!loading && nextPageToken && (
+          <PaginationButton onClick={() => handleFetchMoreData} />
+        )}
       </Container>
     </AdminLayout>
   );

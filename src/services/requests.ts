@@ -12,7 +12,7 @@ export interface QueryParamDto {
   limit?: number;
   start_date?: Date;
   end_date?: Date;
-  search?: string;
+  search?: string | null;
   next_page_token?: string | null;
 }
 
