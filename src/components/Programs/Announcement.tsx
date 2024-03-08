@@ -20,55 +20,28 @@ const Announcement = () => {
             interceed for you.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            AMO: There will be AMO monthly meeting tomorrow by 9:30a.m. Venue is
-            the Board Room.
-          </li>
-          <li className="pb-2 border-b border-orange-200">
-            Sabbath evening Bible studies holds every Saturday by 4:30pm.
-          </li>
-          <li className="pb-2 border-b border-orange-200">
             ⁠LMC Children ministry convention holds as follows: Date: 28/3/2024
-            Venue: St. Joseph sec. School Mangoro, Lagos Registration: 6,000
+            to 1/4/2024 Venue: St. Joseph sec. School Mangoro, Lagos
+            Registration: #6,000 (#2,000 subsidy for the first 50 children)
           </li>
           <li className="pb-2 border-b border-orange-200">
-            AWM Leadership training holds as follows: Date: 27/2/2024 to
-            1/3/2024 Arrival time: 5pm Handout:5,000 P/S: Feeding is on
-            individual basis Venue: SDA church Ogba Registration: 2,500
+            Education week comes up on 23- 30 March 2024
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            The Church Pastor is away to Benin City for Pulpit exchange
+            evangelism. Let's hold him up in our prayers.
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            Pulpit exchange evangelism is ongoing Preacher: Pst. Bambi Matthew
+            Venue: Ogba Church premises . Time: 6:00pm - 8:00pm daily. Members
+            are encouraged to participate fully and come with friends every
+            night.
           </li>
           <li className="pb-2 border-b border-orange-200">
             The Church Generator: The church leadership is thanking all members
             for your contributions/pledges we have received so far. Based on
             this, we have reached out to the vendor and awaiting him to provide
             us one for inspection.
-          </li>
-          <li className="pb-2 border-b border-orange-200">
-            WNUC Stewardship Advisory holds from 29/2/2024 – 03/3/2024. Venue is
-            Ondo Mission Headquarters Akure. Registration is ₦15,000. All
-            Pastors, Local District stewardship leaders, Local and District
-            Treasurers and their assistants, Welfare leaders and Conference
-            Treasurers are to attend. Registration covers feeding, materials &
-            accommodations.
-          </li>
-          <li className="pb-2 border-b border-orange-200">
-            Bereavement: The church is thanking all who attended the service of
-            songs of our late Elder Celestine O. Ajuonu on Sunday and urge us to
-            continue praying for the family as they embark on the journey for
-            his burial slated for 21/3/2024 at his home town in Umuanunu
-            autonomous community, Obingwa LGA of Abia State .
-          </li>
-          <li className="pb-2 border-b border-orange-200">
-            Bro. Hillary in inviting the church to the burial of their late
-            father Deacon Hilary Igbo Egbelu on 27/3/2024 at his compound,
-            Umugbala-Umuonei, Igburu-Awara Ohaji/Egbema LGA Imo State.
-          </li>
-          <li className="pb-2 border-b border-orange-200">
-            AWM: Today is International Women’s Day of Prayer.
-          </li>
-          <li className="pb-2 border-b border-orange-200">
-            Pulpit exchange evangelism starts today 2nd - 16th March, 2024
-            Preacher: Pst. Bambi Matthew Venue: Ogba Church premises . Time:
-            6:00pm - 8:00pm daily. Members are encouraged to participate fully
-            and come with friends every night.
           </li>
           <li className="pb-2 border-b border-orange-200">
             Church Cleaning: Youth Choir Rehearsal, Progressive Classes, Mentee
@@ -88,20 +61,19 @@ const Announcement = () => {
             22/3/2024. Adventurer and Pathfinder Club 23/3/2024.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            12. Club inductions: Master Guide, Ambassadors and Senior Youth
+            Club inductions: Master Guide, Ambassadors and Senior Youth clubs -
+            22/3/2024 Adventurer and Pathfinder clubs - 23/3/2024
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            Global Youth Day & Youth Week of Prayer 2024 comes up on 16/3/2024
+            and YWOP 16-23 March, 2024 respectively Speakers: *Rubby Idehai,
+            Ayomide Aina, Timilehin Abeoye, Sharon Francis, Faith Christopher,
+            Delbert Umez and Izuchukwu Promise. GYD T-shirts- #5,000 and #10,000
+            respectively
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            11. Club inductions: Master Guide, Ambassadors and Senior Youth
             clubs - 22/3/2024 Adventurer and Pathfinder clubs - 23/3/2024
-          </li>
-          <li className="pb-2 border-b border-orange-200">
-            11. Global Youth Day & Youth Week of Prayer 2024 comes up on
-            16/3/2024 and YWOP 16-23 March, 2024 respectively Speakers: *Rubby
-            Idehai, Ayomide Aina, Timilehin Abeoye, Sharon Francis, Faith
-            Christopher, Delbert Umez and Izuchukwu Promise. GYD T-shirts-
-            #5,000 and #10,000 respectively
-          </li>
-          <li className="pb-2 border-b border-orange-200">
-            Remnant Federation Senior Youth programme tagged: “UNDAUNTED
-            HERITAGE holds on 18/02/2024 at Ojokoro Church. Registration is
-            ₦500. Dress code: Class B Uniform
           </li>
 
           <li className="pb-2 border-b border-orange-200">
@@ -112,6 +84,26 @@ const Announcement = () => {
             The WAD 2024 devotional reading with the theme “Complete wellness”
             is available, Price is 2,900. Grab a copy for your family and
             friends
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            Bereavement: The church is thanking all who attended the service of
+            songs of our late Elder Celestine O. Ajuonu on Sunday and urge us to
+            continue praying for the family as they embark on the journey for
+            his burial slated for 21/3/2024 at his home town in Umuanunu
+            autonomous community, Obingwa LGA of Abia State .
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            Bro. Hillary in inviting the church to the burial of their late
+            father Deacon Hilary Igbo Egbelu on 27/3/2024 at his compound,
+            Umugbala-Umuonei, Igburu-Awara Ohaji/Egbema LGA Imo State.
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            We encourage you to give generously as an expression of your
+            worship, devotion to God, support and love for the Church and her
+            mission. Send your tithes, offerings and other donations to our
+            account: 2020086453 First Bank, Seventh-day Adventist Church, Ogba.
+            Call or WhatsApp 07036586617 to share or seek more details about
+            giving
           </li>
           <li className="pb-2 border-b border-orange-200">
             Please donate towards the acquisition of a permanent camp site.

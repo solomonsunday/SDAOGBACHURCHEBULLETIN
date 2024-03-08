@@ -16,7 +16,8 @@ const Input = React.forwardRef<HTMLInputElement, Props>(
     return (
       <input
         ref={inputRef}
-        className={` ${className} h-full w-full p-5 rounded-xl border border-black font-poppins text-black focus:outline-none`}
+        className={` ${className} h-full w-full p-5 rounded-xl border border-gray-300 font-poppins text-black focus:outline-none
+        focus:border-gray-500`}
         placeholder={placeHolder}
         type={type}
         onWheel={(e) => e.currentTarget.blur()}

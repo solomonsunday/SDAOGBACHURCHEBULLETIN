@@ -16,7 +16,7 @@ export const useGetbulletins = () => {
         ...query,
       });
       setBulletins(response.bulletins!);
-      setNextPageToken(response.paginationHash!);
+      setNextPageToken(response.paginationToken!);
     } catch (error) {
       //@ts-ignore
       //   setError(error.message);

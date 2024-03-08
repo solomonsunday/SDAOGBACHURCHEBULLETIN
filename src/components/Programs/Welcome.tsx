@@ -40,7 +40,7 @@ const Welcome = () => {
         <div>
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 pl-8 ">
             <p className="text-orange-400 underline">TOPIC FOR THE WEEK</p>
-            Blessed is He who comes in the Name of the Lord
+            Lesson of the Past
           </blockquote>
         </div>
         <div>
@@ -48,10 +48,11 @@ const Welcome = () => {
             <p className="text-orange-400 underline">MEMORY TEXT</p>
 
             <span className="px-1 text-xs italic">
-              The stone which the builder rejected has become the chief
-              cornerstone. This was the Lord’s doing; it is marvelous in our
-              eyes”
-              <span className="font-bold">(Psalm 118:22-23 NKJV)</span>
+              "Which will have heard and known and our fathers have told us. We
+              will not hide them from their children, telling to the generation
+              to come the praises of the Lord, and His strength and His
+              wonderful works that He has done”
+              <span className="font-bold">(Psalm 78:3-4 NKJV)</span>
             </span>
           </blockquote>
         </div>

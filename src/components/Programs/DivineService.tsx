@@ -13,39 +13,39 @@ const DivineService = () => {
           <div className="text-xs"> Organist</div>
 
           <div className="col-span-3 text-sm">
-            Call to Worship: (Psalms 99:5)
+            Call to Worship: (Psalms 1:1-3)
           </div>
-          <div className="text-xs">Elder P. Nwaejigh</div>
+          <div className="text-xs">Pst. M. Bambi</div>
           <div className="col-span-3 text-sm"> Invocation</div>
-          <div className="text-xs"> Elder P. Nwaejigh </div>
+          <div className="text-xs"> Pst. M. Bambi </div>
           <div className="col-span-3 text-sm">
             {" "}
-            Welcome / opening Hymn (SDAH 483)
+            Welcome / opening Hymn (SDAH 008)
           </div>
-          <div className="text-xs"> Mrs. A. Ogbenyia</div>
+          <div className="text-xs"> Elder E.J. Agbara</div>
           <div className="col-span-3 text-sm"> Pastoral Prayer</div>
-          <div className="text-xs">Mrs. M. Alabi</div>
+          <div className="text-xs">Elder O. Alala</div>
           <div className="col-span-3 text-sm"> Stewardship </div>
-          <div className="text-xs"> Mrs. C. Kingsley</div>
+          <div className="text-xs"> Bro. S. Oyelekan</div>
           <div className="col-span-3 text-sm"> Musical Selection (Choir)</div>
-          <div className="text-xs">Esther Okorie </div>
+          <div className="text-xs"> Bro. S. Oyelekan </div>
           <div className="col-span-3 text-sm">
             Spiritual Reading (2 Peter 1:3,4)
           </div>
-          <div className="text-xs"> Esther Okorie </div>
+          <div className="text-xs"> Sis. K. Ejukwu </div>
           <div className="col-span-3 text-sm">
-            Hymn of Concecration (SDAH 500)
+            Hymn of Concecration (SDAH 260)
           </div>
-          <div className="text-xs"> Mrs. A. Ogbenyia</div>
+          <div className="text-xs"> Sis. K. Ejukwu </div>
           <div className="col-span-3 text-sm">
             Sermon Title{" "}
-            <span className="font-bold">“Ignite Your Prayer Life ”</span>
+            <span className="font-bold">“The Battle is of the Lord”</span>
           </div>
-          <div className="text-xs"> Elder P. Nwaejigh</div>
-          <div className="col-span-3 text-sm">Closing Hymn (SDAH 485) </div>
-          <div className="text-xs"> Mrs. N. Chidi</div>
+          <div className="text-xs"> Pst. M. Bambi </div>
+          <div className="col-span-3 text-sm">Closing Hymn (SDAH 522) </div>
+          <div className="text-xs"> Elder O. Alala</div>
           <div className="col-span-3 text-sm">Benediction</div>
-          <div className="text-xs">Elder P. Nwaejigh.</div>
+          <div className="text-xs"> Pst. M. Bambi</div>
           <div className="col-span-3 text-sm">Doxology</div>
           <div className="text-xs"> Congregation</div>
         </div>

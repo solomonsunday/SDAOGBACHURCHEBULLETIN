@@ -248,6 +248,14 @@ const EditBulletin = ({ params }: { params: { slug: string } }) => {
         shouldValidate: true,
       }
     );
+    setValue("start_date", bulletin?.start_date, {
+      shouldDirty: true,
+      shouldValidate: true,
+    });
+    setValue("end_date", bulletin?.end_date, {
+      shouldDirty: true,
+      shouldValidate: true,
+    });
   }, [bulletin]);
 
   const submitData = () => {
@@ -681,6 +689,47 @@ const EditBulletin = ({ params }: { params: { slug: string } }) => {
                       {...register("pastorDeskBibleVerseDescription", {})}
                     />
                   </div>
+                </div>
+
+                <div className="font-semibold text-2xl">
+                  <h2>Schedule Date </h2>
+                </div>
+
+                <div className=" md:w-full w-full grid grid-cols-2 gap-4 gap-y-3">
+                  <div className=" h-[3.75rem] cursor-pointer">
+                    {/* <span className="text-blue-600 italic">
+                      Select a start date
+                    </span> */}
+                    <Input
+                      type="date"
+                      placeHolder="Start Date"
+                      {...register("start_date", {
+                        required: "Start date is required",
+                      })}
+                    />
+                  </div>
+                  {errors?.start_date && (
+                    <p className="text-red-500 italic">
+                      {errors.start_date.message}
+                    </p>
+                  )}
+                  <div className=" h-[3.75rem] cursor-pointer">
+                    {/* <span className="text-blue-600 italic">
+                      Select an end date
+                    </span> */}
+                    <Input
+                      type="date"
+                      placeHolder="End Date"
+                      {...register("end_date", {
+                        required: "End date is required",
+                      })}
+                    />
+                  </div>
+                  {errors?.end_date && (
+                    <p className="text-red-500 italic">
+                      {errors.end_date.message}
+                    </p>
+                  )}
                 </div>
               </div>
             </div>

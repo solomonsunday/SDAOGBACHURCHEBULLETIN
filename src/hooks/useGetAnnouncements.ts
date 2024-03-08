@@ -12,7 +12,6 @@ export const useGetAnnouncements = () => {
       setLoading(true);
       const data = await httpGetAnnouncements();
       if (data) {
-        console.log(data, "announcement");
         setAnnouncement(data.data.data);
       }
     } catch (error) {

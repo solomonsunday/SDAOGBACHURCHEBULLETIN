@@ -29,7 +29,6 @@ const EditAnnouncement = ({ params }: { params: { slug: string } }) => {
   const { UpdateAnnouncementData, loading } = useUpdateeAnnouncementById();
 
   const announcementId = params.slug;
-  console.log(announcement, "announcement");
 
   useEffect(() => {
     fetchAnnouncementById(announcementId);

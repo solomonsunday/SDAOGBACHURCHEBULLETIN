@@ -88,6 +88,9 @@ export interface IBulletin extends IBaseEntity, Pick<IAnnouncement, "content"> {
   // announcement
   announcements?: IAnnouncement[];
   announcementIds: string[];
+
+  start_date: string;
+  end_date: string;
 }
 
 export enum BulletinStatusEnum {
@@ -101,7 +104,7 @@ export interface CreateBulletinDTO
   extends Omit<
     IBulletin,
     | "id"
-    | " createdAt"
+    | "createdAt"
     | "updatedAt"
     | "entityName"
     | "createdDate"

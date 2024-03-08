@@ -9,13 +9,14 @@ const PastorDesk = () => {
         </div>
         <div className="space-y-3">
           <div className="text-lg font-semibold underline">
-            <p className="dark:text-white">Isaiah 41:10</p>
+            <p className="dark:text-white">John 4:23-24</p>
           </div>
           <p className="text-orange-500">
-            Fear not, for I am with you; be not dismayed, for I am your God; I
-            will strengthen you, I will help you, I will uphold you with my
-            righteous right hand. In times like these, we need to trust the Lord
-            to lead us. Happy Sabbath my Brethren
+            But the hour is coming, and now it, when the true worshipers will
+            worship the Father in Spirit and Truth; for the Father is seeking
+            such to worship Him. God is Spirit, and those who worship Him must
+            worship in Spirit and truth. May our various expressions of worship
+            be guided by the Holy Spirit, from our hearts, in Jesus Christ name.
           </p>
         </div>
       </section>

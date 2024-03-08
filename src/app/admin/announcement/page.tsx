@@ -134,7 +134,7 @@ const AnnouncementListPage = () => {
 
                       <td className="p-2 text-sm text-gray-700">
                         {" "}
-                        <div className="z-10">
+                        <div className="">
                           <Menu
                             as="div"
                             className="relative inline-block text-left"
