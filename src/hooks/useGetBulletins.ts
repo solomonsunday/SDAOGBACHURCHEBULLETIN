@@ -15,7 +15,7 @@ export const useGetbulletins = () => {
         next_page_token: nextPageToken,
         ...query,
       });
-      setBulletins(response.bulletins!);
+      setBulletins([...bulletins, ...response?.bulletins]);
       setNextPageToken(response.paginationToken!);
     } catch (error) {
       //@ts-ignore
@@ -24,7 +24,6 @@ export const useGetbulletins = () => {
       setLoading(false);
     }
   }, []);
-
   // useEffect(() => {
   //   fetchBulletins();
   // }, [fetchBulletins]);
