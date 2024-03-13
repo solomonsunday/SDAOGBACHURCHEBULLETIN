@@ -28,14 +28,14 @@ const BulletinListPage = () => {
   const [params, setParams] = useState<{
     limit: number;
     search: string | null;
-  }>({ limit: 10, search: null });
+  }>({ limit: 2, search: null });
 
   useEffect(() => {
     setFilteedBulletins(bulletins);
   }, [bulletins]);
 
   useEffect(() => {
-    fetchBulletins({ limit: 2 });
+    fetchBulletins({ limit: params.limit });
   }, []);
 
   const deleteItem = (id: string) => {
@@ -97,7 +97,7 @@ const BulletinListPage = () => {
     }
   };
   const handleFetchMoreData = () => {
-    const newLimit = params.limit + 10;
+    const newLimit = params.limit + 2;
     fetchBulletins({
       limit: newLimit,
       search: params.search,
@@ -314,7 +314,7 @@ const BulletinListPage = () => {
           />
         )} */}
         {!loading && nextPageToken && (
-          <PaginationButton onClick={() => handleFetchMoreData} />
+          <PaginationButton fetchDataHandler={() => handleFetchMoreData()} />
         )}
       </Container>
     </AdminLayout>
