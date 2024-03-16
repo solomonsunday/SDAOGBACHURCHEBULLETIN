@@ -55,9 +55,9 @@ export interface IBulletin extends IBaseEntity, Pick<IAnnouncement, "content"> {
   lessonSummaryBy: string;
   friendTimeBy: string;
   annnouncementClosingRemarkBy: string;
-  SSclosingPrayerBy: string;
-  SSClosingHymnNo: string;
-  SSClosingHymnBy: string;
+  ssClosingPrayerBy: string;
+  ssClosingHymnNo: string;
+  ssClosingHymnBy: string;
 
   //   divine service dto
   prelude: string;
@@ -89,13 +89,12 @@ export interface IBulletin extends IBaseEntity, Pick<IAnnouncement, "content"> {
   announcements?: IAnnouncement[];
   announcementIds: string[];
 
-  start_date: string;
-  end_date: string;
+  startDate: string;
+  endDate: string;
 }
 
 export enum BulletinStatusEnum {
   DRAFT = "draft",
-  PAST = "past",
   PUBLISHED = "published",
 }
 export type BulletinStatusType = `${BulletinStatusEnum}`;

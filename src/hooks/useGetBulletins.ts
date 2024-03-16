@@ -7,6 +7,7 @@ export const useGetbulletins = () => {
   const [nextPageToken, setNextPageToken] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
   //   const { setError } = useErrorContext();
+  console.log(bulletins, "bulletins");
 
   const fetchBulletins = useCallback(async (query?: QueryParamDto) => {
     try {
@@ -15,11 +16,15 @@ export const useGetbulletins = () => {
         next_page_token: nextPageToken,
         ...query,
       });
-      setBulletins([...bulletins, ...response?.bulletins]);
+      console.log(response, "data-response");
+      setBulletins((initialval) => {
+        return [...initialval, ...response?.bulletins];
+      });
       setNextPageToken(response.paginationToken!);
     } catch (error) {
       //@ts-ignore
       //   setError(error.message);
+      console.log(error);
     } finally {
       setLoading(false);
     }

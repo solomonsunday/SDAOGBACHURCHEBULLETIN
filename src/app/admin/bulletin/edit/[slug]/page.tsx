@@ -248,11 +248,11 @@ const EditBulletin = ({ params }: { params: { slug: string } }) => {
         shouldValidate: true,
       }
     );
-    setValue("start_date", bulletin?.start_date, {
+    setValue("startDate", bulletin?.startDate, {
       shouldDirty: true,
       shouldValidate: true,
     });
-    setValue("end_date", bulletin?.end_date, {
+    setValue("endDate", bulletin?.endDate, {
       shouldDirty: true,
       shouldValidate: true,
     });
@@ -703,14 +703,14 @@ const EditBulletin = ({ params }: { params: { slug: string } }) => {
                     <Input
                       type="date"
                       placeHolder="Start Date"
-                      {...register("start_date", {
+                      {...register("startDate", {
                         required: "Start date is required",
                       })}
                     />
                   </div>
-                  {errors?.start_date && (
+                  {errors?.startDate && (
                     <p className="text-red-500 italic">
-                      {errors.start_date.message}
+                      {errors.startDate.message}
                     </p>
                   )}
                   <div className=" h-[3.75rem] cursor-pointer">
@@ -720,14 +720,14 @@ const EditBulletin = ({ params }: { params: { slug: string } }) => {
                     <Input
                       type="date"
                       placeHolder="End Date"
-                      {...register("end_date", {
+                      {...register("endDate", {
                         required: "End date is required",
                       })}
                     />
                   </div>
-                  {errors?.end_date && (
+                  {errors?.endDate && (
                     <p className="text-red-500 italic">
-                      {errors.end_date.message}
+                      {errors.endDate.message}
                     </p>
                   )}
                 </div>

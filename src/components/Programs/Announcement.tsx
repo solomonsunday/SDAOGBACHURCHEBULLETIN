@@ -20,22 +20,21 @@ const Announcement = () => {
             interceed for you.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            ⁠LMC Children ministry convention holds as follows: Date: 28/3/2024
-            to 1/4/2024 Venue: St. Joseph sec. School Mangoro, Lagos
-            Registration: #6,000 (#2,000 subsidy for the first 50 children)
-          </li>
-          <li className="pb-2 border-b border-orange-200">
-            Education week comes up on 23- 30 March 2024
+            Pulpit Exchange Evangelism ends today, we thank God for its
+            successful completion.
           </li>
           <li className="pb-2 border-b border-orange-200">
             The Church Pastor is away to Benin City for Pulpit exchange
             evangelism. Let's hold him up in our prayers.
           </li>
+
           <li className="pb-2 border-b border-orange-200">
-            Pulpit exchange evangelism is ongoing Preacher: Pst. Bambi Matthew
-            Venue: Ogba Church premises . Time: 6:00pm - 8:00pm daily. Members
-            are encouraged to participate fully and come with friends every
-            night.
+            Education week comes up on 23- 30 March 2024
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            ⁠LMC Children ministry convention holds as follows: Date: 28/3/2024
+            to 1/4/2024 Venue: St. Joseph sec. School Mangoro, Lagos
+            Registration: #6,000 (#2,000 subsidy for the first 50 children)
           </li>
           <li className="pb-2 border-b border-orange-200">
             The Church Generator: The church leadership is thanking all members

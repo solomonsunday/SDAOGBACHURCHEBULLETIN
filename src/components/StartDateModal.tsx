@@ -5,7 +5,7 @@ import { CreateBulletinDTO, IBulletin } from "@/common/interfaces";
 import Button from "./Admin/button";
 import { useCreateBulletins } from "@/hooks/useCreateBulletin";
 
-interface ISchedule extends Pick<IBulletin, "start_date" | "end_date"> {}
+interface ISchedule extends Pick<IBulletin, "startDate" | "endDate"> {}
 
 const StartDateModal = ({
   visible = false,
@@ -32,12 +32,12 @@ const StartDateModal = ({
 
   useEffect(() => {
     if (dataToSet) {
-      setValue("start_date", dataToSet?.start_date, {
+      setValue("startDate", dataToSet?.startDate, {
         shouldDirty: true,
         shouldValidate: true,
       });
 
-      setValue("end_date", dataToSet?.end_date, {
+      setValue("endDate", dataToSet?.endDate, {
         shouldDirty: true,
         shouldValidate: true,
       });
@@ -47,8 +47,8 @@ const StartDateModal = ({
   const onSubmit = () => {
     const data = bulletinData;
     const scheduleDate = getValues();
-    data.start_date = scheduleDate?.start_date.toString();
-    data.end_date = scheduleDate?.end_date.toString();
+    data.startDate = scheduleDate?.startDate.toString();
+    data.endDate = scheduleDate?.endDate.toString();
 
     CreateBulletins(data);
     reset();
@@ -75,23 +75,23 @@ const StartDateModal = ({
             <Input
               type="date"
               placeHolder="Start Date"
-              {...register("start_date", {
+              {...register("startDate", {
                 required: "Start date is required",
               })}
             />
           </div>
-          {errors?.start_date && (
-            <p className="text-red-500 italic">{errors.start_date.message}</p>
+          {errors?.startDate && (
+            <p className="text-red-500 italic">{errors.startDate.message}</p>
           )}
           <div className="h-[3rem] w-full">
             <Input
               type="date"
               placeHolder="End Date"
-              {...register("end_date", { required: "End date is required" })}
+              {...register("endDate", { required: "End date is required" })}
             />
           </div>
-          {errors?.end_date && (
-            <p className="text-red-500 italic">{errors.end_date.message}</p>
+          {errors?.endDate && (
+            <p className="text-red-500 italic">{errors.endDate.message}</p>
           )}
 
           <div className="pb-2">
