@@ -44,7 +44,7 @@ const CreateBulletin = () => {
     } catch (error) {
       console.log(error);
     } finally {
-      // reset();
+      reset();
     }
   };
 
