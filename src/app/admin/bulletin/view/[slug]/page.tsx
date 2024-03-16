@@ -23,7 +23,7 @@ const ListBulletin = ({ params }: { params: { slug: string } }) => {
 
   const handlePublish = () => {
     if (bulletin?.status === BulletinStatusEnum.PUBLISHED) {
-      PublishBulletin(bulletinId, BulletinStatusEnum.PAST);
+      PublishBulletin(bulletinId, BulletinStatusEnum.DRAFT);
     } else {
       PublishBulletin(bulletinId, BulletinStatusEnum.PUBLISHED);
     }
@@ -225,17 +225,17 @@ const ListBulletin = ({ params }: { params: { slug: string } }) => {
                   </div>
                   <div className="col-span-3 capitalize">
                     Closing Hymn (
-                    {bulletin?.SSClosingHymnNo ? bulletin.SSClosingHymnNo : "-"}
+                    {bulletin?.ssClosingHymnNo ? bulletin.ssClosingHymnNo : "-"}
                     )
                   </div>
                   <div className="">
-                    {bulletin?.SSClosingHymnBy ? bulletin.SSClosingHymnBy : "-"}
+                    {bulletin?.ssClosingHymnBy ? bulletin.ssClosingHymnBy : "-"}
                   </div>
                   <div className="col-span-3 capitalize">Closing Prayer</div>
                   <div className="">
                     {" "}
-                    {bulletin?.SSclosingPrayerBy
-                      ? bulletin.SSclosingPrayerBy
+                    {bulletin?.ssClosingPrayerBy
+                      ? bulletin.ssClosingPrayerBy
                       : "-"}
                   </div>
                 </div>
@@ -331,11 +331,11 @@ const ListBulletin = ({ params }: { params: { slug: string } }) => {
                   </div>
                   <div className="col-span-3 ">
                     Closing Hymn (
-                    {bulletin?.SSClosingHymnNo ? bulletin.SSClosingHymnNo : "-"}
+                    {bulletin?.ssClosingHymnNo ? bulletin.ssClosingHymnNo : "-"}
                     )
                   </div>
                   <div className="">
-                    {bulletin?.SSClosingHymnBy ? bulletin.SSClosingHymnBy : "-"}
+                    {bulletin?.ssClosingHymnBy ? bulletin.ssClosingHymnBy : "-"}
                   </div>
                   <div className="col-span-3 ">Benediction</div>
                   <div className="">

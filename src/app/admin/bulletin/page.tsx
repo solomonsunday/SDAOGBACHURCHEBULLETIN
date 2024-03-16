@@ -28,14 +28,18 @@ const BulletinListPage = () => {
   const [params, setParams] = useState<{
     limit: number;
     search: string | null;
-  }>({ limit: 2, search: null });
+  }>({ limit: 10, search: null });
 
   useEffect(() => {
     setFilteedBulletins(bulletins);
   }, [bulletins]);
 
   useEffect(() => {
-    fetchBulletins({ limit: params.limit });
+    fetchBulletins({
+      limit: params.limit,
+      // start_date: "2024-03-08",
+      // end_date: "2024-03-22",
+    });
   }, []);
 
   const deleteItem = (id: string) => {
@@ -174,11 +178,6 @@ const BulletinListPage = () => {
                         {data.preacher}{" "}
                       </td>
                       <td className="text-sm whitespace-nowrap">
-                        {data.status === BulletinStatusEnum.PAST && (
-                          <p className="p-1 text-xs text-center text-white capitalize bg-red-700 rounded-lg ">
-                            Past
-                          </p>
-                        )}
                         {data.status === BulletinStatusEnum.DRAFT && (
                           <p className="p-1 text-xs text-center text-white capitalize bg-yellow-500 rounded-lg">
                             Draft

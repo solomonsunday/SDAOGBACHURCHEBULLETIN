@@ -31,11 +31,15 @@ const CreateBulletin = () => {
 
   useEffect(() => {
     fetchAnnouncements();
-  }, [fetchAnnouncements]);
+  }, []);
 
   const submitData = () => {
     try {
       let data = getValues();
+      data.startDate = new Date(data.startDate).toISOString();
+      data.endDate =
+        new Date(data.endDate).toISOString().split("T").at(0) +
+        "T23:59:59.000Z";
       CreateBulletins(data);
     } catch (error) {
       console.log(error);
@@ -215,21 +219,21 @@ const CreateBulletin = () => {
                       <Input
                         type="text"
                         placeHolder="Closing Hymn No"
-                        {...register("SSClosingHymnNo", {})}
+                        {...register("ssClosingHymnNo", {})}
                       />
                     </div>
                     <div className=" h-[3.75rem]">
                       <Input
                         type="text"
                         placeHolder="Closing Hymn by"
-                        {...register("SSClosingHymnBy", {})}
+                        {...register("ssClosingHymnBy", {})}
                       />
                     </div>
                     <div className=" h-[3.75rem]">
                       <Input
                         type="text"
                         placeHolder="Sabbath School Closing Prayer by"
-                        {...register("SSclosingPrayerBy", {})}
+                        {...register("ssClosingPrayerBy", {})}
                       />
                     </div>
                   </div>
@@ -474,14 +478,14 @@ const CreateBulletin = () => {
                       <Input
                         type="date"
                         placeHolder="Start Date"
-                        {...register("start_date", {
+                        {...register("startDate", {
                           required: "Start date is required",
                         })}
                       />
                     </div>
-                    {errors?.start_date && (
+                    {errors?.startDate && (
                       <p className="text-red-500 italic">
-                        {errors.start_date.message}
+                        {errors.startDate.message}
                       </p>
                     )}
                     <div className=" h-[3.75rem] cursor-pointer">
@@ -491,7 +495,7 @@ const CreateBulletin = () => {
                       <Input
                         type="date"
                         placeHolder="End Date"
-                        {...register("end_date", {
+                        {...register("endDate", {
                           required: "End date is required",
                         })}
                       />

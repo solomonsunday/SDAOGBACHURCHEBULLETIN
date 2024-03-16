@@ -10,6 +10,8 @@ export const useCreateBulletins = () => {
   const router = useRouter();
   //   const { setError } = useErrorContext();
 
+  // TODO: correct thr empty string that is being send to the server.
+
   const CreateBulletins = useCallback(async (data: CreateBulletinDTO) => {
     try {
       setLoading(true);

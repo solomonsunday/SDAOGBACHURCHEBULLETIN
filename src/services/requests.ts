@@ -10,8 +10,8 @@ import { getAuthFromLocal } from "./store";
 
 export interface QueryParamDto {
   limit?: number;
-  start_date?: Date;
-  end_date?: Date;
+  start_date?: string;
+  end_date?: string;
   search?: string | null;
   next_page_token?: string | null;
 }
@@ -58,17 +58,13 @@ export async function httpUpdateBulletinById(
 }
 
 export async function httpGetBulettins(query?: QueryParamDto) {
-  try {
-    const response = await axios.get(`${API_URL}/bulletin`, {
-      headers: {
-        Authorization: "Bearer " + getAuthFromLocal(),
-      },
-      params: { ...query },
-    });
-    return response.data.data;
-  } catch (error) {
-    console.log(error);
-  }
+  const response = await axios.get(`${API_URL}/bulletin`, {
+    headers: {
+      Authorization: "Bearer " + getAuthFromLocal(),
+    },
+    params: { ...query },
+  });
+  return response.data.data;
 }
 
 export async function httpGetBulletinById(id: string) {
