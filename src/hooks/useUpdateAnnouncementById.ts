@@ -1,5 +1,6 @@
 import { IAnnouncement } from "@/common/interfaces";
 import { httpUpdateAnnouncementById } from "@/services/requests";
+import { AxiosError } from "axios";
 import { useCallback, useState } from "react";
 import { toast } from "react-toastify";
 
@@ -18,7 +19,11 @@ export const useUpdateeAnnouncementById = () => {
           toast.success("Announcement updated successfully");
         }
       } catch (error) {
-        toast.error("Failed to update announcement");
+        let errorMessage: string = "";
+        if (error instanceof AxiosError) {
+          errorMessage = error?.response?.data?.message;
+        }
+        toast.error(errorMessage);
       } finally {
         setLoading(false);
       }

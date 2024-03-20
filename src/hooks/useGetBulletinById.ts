@@ -1,6 +1,8 @@
 import { IBulletin } from "@/common/interfaces";
 import { httpGetBulletinById } from "@/services/requests";
+import { AxiosError } from "axios";
 import { useCallback, useState } from "react";
+import { toast } from "react-toastify";
 
 export const useGetBulletinById = () => {
   const [bulletin, setBulletin] = useState<IBulletin>();
@@ -15,6 +17,11 @@ export const useGetBulletinById = () => {
         setBulletin(data.data);
       }
     } catch (error) {
+      let errorMessage: string = "";
+      if (error instanceof AxiosError) {
+        errorMessage = error?.response?.data?.message;
+      }
+      toast.error(errorMessage);
       //@ts-ignore
       //   setError(error.message);
     } finally {

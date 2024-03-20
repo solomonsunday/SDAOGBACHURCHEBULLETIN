@@ -69,7 +69,44 @@ const CreateBulletin = () => {
                 <Spinner color="orange" />
               </div>
             ) : (
-              <div className="mt-4 flex flex-wrap gap-5 justify-between">
+              <div className="mt-4 flex flex-wrap gap-4 justify-between">
+                <div className="w-full flex flex-wrap gap-5 justify-between  md:flex-row flex-col h-fit rounded-lg gap-y-3 gap-x-3 pb-8 pt-6 px-3 bg-white font-poppins mb-0">
+                  <div className="font-semibold text-2xl">
+                    <h2>Schedule Date </h2>
+                  </div>
+
+                  <div className=" md:w-full w-full grid grid-cols-2 gap-4 gap-y-3">
+                    <div className=" h-[3.75rem] cursor-pointer">
+                      <span className="text-blue-600 italic">
+                        Select a start date
+                      </span>
+                      <Input
+                        type="date"
+                        placeHolder="Start Date"
+                        {...register("startDate", {
+                          required: "Start date is required",
+                        })}
+                      />
+                    </div>
+                    {errors?.startDate && (
+                      <p className="text-red-500 italic">
+                        {errors.startDate.message}
+                      </p>
+                    )}
+                    <div className=" h-[3.75rem] cursor-pointer">
+                      <span className="text-blue-600 italic">
+                        Select an end date
+                      </span>
+                      <Input
+                        type="date"
+                        placeHolder="End Date"
+                        {...register("endDate", {
+                          required: "End date is required",
+                        })}
+                      />
+                    </div>
+                  </div>
+                </div>
                 <div className="w-full flex flex-wrap gap-5 justify-between  md:flex-row flex-col h-fit rounded-lg gap-y-3 gap-x-3 pb-8 pt-6 px-3 bg-white font-poppins">
                   <div className="font-semibold text-2xl">
                     <h2>Welcome</h2>
@@ -112,7 +149,8 @@ const CreateBulletin = () => {
                       />
                     </div>
                   </div>
-
+                </div>
+                <div className="w-full flex flex-wrap gap-5 justify-between  md:flex-row flex-col h-fit rounded-lg gap-y-3 gap-x-3 pb-8 pt-6 px-3 bg-white font-poppins">
                   <div className="font-semibold text-2xl">
                     <h2>Sabbath School</h2>
                   </div>
@@ -237,6 +275,8 @@ const CreateBulletin = () => {
                       />
                     </div>
                   </div>
+                </div>{" "}
+                <div className="w-full flex flex-wrap gap-5 justify-between  md:flex-row flex-col h-fit rounded-lg gap-y-3 gap-x-3 pb-8 pt-6 px-3 bg-white font-poppins">
                   {/* <div className="border-b border-slate-500"></div> */}
 
                   <div className="font-semibold text-2xl">
@@ -378,6 +418,8 @@ const CreateBulletin = () => {
                       />
                     </div>
                   </div>
+                </div>{" "}
+                <div className="w-full flex flex-wrap gap-5 justify-between  md:flex-row flex-col h-fit rounded-lg gap-y-3 gap-x-3 pb-8 pt-6 px-3 bg-white font-poppins">
                   <div className="w-full">
                     <div className="font-semibold text-2xl">
                       <h2>Announcements</h2>
@@ -444,7 +486,8 @@ const CreateBulletin = () => {
                       </div>
                     </div>
                   </div>
-
+                </div>{" "}
+                <div className="w-full flex flex-wrap gap-5 justify-between  md:flex-row flex-col h-fit rounded-lg gap-y-3 gap-x-3 pb-8 pt-6 px-3 bg-white font-poppins">
                   <div className="font-semibold text-2xl">
                     <h2>Pastor's Desk</h2>
                   </div>
@@ -465,43 +508,7 @@ const CreateBulletin = () => {
                       />
                     </div>
                   </div>
-
-                  <div className="font-semibold text-2xl">
-                    <h2>Schedule Date </h2>
-                  </div>
-
-                  <div className=" md:w-full w-full grid grid-cols-2 gap-4 gap-y-3">
-                    <div className=" h-[3.75rem] cursor-pointer">
-                      <span className="text-blue-600 italic">
-                        Select a start date
-                      </span>
-                      <Input
-                        type="date"
-                        placeHolder="Start Date"
-                        {...register("startDate", {
-                          required: "Start date is required",
-                        })}
-                      />
-                    </div>
-                    {errors?.startDate && (
-                      <p className="text-red-500 italic">
-                        {errors.startDate.message}
-                      </p>
-                    )}
-                    <div className=" h-[3.75rem] cursor-pointer">
-                      <span className="text-blue-600 italic">
-                        Select an end date
-                      </span>
-                      <Input
-                        type="date"
-                        placeHolder="End Date"
-                        {...register("endDate", {
-                          required: "End date is required",
-                        })}
-                      />
-                    </div>
-                  </div>
-                </div>
+                </div>{" "}
               </div>
             )}
           </form>

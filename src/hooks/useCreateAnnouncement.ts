@@ -1,5 +1,6 @@
 import { IAnnouncement } from "@/common/interfaces";
 import { httpCreateAnnouncement } from "@/services/requests";
+import { AxiosError } from "axios";
 import { useCallback, useState } from "react";
 import { toast } from "react-toastify";
 
@@ -17,7 +18,11 @@ export const useCreateAnnouncement = () => {
         toast.success("Announcement created successfully");
       }
     } catch (error) {
-      toast.error("Failed to create announcement");
+      let errorMessage: string = "";
+      if (error instanceof AxiosError) {
+        errorMessage = error?.response?.data?.message;
+      }
+      toast.error(errorMessage);
       //@ts-ignore
       //   setError(error.message);
     } finally {

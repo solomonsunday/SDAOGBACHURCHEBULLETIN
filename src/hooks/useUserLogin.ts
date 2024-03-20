@@ -1,8 +1,10 @@
 "use client";
 import { ISignIn, IUser } from "@/common/interfaces";
 import { httpLogin } from "@/services/requests";
+import { AxiosError } from "axios";
 import { useRouter } from "next/navigation";
 import { useCallback, useState } from "react";
+import { toast } from "react-toastify";
 
 export const useLoginUser = () => {
   const [userData, setUserData] = useState<IUser>();
@@ -16,6 +18,7 @@ export const useLoginUser = () => {
     try {
       setLoading(true);
       const res = await httpLogin(data);
+      console.log(res, "res");
       if (res) {
         setUserData(res.data.data);
         console.log(res.data.data, " user");
@@ -25,6 +28,11 @@ export const useLoginUser = () => {
         router.push("/admin/dashboard");
       }
     } catch (error) {
+      let errorMessage: string = "";
+      if (error instanceof AxiosError) {
+        errorMessage = error?.response?.data?.message;
+      }
+      toast.error(errorMessage);
       //@ts-ignore
       //   setError(error.message);
     } finally {

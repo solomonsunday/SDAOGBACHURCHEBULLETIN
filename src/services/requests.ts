@@ -51,7 +51,11 @@ export async function httpUpdateBulletinById(
   authObject: CreateBulletinDTO
 ) {
   try {
-    return await axios.patch(`${API_URL}/bulletin/${id}`, authObject);
+    return await axios.patch(`${API_URL}/bulletin/${id}`, authObject, {
+      headers: {
+        Authorization: "Bearer " + getAuthFromLocal(),
+      },
+    });
   } catch (error) {
     console.log(error);
   }
@@ -69,7 +73,11 @@ export async function httpGetBulettins(query?: QueryParamDto) {
 
 export async function httpGetBulletinById(id: string) {
   try {
-    return axios.get(`${API_URL}/bulletin/${id}`, {});
+    return axios.get(`${API_URL}/bulletin/${id}`, {
+      headers: {
+        Authorization: "Bearer " + getAuthFromLocal(),
+      },
+    });
   } catch (error) {
     console.log(error, "error");
   }
@@ -77,7 +85,11 @@ export async function httpGetBulletinById(id: string) {
 
 export async function httpDeleteBulletinById(id: string) {
   try {
-    return axios.delete(`${API_URL}/bulletin/${id}`, {});
+    return axios.delete(`${API_URL}/bulletin/${id}`, {
+      headers: {
+        Authorization: "Bearer " + getAuthFromLocal(),
+      },
+    });
   } catch (error) {
     console.log(error, "error");
   }
@@ -88,7 +100,7 @@ export async function httpDeleteBulletinById(id: string) {
 export async function httpCreateAnnouncement(Obj: IAnnouncement) {
   try {
     return axios.post(`${API_URL}/announcement/create`, Obj, {
-      // headers: { Authorization: "Bearer " + getAuthFromLocal() },
+      headers: { Authorization: "Bearer " + getAuthFromLocal() },
     });
   } catch (error) {
     console.log(error);
@@ -97,9 +109,9 @@ export async function httpCreateAnnouncement(Obj: IAnnouncement) {
 export async function httpGetAnnouncements() {
   try {
     return axios.get(`${API_URL}/announcement`, {
-      // headers: {
-      //   Authorization: "Bearer " + getAuthFromLocal(),
-      // },
+      headers: {
+        Authorization: "Bearer " + getAuthFromLocal(),
+      },
     });
   } catch (error) {
     console.log(error);
@@ -111,7 +123,11 @@ export async function httpUpdateAnnouncementById(
   object: IAnnouncement
 ) {
   try {
-    return await axios.patch(`${API_URL}/announcement/${id}`, object);
+    return await axios.patch(`${API_URL}/announcement/${id}`, object, {
+      headers: {
+        Authorization: "Bearer " + getAuthFromLocal(),
+      },
+    });
   } catch (error) {
     console.log(error);
   }
@@ -119,7 +135,11 @@ export async function httpUpdateAnnouncementById(
 
 export async function httpGetAnnouncementById(id: string) {
   try {
-    return axios.get(`${API_URL}/announcement/${id}`, {});
+    return axios.get(`${API_URL}/announcement/${id}`, {
+      headers: {
+        Authorization: "Bearer " + getAuthFromLocal(),
+      },
+    });
   } catch (error) {
     console.log(error, "error");
   }
@@ -127,7 +147,11 @@ export async function httpGetAnnouncementById(id: string) {
 
 export async function httpDeleteAnnouncementById(id: string) {
   try {
-    return axios.delete(`${API_URL}/announcement/${id}`, {});
+    return axios.delete(`${API_URL}/announcement/${id}`, {
+      headers: {
+        Authorization: "Bearer " + getAuthFromLocal(),
+      },
+    });
   } catch (error) {
     console.log(error, "error");
   }
@@ -139,7 +163,12 @@ export async function httpPublishBulletin(
 ) {
   try {
     return await axios.patch(
-      `${API_URL}/bulletin/${id}/status?status=${status}`
+      `${API_URL}/bulletin/${id}/status?status=${status}`,
+      {
+        headers: {
+          Authorization: "Bearer " + getAuthFromLocal(),
+        },
+      }
     );
   } catch (error) {
     console.log(error);

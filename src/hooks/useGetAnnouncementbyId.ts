@@ -1,5 +1,7 @@
 import { httpGetAnnouncementById } from "@/services/requests";
+import { AxiosError } from "axios";
 import { useCallback, useState } from "react";
+import { toast } from "react-toastify";
 
 export const useGetAnnouncementById = () => {
   const [announcement, getAnnouncement] = useState<any>({});
@@ -14,6 +16,11 @@ export const useGetAnnouncementById = () => {
         getAnnouncement(data.data);
       }
     } catch (error) {
+      let errorMessage: string = "";
+      if (error instanceof AxiosError) {
+        errorMessage = error?.response?.data?.message;
+      }
+      toast.error(errorMessage);
       //@ts-ignore
       //   setError(error.message);
     } finally {

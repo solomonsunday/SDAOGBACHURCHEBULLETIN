@@ -1,6 +1,8 @@
 import { ISignUpUser } from "@/common/interfaces";
 import { httpRegister } from "@/services/requests";
+import { AxiosError } from "axios";
 import { useCallback, useState } from "react";
+import { toast } from "react-toastify";
 
 export const useRegisterUser = () => {
   const [usersData, setUsersData] = useState<any>();
@@ -15,6 +17,11 @@ export const useRegisterUser = () => {
         setUsersData(data);
       }
     } catch (error) {
+      let errorMessage: string = "";
+      if (error instanceof AxiosError) {
+        errorMessage = error?.response?.data?.message;
+      }
+      toast.error(errorMessage);
       //@ts-ignore
       //   setError(error.message);
     } finally {

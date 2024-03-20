@@ -1,5 +1,6 @@
 import { BulletinStatusEnum, IBulletin } from "@/common/interfaces";
 import { httpPublishBulletin } from "@/services/requests";
+import { AxiosError } from "axios";
 import { useCallback, useState } from "react";
 import { toast } from "react-toastify";
 
@@ -17,8 +18,11 @@ export const usePublishBulletin = () => {
           toast.success("Updated Successfully");
         }
       } catch (error) {
-        toast.error("Oops! An error occured");
-        console.log(error);
+        let errorMessage: string = "";
+        if (error instanceof AxiosError) {
+          errorMessage = error?.response?.data?.message;
+        }
+        toast.error(errorMessage);
       } finally {
         setLoading(false);
       }

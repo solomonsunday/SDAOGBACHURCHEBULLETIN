@@ -1,5 +1,6 @@
 import { CreateBulletinDTO } from "@/common/interfaces";
 import { httpCreateBulletin } from "@/services/requests";
+import { AxiosError } from "axios";
 import { useRouter } from "next/navigation";
 import { useCallback, useState } from "react";
 import { toast } from "react-toastify";
@@ -23,8 +24,11 @@ export const useCreateBulletins = () => {
       }
       router.push("/admin/bulletin");
     } catch (error) {
-      toast.error("failed to create bulletin");
-      //@ts-ignore
+      let errorMessage: string = "";
+      if (error instanceof AxiosError) {
+        errorMessage = error?.response?.data?.message;
+      }
+      toast.error(errorMessage); //@ts-ignore
       //   setError(error.message);
     } finally {
       setLoading(false);
