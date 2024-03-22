@@ -20,14 +20,6 @@ const Announcement = () => {
             interceed for you.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            Pulpit Exchange Evangelism ends today, we thank God for its
-            successful completion.
-          </li>
-          <li className="pb-2 border-b border-orange-200">
-            The Church Pastor is away to Benin City for Pulpit exchange
-            evangelism. Let's hold him up in our prayers.
-          </li>
-          <li className="pb-2 border-b border-orange-200">
             Education week comes up on 23- 30 March 2024
           </li>
           <li className="pb-2 border-b border-orange-200">
@@ -57,7 +49,7 @@ const Announcement = () => {
           <li className="pb-2 border-b border-orange-200">
             Youth Enrolment is now closed for 2024. Non-enrolled Youth will not
             partake in Induction and Investiture Services and any major Youth
-            programmes.
+            programme.
           </li>
           <li className="pb-2 border-b border-orange-200">
             Today is Children 12th Sabbath Celebration.
