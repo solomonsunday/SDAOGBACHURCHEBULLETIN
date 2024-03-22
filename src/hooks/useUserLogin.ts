@@ -18,7 +18,6 @@ export const useLoginUser = () => {
     try {
       setLoading(true);
       const res = await httpLogin(data);
-      console.log(res, "res");
       if (res) {
         setUserData(res.data.data);
         console.log(res.data.data, " user");

@@ -1,6 +1,7 @@
 import { ISignUpUser } from "@/common/interfaces";
 import { httpRegister } from "@/services/requests";
 import { AxiosError } from "axios";
+import { useRouter } from "next/navigation";
 import { useCallback, useState } from "react";
 import { toast } from "react-toastify";
 
@@ -9,12 +10,16 @@ export const useRegisterUser = () => {
   const [loading, setLoading] = useState(false);
   //   const { setError } = useErrorContext();
 
+  const router = useRouter();
+
   const setRegisterUser = useCallback(async (registerData: ISignUpUser) => {
     try {
       setLoading(true);
       const data = await httpRegister(registerData);
       if (data) {
         setUsersData(data);
+        toast.success("Registration successful");
+        router.push("/admin/signin");
       }
     } catch (error) {
       let errorMessage: string = "";
