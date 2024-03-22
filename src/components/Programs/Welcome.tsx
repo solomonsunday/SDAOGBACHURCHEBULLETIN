@@ -40,7 +40,7 @@ const Welcome = () => {
         <div>
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 pl-8 ">
             <p className="text-orange-400 underline">TOPIC FOR THE WEEK</p>
-            Longing for God in Zion
+            Worship that Never Ends
           </blockquote>
         </div>
         <div>
@@ -48,9 +48,9 @@ const Welcome = () => {
             <p className="text-orange-400 underline">MEMORY TEXT</p>
 
             <span className="px-1 text-xs italic">
-              "My soul longs, yes even faints for the courts of the Lord; my
-              heart and my flesh cry out for the living God”
-              <span className="font-bold">(Psalm 84:2 NKJV)</span>
+              "I will sing to the Lord as long as I live; I will sing praise to
+              my God while I have my being”
+              <span className="font-bold">(Psalm 104:33 NKJV)</span>
             </span>
           </blockquote>
         </div>

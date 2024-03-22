@@ -1,4 +1,5 @@
 "use client";
+import { getAuthFromLocal } from "@/services/store";
 // import { getAuthFromLocal } from "@/services/store";s
 import { redirect } from "next/navigation";
 import { useEffect } from "react";
@@ -9,7 +10,7 @@ Guide: https://www.youtube.com/watch?v=cj1trlsQ0is&list=PLN2XTW9cUhPfVDcATcGV0ws
 export default function withAuth(Component: any) {
   return function WithAuth(props: any) {
     // const session = getAuthFromLocal();
-    const session = true;
+    const session = getAuthFromLocal();
     useEffect(() => {
       if (!session) {
         redirect("/admin/signin");

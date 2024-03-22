@@ -11,32 +11,32 @@ const SabbathSchool = () => {
           {" "}
           Singspiration (8:45 AM)
         </div>
-        <div className="text-xs capitalize">Children Song Leader</div>
+        <div className="text-xs capitalize">MG. Kelechi Nwachukwu</div>
 
         <div className="col-span-3 text-sm capitalize">
           Opening Remark (Welcome & Prayer)
         </div>
-        <div className="text-xs">Ihuomachi Promise </div>
+        <div className="text-xs">MG. Faith Chibuzor </div>
 
         <div className="col-span-3 text-sm capitalize">
           Welcome / Supt's Opening Remark
         </div>
-        <div className="text-xs"> Mrs. Loveth Idowu </div>
+        <div className="text-xs"> - </div>
 
         <div className="col-span-3 text-sm capitalize">
           {" "}
-          Welcome / Opening Hymn (SDAH 653)
+          Welcome / Opening Hymn (Go Forth)
         </div>
-        <div className="text-xs capitalize"> Chimezie Success</div>
+        <div className="text-xs capitalize"> Chiamaka Chukwuemka</div>
         <div className="col-span-3 text-sm capitalize"> Mission Spotlight </div>
         <div className="text-xs capitalize">Elizabeth Nwaesiaba</div>
         <div className="col-span-3 text-sm capitalize"> Keeping on Course</div>
-        <div className="text-xs capitalize"> Elder Anthony Ajie</div>
+        <div className="text-xs capitalize"> Faith Chibuzor</div>
         <div className="col-span-3 text-sm capitalize">
           {" "}
           Study Time, Lession Introduction
         </div>
-        <div className="text-xs capitalize">Mrs. Loveth Idowu </div>
+        <div className="text-xs capitalize"> MG Faith Chibuzor</div>
         <div className="col-span-3 text-sm capitalize">
           Unit Activities / Lesson Study (40 Mins)
         </div>
@@ -44,19 +44,22 @@ const SabbathSchool = () => {
         <div className="col-span-3 text-sm capitalize">Lesson Summary</div>
         <div className="text-xs capitalize"> - </div>
         <div className="col-span-3 text-sm capitalize">Friend's time</div>
-        <div className="text-xs capitalize"> Donald Hillary</div>
+        <div className="text-xs capitalize"> Nice Festus</div>
         <div className="col-span-3 text-sm capitalize">Special Feature</div>
-        <div className="text-xs capitalize">Mrs. Bessy Francis</div>
+        <div className="text-xs capitalize">
+          {" "}
+          Children’s Ministries & Youth – COM. Bessy Francis
+        </div>
         <div className="col-span-3 text-sm capitalize">
           Announcement / Closing Remark
         </div>
-        <div className="text-xs capitalize"> Superintendent </div>
+        <div className="text-xs capitalize"> MG. Faith Chibuzor </div>
         <div className="col-span-3 text-sm capitalize">
-          Closing Hymn (SDAH 272)
+          Closing Hymn (Go Forth)
         </div>
-        <div className="text-xs"> Ebube Azomaukwu</div>
+        <div className="text-xs"> Darasimi Adebayo</div>
         <div className="col-span-3 text-sm capitalize">Closing Prayer</div>
-        <div className="text-xs"> Ugochukwuma Ihesiaba</div>
+        <div className="text-xs"> Nice Festus</div>
       </div>
     </section>
   );

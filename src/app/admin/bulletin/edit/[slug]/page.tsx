@@ -290,7 +290,49 @@ const EditBulletin = ({ params }: { params: { slug: string } }) => {
               <Spinner color="orange" />
             </div>
           ) : (
-            <div className="flex flex-wrap justify-between gap-5 mt-4 ">
+            <div className="flex flex-wrap justify-between gap-4 mt-4 ">
+              <div className="flex flex-col flex-wrap justify-between w-full gap-5 px-3 pt-6 pb-8 bg-white rounded-lg md:flex-row h-fit gap-y-3 gap-x-3 font-poppins">
+                <div className="font-semibold text-2xl">
+                  <h2>Schedule Date </h2>
+                </div>
+
+                <div className=" md:w-full w-full grid grid-cols-2 gap-4 gap-y-3">
+                  <div className=" h-[3.75rem] cursor-pointer">
+                    {/* <span className="text-blue-600 italic">
+                      Select a start date
+                    </span> */}
+                    <Input
+                      type="date"
+                      placeHolder="Start Date"
+                      {...register("startDate", {
+                        required: "Start date is required",
+                      })}
+                    />
+                  </div>
+                  {errors?.startDate && (
+                    <p className="text-red-500 italic">
+                      {errors.startDate.message}
+                    </p>
+                  )}
+                  <div className=" h-[3.75rem] cursor-pointer">
+                    {/* <span className="text-blue-600 italic">
+                      Select an end date
+                    </span> */}
+                    <Input
+                      type="date"
+                      placeHolder="End Date"
+                      {...register("endDate", {
+                        required: "End date is required",
+                      })}
+                    />
+                  </div>
+                  {errors?.endDate && (
+                    <p className="text-red-500 italic">
+                      {errors.endDate.message}
+                    </p>
+                  )}
+                </div>
+              </div>
               <div className="flex flex-col flex-wrap justify-between w-full gap-5 px-3 pt-6 pb-8 bg-white rounded-lg md:flex-row h-fit gap-y-3 gap-x-3 font-poppins">
                 <div className="text-2xl font-semibold">
                   <h2>Welcome</h2>
@@ -332,7 +374,8 @@ const EditBulletin = ({ params }: { params: { slug: string } }) => {
                     />
                   </div>
                 </div>
-
+              </div>
+              <div className="flex flex-col flex-wrap justify-between w-full gap-5 px-3 pt-6 pb-8 bg-white rounded-lg md:flex-row h-fit gap-y-3 gap-x-3 font-poppins">
                 <div className="text-2xl font-semibold">
                   <h2>Sabbath School</h2>
                 </div>
@@ -457,6 +500,8 @@ const EditBulletin = ({ params }: { params: { slug: string } }) => {
                     />
                   </div>
                 </div>
+              </div>{" "}
+              <div className="flex flex-col flex-wrap justify-between w-full gap-5 px-3 pt-6 pb-8 bg-white rounded-lg md:flex-row h-fit gap-y-3 gap-x-3 font-poppins">
                 {/* <div className="border-b border-slate-500"></div> */}
 
                 <div className="text-2xl font-semibold">
@@ -598,7 +643,8 @@ const EditBulletin = ({ params }: { params: { slug: string } }) => {
                     />
                   </div>
                 </div>
-
+              </div>
+              <div className="flex flex-col flex-wrap justify-between w-full gap-5 px-3 pt-6 pb-8 bg-white rounded-lg md:flex-row h-fit gap-y-3 gap-x-3 font-poppins">
                 <div className="w-full pb-2">
                   <div className="text-2xl font-semibold">
                     <h2>Announcements</h2>
@@ -669,7 +715,8 @@ const EditBulletin = ({ params }: { params: { slug: string } }) => {
                     </div>
                   </div>
                 </div>
-
+              </div>
+              <div className="flex flex-col flex-wrap justify-between w-full gap-5 px-3 pt-6 pb-8 bg-white rounded-lg md:flex-row h-fit gap-y-3 gap-x-3 font-poppins">
                 <div className="text-2xl font-semibold">
                   <h2>Pastor's Desk</h2>
                 </div>
@@ -689,47 +736,6 @@ const EditBulletin = ({ params }: { params: { slug: string } }) => {
                       {...register("pastorDeskBibleVerseDescription", {})}
                     />
                   </div>
-                </div>
-
-                <div className="font-semibold text-2xl">
-                  <h2>Schedule Date </h2>
-                </div>
-
-                <div className=" md:w-full w-full grid grid-cols-2 gap-4 gap-y-3">
-                  <div className=" h-[3.75rem] cursor-pointer">
-                    {/* <span className="text-blue-600 italic">
-                      Select a start date
-                    </span> */}
-                    <Input
-                      type="date"
-                      placeHolder="Start Date"
-                      {...register("startDate", {
-                        required: "Start date is required",
-                      })}
-                    />
-                  </div>
-                  {errors?.startDate && (
-                    <p className="text-red-500 italic">
-                      {errors.startDate.message}
-                    </p>
-                  )}
-                  <div className=" h-[3.75rem] cursor-pointer">
-                    {/* <span className="text-blue-600 italic">
-                      Select an end date
-                    </span> */}
-                    <Input
-                      type="date"
-                      placeHolder="End Date"
-                      {...register("endDate", {
-                        required: "End date is required",
-                      })}
-                    />
-                  </div>
-                  {errors?.endDate && (
-                    <p className="text-red-500 italic">
-                      {errors.endDate.message}
-                    </p>
-                  )}
                 </div>
               </div>
             </div>

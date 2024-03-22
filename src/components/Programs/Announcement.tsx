@@ -27,7 +27,6 @@ const Announcement = () => {
             The Church Pastor is away to Benin City for Pulpit exchange
             evangelism. Let's hold him up in our prayers.
           </li>
-
           <li className="pb-2 border-b border-orange-200">
             Education week comes up on 23- 30 March 2024
           </li>
@@ -42,39 +41,40 @@ const Announcement = () => {
             this, we have reached out to the vendor and awaiting him to provide
             us one for inspection.
           </li>
-          <li className="pb-2 border-b border-orange-200">
-            Church Cleaning: Youth Choir Rehearsal, Progressive Classes, Mentee
-            Session and Youth Week of Prayer will hold on Sunday 17/3/2024 by
-            10:00a.m here in Ogba Church with provision of Refreshment. All
-            youth members are to be in attendance..
-          </li>
-          <li className="pb-2 border-b border-orange-200">
-            AYM Enrolment program at various club levels, ends on 21/3/2024/
-            Contact the club director and get enrolled for the year. Fee: Junior
-            Youth - ₦500. Senior Youth- ₦1,000. * Global Youth Day & Youth Week
-            of Prayer 2024 comes up on 16/3/2024 and YWOP 16-23 March, 2024
-            respectively. Speakers are: Rubby Ideahi, Ayomide Aina, Timileyin
-            Abieoye, Sharon Francis, Faith Christopher, Delbert Umez-Uchegbue &
-            Izuchukwu Promise. GYD T-shirt -₦5,000 & ₦10,000 respectively. *
-            Inductions: Master Guide, Ambassadors and Senior Youth Clubs –
-            22/3/2024. Adventurer and Pathfinder Club 23/3/2024.
-          </li>
+
           <li className="pb-2 border-b border-orange-200">
             Club inductions: Master Guide, Ambassadors and Senior Youth clubs -
             22/3/2024 Adventurer and Pathfinder clubs - 23/3/2024
           </li>
           <li className="pb-2 border-b border-orange-200">
-            Global Youth Day & Youth Week of Prayer 2024 comes up on 16/3/2024
-            and YWOP 16-23 March, 2024 respectively Speakers: *Rubby Idehai,
-            Ayomide Aina, Timilehin Abeoye, Sharon Francis, Faith Christopher,
-            Delbert Umez and Izuchukwu Promise. GYD T-shirts- #5,000 and #10,000
-            respectively
+            The Global Youth Week of Prayer ends today, glory be to God for
+            answered prayers and thanks to all who attended
           </li>
           <li className="pb-2 border-b border-orange-200">
-            11. Club inductions: Master Guide, Ambassadors and Senior Youth
-            clubs - 22/3/2024 Adventurer and Pathfinder clubs - 23/3/2024
+            Club Inductions: Today is our Adventurer and Pathfinder Club
+            induction.
           </li>
-
+          <li className="pb-2 border-b border-orange-200">
+            Youth Enrolment is now closed for 2024. Non-enrolled Youth will not
+            partake in Induction and Investiture Services and any major Youth
+            programmes.
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            Today is Children 12th Sabbath Celebration.
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            Education Week comes up on 23rd – 30th March, 2024.
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            Education Week comes up on 23rd – 30th March, 2024.
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            Remnant Federation Boot Camp/Pathfinder Funfair comes up April 17th
+            – 21st , 2024. Venue is Ogba Church. Features: Craft display, Drill,
+            Tent making, Camp Fire, Camp Furniture, Group games and Sports
+            Fiesta. Registration is ₦4,000. For enquiry call the Pathfinder
+            Director or the Deputies.
+          </li>
           <li className="pb-2 border-b border-orange-200">
             Limited copies of the Book “The Great Controversy are now available
             at ₦1,500 per copy. Pick a copy for your family and friends today.
@@ -85,11 +85,8 @@ const Announcement = () => {
             friends
           </li>
           <li className="pb-2 border-b border-orange-200">
-            Bereavement: The church is thanking all who attended the service of
-            songs of our late Elder Celestine O. Ajuonu on Sunday and urge us to
-            continue praying for the family as they embark on the journey for
-            his burial slated for 21/3/2024 at his home town in Umuanunu
-            autonomous community, Obingwa LGA of Abia State .
+            Bereavement: Elder Celestine O. Ajuonu has been laid to rest on
+            Thursday, thank you all for your support and prayers.
           </li>
           <li className="pb-2 border-b border-orange-200">
             Bro. Hillary in inviting the church to the burial of their late

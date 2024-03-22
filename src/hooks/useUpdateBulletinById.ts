@@ -1,5 +1,6 @@
 import { CreateBulletinDTO, IBulletin } from "@/common/interfaces";
 import { httpUpdateBulletinById } from "@/services/requests";
+import { AxiosError } from "axios";
 import { useCallback, useState } from "react";
 import { toast } from "react-toastify";
 
@@ -18,7 +19,11 @@ export const useUpdateeBulletinById = () => {
           toast.success("Updated successfully!");
         }
       } catch (error) {
-        toast.error("Failed to update bulletin");
+        let errorMessage: string = "";
+        if (error instanceof AxiosError) {
+          errorMessage = error?.response?.data?.message;
+        }
+        toast.error(errorMessage);
         //@ts-ignore
         //   setError(error.message);
         console.log(error);
