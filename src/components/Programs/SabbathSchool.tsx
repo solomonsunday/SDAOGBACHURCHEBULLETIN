@@ -27,20 +27,20 @@ const SabbathSchool = () => {
           {" "}
           Welcome / Opening Hymn (Go Forth)
         </div>
-        <div className="text-xs capitalize"> Chiamaka Chukwuemka</div>
-        <div className="col-span-3 text-sm capitalize"> Mission Spotlight </div>
-        <div className="text-xs capitalize">Elizabeth Nwaesiaba</div>
+        <div className="text-xs capitalize"> Chiamaka Chukwuemeka</div>
         <div className="col-span-3 text-sm capitalize"> Keeping on Course</div>
-        <div className="text-xs capitalize"> Faith Chibuzor</div>
+        <div className="text-xs capitalize">MG. Faith Chibuzor</div>
+        <div className="col-span-3 text-sm capitalize"> Mission Spotlight </div>
+        <div className="text-xs capitalize">Darasimi Adebayo</div>
         <div className="col-span-3 text-sm capitalize">
           {" "}
           Study Time, Lession Introduction
         </div>
-        <div className="text-xs capitalize"> MG Faith Chibuzor</div>
+        <div className="text-xs capitalize">Oyinyechi Christopher</div>
         <div className="col-span-3 text-sm capitalize">
           Unit Activities / Lesson Study (40 Mins)
         </div>
-        <div className="text-xs capitalize"> - </div>
+        <div className="text-xs capitalize"> MG. Faith Chibuzor </div>
         <div className="col-span-3 text-sm capitalize">Lesson Summary</div>
         <div className="text-xs capitalize"> - </div>
         <div className="col-span-3 text-sm capitalize">Friend's time</div>
