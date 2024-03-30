@@ -175,6 +175,20 @@ export async function httpPublishBulletin(
   }
 }
 
+// User
+
+export async function httpGetUsers() {
+  try {
+    return axios.get(`${API_URL}/auth/users`, {
+      headers: {
+        Authorization: "Bearer " + getAuthFromLocal(),
+      },
+    });
+  } catch (error) {
+    console.log(error);
+  }
+}
+
 // async function httpPublishBulletin(setError: (error: ErrorResponse) => void) {
 //   try {
 //     const res = await fetch(`${API_URL}/users`, httpHeaders);

@@ -24,6 +24,7 @@ export interface IAnnouncement {
 
 export interface IUser extends ISignUpUser, Omit<ISignUpUser, "password"> {
   id: string;
+  status: string; // Active or Inactive
 }
 
 export interface IKeywords {
@@ -97,6 +98,12 @@ export enum BulletinStatusEnum {
   DRAFT = "draft",
   PUBLISHED = "published",
 }
+
+export enum UserStatusEnum {
+  ACTIVE = "active",
+  INACTIVE = "inactive",
+}
+export type UserStatusType = `${UserStatusEnum}`;
 export type BulletinStatusType = `${BulletinStatusEnum}`;
 
 export interface CreateBulletinDTO

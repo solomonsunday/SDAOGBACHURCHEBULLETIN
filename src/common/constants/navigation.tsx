@@ -47,6 +47,21 @@ export const DASHBOARD_SIDEBAR_LINK = [
       />
     ),
   },
+
+  {
+    key: "users",
+    label: "User",
+    path: "/admin/user",
+    icon: (
+      <Image
+        src={"/assets/svgs/avatar.svg"}
+        className=""
+        alt="icon"
+        width={30.75}
+        height={32}
+      />
+    ),
+  },
 ];
 
 export const DASHBOARD_SIDEBAR_BOTTOM_LINK = [

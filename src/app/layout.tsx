@@ -19,7 +19,7 @@ const raleWay = Open_Sans({
 
 export const metadata: Metadata = {
   title: "Seventh-Day Adventist Church, Ogba  | E-Bulletin ",
-  description: "Stay Updated Globally & remain blessed",
+  description: "Stay Updated Globally & Remain Blessed",
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
