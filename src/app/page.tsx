@@ -22,7 +22,7 @@ const Home = () => {
         <Announcement />
         <PastorDesk /> */}
 
-        <div>
+        <div className="py-10">
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 pl-8 ">
             <span className="px-1 text-xs italic">
               <span className="font-bold text-center flex justify-center text-4xl">
