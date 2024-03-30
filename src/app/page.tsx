@@ -1,11 +1,11 @@
 "use client";
-import Announcement from "@/components/Programs/Announcement";
-import DivineService from "@/components/Programs/DivineService";
+// import Announcement from "@/components/Programs/Announcement";
+// import DivineService from "@/components/Programs/DivineService";
 import Footer from "@/components/Programs/Footer";
 import Header from "@/components/Programs/Header";
-import PastorDesk from "@/components/Programs/PastorDesk";
-import SabbathSchool from "@/components/Programs/SabbathSchool";
-import Welcome from "@/components/Programs/Welcome";
+// import PastorDesk from "@/components/Programs/PastorDesk";
+// import SabbathSchool from "@/components/Programs/SabbathSchool";
+// import Welcome from "@/components/Programs/Welcome";
 import React, { useRef } from "react";
 
 const Home = () => {
