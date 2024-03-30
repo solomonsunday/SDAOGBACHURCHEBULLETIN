@@ -16,11 +16,22 @@ const Home = () => {
       <div ref={ref} className="duration-300 ease-in"></div>
       <Header />
       <div className="w-9/12 mx-auto">
-        <Welcome />
+        {/* <Welcome />
         <SabbathSchool />
         <DivineService />
         <Announcement />
-        <PastorDesk />
+        <PastorDesk /> */}
+
+        <div>
+          <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 pl-8 ">
+            <span className="px-1 text-xs italic">
+              <span className="font-bold text-center flex justify-center text-4xl">
+                {" "}
+                No Bulletin for today!!!
+              </span>
+            </span>
+          </blockquote>
+        </div>
       </div>
       <Footer />
     </div>
