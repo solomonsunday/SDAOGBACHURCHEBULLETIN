@@ -39,11 +39,11 @@ export const DASHBOARD_SIDEBAR_LINK = [
     path: "/admin/announcement",
     icon: (
       <Image
-        src={"/assets/svgs/price-list-icon.svg"}
-        className=""
+        src={"/assets/svgs/announcement.svg"}
+        className="text-white"
         alt="icon"
-        width={21.75}
-        height={29}
+        width={35}
+        height={40}
       />
     ),
   },
