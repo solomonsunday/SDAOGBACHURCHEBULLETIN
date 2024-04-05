@@ -6,8 +6,6 @@ import { Spinner } from "@/components/Common/Spinner";
 import Search from "@/components/Admin/Search";
 import Button from "@/components/Admin/button";
 import { useRouter } from "next/navigation";
-import Swal from "sweetalert2";
-import { useDeleteBulletinItem } from "@/hooks/useDeleteItem";
 import withAuth from "@/common/HOC/withAuth";
 import { useGetUsers } from "@/hooks/useGetUsers";
 import Switch from "react-switch";
@@ -17,7 +15,6 @@ import Switch from "react-switch";
 const User = () => {
   const router = useRouter();
 
-  const { DeleteBulletinItem } = useDeleteBulletinItem();
   const { fetchAllUsers, users, loading } = useGetUsers();
   const [verified, setVerified] = useState(false);
   const [filteredUser, setFilteredUser] = useState([
@@ -40,49 +37,9 @@ const User = () => {
     fetchAllUsers();
   }, []);
 
-  const handleApprove = () => {
-    console.log(true);
-  };
-
-  const deleteItem = (id: string) => {
-    const swalWithBootstrapButtons = Swal.mixin({
-      customClass: {
-        confirmButton: "p-3 bg-red-700  rounded-lg text-white mx-2",
-        cancelButton: "p-3 bg-green-700 rounded-lg text-white ",
-      },
-      buttonsStyling: false,
-    });
-    swalWithBootstrapButtons
-      .fire({
-        title: "Are you sure?",
-        text: "You won't be able to revert this!",
-        icon: "warning",
-        showCancelButton: true,
-        confirmButtonText: "Yes, delete it!",
-        cancelButtonText: "No, cancel!",
-        reverseButtons: true,
-      })
-      .then(async (result) => {
-        if (result.isConfirmed) {
-          await DeleteBulletinItem(id);
-          swalWithBootstrapButtons.fire({
-            title: "Deleted!",
-            text: "Your file has been deleted.",
-            icon: "success",
-          });
-          // fetchBulletins(); //TODO: Optimize the responsd afte deleting files
-        } else if (
-          /* Read more about handling dismissals below */
-          result.dismiss === Swal.DismissReason.cancel
-        ) {
-          swalWithBootstrapButtons.fire({
-            title: "Cancelled",
-            text: "Your imaginary file is safe :)",
-            icon: "error",
-          });
-        }
-      });
-  };
+  // const handleApprove = () => {
+  //   console.log(true);
+  // };
 
   const handleSearch = (query: string) => {
     if (query.trim() === "") {
