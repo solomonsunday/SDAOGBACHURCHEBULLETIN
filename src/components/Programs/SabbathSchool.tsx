@@ -11,12 +11,12 @@ const SabbathSchool = () => {
           {" "}
           Singspiration (8:45 AM)
         </div>
-        <div className="text-xs capitalize">MG. Kelechi Nwachukwu</div>
+        <div className="text-xs capitalize">Song Leaders</div>
 
         <div className="col-span-3 text-sm capitalize">
           Opening Remark (Welcome & Prayer)
         </div>
-        <div className="text-xs">MG. Faith Chibuzor </div>
+        <div className="text-xs">Bro. Benjamin Oshiotse </div>
 
         <div className="col-span-3 text-sm capitalize">
           Welcome / Supt's Opening Remark
@@ -25,41 +25,47 @@ const SabbathSchool = () => {
 
         <div className="col-span-3 text-sm capitalize">
           {" "}
-          Welcome / Opening Hymn (Go Forth)
+          Welcome / Opening Hymn (SDAH 605)
         </div>
-        <div className="text-xs capitalize"> Chiamaka Chukwuemeka</div>
+        <div className="text-xs capitalize"> Sis. Chika Promise</div>
         <div className="col-span-3 text-sm capitalize"> Keeping on Course</div>
-        <div className="text-xs capitalize">MG. Faith Chibuzor</div>
+        <div className="text-xs capitalize">Sis. Adaoha Alala</div>
         <div className="col-span-3 text-sm capitalize"> Mission Spotlight </div>
-        <div className="text-xs capitalize">Darasimi Adebayo</div>
+        <div className="text-xs capitalize">Sis. Nkiruka Ihesiaba</div>
         <div className="col-span-3 text-sm capitalize">
           {" "}
           Study Time, Lession Introduction
         </div>
-        <div className="text-xs capitalize">Oyinyechi Christopher</div>
+        <div className="text-xs capitalize">Bro. Chimezie Mbagwu</div>
         <div className="col-span-3 text-sm capitalize">
           Unit Activities / Lesson Study (40 Mins)
         </div>
-        <div className="text-xs capitalize"> MG. Faith Chibuzor </div>
-        <div className="col-span-3 text-sm capitalize">Lesson Summary</div>
         <div className="text-xs capitalize"> - </div>
+        <div className="col-span-3 text-sm capitalize">Lesson Summary</div>
+        <div className="text-xs capitalize"> Unit Representatives </div>
         <div className="col-span-3 text-sm capitalize">Friend's time</div>
-        <div className="text-xs capitalize"> Nice Festus</div>
+        <div className="text-xs capitalize"> Sis. Nkiruka Ihesiaba</div>
         <div className="col-span-3 text-sm capitalize">Special Feature</div>
-        <div className="text-xs capitalize">
-          {" "}
-          Children’s Ministries & Youth – COM. Bessy Francis
+        <div className="text-xs capitalize">-</div>
+
+        <div className="col-span-3 text-sm capitalize">
+          Responses from the Pews
         </div>
+        <div className="text-xs capitalize">
+          Elder Onyedikachi Alala (Anchor)
+        </div>
+        <div className="col-span-3 text-sm capitalize"> 1st Quarter Report</div>
+        <div className="text-xs capitalize">Secretary</div>
         <div className="col-span-3 text-sm capitalize">
           Announcement / Closing Remark
         </div>
-        <div className="text-xs capitalize"> MG. Faith Chibuzor </div>
+        <div className="text-xs capitalize">Bro. Chimezie </div>
         <div className="col-span-3 text-sm capitalize">
-          Closing Hymn (Go Forth)
+          Closing Hymn (SDAC 614)
         </div>
-        <div className="text-xs"> Darasimi Adebayo</div>
+        <div className="text-xs"> Bro. Benjamin Oshiotse</div>
         <div className="col-span-3 text-sm capitalize">Closing Prayer</div>
-        <div className="text-xs"> Nice Festus</div>
+        <div className="text-xs"> Sis. Adaoha Alala</div>
       </div>
     </section>
   );

@@ -13,44 +13,44 @@ const DivineService = () => {
           <div className="text-xs"> Organist</div>
 
           <div className="col-span-3 text-sm">
-            Call to Worship: (Ezek. 34:1 & Isa. 49:16)
+            Call to Worship: (Mathew 28:18-20)
           </div>
-          <div className="text-xs">Elder. A. Ajie</div>
+          <div className="text-xs">Pst. H. Kona</div>
           <div className="col-span-3 text-sm"> Invocation</div>
           <div className="text-xs"> Congregation </div>
           <div className="col-span-3 text-sm">
             {" "}
-            Welcome / opening Hymn (Go Forth)
+            Welcome / opening Hymn (SDAH 373)
           </div>
-          <div className="text-xs">MG. F. Chidera </div>
+          <div className="text-xs">Elder C. Nwaogu </div>
           <div className="col-span-3 text-sm"> Pastoral Prayer</div>
-          <div className="text-xs"> MG. K. Ejukwu</div>
+          <div className="text-xs"> Elder A. Ajie</div>
           <div className="col-span-3 text-sm"> Stewardship </div>
-          <div className="text-xs">MG. N. Wogu </div>
+          <div className="text-xs">Mrs. M. Gospel</div>
           <div className="col-span-3 text-sm"> Musical Selection (Choir)</div>
-          <div className="text-xs"> Audrey Gospel</div>
+          <div className="text-xs"> Mrs. M. Gospel </div>
 
-          <div className="col-span-3 text-sm">
+          {/* <div className="col-span-3 text-sm">
             Induction: (Adventurer & Pathfinder Clubs)
           </div>
-          <div className="text-xs">MG. F.L. Alonge </div>
+          <div className="text-xs">MG. F.L. Alonge </div> */}
           <div className="col-span-3 text-sm">
-            Spiritual Reading (Mathew 11:19)
+            Spiritual Reading (Mark 13:14)
           </div>
-          <div className="text-xs">David Lucky </div>
+          <div className="text-xs">Sis. Tofunmi Olusona </div>
           <div className="col-span-3 text-sm">
-            Hymn of Concecration (SDAH 367)
+            Hymn of Concecration (SDAH 359)
           </div>
-          <div className="text-xs">MG. K. Ejukwu</div>
+          <div className="text-xs">Sis. Tofunmi Olusona</div>
           <div className="col-span-3 text-sm">
             Sermon Title{" "}
-            <span className="font-bold">Lifting the Fallen in your City”</span>
+            <span className="font-bold">A Call to Discipleship</span>
           </div>
-          <div className="text-xs"> Elder. A. Ajie </div>
-          <div className="col-span-3 text-sm">Closing Hymn (Go Forth) </div>
-          <div className="text-xs"> MG. F. Chidera Benediction </div>
+          <div className="text-xs"> Pst. H. Kona</div>
+          <div className="col-span-3 text-sm">Closing Hymn (SDAH 430) </div>
+          <div className="text-xs"> Elder A. Ajie</div>
           <div className="col-span-3 text-sm">Benediction</div>
-          <div className="text-xs"> Elder. A. Ajie</div>
+          <div className="text-xs"> Pst. H. Kona </div>
           <div className="col-span-3 text-sm">Doxology</div>
           <div className="text-xs"> Congregation</div>
         </div>

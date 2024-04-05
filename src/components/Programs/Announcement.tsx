@@ -20,45 +20,20 @@ const Announcement = () => {
             interceed for you.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            Education week comes up on 23- 30 March 2024
+            All Night Prayer holds today by 11:00p.m .
           </li>
           <li className="pb-2 border-b border-orange-200">
-            ⁠LMC Children ministry convention holds as follows: Date: 28/3/2024
-            to 1/4/2024 Venue: St. Joseph sec. School Mangoro, Lagos
-            Registration: #6,000 (#2,000 subsidy for the first 50 children)
+            Glory be to God for the safe completion of the just concluded LMC
+            Children Convention here in Ogba Church and a big thank you to the
+            parents and entire church for your supports.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            The Church Generator: The church leadership is thanking all members
-            for your contributions/pledges we have received so far. Based on
-            this, we have reached out to the vendor and awaiting him to provide
-            us one for inspection.
-          </li>
-
-          <li className="pb-2 border-b border-orange-200">
-            Club inductions: Master Guide, Ambassadors and Senior Youth clubs -
-            22/3/2024 Adventurer and Pathfinder clubs - 23/3/2024
+            Thank God for the success of Sister Grace Adebisi’s surgery within
+            the week, we pray for swift recovery as she is recuperating. Thank
+            you for your support and prayers.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            The Global Youth Week of Prayer ends today, glory be to God for
-            answered prayers and thanks to all who attended
-          </li>
-          <li className="pb-2 border-b border-orange-200">
-            Club Inductions: Today is our Adventurer and Pathfinder Club
-            induction.
-          </li>
-          <li className="pb-2 border-b border-orange-200">
-            Youth Enrolment is now closed for 2024. Non-enrolled Youth will not
-            partake in Induction and Investiture Services and any major Youth
-            programme.
-          </li>
-          <li className="pb-2 border-b border-orange-200">
-            Today is Children 12th Sabbath Celebration.
-          </li>
-          <li className="pb-2 border-b border-orange-200">
-            Education Week comes up on 23rd – 30th March, 2024.
-          </li>
-          <li className="pb-2 border-b border-orange-200">
-            Education Week comes up on 23rd – 30th March, 2024.
+            SOP/Publishing Impact Week of prayer holds 13th -19th April, 2024
           </li>
           <li className="pb-2 border-b border-orange-200">
             Remnant Federation Boot Camp/Pathfinder Funfair comes up April 17th
@@ -68,6 +43,29 @@ const Announcement = () => {
             Director or the Deputies.
           </li>
           <li className="pb-2 border-b border-orange-200">
+            Single’s Breakfast Fellowship comes up on 28/4/2024 by 9:00a.m here
+            in Ogba Church.
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            Registration for AWM National Convention at Babcock University is
+            ongoing, ₦30,000 till April 30th. Late registration is ₦35,000.
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            Lagos Evangelism Summit: Mission to the City of Lagos organized by
+            the Western Nigeria Union Conference in collaboration with WAD.
+            Date: 28/04/2024 by 10:00a.m. Venue: SDA Church Maryland. Those to
+            attend: All Officers, Directors, Pastors, Elders, Personal Ministry
+            Leaders Church & District, Sabbath School Superintendents, Youth
+            Leaders and all that is interested in Evangelism.
+          </li>
+
+          {/* <li className="pb-2 border-b border-orange-200">
+            The Church Generator: The church leadership is thanking all members
+            for your contributions/pledges we have received so far. Based on
+            this, we have reached out to the vendor and awaiting him to provide
+            us one for inspection.
+          </li> */}
+          <li className="pb-2 border-b border-orange-200">
             Limited copies of the Book “The Great Controversy are now available
             at ₦1,500 per copy. Pick a copy for your family and friends today.
           </li>
@@ -75,15 +73,6 @@ const Announcement = () => {
             The WAD 2024 devotional reading with the theme “Complete wellness”
             is available, Price is 2,900. Grab a copy for your family and
             friends
-          </li>
-          <li className="pb-2 border-b border-orange-200">
-            Bereavement: Elder Celestine O. Ajuonu has been laid to rest on
-            Thursday, thank you all for your support and prayers.
-          </li>
-          <li className="pb-2 border-b border-orange-200">
-            Bro. Hillary in inviting the church to the burial of their late
-            father Deacon Hilary Igbo Egbelu on 27/3/2024 at his compound,
-            Umugbala-Umuonei, Igburu-Awara Ohaji/Egbema LGA Imo State.
           </li>
           <li className="pb-2 border-b border-orange-200">
             We encourage you to give generously as an expression of your

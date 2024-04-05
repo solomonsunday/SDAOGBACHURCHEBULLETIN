@@ -19,7 +19,7 @@ const Welcome = () => {
   }, []);
 
   return (
-    <section className="pt-5 md:pt-10 " id="sabbathschool">
+    <section className="pt-5 md:pt-10" id="sabbathschool">
       <div className="font-serif text-3xl pb-2 mb-5 dark:text-orange-400 text-[#304D30] text-center italic ">
         Welcome to{" "}
         <span className="text-base italic text-orange-500">
@@ -31,32 +31,33 @@ const Welcome = () => {
         <div className="border border-orange-500 "></div>
       </div>
       <div className="space-y-2">
-        <div>
-          <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 pl-8 ">
+        <div className="text-center flex justify-center">
+          <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2  w-full ">
             <p className="text-orange-400 underline">THEME FOR THIS QUARTER</p>
-            Psalms
+            The Great Controversy
           </blockquote>
         </div>
-        <div>
-          <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 pl-8 ">
+        <div className="text-center flex justify-center">
+          <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2  w-full">
             <p className="text-orange-400 underline">TOPIC FOR THE WEEK</p>
-            Worship that Never Ends
+            The War behind All Wars
           </blockquote>
         </div>
-        <div>
-          <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 pl-8 ">
+        <div className="text-center flex justify-center">
+          <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 w-full">
             <p className="text-orange-400 underline">MEMORY TEXT</p>
 
             <span className="px-1 text-xs italic">
-              "I will sing to the Lord as long as I live; I will sing praise to
-              my God while I have my being”
-              <span className="font-bold">(Psalm 104:33 NKJV)</span>
+              "And war broke out in heaven: Michael and his angels fought with
+              the dragon; and the dragon and his angels fought, but they did not
+              previl, nor was a place found for them in heaven any longer”
+              <span className="font-bold"> (Rev. 12:7-8 NKJV)</span>
             </span>
           </blockquote>
         </div>
 
-        <div>
-          <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 pl-8  overflow-auto">
+        <div className="text-center flex justify-center">
+          <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 w-full  overflow-auto">
             <a
               href="https://us02web.zoom.us/j/82591974493?pwd=Yk8vUEwrR1ZtZ1hvWEcvdFdjLzVWZz09"
               target="_blank"
