@@ -4,7 +4,6 @@ import { ReactNode } from "react";
 import "./globals.css";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import Script from "next/script";
 
 const openSans = Raleway({
   subsets: ["latin"],
