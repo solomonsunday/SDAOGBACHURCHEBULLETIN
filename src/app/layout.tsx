@@ -45,6 +45,22 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                 })(window, document, "clarity", "script", "luhx15s7jw");`,
           }}
         />
+
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-9GEWGN64DL"
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+          
+            gtag('config', 'G-9GEWGN64DL');
+            `,
+          }}
+        />
       </body>
       {/* OgbachurchAWS94! */}
     </html>
