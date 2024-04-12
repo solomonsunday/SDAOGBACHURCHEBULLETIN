@@ -38,7 +38,7 @@ const Announcement = () => {
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            Single’s Breakfast Fellowship comes up on 28/4/2024 by 9:00a.m here
+            Single’s Breakfast Fellowship comes up on 28/4/2024 by 9:00am here
             in Ogba Church.
           </li>
           <li className="pb-2 border-b border-orange-200">
