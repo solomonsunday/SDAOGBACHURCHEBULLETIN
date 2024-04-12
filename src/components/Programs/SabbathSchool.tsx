@@ -16,7 +16,7 @@ const SabbathSchool = () => {
         <div className="col-span-3 text-sm capitalize">
           Opening Remark (Welcome & Prayer)
         </div>
-        <div className="text-xs">Bro. Benjamin Oshiotse </div>
+        <div className="text-xs"> Sis, Adaoha Alala </div>
 
         <div className="col-span-3 text-sm capitalize">
           Welcome / Supt's Opening Remark
@@ -25,13 +25,23 @@ const SabbathSchool = () => {
 
         <div className="col-span-3 text-sm capitalize">
           {" "}
-          Welcome / Opening Hymn (SDAH 605)
+          Welcome / Opening Hymn (SDAH 012)
         </div>
-        <div className="text-xs capitalize"> Sis. Chika Promise</div>
+        <div className="text-xs capitalize"> Sis. Decent Chisom</div>
         <div className="col-span-3 text-sm capitalize"> Keeping on Course</div>
-        <div className="text-xs capitalize">Sis. Adaoha Alala</div>
+        <div className="text-xs capitalize">Bro. Uchendu Imo</div>
         <div className="col-span-3 text-sm capitalize"> Mission Spotlight </div>
-        <div className="text-xs capitalize">Sis. Nkiruka Ihesiaba</div>
+        <div className="text-xs capitalize"> Bro. Ifeanyi Nwauju</div>
+        <div className="col-span-3 text-sm capitalize">
+          {" "}
+          Family Special Song:{" "}
+        </div>
+        <div className="text-xs capitalize">
+          {" "}
+          The families of Anthony Ajie, Chisom Iyowuna, Ifeanyi Nwauju, Kelechi
+          Ejukwu & Tunde Aina.
+        </div>
+
         <div className="col-span-3 text-sm capitalize">
           {" "}
           Study Time, Lession Introduction
@@ -42,30 +52,21 @@ const SabbathSchool = () => {
         </div>
         <div className="text-xs capitalize"> - </div>
         <div className="col-span-3 text-sm capitalize">Lesson Summary</div>
-        <div className="text-xs capitalize"> Unit Representatives </div>
+        <div className="text-xs capitalize"> - </div>
         <div className="col-span-3 text-sm capitalize">Friend's time</div>
-        <div className="text-xs capitalize"> Sis. Nkiruka Ihesiaba</div>
+        <div className="text-xs capitalize"> Bro. Uchendu Imo</div>
         <div className="col-span-3 text-sm capitalize">Special Feature</div>
         <div className="text-xs capitalize">-</div>
-
-        <div className="col-span-3 text-sm capitalize">
-          Responses from the Pews
-        </div>
-        <div className="text-xs capitalize">
-          Elder Onyedikachi Alala (Anchor)
-        </div>
-        <div className="col-span-3 text-sm capitalize"> 1st Quarter Report</div>
-        <div className="text-xs capitalize">Secretary</div>
         <div className="col-span-3 text-sm capitalize">
           Announcement / Closing Remark
         </div>
         <div className="text-xs capitalize">Bro. Chimezie </div>
         <div className="col-span-3 text-sm capitalize">
-          Closing Hymn (SDAC 614)
+          Closing Hymn (SDAC 520)
         </div>
-        <div className="text-xs"> Bro. Benjamin Oshiotse</div>
+        <div className="text-xs"> Bro. Ifeanyi Nwauju</div>
         <div className="col-span-3 text-sm capitalize">Closing Prayer</div>
-        <div className="text-xs"> Sis. Adaoha Alala</div>
+        <div className="text-xs"> Sis. Decent Chisom</div>
       </div>
     </section>
   );

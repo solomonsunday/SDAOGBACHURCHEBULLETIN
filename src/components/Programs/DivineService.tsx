@@ -13,44 +13,44 @@ const DivineService = () => {
           <div className="text-xs"> Organist</div>
 
           <div className="col-span-3 text-sm">
-            Call to Worship: (Mathew 28:18-20)
+            Call to Worship: (Revelation 1:3)
           </div>
           <div className="text-xs">Pst. H. Kona</div>
           <div className="col-span-3 text-sm"> Invocation</div>
           <div className="text-xs"> Congregation </div>
           <div className="col-span-3 text-sm">
             {" "}
-            Welcome / opening Hymn (SDAH 373)
+            Welcome / opening Hymn (SDAH 441)
           </div>
-          <div className="text-xs">Elder C. Nwaogu </div>
+          <div className="text-xs">Elder A.C. Chilaka </div>
           <div className="col-span-3 text-sm"> Pastoral Prayer</div>
-          <div className="text-xs"> Elder A. Ajie</div>
+          <div className="text-xs"> Deacon I. Oyeniyi</div>
           <div className="col-span-3 text-sm"> Stewardship </div>
-          <div className="text-xs">Mrs. M. Gospel</div>
+          <div className="text-xs">Deacon C. Iheasiaba</div>
           <div className="col-span-3 text-sm"> Musical Selection (Choir)</div>
-          <div className="text-xs"> Mrs. M. Gospel </div>
+          <div className="text-xs"> Deacon C. Iheasiaba </div>
 
           {/* <div className="col-span-3 text-sm">
             Induction: (Adventurer & Pathfinder Clubs)
           </div>
           <div className="text-xs">MG. F.L. Alonge </div> */}
           <div className="col-span-3 text-sm">
-            Spiritual Reading (Mark 13:14)
+            Scripture Reading (Habakkuk 2:1-4)
           </div>
-          <div className="text-xs">Sis. Tofunmi Olusona </div>
+          <div className="text-xs">Mrs. T. Alonge</div>
           <div className="col-span-3 text-sm">
-            Hymn of Concecration (SDAH 359)
+            Hymn of Consecration (SDAH 604)
           </div>
-          <div className="text-xs">Sis. Tofunmi Olusona</div>
+          <div className="text-xs">Mrs. T. Alonge</div>
           <div className="col-span-3 text-sm">
             Sermon Title{" "}
-            <span className="font-bold">A Call to Discipleship</span>
+            <span className="font-bold">The Impact of Prayer in the </span>
           </div>
-          <div className="text-xs"> Pst. H. Kona</div>
-          <div className="col-span-3 text-sm">Closing Hymn (SDAH 430) </div>
-          <div className="text-xs"> Elder A. Ajie</div>
+          <div className="text-xs"> Elder O. Alala</div>
+          <div className="col-span-3 text-sm">Closing Hymn (SDAH 601) </div>
+          <div className="text-xs"> Deacon I. Oyeniyi</div>
           <div className="col-span-3 text-sm">Benediction</div>
-          <div className="text-xs"> Pst. H. Kona </div>
+          <div className="text-xs"> Elder O. Alala</div>
           <div className="col-span-3 text-sm">Doxology</div>
           <div className="text-xs"> Congregation</div>
         </div>
