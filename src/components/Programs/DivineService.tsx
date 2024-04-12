@@ -15,7 +15,7 @@ const DivineService = () => {
           <div className="col-span-3 text-sm">
             Call to Worship: (Revelation 1:3)
           </div>
-          <div className="text-xs">Pst. H. Kona</div>
+          <div className="text-xs">Elder O. Alala</div>
           <div className="col-span-3 text-sm"> Invocation</div>
           <div className="text-xs"> Congregation </div>
           <div className="col-span-3 text-sm">
