@@ -44,7 +44,9 @@ const DivineService = () => {
           <div className="text-xs">Mrs. T. Alonge</div>
           <div className="col-span-3 text-sm">
             Sermon Title{" "}
-            <span className="font-bold">The Impact of Prayer in the </span>
+            <span className="font-bold">
+              The Impact of Prayer in the Fulfilment Prophecy
+            </span>
           </div>
           <div className="text-xs"> Elder O. Alala</div>
           <div className="col-span-3 text-sm">Closing Hymn (SDAH 601) </div>
