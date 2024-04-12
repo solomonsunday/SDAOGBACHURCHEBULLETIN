@@ -20,20 +20,14 @@ const Announcement = () => {
             interceed for you.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            All Night Prayer holds today by 11:00p.m .
+            The All night prayer program was a success to the glory of God.
           </li>
+
           <li className="pb-2 border-b border-orange-200">
-            Glory be to God for the safe completion of the just concluded LMC
-            Children Convention here in Ogba Church and a big thank you to the
-            parents and entire church for your supports.
-          </li>
-          <li className="pb-2 border-b border-orange-200">
-            Thank God for the success of Sister Grace Adebisi’s surgery within
-            the week, we pray for swift recovery as she is recuperating. Thank
-            you for your support and prayers.
-          </li>
-          <li className="pb-2 border-b border-orange-200">
-            SOP/Publishing Impact Week of prayer holds 13th -19th April, 2024
+            SOP/Publishing impact week begins today, Runs through Wednesday,
+            Friday and will be concluded on Sabbath. The Union Publishing
+            Director will be speaking to us on Sabbath. Let’s endeavour to
+            attend with our families. Time: 6:00pm – 7:00p.m.
           </li>
           <li className="pb-2 border-b border-orange-200">
             Remnant Federation Boot Camp/Pathfinder Funfair comes up April 17th
@@ -42,6 +36,7 @@ const Announcement = () => {
             Fiesta. Registration is ₦4,000. For enquiry call the Pathfinder
             Director or the Deputies.
           </li>
+
           <li className="pb-2 border-b border-orange-200">
             Single’s Breakfast Fellowship comes up on 28/4/2024 by 9:00a.m here
             in Ogba Church.
@@ -49,6 +44,24 @@ const Announcement = () => {
           <li className="pb-2 border-b border-orange-200">
             Registration for AWM National Convention at Babcock University is
             ongoing, ₦30,000 till April 30th. Late registration is ₦35,000.
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            Alive in Jesus WNUC Children’s Ministry Sabbath School Training
+            Convention hold as follows: Date: 13th – 17th June, 2024. Venue:
+            Camp Young, Ede Osun State. Reg. ₦20,000.
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            AMO Convention comes up in Babcock University by 21st -25th August,
+            2024. Reg. ₦15,000.
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            LMC Elders Training holds May 12th, 2024 by 9:00a.m – 12noon. Both
+            serving and non serving Elders are to attend.
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            GC/WAD Stewardship Conference holds August 25th -31st, 2024 at
+            Babcock University. Reg. ₦35,000. Expected to attendees: Pastors,
+            Elders, Treasurers, Stewardship Leaders and Welfare Leaders.
           </li>
           <li className="pb-2 border-b border-orange-200">
             Lagos Evangelism Summit: Mission to the City of Lagos organized by
@@ -59,21 +72,11 @@ const Announcement = () => {
             Leaders and all that is interested in Evangelism.
           </li>
 
-          {/* <li className="pb-2 border-b border-orange-200">
-            The Church Generator: The church leadership is thanking all members
-            for your contributions/pledges we have received so far. Based on
-            this, we have reached out to the vendor and awaiting him to provide
-            us one for inspection.
-          </li> */}
           <li className="pb-2 border-b border-orange-200">
             Limited copies of the Book “The Great Controversy are now available
             at ₦1,500 per copy. Pick a copy for your family and friends today.
           </li>
-          <li className="pb-2 border-b border-orange-200">
-            The WAD 2024 devotional reading with the theme “Complete wellness”
-            is available, Price is 2,900. Grab a copy for your family and
-            friends
-          </li>
+
           <li className="pb-2 border-b border-orange-200">
             We encourage you to give generously as an expression of your
             worship, devotion to God, support and love for the Church and her

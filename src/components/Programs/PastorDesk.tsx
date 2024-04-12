@@ -9,13 +9,14 @@ const PastorDesk = () => {
         </div>
         <div className="space-y-3">
           <div className="text-lg font-semibold underline">
-            <p className="dark:text-white">(Ellen G. White Letter 140,1901) </p>
+            <p className="dark:text-white">Isaiah 52:7</p>
           </div>
           <p className="text-orange-500">
-            Do not seek to shun responsibilities. To do this is to dishonor the
-            claim of discipleship. In His ministry on this earth Christ
-            represented His Father. We are to follow in His steps. (Ellen G.
-            White Letter 140,1901)
+            How beautiful on the mountains are the feet of those who bring good
+            news, who proclaim peace, who bring good tidings, who proclaim
+            salvation, who say to Zion, “Your God reigns!” Let’s join millions
+            of others all over the world to proclaim, in every way, that “our
+            God reigns”
           </p>
         </div>
       </section>

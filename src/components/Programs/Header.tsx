@@ -4,8 +4,8 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 
 const Header = () => {
-  const [showMenu, setShowMenu] = useState(false);
-  const [toggleHamburger, setTogglehambugger] = useState(false);
+  const [showMenu, setShowMenu] = useState(true);
+  const [toggleHamburger, setTogglehambugger] = useState(true);
 
   useEffect(() => {
     // https://www.freecodecamp.org/news/how-to-build-a-dark-mode-switcher-with-tailwind-css-and-flowbite
@@ -92,7 +92,7 @@ const Header = () => {
           className={`${
             showMenu
               ? "hidden"
-              : "md:hidden flex absolute top-0 bottom-0 left-0 flex-col self-end w-full min-h-screen py-1 pt-16 pl-12 space-y-3 text-lg text-orange-400 uppercase bg-[#304D30]  z-10 "
+              : "md:hidden flex absolute top-0 bottom-0 left-0 flex-col  w-full min-h-screen py-1 pt-16 pl-12 space-y-3 text-lg text-orange-400 uppercase bg-[#304D30] z-10"
           }`}
         >
           <Link
