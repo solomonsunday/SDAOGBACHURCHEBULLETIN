@@ -44,7 +44,7 @@ const SabbathSchool = () => {
 
         <div className="col-span-3 text-sm capitalize">
           {" "}
-          Study Time, Lession Introduction
+          Study Time, Lesson Introduction
         </div>
         <div className="text-xs capitalize">Bro. Chimezie Mbagwu</div>
         <div className="col-span-3 text-sm capitalize">
