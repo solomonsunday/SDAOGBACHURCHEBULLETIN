@@ -40,7 +40,7 @@ const Welcome = () => {
         <div className="text-center flex justify-center">
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2  w-full">
             <p className="text-orange-400 underline">TOPIC FOR THE WEEK</p>
-            The Central Issue
+            Light Shines in the Darkness
           </blockquote>
         </div>
         <div className="text-center flex justify-center">
@@ -48,10 +48,10 @@ const Welcome = () => {
             <p className="text-orange-400 underline">MEMORY TEXT</p>
 
             <span className="px-1 text-xs italic">
-              “Fear not, for I am with you; Be not dismayed, for I am your God.
-              I will strengthen you, Yes, I will help you, I will uphold you
-              with My righteous right hand”
-              <span className="font-bold"> (Isaiah 41:10 NKJV) </span>
+              “Then Jesus said to them, ‘A little while longer the light is with
+              you. Walk while you have the light, lest darkness overtake you; he
+              who walks in darkness does not know where he is going’”
+              <span className="font-bold"> (John 12:35, NKJV) </span>
             </span>
           </blockquote>
         </div>
