@@ -9,14 +9,13 @@ const PastorDesk = () => {
         </div>
         <div className="space-y-3">
           <div className="text-lg font-semibold underline">
-            <p className="dark:text-white">Isaiah 52:7</p>
+            <p className="dark:text-white">
+              Ellen G. White, The Great Controversy, 593.
+            </p>
           </div>
           <p className="text-orange-500">
-            How beautiful on the mountains are the feet of those who bring good
-            news, who proclaim peace, who bring good tidings, who proclaim
-            salvation, who say to Zion, “Your God reigns!” Let’s join millions
-            of others all over the world to proclaim, in every way, that “our
-            God reigns”
+            'None but those have fortified the mind with truths of the Bible
+            will stand through the last great Conflict.'
           </p>
         </div>
       </section>
