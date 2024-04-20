@@ -20,21 +20,23 @@ const Announcement = () => {
             interceed for you.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            The All night prayer program was a success to the glory of God.
+            Today is the Climax of our SOP/Publishing impact week of Emphasis;
+            we thank God for its successful completion. The Union Publishing
+            Director will be speaking to us today.
           </li>
-
+          {/* 
           <li className="pb-2 border-b border-orange-200">
             SOP/Publishing impact week begins today, Runs through Wednesday,
             Friday and will be concluded on Sabbath. The Union Publishing
             Director will be speaking to us on Sabbath. Let’s endeavour to
             attend with our families. Time: 6:00pm – 7:00p.m.
-          </li>
+          </li> */}
           <li className="pb-2 border-b border-orange-200">
-            Remnant Federation Boot Camp/Pathfinder Funfair comes up April 17th
-            – 21st , 2024. Venue is Ogba Church. Features: Craft display, Drill,
-            Tent making, Camp Fire, Camp Furniture, Group games and Sports
-            Fiesta. Registration is ₦4,000. For enquiry call the Pathfinder
-            Director or the Deputies.
+            <span className="font-extrabold">AYM:</span> Remnant Federation Boot
+            Camp/Pathfinder Funfair comes up April 17th – 21st , 2024. Venue is
+            Ogba Church. Features: Craft display, Drill, Tent making, Camp Fire,
+            Camp Furniture, Group games and Sports Fiesta. Registration is
+            ₦4,000. For enquiry call the Pathfinder Director or the Deputies.
           </li>
 
           <li className="pb-2 border-b border-orange-200">
