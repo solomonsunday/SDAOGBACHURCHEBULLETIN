@@ -21,7 +21,8 @@ const Announcement = () => {
           </li>
           <li className="pb-2 border-b border-orange-200">
             <span className="font-bold">Singles:</span> Single’s Breakfast
-            Fellowship comes up on 28/4/2024 by 9:00am here in Ogba Church.
+            Fellowship comes up on tomorrow 28/4/2024 by 9:00am here in Ogba
+            Church.
           </li>
           <li className="pb-2 border-b border-orange-200">
             <span className="font-bold">ICT Department:</span> Support the
@@ -84,12 +85,10 @@ const Announcement = () => {
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            We encourage you to give generously as an expression of your
-            worship, devotion to God, support and love for the Church and her
-            mission. Send your tithes, offerings and other donations to our
-            account: 2020086453 First Bank, Seventh-day Adventist Church, Ogba.
-            Call or WhatsApp 07036586617 to share or seek more details about
-            giving
+            Return your faithful tithes and give generous offerings. Send your
+            tithes, offerings and other donations to our account 2020086453
+            First Bank Seventh-day Adventist Church Ogba. Call or Whatsapp
+            07036586617 to share or seek more details about giving.
           </li>
           <li className="pb-2 border-b border-orange-200">
             Support the Church projects for this year: (a) Empowerment of
