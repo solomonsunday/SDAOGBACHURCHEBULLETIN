@@ -20,33 +20,26 @@ const Announcement = () => {
             interceed for you.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            Today is the Climax of our SOP/Publishing impact week of Emphasis;
-            we thank God for its successful completion. The Union Publishing
-            Director will be speaking to us today.
+            <span className="font-bold">Singles:</span> Single’s Breakfast
+            Fellowship comes up on 28/4/2024 by 9:00am here in Ogba Church.
           </li>
-          {/* 
           <li className="pb-2 border-b border-orange-200">
-            SOP/Publishing impact week begins today, Runs through Wednesday,
-            Friday and will be concluded on Sabbath. The Union Publishing
-            Director will be speaking to us on Sabbath. Let’s endeavour to
-            attend with our families. Time: 6:00pm – 7:00p.m.
-          </li> */}
-          <li className="pb-2 border-b border-orange-200">
-            <span className="font-extrabold">AYM:</span> Remnant Federation Boot
-            Camp/Pathfinder Funfair comes up April 17th – 21st , 2024. Venue is
-            Ogba Church. Features: Craft display, Drill, Tent making, Camp Fire,
-            Camp Furniture, Group games and Sports Fiesta. Registration is
-            ₦4,000. For enquiry call the Pathfinder Director or the Deputies.
-          </li>
-
-          <li className="pb-2 border-b border-orange-200">
-            Single’s Breakfast Fellowship comes up on 28/4/2024 by 9:00am here
-            in Ogba Church.
+            <span className="font-bold">ICT Department:</span> Support the
+            Church media ministry. We need the following items for more
+            effectiveness in the ICT Department of the Church. (a) A laptop-
+            Dell XPs 15 estimated at ₦1,200,000. (b) A camera Sony NX3 estimated
+            at ₦1,600,000.
           </li>
           <li className="pb-2 border-b border-orange-200">
             Registration for AWM National Convention at Babcock University is
             ongoing, ₦30,000 till April 30th. Late registration is ₦35,000.
           </li>
+
+          <li className="pb-2 border-b border-orange-200">
+            World Adventurer Day Celebration comes up on 18/05/2024. Theme:
+            Jesus Knows, He takes care of you.
+          </li>
+
           <li className="pb-2 border-b border-orange-200">
             Alive in Jesus WNUC Children’s Ministry Sabbath School Training
             Convention hold as follows: Date: 13th – 17th June, 2024. Venue:
@@ -65,6 +58,17 @@ const Announcement = () => {
             Babcock University. Reg. ₦35,000. Expected to attendees: Pastors,
             Elders, Treasurers, Stewardship Leaders and Welfare Leaders.
           </li>
+
+          <li className="pb-2 border-b border-orange-200">
+            There will be a Combined worship service of the Lagos Mainland,
+            Lagos Atlantic and Ogun Conferences with the Union officers on a
+            land belonging to the Church along Lagos Ibadan Express way. All
+            denominational employees (Pastors and office workers) will be there.
+            Each district is expected to be represented by 30 members. We
+            encourage those who are interested in going to indicate their
+            interest.
+          </li>
+
           <li className="pb-2 border-b border-orange-200">
             Lagos Evangelism Summit: Mission to the City of Lagos organized by
             the Western Nigeria Union Conference in collaboration with WAD.
@@ -88,11 +92,18 @@ const Announcement = () => {
             giving
           </li>
           <li className="pb-2 border-b border-orange-200">
+            Support the Church projects for this year: (a) Empowerment of
+            members (b) Oke-Ira evangelism project (c) Construction of a
+            swimming pool that will also serve as baptistery (d) Renovation and
+            beautification of the Fence (e) Construction of more toilets
+            facilities (f) Raising of the Church School to Standard
+          </li>
+          {/* <li className="pb-2 border-b border-orange-200">
             Please donate towards the acquisition of a permanent camp site.
             Let’s support this project with our generous donations and pledges.
             Account to donate to is LMC AMO Multipurpose Cooperative Society.
             A/c No: 0727284995, GTBank.
-          </li>
+          </li> */}
         </ol>
       </div>
     </section>
