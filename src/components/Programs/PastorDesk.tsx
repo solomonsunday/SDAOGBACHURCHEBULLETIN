@@ -9,13 +9,12 @@ const PastorDesk = () => {
         </div>
         <div className="space-y-3">
           <div className="text-lg font-semibold underline">
-            <p className="dark:text-white">
-              Ellen G. White, The Great Controversy, 593.
-            </p>
+            <p className="dark:text-white">Psalm 51:17.</p>
           </div>
           <p className="text-orange-500">
-            'None but those have fortified the mind with truths of the Bible
-            will stand through the last great Conflict.'
+            'The sacrifices of God are a broken spirit, A broken and a contrite
+            heart- These, O God, You will not despise. May we be humble before
+            God in worship today. Happy Sabbath!'
           </p>
         </div>
       </section>

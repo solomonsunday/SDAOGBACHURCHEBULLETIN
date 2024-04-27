@@ -12,42 +12,47 @@ const DivineService = () => {
           <div className="col-span-3 text-sm "> Prelude</div>
           <div className="text-xs"> Organist</div>
 
-          <div className="col-span-3 text-sm">Call to Worship: (SDAH 888)</div>
-          <div className="text-xs">Pst. N.D. Agbada</div>
+          <div className="col-span-3 text-sm">
+            Call to Worship: (Isaiah 45:2)
+          </div>
+          <div className="text-xs">Elder A. Ajie</div>
           <div className="col-span-3 text-sm"> Invocation</div>
           <div className="text-xs"> Congregation </div>
           <div className="col-span-3 text-sm">
             {" "}
-            Welcome / opening Hymn (SDAH 359)
+            Welcome / opening Hymn (SDAH 430)
           </div>
-          <div className="text-xs">Pst. H. Kona </div>
+          <div className="text-xs">Bro. S. Oyelekan </div>
           <div className="col-span-3 text-sm"> Pastoral Prayer</div>
-          <div className="text-xs"> Pst. S. Adebayo</div>
+          <div className="text-xs">Elder A.B. Adedokun</div>
           <div className="col-span-3 text-sm"> Stewardship </div>
-          <div className="text-xs"> Elder. A.C. Chilaka</div>
+          <div className="text-xs"> Elder. M. Okorji</div>
           <div className="col-span-3 text-sm"> Musical Selection (Choir)</div>
-          <div className="text-xs"> Elder. A.C. Chilaka </div>
+          <div className="text-xs"> Elder. M. Okorji </div>
 
           {/* <div className="col-span-3 text-sm">
             Induction: (Adventurer & Pathfinder Clubs)
           </div>
           <div className="text-xs">MG. F.L. Alonge </div> */}
           <div className="col-span-3 text-sm">
-            Scripture Reading (Isaiah 60:1)
+            Scripture Reading (Ephesians 2:10)
           </div>
-          <div className="text-xs">Elder. O. Alala</div>
+          <div className="text-xs">Mrs. E. Kelechi</div>
           <div className="col-span-3 text-sm">
-            Hymn of Consecration (SDAH 304)
+            Hymn of Consecration (SDAH 579)
           </div>
-          <div className="text-xs">Elder. O. Alala</div>
+          <div className="text-xs">Mrs. E. Kelechi</div>
           <div className="col-span-3 text-sm">
-            Sermon Title <span className="font-bold">God’s Clarion Call</span>
+            Sermon Title{" "}
+            <span className="font-bold">
+              The Impact of Personal Evangelism{" "}
+            </span>
           </div>
-          <div className="text-xs"> Pst. N.D. Agbada</div>
-          <div className="col-span-3 text-sm">Closing Hymn (SDAH 260) </div>
-          <div className="text-xs"> Pst. S. Adebayo</div>
+          <div className="text-xs"> Elder A. Ajie</div>
+          <div className="col-span-3 text-sm">Closing Hymn (SDAH 430) </div>
+          <div className="text-xs"> Elder A.B. Adedokun</div>
           <div className="col-span-3 text-sm">Benediction</div>
-          <div className="text-xs"> Pst. N.D. Agbada</div>
+          <div className="text-xs"> Elder A. Ajie</div>
           <div className="col-span-3 text-sm">Doxology</div>
           <div className="text-xs"> Congregation</div>
         </div>
