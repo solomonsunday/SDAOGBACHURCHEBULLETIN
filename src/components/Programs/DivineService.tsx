@@ -13,46 +13,44 @@ const DivineService = () => {
           <div className="text-xs"> Organist</div>
 
           <div className="col-span-3 text-sm">
-            Call to Worship: (Isaiah 45:2)
+            Call to Worship: (Philippians 4:6-7)
           </div>
-          <div className="text-xs">Elder A. Ajie</div>
+          <div className="text-xs">Elder G. Adeoti</div>
           <div className="col-span-3 text-sm"> Invocation</div>
           <div className="text-xs"> Congregation </div>
           <div className="col-span-3 text-sm">
             {" "}
-            Welcome / opening Hymn (SDAH 430)
+            Welcome / opening Hymn (SDAH 373)
           </div>
-          <div className="text-xs">Bro. S. Oyelekan </div>
+          <div className="text-xs">Mrs. A. Adedokun </div>
           <div className="col-span-3 text-sm"> Pastoral Prayer</div>
-          <div className="text-xs">Elder A.B. Adedokun</div>
+          <div className="text-xs">Elder V.O. Oyenuga</div>
           <div className="col-span-3 text-sm"> Stewardship </div>
-          <div className="text-xs"> Elder. M. Okorji</div>
+          <div className="text-xs"> Deacon L. Njoku</div>
           <div className="col-span-3 text-sm"> Musical Selection (Choir)</div>
-          <div className="text-xs"> Elder. M. Okorji </div>
+          <div className="text-xs"> Deacon L. Njoku</div>
 
           {/* <div className="col-span-3 text-sm">
             Induction: (Adventurer & Pathfinder Clubs)
           </div>
           <div className="text-xs">MG. F.L. Alonge </div> */}
           <div className="col-span-3 text-sm">
-            Scripture Reading (Ephesians 2:10)
+            Scripture Reading (Mark 16: 3-4)
           </div>
-          <div className="text-xs">Mrs. E. Kelechi</div>
+          <div className="text-xs">Mrs. I. Ajie</div>
           <div className="col-span-3 text-sm">
-            Hymn of Consecration (SDAH 579)
+            Hymn of Consecration (SDAH 367)
           </div>
-          <div className="text-xs">Mrs. E. Kelechi</div>
+          <div className="text-xs">Mrs. I. Ajie</div>
           <div className="col-span-3 text-sm">
             Sermon Title{" "}
-            <span className="font-bold">
-              The Impact of Personal Evangelism{" "}
-            </span>
+            <span className="font-bold">Who will Roll the Stone Away</span>
           </div>
-          <div className="text-xs"> Elder A. Ajie</div>
-          <div className="col-span-3 text-sm">Closing Hymn (SDAH 430) </div>
-          <div className="text-xs"> Elder A.B. Adedokun</div>
+          <div className="text-xs">Elder G. Adeoti </div>
+          <div className="col-span-3 text-sm">Closing Hymn (SDAH 359) </div>
+          <div className="text-xs"> Elder V.O. Oyenuga</div>
           <div className="col-span-3 text-sm">Benediction</div>
-          <div className="text-xs"> Elder A. Ajie</div>
+          <div className="text-xs">Elder G. Adeoti</div>
           <div className="col-span-3 text-sm">Doxology</div>
           <div className="text-xs"> Congregation</div>
         </div>

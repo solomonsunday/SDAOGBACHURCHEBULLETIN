@@ -20,11 +20,6 @@ const Announcement = () => {
             interceed for you.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            <span className="font-bold">Singles:</span> Single’s Breakfast
-            Fellowship comes up on tomorrow 28/4/2024 by 9:00am here in Ogba
-            Church.
-          </li>
-          <li className="pb-2 border-b border-orange-200">
             <span className="font-bold">ICT Department:</span> Support the
             Church media ministry. We need the following items for more
             effectiveness in the ICT Department of the Church. (a) A laptop-
@@ -47,8 +42,22 @@ const Announcement = () => {
             Camp Young, Ede Osun State. Reg. ₦20,000.
           </li>
           <li className="pb-2 border-b border-orange-200">
+            Registration for AWM National Convention at Babcock University is
+            ongoing. The payment of ₦30,000 has been extended till May ending.
+            Late registration is ₦35,000.
+          </li>
+          <li className="pb-2 border-b border-orange-200">
             AMO Convention comes up in Babcock University by 21st -25th August,
             2024. Reg. ₦15,000.
+          </li>
+
+          <li className="pb-2 border-b border-orange-200">
+            Today is the combined worship service of the Lagos Mainland, Lagos
+            Atlantic and Ogun Conferences with the Union officers on a land
+            belonging to the Church along Lagos Ibadan Express way. All
+            denominational employees (Pastors and office workers) will be there.
+            Each district is expected to be represented by 30 members. Let’s
+            pray for journey mercies and success of the program.
           </li>
           <li className="pb-2 border-b border-orange-200">
             LMC Elders Training holds May 12th, 2024 by 9:00a.m – 12noon. Both
@@ -59,36 +68,14 @@ const Announcement = () => {
             Babcock University. Reg. ₦35,000. Expected to attendees: Pastors,
             Elders, Treasurers, Stewardship Leaders and Welfare Leaders.
           </li>
-
           <li className="pb-2 border-b border-orange-200">
-            There will be a Combined worship service of the Lagos Mainland,
-            Lagos Atlantic and Ogun Conferences with the Union officers on a
-            land belonging to the Church along Lagos Ibadan Express way. All
-            denominational employees (Pastors and office workers) will be there.
-            Each district is expected to be represented by 30 members. We
-            encourage those who are interested in going to indicate their
-            interest.
+            Wedding Bells: The wedding ceremony of Bro. Obinna Okwuonu and Sis.
+            Owuneme Amarachi (From Magodo district) holds here in Ogba Church on
+            26/05/2024.
           </li>
-
-          <li className="pb-2 border-b border-orange-200">
-            Lagos Evangelism Summit: Mission to the City of Lagos organized by
-            the Western Nigeria Union Conference in collaboration with WAD.
-            Date: 28/04/2024 by 10:00a.m. Venue: SDA Church Maryland. Those to
-            attend: All Officers, Directors, Pastors, Elders, Personal Ministry
-            Leaders Church & District, Sabbath School Superintendents, Youth
-            Leaders and all that is interested in Evangelism.
-          </li>
-
           <li className="pb-2 border-b border-orange-200">
             Limited copies of the Book “The Great Controversy are now available
             at ₦1,500 per copy. Pick a copy for your family and friends today.
-          </li>
-
-          <li className="pb-2 border-b border-orange-200">
-            Return your faithful tithes and give generous offerings. Send your
-            tithes, offerings and other donations to our account 2020086453
-            First Bank Seventh-day Adventist Church Ogba. Call or Whatsapp
-            07036586617 to share or seek more details about giving.
           </li>
           <li className="pb-2 border-b border-orange-200">
             Support the Church projects for this year: (a) Empowerment of
@@ -97,12 +84,18 @@ const Announcement = () => {
             beautification of the Fence (e) Construction of more toilets
             facilities (f) Raising of the Church School to Standard
           </li>
-          {/* <li className="pb-2 border-b border-orange-200">
+          <li className="pb-2 border-b border-orange-200">
+            Return your faithful tithes and give generous offerings. Send your
+            tithes, offerings and other donations to our account 2020086453
+            First Bank Seventh-day Adventist Church Ogba. Call or Whatsapp
+            07036586617 to share or seek more details about giving.
+          </li>
+          <li className="pb-2 border-b border-orange-200">
             Please donate towards the acquisition of a permanent camp site.
             Let’s support this project with our generous donations and pledges.
             Account to donate to is LMC AMO Multipurpose Cooperative Society.
             A/c No: 0727284995, GTBank.
-          </li> */}
+          </li>
         </ol>
       </div>
     </section>
