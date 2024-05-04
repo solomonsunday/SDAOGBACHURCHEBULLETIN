@@ -40,7 +40,7 @@ const Welcome = () => {
         <div className="text-center flex justify-center">
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2  w-full">
             <p className="text-orange-400 underline">TOPIC FOR THE WEEK</p>
-            Standing for the Truth
+            Faith against All Odds
           </blockquote>
         </div>
         <div className="text-center flex justify-center">
@@ -48,10 +48,9 @@ const Welcome = () => {
             <p className="text-orange-400 underline">MEMORY TEXT</p>
 
             <span className="px-1 text-xs italic">
-              “And as Moses lifted up the serpent in the wilderness, even so
-              must the Son of Man be lifted up, that whoever believes in Him
-              should not perish but have eternal life”
-              <span className="font-bold"> (John 3:14-15, NKJV) </span>
+              “Your world I have hidden in my heart, that I might not sin
+              against You”
+              <span className="font-bold"> (Psalm 119:11, NKJV) </span>
             </span>
           </blockquote>
         </div>
