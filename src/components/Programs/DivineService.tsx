@@ -12,23 +12,21 @@ const DivineService = () => {
           <div className="col-span-3 text-sm "> Prelude</div>
           <div className="text-xs"> Organist</div>
 
-          <div className="col-span-3 text-sm">
-            Call to Worship: (Philippians 4:6-7)
-          </div>
-          <div className="text-xs">Elder G. Adeoti</div>
+          <div className="col-span-3 text-sm">Call to Worship: ()</div>
+          <div className="text-xs"> Deacon Kingsley A.</div>
           <div className="col-span-3 text-sm"> Invocation</div>
           <div className="text-xs"> Congregation </div>
           <div className="col-span-3 text-sm">
             {" "}
-            Welcome / opening Hymn (SDAH 373)
+            Welcome / opening Hymn (SDAH 212)
           </div>
-          <div className="text-xs">Mrs. A. Adedokun </div>
+          <div className="text-xs">Deacon I. Oyeniyi </div>
           <div className="col-span-3 text-sm"> Pastoral Prayer</div>
-          <div className="text-xs">Elder V.O. Oyenuga</div>
+          <div className="text-xs">Elder K. Onwulata</div>
           <div className="col-span-3 text-sm"> Stewardship </div>
-          <div className="text-xs"> Deacon L. Njoku</div>
+          <div className="text-xs"> Elder T. Aina</div>
           <div className="col-span-3 text-sm"> Musical Selection (Choir)</div>
-          <div className="text-xs"> Deacon L. Njoku</div>
+          <div className="text-xs"> Elder T. Aina </div>
 
           {/* <div className="col-span-3 text-sm">
             Induction: (Adventurer & Pathfinder Clubs)
@@ -37,20 +35,19 @@ const DivineService = () => {
           <div className="col-span-3 text-sm">
             Scripture Reading (Mark 16: 3-4)
           </div>
-          <div className="text-xs">Mrs. I. Ajie</div>
+          <div className="text-xs">Deacon L. Ezekiel</div>
           <div className="col-span-3 text-sm">
-            Hymn of Consecration (SDAH 367)
+            Hymn of Consecration (SDAH 489)
           </div>
-          <div className="text-xs">Mrs. I. Ajie</div>
+          <div className="text-xs">Deacon L. Ezekiel</div>
           <div className="col-span-3 text-sm">
-            Sermon Title{" "}
-            <span className="font-bold">Who will Roll the Stone Away</span>
+            Sermon Title <span className="font-bold"> Sin is Beautiful</span>
           </div>
-          <div className="text-xs">Elder G. Adeoti </div>
-          <div className="col-span-3 text-sm">Closing Hymn (SDAH 359) </div>
-          <div className="text-xs"> Elder V.O. Oyenuga</div>
+          <div className="text-xs">Deacon Kingsley A. </div>
+          <div className="col-span-3 text-sm">Closing Hymn (SDAH 327) </div>
+          <div className="text-xs"> Deacon I. Oyeniyi</div>
           <div className="col-span-3 text-sm">Benediction</div>
-          <div className="text-xs">Elder G. Adeoti</div>
+          <div className="text-xs">Deacon Kingsley A.</div>
           <div className="col-span-3 text-sm">Doxology</div>
           <div className="text-xs"> Congregation</div>
         </div>

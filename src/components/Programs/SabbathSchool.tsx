@@ -16,41 +16,30 @@ const SabbathSchool = () => {
         <div className="col-span-3 text-sm capitalize">
           Opening Remark (Welcome & Prayer)
         </div>
-        <div className="text-xs"> Sis. Nkiruka Chibuike Wogu</div>
+        <div className="text-xs"> Bro. Iruka Johnson</div>
 
         <div className="col-span-3 text-sm capitalize">
           Welcome / Supt's Opening Remark
         </div>
-        <div className="text-xs"> - </div>
+        <div className="text-xs"> Bro. Idowu Oyeniyi </div>
 
         <div className="col-span-3 text-sm capitalize">
           {" "}
-          Welcome / Opening Hymn (SDAH 522)
+          Welcome / Opening Hymn (SDAH 264)
         </div>
-        <div className="text-xs capitalize"> Bro. Sunday Oyelekan </div>
+        <div className="text-xs capitalize"> Bro. Lucky Ezekiel </div>
 
         <div className="col-span-3 text-sm capitalize"> Keeping on Course</div>
-        <div className="text-xs capitalize">Sis. Adaoha Alala </div>
+        <div className="text-xs capitalize">Bro. Iruka Johnson </div>
 
         <div className="col-span-3 text-sm capitalize"> Mission Spotlight </div>
-        <div className="text-xs capitalize"> Bro. Lucky Njoku</div>
-
-        <div className="col-span-3 text-sm capitalize">
-          {" "}
-          Family Special Song:{" "}
-        </div>
-        <div className="text-xs capitalize">
-          {" "}
-          he families of Elder Adeyemi Adedokun, Deac. Kingsly Udo, Deac. Lucky
-          Njoku, Deac. Vincent Katchy, Bro. Sunday Oyelekan, Mrs. Eno Oguntade,
-          & Chibuike Wogu.
-        </div>
+        <div className="text-xs capitalize"> Bro. Lucky Ezekiel. </div>
 
         <div className="col-span-3 text-sm capitalize">
           {" "}
           Study Time, Lesson Introduction
         </div>
-        <div className="text-xs capitalize"> Sis. Chika Promise</div>
+        <div className="text-xs capitalize"> Bro. Idowu Oyeniyi</div>
         <div className="col-span-3 text-sm capitalize">
           Unit Activities / Lesson Study (40 Mins)
         </div>
@@ -58,7 +47,13 @@ const SabbathSchool = () => {
         <div className="col-span-3 text-sm capitalize">Lesson Summary</div>
         <div className="text-xs capitalize"> - </div>
         <div className="col-span-3 text-sm capitalize">Friend's time</div>
-        <div className="text-xs capitalize"> Sis. Adaoha Alala </div>
+        <div className="text-xs capitalize"> Bro. Idowu Oyeniyi </div>
+
+        <div className="col-span-3 text-sm capitalize">
+          {" "}
+          AMO Special Song (SDAH 595)
+        </div>
+        <div className="text-xs capitalize"> Bro. Idowu Oyeniyi</div>
         {/* <div className="col-span-3 text-sm capitalize">
           Special Feature: Birthday / Anniversary Clelebration (March & April)
         </div>
@@ -66,13 +61,18 @@ const SabbathSchool = () => {
         <div className="col-span-3 text-sm capitalize">
           Announcement / Closing Remark
         </div>
-        <div className="text-xs capitalize"> Sis. Chika Promise </div>
+        <div className="text-xs capitalize"> Bro. Idowu Oyeniyi </div>
         <div className="col-span-3 text-sm capitalize">
-          Closing Hymn (SDAH 304)
+          Closing Hymn (SDAH 595)
         </div>
-        <div className="text-xs"> Bro. Lucky Njoku</div>
+        <div className="text-xs"> Bro. Lucky Ezekiel</div>
         <div className="col-span-3 text-sm capitalize">Closing Prayer</div>
-        <div className="text-xs"> Bro. Sunday Oyelekan</div>
+        <div className="text-xs"> Bro. Iruka Johnson</div>
+
+        <div className="col-span-3 text-sm capitalize">
+          Topic for Discussion: Identify of an Ideal Adventist Man
+        </div>
+        <div className="text-xs"> Anchor: Eld. Agbara</div>
       </div>
     </section>
   );
