@@ -95,7 +95,7 @@ const Announcement = () => {
           <li className="pb-2 border-b border-orange-200">
             Return your faithful tithes and give generous offerings. Send your
             tithes, offerings and other donations to our account{" "}
-            <span className="text-orange-400">
+            <span className="text-orange-400 font-bold">
               2020086453 First Bank Seventh-day Adventist Church Ogba.
             </span>{" "}
             Call or Whatsapp 07036586617 to share or seek more details about
