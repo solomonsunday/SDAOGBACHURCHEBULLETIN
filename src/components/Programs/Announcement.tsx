@@ -20,20 +20,20 @@ const Announcement = () => {
             interceed for you.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            Church Board meeting holds tomorrow Sunday 12/5/2024 by 1:00p.m at
-            Board room.
+            Church Board meeting holds tomorrow Sunday 12 May 2024 by 1:00pm at
+            the Board room.
           </li>
           <li className="pb-2 border-b border-orange-200">
             <span className="font-bold">ICT Department:</span> Support the
             Church media ministry. We need the following items for more
             effectiveness in the ICT Department of the Church. (a) A laptop-
-            Dell XPs 15 estimated at ₦1,200,000. (b) A camera Sony NX3 estimated
-            at ₦1,600,000.
+            Dell XPs 15 estimated at ₦1,200,000.
+            <br /> (b) A camera Sony NX3 estimated at ₦1,600,000.
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            World Adventurer Day Celebration comes up on 18/05/2024. Theme:
-            Jesus Knows, He takes care of you.
+            3. World Adventurers day celebration holds on Sabbath 18/5/2024
+            Theme: Jesus knows, He takes care of you.
           </li>
 
           <li className="pb-2 border-b border-orange-200">
@@ -48,35 +48,37 @@ const Announcement = () => {
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            Registration for AWM National Convention at Babcock University is
-            ongoing. The payment of ₦30,000 has been extended till May ending.
-            Late registration is ₦35,000.
+            Registration for AWM National Convention at Babcock University has
+            been extended, registration fee remains 30,000 till May ending, Late
+            registration from June 1st is now N33,000.
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            Alive in Jesus WNUC Children’s Ministry Sabbath School Training
-            Convention hold as follows: Date: 13th – 17th June, 2024. Venue:
-            Camp Young, Ede Osun State. Reg. ₦20,000.
+            <span className="font-bold">Alive in Jesus:</span> Alive in Jesus
+            WNUC Children's Ministry Sabbath School Training convention hold as
+            follows: Date: 13-17 June, 2024 Venue: Camp young, Ede Osun state
+            Registration: #20,000 and closes 15/5/2024.
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            AMO Convention comes up in Babcock University by 21st -25th August,
-            2024. Reg. ₦15,000.
+            8. AMO Convention comes up in Babcock University by 21-25 August,
+            2024. Registration: 15,000 .
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            This year’s World Refugee Sabbath in on 15/6/2024. Let’s get
-            involved, Care and Pray against the Global Refugee Crises.
+            This year's World Refugee Sabbath is on 15th June, 2024. Let's Get
+            Involved, Care and Pray against the Global Refugee Crises.
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            LMC Elders Training holds May 12th, 2024 by 9:00a.m – 12noon. Both
-            serving and non serving Elders are to attend.
+            10. LMC Elders Training holds tomorrow 12/5/2024, time: 9:00 -
+            12:00noon. Venue: SDA church Ogba Both serving and non serving
+            Elders are to attend.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            GC/WAD Stewardship Conference holds August 25th -31st, 2024 at
-            Babcock University. Reg. ₦35,000. Expected to attendees: Pastors,
-            Elders, Treasurers, Stewardship Leaders and Welfare Leaders.
+            GC/WAD Stewardship Conference holds August 25- 31, 2024 @ Babcock
+            University. Registration:N35,000Expected attendees: Pastors, Elders,
+            Treasurers, Stewardship leaders and welfare leader..
           </li>
 
           <li className="pb-2 border-b border-orange-200">
@@ -85,16 +87,19 @@ const Announcement = () => {
           </li>
           <li className="pb-2 border-b border-orange-200">
             Support the Church projects for this year: (a) Empowerment of
-            members (b) Oke-Ira evangelism project (c) Construction of a
-            swimming pool that will also serve as baptistery (d) Renovation and
-            beautification of the Fence (e) Construction of more toilets
-            facilities (f) Raising of the Church School to Standard
+            members (b) Oke-Ira evangelism project (c) Reconstruction and
+            renovation of the baptistry (d) Renovation and beautification of the
+            Fence (e) Construction of more toilets facilities (f) Raising of the
+            Church School to Standard
           </li>
           <li className="pb-2 border-b border-orange-200">
             Return your faithful tithes and give generous offerings. Send your
-            tithes, offerings and other donations to our account 2020086453
-            First Bank Seventh-day Adventist Church Ogba. Call or Whatsapp
-            07036586617 to share or seek more details about giving.
+            tithes, offerings and other donations to our account{" "}
+            <span className="dark:text-orange-400">
+              2020086453 First Bank Seventh-day Adventist Church Ogba.
+            </span>{" "}
+            Call or Whatsapp 07036586617 to share or seek more details about
+            giving.
           </li>
           <li className="pb-2 border-b border-orange-200">
             Please donate towards the acquisition of a permanent camp site.
