@@ -83,7 +83,7 @@ const Welcome = () => {
               <div className="">
                 <p className="underline">Join us to pray on Midweek</p>
 
-                <p>Click here to join us online </p>
+                <p>Click here to join us online</p>
                 <span className="text-xs text-orange-500">
                   Time: 8:00 Every Wednessday
                 </span>
