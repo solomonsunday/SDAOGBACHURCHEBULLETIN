@@ -9,12 +9,18 @@ const PastorDesk = () => {
         </div>
         <div className="space-y-3">
           <div className="text-lg font-semibold underline">
-            <p className="dark:text-white">(The Great Controversy, p.19)</p>
+            <p className="dark:text-white">(Ellen G. White, Manuscript 42)</p>
           </div>
           <p className="text-orange-500">
-            'Satan well knows that all whom he can lead to neglect prayer and
-            the searching of the Scriptures will be overcome by his attacks.
-            Therefore he invites every possible device to engross the mind.'
+            'The father is the priest of the family. The souls of his wife and
+            children, as God’s property, should be to him of the highest value,
+            and he should faithfully guide the formation of their characters.
+            The care of his children from infancy should be his first
+            consideration; for it is for their present and eternal good that
+            they develop right characters. He should carefully weigh his words
+            and actions, considering their influence, and the results they may
+            produce. (Ellen G. White, Manuscript 42 Happy AMO day. Adventist
+            Men!)'
           </p>
         </div>
       </section>

@@ -20,15 +20,15 @@ const Announcement = () => {
             interceed for you.
           </li>
           <li className="pb-2 border-b border-orange-200">
+            Church Board meeting holds tomorrow Sunday 12/5/2024 by 1:00p.m at
+            Board room.
+          </li>
+          <li className="pb-2 border-b border-orange-200">
             <span className="font-bold">ICT Department:</span> Support the
             Church media ministry. We need the following items for more
             effectiveness in the ICT Department of the Church. (a) A laptop-
             Dell XPs 15 estimated at ₦1,200,000. (b) A camera Sony NX3 estimated
             at ₦1,600,000.
-          </li>
-          <li className="pb-2 border-b border-orange-200">
-            Registration for AWM National Convention at Babcock University is
-            ongoing, ₦30,000 till April 30th. Late registration is ₦35,000.
           </li>
 
           <li className="pb-2 border-b border-orange-200">
@@ -37,28 +37,38 @@ const Announcement = () => {
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            Alive in Jesus WNUC Children’s Ministry Sabbath School Training
-            Convention hold as follows: Date: 13th – 17th June, 2024. Venue:
-            Camp Young, Ede Osun State. Reg. ₦20,000.
+            <span className="font-bold">Wedding Bells:</span> The wedding
+            ceremony of Bro. Obinna Okwuonu and Sis. Owuneme Amarachi (From
+            Magodo district) holds here in Ogba Church on 26/05/2024.
+            <li>
+              The wedding ceremony of Sister Ijeoma Regina and Pst. Charles
+              Gbadebo holds at Pioneer SDA Church Babcock University on 2/6/2024
+              by 11:00a.m.
+            </li>
           </li>
+
           <li className="pb-2 border-b border-orange-200">
             Registration for AWM National Convention at Babcock University is
             ongoing. The payment of ₦30,000 has been extended till May ending.
             Late registration is ₦35,000.
           </li>
+
+          <li className="pb-2 border-b border-orange-200">
+            Alive in Jesus WNUC Children’s Ministry Sabbath School Training
+            Convention hold as follows: Date: 13th – 17th June, 2024. Venue:
+            Camp Young, Ede Osun State. Reg. ₦20,000.
+          </li>
+
           <li className="pb-2 border-b border-orange-200">
             AMO Convention comes up in Babcock University by 21st -25th August,
             2024. Reg. ₦15,000.
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            Today is the combined worship service of the Lagos Mainland, Lagos
-            Atlantic and Ogun Conferences with the Union officers on a land
-            belonging to the Church along Lagos Ibadan Express way. All
-            denominational employees (Pastors and office workers) will be there.
-            Each district is expected to be represented by 30 members. Let’s
-            pray for journey mercies and success of the program.
+            This year’s World Refugee Sabbath in on 15/6/2024. Let’s get
+            involved, Care and Pray against the Global Refugee Crises.
           </li>
+
           <li className="pb-2 border-b border-orange-200">
             LMC Elders Training holds May 12th, 2024 by 9:00a.m – 12noon. Both
             serving and non serving Elders are to attend.
@@ -68,11 +78,7 @@ const Announcement = () => {
             Babcock University. Reg. ₦35,000. Expected to attendees: Pastors,
             Elders, Treasurers, Stewardship Leaders and Welfare Leaders.
           </li>
-          <li className="pb-2 border-b border-orange-200">
-            Wedding Bells: The wedding ceremony of Bro. Obinna Okwuonu and Sis.
-            Owuneme Amarachi (From Magodo district) holds here in Ogba Church on
-            26/05/2024.
-          </li>
+
           <li className="pb-2 border-b border-orange-200">
             Limited copies of the Book “The Great Controversy are now available
             at ₦1,500 per copy. Pick a copy for your family and friends today.
