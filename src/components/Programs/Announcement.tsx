@@ -40,11 +40,11 @@ const Announcement = () => {
             <span className="font-bold">Wedding Bells:</span> The wedding
             ceremony of Bro. Obinna Okwuonu and Sis. Owuneme Amarachi (From
             Magodo district) holds here in Ogba Church on 26/05/2024.
-            <li>
-              The wedding ceremony of Sister Ijeoma Regina and Pst. Charles
-              Gbadebo holds at Pioneer SDA Church Babcock University on 2/6/2024
-              by 11:00a.m.
-            </li>
+          </li>
+          <li>
+            The wedding ceremony of Sister Ijeoma Regina and Pst. Charles
+            Gbadebo holds at Pioneer SDA Church Babcock University on 2/6/2024
+            by 11:00a.m.
           </li>
 
           <li className="pb-2 border-b border-orange-200">
@@ -95,7 +95,7 @@ const Announcement = () => {
           <li className="pb-2 border-b border-orange-200">
             Return your faithful tithes and give generous offerings. Send your
             tithes, offerings and other donations to our account{" "}
-            <span className="dark:text-orange-400">
+            <span className="text-orange-400">
               2020086453 First Bank Seventh-day Adventist Church Ogba.
             </span>{" "}
             Call or Whatsapp 07036586617 to share or seek more details about
