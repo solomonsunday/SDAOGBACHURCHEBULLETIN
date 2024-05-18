@@ -92,9 +92,10 @@ const Header = () => {
           className={`${
             showMenu
               ? "hidden"
-              : "md:hidden flex absolute top-0 bottom-0 left-0 flex-col  w-full min-h-screen py-1 pt-16 pl-12 space-y-3 text-lg text-orange-400 uppercase bg-[#304D30] z-10"
+              : "md:hidden flex absolute top-0 bottom-0 left-0 flex-col  w-full min-h-screen py-1 pt-16 pl-12 space-y-3 text-lg text-orange-400 uppercase bg-[#304D30] z-10 "
           }`}
         >
+          {/* bg-[url('/assets/imgs/sdacogba.jpeg')] */}
           <Link
             href="#welcome"
             className="hover:text-[#163020]"

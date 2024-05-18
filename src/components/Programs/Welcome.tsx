@@ -2,15 +2,13 @@ import React, { useEffect, useState } from "react";
 
 const Welcome = () => {
   const [todaysDate, setTodaysDate] = useState<string>("");
+
   function getFormattedDate() {
     const today = new Date();
-
     const year = today.getFullYear();
     const month = String(today.getMonth() + 1).padStart(2, "0");
     const day = String(today.getDate()).padStart(2, "0");
-
     const formattedDate = `${day}-${month}-${year}`;
-
     return formattedDate;
   }
 
@@ -40,7 +38,7 @@ const Welcome = () => {
         <div className="text-center flex justify-center">
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2  w-full">
             <p className="text-orange-400 underline">TOPIC FOR THE WEEK</p>
-            The Two Witnesses
+            Motivated by Hope
           </blockquote>
         </div>
         <div className="text-center flex justify-center">
@@ -48,9 +46,10 @@ const Welcome = () => {
             <p className="text-orange-400 underline">MEMORY TEXT</p>
 
             <span className="px-1 text-xs italic">
-              “The grass withers, the flower fades, but the word of our God
-              stands forever”
-              <span className="font-bold"> (Isaiah 40:8, NKJV) </span>
+              “And it will be said in that day; “Behold, this is our God; we
+              have waited for Him, and He will save us. This is the Lord; we
+              have waited for Him; we will be glad and rejoice in His Salvation”
+              <span className="font-bold"> (Isaiah 25:9, NKJV) </span>
             </span>
           </blockquote>
         </div>
