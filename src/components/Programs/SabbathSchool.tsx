@@ -41,7 +41,7 @@ const SabbathSchool = () => {
 
         <div className="col-span-3 text-sm capitalize">
           {" "}
-          Fimily Presentation{" "}
+          Family Presentation{" "}
         </div>
         <div className="text-xs capitalize"> MG Adiele Ogbonna </div>
 
@@ -78,11 +78,6 @@ const SabbathSchool = () => {
         <div className="text-xs"> Earlybird Jadesola Adebayo</div>
         <div className="col-span-3 text-sm capitalize">Closing Prayer</div>
         <div className="text-xs"> Builder Audrey Gospel</div>
-
-        <div className="col-span-3 text-sm capitalize">
-          Topic for Discussion: Identify of an Ideal Adventist Man
-        </div>
-        <div className="text-xs"> Anchor: Eld. Agbara</div>
       </div>
     </section>
   );
