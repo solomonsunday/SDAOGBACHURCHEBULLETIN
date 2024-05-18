@@ -14,14 +14,18 @@ const Announcement = () => {
             only for the Elderly ones who are not tech savvy or those without a
             smart phone.
           </li>
-          <li className="pb-2 border-b border-orange-200">
+          {/* <li className="pb-2 border-b border-orange-200">
             Drop your prayer requests in the prayer box provided at the entrance
             of the church auditorium anytime, the Pastor and the Elders will
             interceed for you.
+          </li> */}
+          <li className="pb-2 border-b border-orange-200">
+            Pre-Camp Meeting holds tomorrow Sunday 19 May, 2024. Venue is Ogba.
+            Time is 10:00a.m.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            Church Board meeting holds tomorrow Sunday 12 May 2024 by 1:00pm at
-            the Board room.
+            Today is World Adventurer day celebration. Theme: Jesus Knows, He
+            takes care of you.
           </li>
           <li className="pb-2 border-b border-orange-200">
             <span className="font-bold">ICT Department:</span> Support the
@@ -32,8 +36,9 @@ const Announcement = () => {
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            3. World Adventurers day celebration holds on Sabbath 18/5/2024
-            Theme: Jesus knows, He takes care of you.
+            Ogba Church Single’s Prison Visitation comes up on the 8/6/2024,
+            let’s support this project with items for female inmates and pray
+            for its success.
           </li>
 
           <li className="pb-2 border-b border-orange-200">
@@ -61,20 +66,21 @@ const Announcement = () => {
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            8. AMO Convention comes up in Babcock University by 21-25 August,
-            2024. Registration: 15,000 .
+            AMO Convention comes up in Babcock University by 21-25 August, 2024.
+            Registration: 15,000 .
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            This year's World Refugee Sabbath is on 15th June, 2024. Let's Get
-            Involved, Care and Pray against the Global Refugee Crises.
+            Alive in Jesus WNUC Children’s Ministry Sabbath School Training
+            Convention hold as follows: Date: 13th – 17th June, 2024. Venue:
+            Camp Young, Ede Osun State. Registration: ₦20,000.
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            10. LMC Elders Training holds tomorrow 12/5/2024, time: 9:00 -
-            12:00noon. Venue: SDA church Ogba Both serving and non serving
-            Elders are to attend.
+            This year’s World Refugee Sabbath in on 15/6/2024. Let’s get
+            involved, Care and Pray against the Global Refugee Crises.
           </li>
+
           <li className="pb-2 border-b border-orange-200">
             GC/WAD Stewardship Conference holds August 25- 31, 2024 @ Babcock
             University. Registration:N35,000Expected attendees: Pastors, Elders,
@@ -101,12 +107,12 @@ const Announcement = () => {
             Call or Whatsapp 07036586617 to share or seek more details about
             giving.
           </li>
-          <li className="pb-2 border-b border-orange-200">
+          {/* <li className="pb-2 border-b border-orange-200">
             Please donate towards the acquisition of a permanent camp site.
             Let’s support this project with our generous donations and pledges.
             Account to donate to is LMC AMO Multipurpose Cooperative Society.
             A/c No: 0727284995, GTBank.
-          </li>
+          </li> */}
         </ol>
       </div>
     </section>

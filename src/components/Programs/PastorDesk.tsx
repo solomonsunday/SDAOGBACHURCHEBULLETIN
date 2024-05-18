@@ -9,18 +9,14 @@ const PastorDesk = () => {
         </div>
         <div className="space-y-3">
           <div className="text-lg font-semibold underline">
-            <p className="dark:text-white">(Ellen G. White, Manuscript 42)</p>
+            <p className="dark:text-white">Psalm 127:3-5</p>
           </div>
           <p className="text-orange-500">
-            'The father is the priest of the family. The souls of his wife and
-            children, as God’s property, should be to him of the highest value,
-            and he should faithfully guide the formation of their characters.
-            The care of his children from infancy should be his first
-            consideration; for it is for their present and eternal good that
-            they develop right characters. He should carefully weigh his words
-            and actions, considering their influence, and the results they may
-            produce. (Ellen G. White, Manuscript 42 Happy AMO day. Adventist
-            Men!)'
+            'Behold, children area a heritage from the Lord, The fruyit of the
+            womb is a reward. Like arrows in the hand of a warrior, So are the
+            children of one’s Youth. Happy is the man who has his quiver full of
+            them; They shall not be ashamed, But shall speak with their enemies
+            in the gate Happy Global Adventurer Day'
           </p>
         </div>
       </section>
