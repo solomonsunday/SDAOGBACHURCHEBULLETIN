@@ -38,7 +38,7 @@ const Welcome = () => {
         <div className="text-center flex justify-center">
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2  w-full">
             <p className="text-orange-400 underline">TOPIC FOR THE WEEK</p>
-            Motivated by Hope
+            Light from the Sanctuary
           </blockquote>
         </div>
         <div className="text-center flex justify-center">
@@ -46,10 +46,11 @@ const Welcome = () => {
             <p className="text-orange-400 underline">MEMORY TEXT</p>
 
             <span className="px-1 text-xs italic">
-              “And it will be said in that day; “Behold, this is our God; we
-              have waited for Him, and He will save us. This is the Lord; we
-              have waited for Him; we will be glad and rejoice in His Salvation”
-              <span className="font-bold"> (Isaiah 25:9, NKJV) </span>
+              “We have such a High Priest, who is seated at the right hand of
+              the throne of the Majesty in the heavens, a Minister of the
+              sanctuary and of the true tabernacle which the Lord erected, and
+              not man”
+              <span className="font-bold"> (Hebrew 8:1-2, NKJV) </span>
             </span>
           </blockquote>
         </div>
@@ -84,7 +85,7 @@ const Welcome = () => {
 
                 <p>Click here to join us online</p>
                 <span className="text-xs text-orange-500">
-                  Time: 8:00 Every Wednessday
+                  Time: 8:00 PM Every Wednessday
                 </span>
               </div>
             </a>

@@ -20,12 +20,11 @@ const Announcement = () => {
             interceed for you.
           </li> */}
           <li className="pb-2 border-b border-orange-200">
-            Pre-Camp Meeting holds tomorrow Sunday 19 May, 2024. Venue is Ogba.
-            Time is 10:00a.m.
+            Today is World Day of Prayer for Children at Risk.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            Today is World Adventurer day celebration. Theme: Jesus Knows, He
-            takes care of you.
+            Next Sabbath, 1/6/2024 will be a special Sabbath of fasting and
+            prayer and launching of Personal Ministry Card.
           </li>
           <li className="pb-2 border-b border-orange-200">
             <span className="font-bold">ICT Department:</span> Support the
@@ -39,6 +38,13 @@ const Announcement = () => {
             Ogba Church Single’s Prison Visitation comes up on the 8/6/2024,
             let’s support this project with items for female inmates and pray
             for its success.
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            Church Board Meeting holds next Sabbath 1/6/2024 after the divine
+            service.
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            There will be Church at Business on Sabbath 8/6/2024.
           </li>
 
           <li className="pb-2 border-b border-orange-200">
@@ -85,6 +91,16 @@ const Announcement = () => {
             GC/WAD Stewardship Conference holds August 25- 31, 2024 @ Babcock
             University. Registration:N35,000Expected attendees: Pastors, Elders,
             Treasurers, Stewardship leaders and welfare leader..
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            LMC Pathfinders Camporee comes up as follows: Theme: SAMSON. Date:
+            August 18th – 25th, 2024. Registration is ₦15,000
+          </li>
+
+          <li className="pb-2 border-b border-orange-200">
+            . PAN AFRICAN YOUTH CONGRESS (ECD/SID/WAD) holds December 23rd
+            -28th, 2024 at Babcock University Nigeria. Registration: Early
+            Bird-₦57,000. This is for Senior Youths & Master Guides.
           </li>
 
           <li className="pb-2 border-b border-orange-200">

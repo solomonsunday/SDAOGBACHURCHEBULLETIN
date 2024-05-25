@@ -16,7 +16,7 @@ const SabbathSchool = () => {
         <div className="col-span-3 text-sm capitalize">
           Opening Remark (Welcome & Prayer)
         </div>
-        <div className="text-xs"> Little Lamb Jadesola Adebayo</div>
+        <div className="text-xs"> Mrs Aina</div>
 
         <div className="col-span-3 text-sm capitalize">
           Welcome / Supt's Opening Remark
@@ -25,59 +25,57 @@ const SabbathSchool = () => {
 
         <div className="col-span-3 text-sm capitalize">
           {" "}
-          Welcome / Opening Hymn ()
+          Welcome / Opening Hymn (SDAH 635)
         </div>
-        <div className="text-xs capitalize">
-          {" "}
-          MG Adiele Ogbonna to call Ruby Idehai Adventurer Song/Pledge and Law:
-          Builder Audrey Gospel{" "}
-        </div>
+        <div className="text-xs capitalize"> Daniella Hillary</div>
 
         <div className="col-span-3 text-sm capitalize"> Keeping on Course</div>
-        <div className="text-xs capitalize">- </div>
+        <div className="text-xs capitalize"> Elder Chilaka </div>
 
         <div className="col-span-3 text-sm capitalize"> Mission Spotlight </div>
-        <div className="text-xs capitalize"> Busybee Victor Ifeanyi. </div>
+        <div className="text-xs capitalize"> David Obikara </div>
 
         <div className="col-span-3 text-sm capitalize">
           {" "}
           Family Presentation{" "}
         </div>
-        <div className="text-xs capitalize"> MG Adiele Ogbonna </div>
+        <div className="text-xs capitalize">
+          {" "}
+          The families of Elder Gbenga Adeoti, Deac. Ferdinand Obikara, Bro.
+          Christopher Egbu, Elder Emeka Agbara, Sister Favour Emmanuel and
+          Sister Bridget Nworu.
+        </div>
 
         <div className="col-span-3 text-sm capitalize">
           {" "}
           Study Time, Lesson Introduction
         </div>
-        <div className="text-xs capitalize"> MG Adiele Ogbonna </div>
+        <div className="text-xs capitalize"> Mrs Aina </div>
         <div className="col-span-3 text-sm capitalize">
           Unit Activities / Lesson Study (40 Mins)
         </div>
         <div className="text-xs capitalize"> - </div>
         <div className="col-span-3 text-sm capitalize">Lesson Summary</div>
-        <div className="text-xs capitalize"> Elder Ajie Anthony </div>
+        <div className="text-xs capitalize"> - </div>
         <div className="col-span-3 text-sm capitalize">Friend's time</div>
-        <div className="text-xs capitalize"> Earybird Desire Oladehinde </div>
-
-        <div className="col-span-3 text-sm capitalize"> Video Activities</div>
-        <div className="text-xs capitalize"> Busybee Rume Happy Kona</div>
-        <div className="col-span-3 text-sm capitalize">Special Song:</div>
-        <div className="text-xs capitalize"> Sunbeam Philip Ugoeze </div>
+        <div className="text-xs capitalize"> Mrs. Iheabunike </div>
+        <div className="col-span-3 text-sm capitalize">Special Features:</div>
+        <div className="text-xs capitalize"> Mrs Adebayo </div>
         <div className="col-span-3 text-sm capitalize">
-          Announcement / Closing Remark
+          Lesson Preview/Announcement / Closing Remark
         </div>
-        <div className="text-xs capitalize"> Bro. Idowu Oyeniyi </div>
+        <div className="text-xs capitalize"> Sabbath School Crew </div>
         <div className="col-span-3 text-sm capitalize">
           Director’s Greeting Video
         </div>
         <div className="text-xs"> MG Adiele Ogbonna</div>
 
         <div className="col-span-3 text-sm capitalize">
-          Closing Hymn (SDAH 190)
+          Closing Hymn (SDAH 539)
         </div>
-        <div className="text-xs"> Earlybird Jadesola Adebayo</div>
+        <div className="text-xs"> Glory Obi</div>
         <div className="col-span-3 text-sm capitalize">Closing Prayer</div>
-        <div className="text-xs"> Builder Audrey Gospel</div>
+        <div className="text-xs"> Keyu </div>
       </div>
     </section>
   );
