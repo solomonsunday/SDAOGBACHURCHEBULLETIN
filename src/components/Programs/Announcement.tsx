@@ -77,13 +77,14 @@ const Announcement = () => {
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            Alive in Jesus WNUC Children’s Ministry Sabbath School Training
-            Convention hold as follows: Date: 13th – 17th June, 2024. Venue:
-            Camp Young, Ede Osun State. Registration: ₦20,000.
+            9. Alive in Jesus WNUC Children's Ministry Sabbath School Training
+            convention hold as follows: Date: 13-17 June, 2024 Venue: Camp
+            young, Ede Osun state Registration has ended, let’s pray for its
+            success
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            This year’s World Refugee Sabbath in on 15/6/2024. Let’s get
+            This year’s World Refugee Sabbath is on 15/6/2024. Let’s get
             involved, Care and Pray against the Global Refugee Crises.
           </li>
 
