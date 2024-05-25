@@ -9,14 +9,15 @@ const PastorDesk = () => {
         </div>
         <div className="space-y-3">
           <div className="text-lg font-semibold underline">
-            <p className="dark:text-white">Psalm 127:3-5</p>
+            <p className="dark:text-white">Ephesians 6:4 (Amp)</p>
           </div>
           <p className="text-orange-500">
-            'Behold, children area a heritage from the Lord, The fruyit of the
-            womb is a reward. Like arrows in the hand of a warrior, So are the
-            children of one’s Youth. Happy is the man who has his quiver full of
-            them; They shall not be ashamed, But shall speak with their enemies
-            in the gate Happy Global Adventurer Day'
+            'Fathers, do not provoke your children to anger, do not exasperate
+            them to the point of resentment with demands that are trivial or
+            unreasonable or humiliating or abusive; nor by showing favoritism or
+            indifference to any of them, but bring them up tenderly, with
+            lovingkindness in the discipline and instruction of the Lord May we
+            not abuse our children in the name of correction and discipline. '
           </p>
         </div>
       </section>

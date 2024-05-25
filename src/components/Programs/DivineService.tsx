@@ -13,49 +13,44 @@ const DivineService = () => {
           <div className="text-xs"> Organist</div>
 
           <div className="col-span-3 text-sm">
-            Call to Worship: (Psalm 23:1)
+            Call to Worship: (Mathew 19:14)
           </div>
-          <div className="text-xs"> Builder Winsome Unek.</div>
+          <div className="text-xs"> Emmanuel Alonge</div>
           <div className="col-span-3 text-sm"> Invocation</div>
           <div className="text-xs"> Congregation </div>
           <div className="col-span-3 text-sm">
             {" "}
             Welcome / opening Hymn (SDAH 218)
           </div>
-          <div className="text-xs">MG. Rosemary Christopher </div>
+          <div className="text-xs">Timileyin Abioye </div>
           <div className="col-span-3 text-sm"> Pastoral Prayer</div>
-          <div className="text-xs">Com. Ejiro Edafe</div>
+          <div className="text-xs">Elder A.C. Chilaka</div>
           <div className="col-span-3 text-sm"> Stewardship </div>
-          <div className="text-xs"> Com. Chinonso Ihesiaba</div>
+          <div className="text-xs"> Mrs. B. Francis</div>
           <div className="col-span-3 text-sm">
             {" "}
-            Musical Selection (Adventurer Choir)
+            Musical Selection (All Children)
           </div>
-          <div className="text-xs"> Busybee Christabel Ogidinta </div>
+          <div className="text-xs"> Victor Ifeanyi </div>
 
           {/* <div className="col-span-3 text-sm">
             Induction: (Adventurer & Pathfinder Clubs)
           </div>
           <div className="text-xs">MG. F.L. Alonge </div> */}
+          <div className="col-span-3 text-sm">Scripture Reading (John 9:5)</div>
+          <div className="text-xs"> Victory Lucky</div>
           <div className="col-span-3 text-sm">
-            Scripture Reading (John 10:14-15)
+            Hymn of Consecration (SDAH 282)
           </div>
-          <div className="text-xs"> Sunbeam Darasimi Adebayo</div>
+          <div className="text-xs"> Jadesola Adebayo</div>
           <div className="col-span-3 text-sm">
-            Hymn of Consecration (SDAH 099)
+            Sermon Title <span className="font-bold"> Light of the World </span>
           </div>
-          <div className="text-xs"> Sunbeam Darasimi Adebayo</div>
-          <div className="col-span-3 text-sm">
-            Sermon Title <span className="font-bold"> - </span>
-          </div>
-          <div className="text-xs">
-            {" "}
-            Builder Winsome Uneke/Sunbeam Emmanuel Moses{" "}
-          </div>
-          <div className="col-span-3 text-sm">Closing Hymn (SDAH 185) </div>
-          <div className="text-xs"> Busybee Christabel Ogidinta</div>
+          <div className="text-xs">Elder A.C. Chilaka</div>
+          <div className="col-span-3 text-sm">Closing Hymn (SDAH 580) </div>
+          <div className="text-xs"> Emmanuel Alonge</div>
           <div className="col-span-3 text-sm">Benediction</div>
-          <div className="text-xs">Sunbeam Emmanuel Moses.</div>
+          <div className="text-xs">Elder A.C. Chilaka.</div>
           <div className="col-span-3 text-sm">Doxology</div>
           <div className="text-xs"> Congregation</div>
         </div>
