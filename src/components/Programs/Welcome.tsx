@@ -32,13 +32,13 @@ const Welcome = () => {
         <div className="text-center flex justify-center">
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2  w-full ">
             <p className="text-orange-400 underline">THEME FOR THIS QUARTER</p>
-            The Foundation of God’s Government
+            The Great Controversy
           </blockquote>
         </div>
         <div className="text-center flex justify-center">
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2  w-full">
             <p className="text-orange-400 underline">TOPIC FOR THE WEEK</p>
-            The Foundation of God’s
+            The Foundation of God’s Government
           </blockquote>
         </div>
         <div className="text-center flex justify-center">
