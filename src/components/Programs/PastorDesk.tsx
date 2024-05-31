@@ -9,15 +9,14 @@ const PastorDesk = () => {
         </div>
         <div className="space-y-3">
           <div className="text-lg font-semibold underline">
-            <p className="dark:text-white">Ephesians 6:4 (Amp)</p>
+            <p className="dark:text-white">Joel 2:25 (Amp)</p>
           </div>
           <p className="text-orange-500">
-            'Fathers, do not provoke your children to anger, do not exasperate
-            them to the point of resentment with demands that are trivial or
-            unreasonable or humiliating or abusive; nor by showing favoritism or
-            indifference to any of them, but bring them up tenderly, with
-            lovingkindness in the discipline and instruction of the Lord May we
-            not abuse our children in the name of correction and discipline. '
+            'I will restore to you the years that the swarming locust has eaten,
+            the crawling locust, the consuming locust, and the chewing locust,
+            my great army which I sent among you. May the Almighty God, who is
+            the great restore, restore to you whatever good things the enemy
+            deceitfully stole from you , in Jesus Christ name'
           </p>
         </div>
       </section>

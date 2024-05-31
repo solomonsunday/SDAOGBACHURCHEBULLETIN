@@ -32,13 +32,13 @@ const Welcome = () => {
         <div className="text-center flex justify-center">
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2  w-full ">
             <p className="text-orange-400 underline">THEME FOR THIS QUARTER</p>
-            The Great Controversy
+            The Foundation of God’s Government
           </blockquote>
         </div>
         <div className="text-center flex justify-center">
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2  w-full">
             <p className="text-orange-400 underline">TOPIC FOR THE WEEK</p>
-            Light from the Sanctuary
+            The Foundation of God’s
           </blockquote>
         </div>
         <div className="text-center flex justify-center">
@@ -46,11 +46,10 @@ const Welcome = () => {
             <p className="text-orange-400 underline">MEMORY TEXT</p>
 
             <span className="px-1 text-xs italic">
-              “We have such a High Priest, who is seated at the right hand of
-              the throne of the Majesty in the heavens, a Minister of the
-              sanctuary and of the true tabernacle which the Lord erected, and
-              not man”
-              <span className="font-bold"> (Hebrew 8:1-2, NKJV) </span>
+              “And the dragon was enraged with the woman, and he went to make
+              war with the rest of her offspring, who keep the commandments of
+              God and have the testimony of Jesus Christ”
+              <span className="font-bold"> (Revelation 12:17, NKJV) </span>
             </span>
           </blockquote>
         </div>
@@ -85,7 +84,7 @@ const Welcome = () => {
 
                 <p>Click here to join us online</p>
                 <span className="text-xs text-orange-500">
-                  Time: 8:00 PM Every Wednessday
+                  Time: 8:00 PM Every Wednesday
                 </span>
               </div>
             </a>

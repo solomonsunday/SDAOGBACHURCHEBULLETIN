@@ -20,11 +20,37 @@ const Announcement = () => {
             interceed for you.
           </li> */}
           <li className="pb-2 border-b border-orange-200">
-            Today is World Day of Prayer for Children at Risk.
+            Today is a special Sabbath of fasting and prayer and launching of
+            Personal Ministry Cards.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            Next Sabbath, 1/6/2024 will be a special Sabbath of fasting and
-            prayer and launching of Personal Ministry Card.
+            There will be emergency Church Board meeting today immediately after
+            the divine service.
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            <span className="font-bold">Wedding Bells:</span> The wedding
+            ceremony of Sister Ijeoma Regina and Pst. Charles Gbadebo holds at
+            Pioneer SDA Church Babcock University on 2/6/2024 by 11:00a.m.
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            This year’s World Refugee Sabbath in on 15/6/2024. Let’s get
+            involved, Care and Pray against the Global Refugee Crises.
+          </li>
+
+          <li className="pb-2 border-b border-orange-200">
+            Singles Week of Prayer comes up on the 13th -16th June, 2024.
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            Ogba Church Single’s Prison Visitation comes up on the 13/7/2024,
+            let’s support this project with items for female inmates and pray
+            for its success.
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            There will be Church at Business on Sabbath 8/6/2024.
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            LMC Pre-Camp meeting holds at Ogba Church on 23/6/2024 by 10:00a.m
+            prompt.
           </li>
           <li className="pb-2 border-b border-orange-200">
             <span className="font-bold">ICT Department:</span> Support the
@@ -32,30 +58,6 @@ const Announcement = () => {
             effectiveness in the ICT Department of the Church. (a) A laptop-
             Dell XPs 15 estimated at ₦1,200,000.
             <br /> (b) A camera Sony NX3 estimated at ₦1,600,000.
-          </li>
-
-          <li className="pb-2 border-b border-orange-200">
-            Ogba Church Single’s Prison Visitation comes up on the 8/6/2024,
-            let’s support this project with items for female inmates and pray
-            for its success.
-          </li>
-          <li className="pb-2 border-b border-orange-200">
-            Church Board Meeting holds next Sabbath 1/6/2024 after the divine
-            service.
-          </li>
-          <li className="pb-2 border-b border-orange-200">
-            There will be Church at Business on Sabbath 8/6/2024.
-          </li>
-
-          <li className="pb-2 border-b border-orange-200">
-            <span className="font-bold">Wedding Bells:</span> The wedding
-            ceremony of Bro. Obinna Okwuonu and Sis. Owuneme Amarachi (From
-            Magodo district) holds here in Ogba Church on 26/05/2024.
-          </li>
-          <li>
-            The wedding ceremony of Sister Ijeoma Regina and Pst. Charles
-            Gbadebo holds at Pioneer SDA Church Babcock University on 2/6/2024
-            by 11:00a.m.
           </li>
 
           <li className="pb-2 border-b border-orange-200">
@@ -77,37 +79,37 @@ const Announcement = () => {
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            9. Alive in Jesus WNUC Children's Ministry Sabbath School Training
-            convention hold as follows: Date: 13-17 June, 2024 Venue: Camp
-            young, Ede Osun state Registration has ended, let’s pray for its
-            success
+            Alive in Jesus WNUC Children’s Ministry Sabbath School Training
+            Convention hold as follows: Date: 13th – 17th June, 2024. Venue:
+            Camp Young, Ede Osun State. Registration has ended, let’s pray for
+            its success.
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            This year’s World Refugee Sabbath is on 15/6/2024. Let’s get
-            involved, Care and Pray against the Global Refugee Crises.
+            LMC Pathfinders Camporee comes up as follows: Theme: SAMSON. Date:
+            August 18th – 25th, 2024. Registration is ₦15,000
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            WAD Health Congress holds as follows: Date: Sept. 3-8, 2024. Venue:
+            Valley View University, Accra Ghana. Early Bird Registration is $85,
+            late registration $100.
           </li>
 
+          <li className="pb-2 border-b border-orange-200">
+            PAN AFRICAN YOUTH CONGRESS (ECD/SID/WAD) holds December 23rd -28th,
+            2024 at Babcock University Nigeria. Registration: Early
+            Bird-₦57,000. This is for Senior Youths & Master Guides.
+          </li>
           <li className="pb-2 border-b border-orange-200">
             GC/WAD Stewardship Conference holds August 25- 31, 2024 @ Babcock
             University. Registration:N35,000Expected attendees: Pastors, Elders,
             Treasurers, Stewardship leaders and welfare leader..
           </li>
-          <li className="pb-2 border-b border-orange-200">
-            LMC Pathfinders Camporee comes up as follows: Theme: SAMSON. Date:
-            August 18th – 25th, 2024. Registration is ₦15,000
-          </li>
-
-          <li className="pb-2 border-b border-orange-200">
-            . PAN AFRICAN YOUTH CONGRESS (ECD/SID/WAD) holds December 23rd
-            -28th, 2024 at Babcock University Nigeria. Registration: Early
-            Bird-₦57,000. This is for Senior Youths & Master Guides.
-          </li>
-
+          {/* 
           <li className="pb-2 border-b border-orange-200">
             Limited copies of the Book “The Great Controversy are now available
             at ₦1,500 per copy. Pick a copy for your family and friends today.
-          </li>
+          </li> */}
           <li className="pb-2 border-b border-orange-200">
             Support the Church projects for this year: (a) Empowerment of
             members (b) Oke-Ira evangelism project (c) Reconstruction and

@@ -13,44 +13,44 @@ const DivineService = () => {
           <div className="text-xs"> Organist</div>
 
           <div className="col-span-3 text-sm">
-            Call to Worship: (Mathew 19:14)
+            Call to Worship: (Mathew 6:33)
           </div>
-          <div className="text-xs"> Emmanuel Alonge</div>
+          <div className="text-xs"> Pst. Happy Kona</div>
           <div className="col-span-3 text-sm"> Invocation</div>
           <div className="text-xs"> Congregation </div>
           <div className="col-span-3 text-sm">
             {" "}
-            Welcome / opening Hymn (SDAH 218)
+            Welcome / opening Hymn (SDAH 439)
           </div>
-          <div className="text-xs">Timileyin Abioye </div>
+          <div className="text-xs">Deac. C.C. Nwaogwugwu </div>
           <div className="col-span-3 text-sm"> Pastoral Prayer</div>
-          <div className="text-xs">Elder A.C. Chilaka</div>
+          <div className="text-xs">Elder A.Ajie</div>
           <div className="col-span-3 text-sm"> Stewardship </div>
-          <div className="text-xs"> Mrs. B. Francis</div>
-          <div className="col-span-3 text-sm">
-            {" "}
-            Musical Selection (All Children)
-          </div>
-          <div className="text-xs"> Victor Ifeanyi </div>
+          <div className="text-xs"> Bro. D. Akinwale</div>
+          <div className="col-span-3 text-sm"> Musical Selection (Choir)</div>
+          <div className="text-xs"> Bro. D. Akinwale </div>
 
           {/* <div className="col-span-3 text-sm">
             Induction: (Adventurer & Pathfinder Clubs)
           </div>
           <div className="text-xs">MG. F.L. Alonge </div> */}
-          <div className="col-span-3 text-sm">Scripture Reading (John 9:5)</div>
-          <div className="text-xs"> Victory Lucky</div>
           <div className="col-span-3 text-sm">
-            Hymn of Consecration (SDAH 282)
+            Scripture Reading (John 14:1-4)
           </div>
-          <div className="text-xs"> Jadesola Adebayo</div>
+          <div className="text-xs"> Bro. O. Young</div>
           <div className="col-span-3 text-sm">
-            Sermon Title <span className="font-bold"> Light of the World </span>
+            Hymn of Consecration (SDAH 159)
           </div>
-          <div className="text-xs">Elder A.C. Chilaka</div>
-          <div className="col-span-3 text-sm">Closing Hymn (SDAH 580) </div>
-          <div className="text-xs"> Emmanuel Alonge</div>
+          <div className="text-xs"> Bro. O. Young</div>
+          <div className="col-span-3 text-sm">
+            Sermon Title{" "}
+            <span className="font-bold"> Our Greatest Need... </span>
+          </div>
+          <div className="text-xs">Pst. Happy Kona</div>
+          <div className="col-span-3 text-sm">Closing Hymn (SDAH 632) </div>
+          <div className="text-xs"> Elder A.Ajie</div>
           <div className="col-span-3 text-sm">Benediction</div>
-          <div className="text-xs">Elder A.C. Chilaka.</div>
+          <div className="text-xs">Pst. Happy Kona</div>
           <div className="col-span-3 text-sm">Doxology</div>
           <div className="text-xs"> Congregation</div>
         </div>
