@@ -38,7 +38,7 @@ const Welcome = () => {
         <div className="text-center flex justify-center">
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2  w-full">
             <p className="text-orange-400 underline">TOPIC FOR THE WEEK</p>
-            The Foundation of God’s Government
+            Spiritualism Exposed
           </blockquote>
         </div>
         <div className="text-center flex justify-center">
@@ -46,10 +46,14 @@ const Welcome = () => {
             <p className="text-orange-400 underline">MEMORY TEXT</p>
 
             <span className="px-1 text-xs italic">
-              “And the dragon was enraged with the woman, and he went to make
-              war with the rest of her offspring, who keep the commandments of
-              God and have the testimony of Jesus Christ”
-              <span className="font-bold"> (Revelation 12:17, NKJV) </span>
+              “For the Lord Himself will descend from heaven with a shout, with
+              the voice of an archangel, and with the trumpet of God. And the
+              dead in Christ will rise first. Then we who are alive and remain
+              shall be caught up together with them in the clouds to meet the
+              Lord in the air. And thus we shall always be with the Lord”
+              <span className="font-bold">
+                (1 Thessalonians 4:16-17, NKJV){" "}
+              </span>
             </span>
           </blockquote>
         </div>

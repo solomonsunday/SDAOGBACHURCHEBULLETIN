@@ -20,21 +20,21 @@ const Announcement = () => {
             interceed for you.
           </li> */}
           <li className="pb-2 border-b border-orange-200">
-            Today is a special Sabbath of fasting and prayer and launching of
-            Personal Ministry Cards.
+            Please remember to fill the personal evangelism cards with names of
+            your prospects and submit to the PM Leader.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            There will be emergency Church Board meeting today immediately after
-            the divine service.
+            There will be Church at business meeting immediately after divine
+            service..
           </li>
           <li className="pb-2 border-b border-orange-200">
-            <span className="font-bold">Wedding Bells:</span> The wedding
-            ceremony of Sister Ijeoma Regina and Pst. Charles Gbadebo holds at
-            Pioneer SDA Church Babcock University on 2/6/2024 by 11:00a.m.
+            Next Sabbath (15/6/24) is World Refugee Sabbath. Let’s get involved,
+            Care and Pray against the Global Refugee Crises.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            This year’s World Refugee Sabbath in on 15/6/2024. Let’s get
-            involved, Care and Pray against the Global Refugee Crises.
+            Ogba Church Single’s Prison Visitation comes up on the 13/7/2024,
+            let’s support this project with items for female inmates (Clothes,
+            Sanitary and Personal Care Supplies) and pray for its success.
           </li>
 
           <li className="pb-2 border-b border-orange-200">
@@ -46,7 +46,8 @@ const Announcement = () => {
             for its success.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            There will be Church at Business on Sabbath 8/6/2024.
+            LMC Pre-Camp meeting holds at Ogba Church on 23/6/2024 by 10:00a.m
+            prompt.
           </li>
           <li className="pb-2 border-b border-orange-200">
             LMC Pre-Camp meeting holds at Ogba Church on 23/6/2024 by 10:00a.m

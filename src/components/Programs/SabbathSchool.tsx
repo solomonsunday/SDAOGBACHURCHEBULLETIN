@@ -16,7 +16,7 @@ const SabbathSchool = () => {
         <div className="col-span-3 text-sm capitalize">
           Opening Remark (Welcome & Prayer)
         </div>
-        <div className="text-xs"> Sis. Adaoha Alala</div>
+        <div className="text-xs"> Mrs. Chinonso Moses</div>
 
         <div className="col-span-3 text-sm capitalize">
           Welcome / Supt's Opening Remark
@@ -25,31 +25,27 @@ const SabbathSchool = () => {
 
         <div className="col-span-3 text-sm capitalize">
           {" "}
-          Welcome / Opening Hymn (SDAH 002)
+          Welcome / Opening Hymn (SDAH 100)
         </div>
-        <div className="text-xs capitalize"> Deacon Chibuzor Ehisianya</div>
+        <div className="text-xs capitalize"> Mrs. Chinonso Moses</div>
 
         <div className="col-span-3 text-sm capitalize"> Keeping on Course</div>
-        <div className="text-xs capitalize"> Sis. Chika Promise </div>
+        <div className="text-xs capitalize"> Sister Omolola Ajayi </div>
 
         <div className="col-span-3 text-sm capitalize"> Mission Spotlight </div>
-        <div className="text-xs capitalize"> Sis. Chika Promise </div>
+        <div className="text-xs capitalize"> Mrs. Enyioma Kingsley </div>
 
         <div className="col-span-3 text-sm capitalize">
           {" "}
           Family Presentation{" "}
         </div>
-        <div className="text-xs capitalize">
-          {" "}
-          The families Deacon Idowu Oyeniyi, Deacon Chibuzor Ehisianya, Bro.
-          Akinwale Damilola & Elder Katchy Onwulata
-        </div>
+        <div className="text-xs capitalize">-</div>
 
         <div className="col-span-3 text-sm capitalize">
           {" "}
           Study Time, Lesson Introduction
         </div>
-        <div className="text-xs capitalize"> Bro. Chimezie Mbagwu </div>
+        <div className="text-xs capitalize"> Mrs. Nkiruka Wogu</div>
         <div className="col-span-3 text-sm capitalize">
           Unit Activities / Lesson Study (40 Mins)
         </div>
@@ -57,20 +53,20 @@ const SabbathSchool = () => {
         <div className="col-span-3 text-sm capitalize">Lesson Summary</div>
         <div className="text-xs capitalize"> - </div>
         <div className="col-span-3 text-sm capitalize">Friend's time</div>
-        <div className="text-xs capitalize"> Sis. Adaoha Alala </div>
+        <div className="text-xs capitalize"> Mrs. Nkechi Ifeanyi </div>
         <div className="col-span-3 text-sm capitalize">Special Features:</div>
-        <div className="text-xs capitalize"> - </div>
+        <div className="text-xs capitalize"> Mrs. Nkechi Ifeanyi </div>
         <div className="col-span-3 text-sm capitalize">
           Lesson Preview/Announcement / Closing Remark
         </div>
         <div className="text-xs capitalize">Bro. Chimezie </div>
 
         <div className="col-span-3 text-sm capitalize">
-          Closing Hymn (SDAH 213)
+          Closing Hymn (SDAH 600)
         </div>
-        <div className="text-xs"> Sis. Chika Promise</div>
+        <div className="text-xs"> Sister Omolola Ajayi</div>
         <div className="col-span-3 text-sm capitalize">Closing Prayer</div>
-        <div className="text-xs"> Deacon Chibuzor Ehisianya </div>
+        <div className="text-xs"> Mrs. Nkechi Ifeanyi</div>
       </div>
     </section>
   );
