@@ -9,14 +9,17 @@ const PastorDesk = () => {
         </div>
         <div className="space-y-3">
           <div className="text-lg font-semibold underline">
-            <p className="dark:text-white">Joel 2:25 (Amp)</p>
+            <p className="dark:text-white">
+              Ellen G. White, Welfare Ministry, 164
+            </p>
           </div>
           <p className="text-orange-500">
-            'I will restore to you the years that the swarming locust has eaten,
-            the crawling locust, the consuming locust, and the chewing locust,
-            my great army which I sent among you. May the Almighty God, who is
-            the great restore, restore to you whatever good things the enemy
-            deceitfully stole from you , in Jesus Christ name'
+            'Intelligent Christian women may use their talents to the very
+            highest account …Wives and mothers should in no case neglect their
+            husbands and their children, but they can do much without neglecting
+            home duties…” May the Lord bless our women in every area of life so
+            that they will each fulfill their calling in God, in Jesus Christ
+            name.'
           </p>
         </div>
       </section>

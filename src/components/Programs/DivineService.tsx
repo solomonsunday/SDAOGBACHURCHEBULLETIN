@@ -13,44 +13,44 @@ const DivineService = () => {
           <div className="text-xs"> Organist</div>
 
           <div className="col-span-3 text-sm">
-            Call to Worship: (Mathew 6:33)
+            Call to Worship: (Genesis 16:19)
           </div>
-          <div className="text-xs"> Pst. Happy Kona</div>
+          <div className="text-xs"> Elder P. Nwaejigh</div>
           <div className="col-span-3 text-sm"> Invocation</div>
           <div className="text-xs"> Congregation </div>
           <div className="col-span-3 text-sm">
             {" "}
-            Welcome / opening Hymn (SDAH 439)
+            Welcome / opening Hymn (SDAH 092)
           </div>
-          <div className="text-xs">Deac. C.C. Nwaogwugwu </div>
+          <div className="text-xs">Mrs. G. Christopher</div>
           <div className="col-span-3 text-sm"> Pastoral Prayer</div>
-          <div className="text-xs">Elder A.Ajie</div>
+          <div className="text-xs">Mrs. J. Agbada</div>
           <div className="col-span-3 text-sm"> Stewardship </div>
-          <div className="text-xs"> Bro. D. Akinwale</div>
+          <div className="text-xs"> Mrs. B. Francis</div>
           <div className="col-span-3 text-sm"> Musical Selection (Choir)</div>
-          <div className="text-xs"> Bro. D. Akinwale </div>
+          <div className="text-xs"> Mrs. B. Francis </div>
 
           {/* <div className="col-span-3 text-sm">
             Induction: (Adventurer & Pathfinder Clubs)
           </div>
           <div className="text-xs">MG. F.L. Alonge </div> */}
           <div className="col-span-3 text-sm">
-            Scripture Reading (John 14:1-4)
+            Scripture Reading (Job 34:21)
           </div>
-          <div className="text-xs"> Bro. O. Young</div>
+          <div className="text-xs"> Miss E. Nwaesiaba</div>
           <div className="col-span-3 text-sm">
-            Hymn of Consecration (SDAH 159)
+            Hymn of Consecration (SDAH 181)
           </div>
-          <div className="text-xs"> Bro. O. Young</div>
+          <div className="text-xs"> Miss E. Nwaesiaba</div>
           <div className="col-span-3 text-sm">
             Sermon Title{" "}
-            <span className="font-bold"> Our Greatest Need... </span>
+            <span className="font-bold"> The God Who Sees You </span>
           </div>
-          <div className="text-xs">Pst. Happy Kona</div>
-          <div className="col-span-3 text-sm">Closing Hymn (SDAH 632) </div>
-          <div className="text-xs"> Elder A.Ajie</div>
+          <div className="text-xs">Elder P. Nwaejigh</div>
+          <div className="col-span-3 text-sm">Closing Hymn (SDAH 099) </div>
+          <div className="text-xs"> Mrs. C. Ezekiel</div>
           <div className="col-span-3 text-sm">Benediction</div>
-          <div className="text-xs">Pst. Happy Kona</div>
+          <div className="text-xs">Elder P. Nwaejigh</div>
           <div className="col-span-3 text-sm">Doxology</div>
           <div className="text-xs"> Congregation</div>
         </div>
