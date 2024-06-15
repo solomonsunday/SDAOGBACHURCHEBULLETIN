@@ -24,13 +24,10 @@ const Announcement = () => {
             your prospects and submit to the PM Leader.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            There will be Church at business meeting immediately after divine
-            service..
+            Today is World Refugee Sabbath. Let’s get involved, Care and Pray
+            against the Global Refugee Crises.
           </li>
-          <li className="pb-2 border-b border-orange-200">
-            Next Sabbath (15/6/24) is World Refugee Sabbath. Let’s get involved,
-            Care and Pray against the Global Refugee Crises.
-          </li>
+
           <li className="pb-2 border-b border-orange-200">
             Ogba Church Single’s Prison Visitation comes up on the 13/7/2024,
             let’s support this project with items for female inmates (Clothes,
@@ -38,7 +35,12 @@ const Announcement = () => {
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            Singles Week of Prayer comes up on the 13th -16th June, 2024.
+            There will be baptism on Sabbath 29th June, 2024.
+          </li>
+
+          <li className="pb-2 border-b border-orange-200">
+            <span className="font-bold">Vacancy:</span> There’s vacancy for
+            Janitor in our church premises, if interested, apply in person.{" "}
           </li>
           <li className="pb-2 border-b border-orange-200">
             Ogba Church Single’s Prison Visitation comes up on the 13/7/2024,
@@ -63,8 +65,7 @@ const Announcement = () => {
 
           <li className="pb-2 border-b border-orange-200">
             Registration for AWM National Convention at Babcock University has
-            been extended, registration fee remains 30,000 till May ending, Late
-            registration from June 1st is now N33,000.
+            been extended; registration fee remains ₦30,000..
           </li>
 
           <li className="pb-2 border-b border-orange-200">
@@ -77,13 +78,6 @@ const Announcement = () => {
           <li className="pb-2 border-b border-orange-200">
             AMO Convention comes up in Babcock University by 21-25 August, 2024.
             Registration: 15,000 .
-          </li>
-
-          <li className="pb-2 border-b border-orange-200">
-            Alive in Jesus WNUC Children’s Ministry Sabbath School Training
-            Convention hold as follows: Date: 13th – 17th June, 2024. Venue:
-            Camp Young, Ede Osun State. Registration has ended, let’s pray for
-            its success.
           </li>
 
           <li className="pb-2 border-b border-orange-200">
@@ -106,11 +100,12 @@ const Announcement = () => {
             University. Registration:N35,000Expected attendees: Pastors, Elders,
             Treasurers, Stewardship leaders and welfare leader..
           </li>
-          {/* 
+
           <li className="pb-2 border-b border-orange-200">
-            Limited copies of the Book “The Great Controversy are now available
-            at ₦1,500 per copy. Pick a copy for your family and friends today.
-          </li> */}
+            The Church will dispose the following obsolete and bad properties
+            that are no longer in use, such as bad luminous battery, damaged
+            fans and more than thirty damaged plastic chairs.
+          </li>
           <li className="pb-2 border-b border-orange-200">
             Support the Church projects for this year: (a) Empowerment of
             members (b) Oke-Ira evangelism project (c) Reconstruction and
