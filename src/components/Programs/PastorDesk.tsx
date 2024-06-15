@@ -10,16 +10,13 @@ const PastorDesk = () => {
         <div className="space-y-3">
           <div className="text-lg font-semibold underline">
             <p className="dark:text-white">
-              Ellen G. White, Welfare Ministry, 164
+              Ellen G. White Testimonies for the Church p. 266.
             </p>
           </div>
           <p className="text-orange-500">
-            'Intelligent Christian women may use their talents to the very
-            highest account …Wives and mothers should in no case neglect their
-            husbands and their children, but they can do much without neglecting
-            home duties…” May the Lord bless our women in every area of life so
-            that they will each fulfill their calling in God, in Jesus Christ
-            name.'
+            'This is the recipe that Christ has prescribed for the fainthearted,
+            doubting, trembling soul. Let the sorrowful ones, who walk
+            mournfully before the Lord, arise and help someone who needs help'
           </p>
         </div>
       </section>
