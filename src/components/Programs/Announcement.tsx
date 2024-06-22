@@ -20,12 +20,12 @@ const Announcement = () => {
             interceed for you.
           </li> */}
           <li className="pb-2 border-b border-orange-200">
-            Please remember to fill the personal evangelism cards with names of
-            your prospects and submit to the PM Leader.
+            Please remember to send the names of your evangelism prospects to
+            the personal ministry leader for follow-ups and pray regularly for
+            them.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            Today is World Refugee Sabbath. Let’s get involved, Care and Pray
-            against the Global Refugee Crises.
+            There will be a child dedication next Sabbath.
           </li>
 
           <li className="pb-2 border-b border-orange-200">
@@ -35,7 +35,7 @@ const Announcement = () => {
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            There will be baptism on Sabbath 29th June, 2024.
+            There will be baptism next Sabbath 29th June, 2024.
           </li>
 
           <li className="pb-2 border-b border-orange-200">
@@ -48,8 +48,7 @@ const Announcement = () => {
             for its success.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            LMC Pre-Camp meeting holds at Ogba Church on 23/6/2024 by 10:00a.m
-            prompt.
+            There will be baptism next Sabbath 29th June, 2024.
           </li>
           <li className="pb-2 border-b border-orange-200">
             LMC Pre-Camp meeting holds at Ogba Church on 23/6/2024 by 10:00a.m
@@ -66,13 +65,6 @@ const Announcement = () => {
           <li className="pb-2 border-b border-orange-200">
             Registration for AWM National Convention at Babcock University has
             been extended; registration fee remains ₦30,000..
-          </li>
-
-          <li className="pb-2 border-b border-orange-200">
-            <span className="font-bold">Alive in Jesus:</span> Alive in Jesus
-            WNUC Children's Ministry Sabbath School Training convention hold as
-            follows: Date: 13-17 June, 2024 Venue: Camp young, Ede Osun state
-            Registration: #20,000 and closes 15/5/2024.
           </li>
 
           <li className="pb-2 border-b border-orange-200">
@@ -100,12 +92,6 @@ const Announcement = () => {
             University. Registration:N35,000Expected attendees: Pastors, Elders,
             Treasurers, Stewardship leaders and welfare leader..
           </li>
-
-          <li className="pb-2 border-b border-orange-200">
-            The Church will dispose the following obsolete and bad properties
-            that are no longer in use, such as bad luminous battery, damaged
-            fans and more than thirty damaged plastic chairs.
-          </li>
           <li className="pb-2 border-b border-orange-200">
             Support the Church projects for this year: (a) Empowerment of
             members (b) Oke-Ira evangelism project (c) Reconstruction and
@@ -115,7 +101,7 @@ const Announcement = () => {
           </li>
           <li className="pb-2 border-b border-orange-200">
             Return your faithful tithes and give generous offerings. Send your
-            tithes, offerings and other donations to our account{" "}
+            tithes, offerings and other donations to the church account{" "}
             <span className="text-orange-400 font-bold">
               2020086453 First Bank Seventh-day Adventist Church Ogba.
             </span>{" "}

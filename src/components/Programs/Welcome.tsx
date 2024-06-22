@@ -38,7 +38,7 @@ const Welcome = () => {
         <div className="text-center flex justify-center">
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2  w-full">
             <p className="text-orange-400 underline">TOPIC FOR THE WEEK</p>
-            The Impending Conflict
+            Earth’s Closing Events
           </blockquote>
         </div>
         <div className="text-center flex justify-center">
@@ -46,8 +46,9 @@ const Welcome = () => {
             <p className="text-orange-400 underline">MEMORY TEXT</p>
 
             <span className="px-1 text-xs italic">
-              “Sanctify them by your truth. Your world is truth”
-              <span className="font-bold">(John 17:17 , NKJV) </span>
+              “Buy the truth, and do not sell it, also wisdom and instruction
+              and understanding”
+              <span className="font-bold">(Proverbs 23:23 NKJV) </span>
             </span>
           </blockquote>
         </div>

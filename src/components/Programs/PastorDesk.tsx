@@ -9,14 +9,15 @@ const PastorDesk = () => {
         </div>
         <div className="space-y-3">
           <div className="text-lg font-semibold underline">
-            <p className="dark:text-white">
-              Ellen G. White Testimonies for the Church p. 266.
-            </p>
+            <p className="dark:text-white">Psalms 51:10-12</p>
           </div>
           <p className="text-orange-500">
-            'This is the recipe that Christ has prescribed for the fainthearted,
-            doubting, trembling soul. Let the sorrowful ones, who walk
-            mournfully before the Lord, arise and help someone who needs help'
+            'Create in me a clean hear, O God, And renew a steadfast spirit
+            within me. Do not cast me away from Your presence, And do not take
+            Your Holy Spirit from me. Restore to me the joy of Your Salvation,
+            And uphold me by Your generous Spirit. May the Holy Spirit of the
+            Most God take over our heart as we worship together in God’s
+            presence today. Happy Sabbath!'
           </p>
         </div>
       </section>
