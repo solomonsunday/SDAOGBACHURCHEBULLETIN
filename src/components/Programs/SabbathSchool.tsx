@@ -16,7 +16,7 @@ const SabbathSchool = () => {
         <div className="col-span-3 text-sm capitalize">
           Opening Remark (Welcome & Prayer)
         </div>
-        <div className="text-xs"> Mrs. Eno Oguntade</div>
+        <div className="text-xs"> Sis. Chika Promise</div>
 
         <div className="col-span-3 text-sm capitalize">
           Welcome / Supt's Opening Remark
@@ -25,50 +25,54 @@ const SabbathSchool = () => {
 
         <div className="col-span-3 text-sm capitalize">
           {" "}
-          Welcome / Opening Hymn (SDAH 073)
+          Welcome / Opening Hymn (SDAH 218)
         </div>
-        <div className="text-xs capitalize"> Deac.. Chuks Ihesiaba</div>
+        <div className="text-xs capitalize"> Success Chimezie</div>
 
         <div className="col-span-3 text-sm capitalize"> Keeping on Course</div>
-        <div className="text-xs capitalize"> - </div>
+        <div className="text-xs capitalize"> Bro. Benjamin Oshiotse </div>
 
         <div className="col-span-3 text-sm capitalize"> Mission Spotlight </div>
-        <div className="text-xs capitalize"> Bro. Stanley Hillary </div>
+        <div className="text-xs capitalize"> - </div>
 
         <div className="col-span-3 text-sm capitalize">
           {" "}
           Family Presentation{" "}
         </div>
-        <div className="text-xs capitalize">Deacon Chuks Ihesiaba</div>
+        <div className="text-xs capitalize">
+          The families of Mrs. Obonga, Bro. Chidera Francis, Deac. Kelechi
+          Nwogu, Pa. Akinola Olaniyan, Sis. Omolala Ajayi, Eld. Christopher
+          Nwaogu.
+        </div>
 
         <div className="col-span-3 text-sm capitalize">
           {" "}
           Study Time, Lesson Introduction
         </div>
-        <div className="text-xs capitalize"> Elder Gabriel Olusona</div>
+        <div className="text-xs capitalize"> Bro. Chimezie Mbagwu</div>
         <div className="col-span-3 text-sm capitalize">
           Unit Activities / Lesson Study (40 Mins)
         </div>
         <div className="text-xs capitalize"> - </div>
         <div className="col-span-3 text-sm capitalize">Lesson Summary</div>
-        <div className="text-xs capitalize"> Elder Gabriel Olusona </div>
+        <div className="text-xs capitalize"> -</div>
         <div className="col-span-3 text-sm capitalize">Friend's time</div>
-        <div className="text-xs capitalize">Bro. Stanley Hillary </div>
+        <div className="text-xs capitalize"> Sis. Chika Promise</div>
         <div className="col-span-3 text-sm capitalize">
-          Special Features: Offering for Refugees
+          Special Features: Children Presentation
         </div>
-        <div className="text-xs capitalize"> Mrs Eno Oguntade </div>
+        <div className="text-xs capitalize"> Sis. Bessy Francis </div>
         <div className="col-span-3 text-sm capitalize">
           Lesson Preview/Announcement / Closing Remark
         </div>
-        <div className="text-xs capitalize">Deacon Chuks Ihesiaba </div>
+        <div className="text-xs capitalize">Bro. Chimezie</div>
 
         <div className="col-span-3 text-sm capitalize">
-          Closing Hymn (SDAH 367)
+          Closing Hymn (SDAH 435)
         </div>
-        <div className="text-xs"> Bro. Stanley Hillary</div>
+        <div className="text-xs"> Success Chimezie</div>
         <div className="col-span-3 text-sm capitalize">Closing Prayer</div>
-        <div className="text-xs"> Mrs. Eno Oguntade</div>
+        <div className="text-xs"> Sis. Bessy Francis</div>
       </div>
     </section>
   );
