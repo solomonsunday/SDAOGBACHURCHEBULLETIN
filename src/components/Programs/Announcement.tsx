@@ -25,7 +25,8 @@ const Announcement = () => {
             them.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            There will be a child dedication next Sabbath.
+            The family of Eric Uzor will be dedicating their baby Uzor
+            Kamsiyochukwu Aswoluwa to the glory of God today.
           </li>
 
           <li className="pb-2 border-b border-orange-200">
@@ -35,7 +36,14 @@ const Announcement = () => {
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            There will be baptism next Sabbath 29th June, 2024.
+            Youth choir rehearsals holds immediately after Divine service at the
+            children’s church.
+          </li>
+
+          <li className="pb-2 border-b border-orange-200">
+            Remnant Federation Adventurers nature trip is open for registration:
+            Reg. ₦5,000,.Venue: Lekki Conservation Centre. Date: 21/7/2024.
+            Departure: 8:00a.m @Ogba church.
           </li>
 
           <li className="pb-2 border-b border-orange-200">
@@ -48,7 +56,8 @@ const Announcement = () => {
             for its success.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            There will be baptism next Sabbath 29th June, 2024.
+            Children Ministry Graduation Sabbath comes up on 27/7/2024. Please
+            give them all the needed support.
           </li>
           <li className="pb-2 border-b border-orange-200">
             LMC Pre-Camp meeting holds at Ogba Church on 23/6/2024 by 10:00a.m
