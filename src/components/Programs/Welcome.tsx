@@ -38,7 +38,7 @@ const Welcome = () => {
         <div className="text-center flex justify-center">
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2  w-full">
             <p className="text-orange-400 underline">TOPIC FOR THE WEEK</p>
-            Earth’s Closing Events
+            The Triumph of God’s Love
           </blockquote>
         </div>
         <div className="text-center flex justify-center">
@@ -46,9 +46,13 @@ const Welcome = () => {
             <p className="text-orange-400 underline">MEMORY TEXT</p>
 
             <span className="px-1 text-xs italic">
-              “Buy the truth, and do not sell it, also wisdom and instruction
-              and understanding”
-              <span className="font-bold">(Proverbs 23:23 NKJV) </span>
+              ““And I heard a loud voice from heaven saying, Behold, the
+              tabernacle of God is with men, and He will dwell with them, and
+              they shall be His people. God Himself will be with them and be
+              their God. And God will wipe away every tear from their eyes;
+              there shall be no more death, nor sorrow, nor crying. There shall
+              be no more pain, for the former things have passed away.”
+              <span className="font-bold">(Revelation 21:3-4 NKJV) </span>
             </span>
           </blockquote>
         </div>

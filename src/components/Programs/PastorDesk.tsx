@@ -9,15 +9,13 @@ const PastorDesk = () => {
         </div>
         <div className="space-y-3">
           <div className="text-lg font-semibold underline">
-            <p className="dark:text-white">Psalms 51:10-12</p>
+            <p className="dark:text-white"> (Proverbs 19:11(NASB))</p>
           </div>
           <p className="text-orange-500">
-            'Create in me a clean hear, O God, And renew a steadfast spirit
-            within me. Do not cast me away from Your presence, And do not take
-            Your Holy Spirit from me. Restore to me the joy of Your Salvation,
-            And uphold me by Your generous Spirit. May the Holy Spirit of the
-            Most God take over our heart as we worship together in God’s
-            presence today. Happy Sabbath!'
+            'A person’s discretion makes him slow to anger, And it is his glory
+            to overlook and offense May the Lord, the grace and wisdom of
+            patience, forgiveness and self control as we deal with issues of
+            life in Jesus Christ name.'
           </p>
         </div>
       </section>
