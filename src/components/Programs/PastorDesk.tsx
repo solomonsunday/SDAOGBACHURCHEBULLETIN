@@ -9,13 +9,16 @@ const PastorDesk = () => {
         </div>
         <div className="space-y-3">
           <div className="text-lg font-semibold underline">
-            <p className="dark:text-white"> (Proverbs 19:11(NASB))</p>
+            {/* <p className="dark:text-white"> -</p> */}
           </div>
           <p className="text-orange-500">
-            'A person’s discretion makes him slow to anger, And it is his glory
-            to overlook and offense May the Lord, the grace and wisdom of
-            patience, forgiveness and self control as we deal with issues of
-            life in Jesus Christ name.'
+            'We are too busy to pray, and so are too busy to have power. We have
+            great deal of activity, but we accomplish little; many services but
+            few conversions; much machinery but few results R.A. Torrey. When
+            was the last time you whisper a prayer to God. When was the last
+            time you spend quality time on your knees in fervent prayers? May we
+            experience the power of prayer in our lives as individuals, families
+            and a Church, in Jesus Christ name Happy Sabbath'
           </p>
         </div>
       </section>
