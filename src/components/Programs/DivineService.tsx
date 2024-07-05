@@ -13,44 +13,44 @@ const DivineService = () => {
           <div className="text-xs"> Organist</div>
 
           <div className="col-span-3 text-sm">
-            Call to Worship: (Psalm 103:8-14)
+            Call to Worship: (John 10:10)
           </div>
-          <div className="text-xs"> Pst. Happy Kona</div>
+          <div className="text-xs"> Elder G. Adeoti</div>
           <div className="col-span-3 text-sm"> Invocation</div>
           <div className="text-xs"> Congregation </div>
           <div className="col-span-3 text-sm">
             {" "}
-            Welcome / opening Hymn (SDAH 500)
+            Welcome / opening Hymn (SDAH 538)
           </div>
-          <div className="text-xs"> Elder P. Nwaejigh</div>
+          <div className="text-xs"> Deacon C. Ehisianya</div>
           <div className="col-span-3 text-sm"> Pastoral Prayer</div>
-          <div className="text-xs">Elder A.B. Adedokun</div>
+          <div className="text-xs">Elder C. Nwaogu</div>
           <div className="col-span-3 text-sm"> Stewardship </div>
-          <div className="text-xs"> Mrs. I Iheabunike</div>
+          <div className="text-xs"> Mrs. M. Olusona</div>
           <div className="col-span-3 text-sm"> Musical Selection (Choir)</div>
-          <div className="text-xs"> Mrs. I Iheabunike </div>
+          <div className="text-xs"> Mrs. M. Olusona </div>
 
           {/* <div className="col-span-3 text-sm">
             Induction: (Adventurer & Pathfinder Clubs)
           </div>
           <div className="text-xs">MG. F.L. Alonge </div> */}
           <div className="col-span-3 text-sm">
-            Scripture Reading (Genesis 4:6,7)
+            Scripture Reading (John 6:67-68)
           </div>
-          <div className="text-xs"> Sis. Felicia Afiauwem</div>
+          <div className="text-xs"> Zipporah Moses</div>
           <div className="col-span-3 text-sm">
-            Hymn of Consecration (SDAH 312)
+            Hymn of Consecration (SDAH 574)
           </div>
-          <div className="text-xs"> Sis. Felicia Afiauwem</div>
+          <div className="text-xs"> Zipporah Moses</div>
           <div className="col-span-3 text-sm">
             Sermon Title{" "}
-            <span className="font-bold"> “ Why are you Angry?” </span>
+            <span className="font-bold"> “To whom shall wew go” </span>
           </div>
-          <div className="text-xs">Pst. Happy Kona </div>
-          <div className="col-span-3 text-sm">Closing Hymn (SDAH 567) </div>
-          <div className="text-xs"> Elder A.B. Adedokun</div>
+          <div className="text-xs">Elder G. Adeoti </div>
+          <div className="col-span-3 text-sm">Closing Hymn (SDAH 531) </div>
+          <div className="text-xs"> Elder C. Nwaogu</div>
           <div className="col-span-3 text-sm">Benediction</div>
-          <div className="text-xs"> Pst. Happy Kona</div>
+          <div className="text-xs"> Elder G. Adeoti</div>
           <div className="col-span-3 text-sm">Doxology</div>
           <div className="text-xs"> Congregation</div>
         </div>
