@@ -44,30 +44,41 @@ const Footer = () => {
             <p>Follow us on: </p>
           </div> */}
           <div>
-            <a href="#">
+            <a
+              href="https://www.facebook.com/seventhday.adventist.church.ogba.2024?mibextid=ZbWKwL"
+              target="_blank"
+            >
               <img
                 src="/assets/imgs/facebook.svg"
                 alt="facebook"
-                className="p-2 bg-slate-900 rounded-full ficon"
+                className="p-2 bg-slate-900 rounded-full hover:bg-[#304D30]"
               />
             </a>
           </div>
           <div>
-            <a href="#">
+            <a
+              href="https://www.youtube.com/channel/UC8RNOVtNHwBx4cA_5zN2Dgw"
+              target="_blank"
+            >
               <img
-                src="/assets/imgs/twitter.svg"
+                src="/assets/svgs/youtube.svg"
+                width={40}
+                height={20}
                 alt="twitter"
-                className="p-2 bg-slate-900 rounded-full ficon"
+                className="p-2 bg-slate-900 rounded-full hover:bg-[#304D30]"
               />
             </a>
           </div>
 
           <div>
-            <a href="#">
+            <a
+              href="https://www.instagram.com/seventhdayadventist_ogba/"
+              target="_blank"
+            >
               <img
                 src="/assets/imgs/instagram.svg"
                 alt="instagram"
-                className="p-2 bg-slate-900 rounded-full ficon"
+                className="p-2 bg-slate-900 rounded-full hover:bg-[#304D30]"
               />
             </a>
           </div>
