@@ -37,8 +37,8 @@ const Welcome = () => {
         </div>
         <div className="text-center flex justify-center">
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2  w-full">
-            <p className="text-orange-400 underline">TOPIC FOR THE WEEK</p>
-            The Beginning of the Gospel
+            <p className="text-orange-400 underline">TOPIC FOR THE WEEK</p>A Day
+            in the Ministry of Jesus
           </blockquote>
         </div>
         <div className="text-center flex justify-center">
@@ -46,11 +46,9 @@ const Welcome = () => {
             <p className="text-orange-400 underline">MEMORY TEXT</p>
 
             <span className="px-1 text-xs italic">
-              “Now after John was put in prison, Jesus came to Galilee,
-              preaching the gospel of the kingdom of God, and saying,” The time
-              is fulfilled, and the kingdom of God is at hand. Repent and
-              believe in the gospel.”
-              <span className="font-bold"> (Mark 1:14-15 NKJV) </span>
+              “Then Jesus said to them, ‘Follow Me, and I will make you become
+              fishers of men”
+              <span className="font-bold"> (Mark 1:17, NKJV) </span>
             </span>
           </blockquote>
         </div>

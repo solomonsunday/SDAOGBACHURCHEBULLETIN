@@ -8,7 +8,7 @@ const Announcement = () => {
       </div>
       <div className="space-y-4 dark:text-white">
         <ol className="space-y-4 list-decimal">
-          <li className="pb-2 border-b border-orange-200 font-extrabold text-green-400">
+          <li className="pb-2 border-b border-orange-200 font-extrabold text-orange-400">
             GC Theme for the year 2024: Chosen for Mission
           </li>
           <li className="pb-2 font-bold border-b border-orange-200">
@@ -17,16 +17,19 @@ const Announcement = () => {
             only for the Elderly ones who are not tech savvy or those without a
             smart phone.
           </li>
+
+          <li className="pb-2 border-b border-orange-200">
+            <span className="font-bold"> Notice of Meeting:</span>
+            Church board meeting holds tomorrow by 3:00pm - 6:00pm at the board
+            room here in Ogba Church.
+          </li>
+
           <li className="pb-2 border-b border-orange-200">
             Children Ministry graduation Sabbath comes up on 27/7/2024. Uniform
             for all Children and their coordinators is White and black
-            skirt/trousers. Please give them all the needed supports.
-          </li>
-          <li className="pb-2 border-b border-orange-200">
-            <span className="font-bold"> Notice of Meeting:</span> This is to
-            notify all men that our monthly AMO meeting comes up this Sunday
-            7/7/2024. All men are expected to be in attendance and your presence
-            will be highly appreciated. Venue: Board Room. Time: 9:30a.m.
+            skirt/trousers. Please give them all the needed supports. N/B:
+            Parents are encouraged to bring their children to their classes
+            every Sabbath with their snacks.
           </li>
 
           <li className="pb-2 border-b border-orange-200">
@@ -43,6 +46,24 @@ const Announcement = () => {
             effectiveness in the ICT Department of the Church. (a) A laptop-
             Dell XPs 15 estimated at ₦1,200,000.
             <br /> (b) A camera Sony NX3 estimated at ₦1,600,000.
+          </li>
+
+          <li className="pb-2 border-b border-orange-200">
+            ASAM week of prayer comes up on 17th - 20th July, 2024.
+          </li>
+
+          <li className="pb-2 border-b border-orange-200">
+            There will be Holy Communion next Sabbath here in Ogba Church.
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            Hybrid Mid-year week of revival program begins today and ends next
+            Sabbath 13th - 20th July, 2024. Time: 5:00am - 6:00am Venue: Zoom
+            everyday and at the church auditorium on Wednesday and Friday
+            evenings 6:00pm - 7:00pm
+          </li>
+
+          <li className="pb-2 border-b border-orange-200">
+            There will be Combined worship on 17th August, 2024.
           </li>
 
           <li className="pb-2 border-b border-orange-200">
