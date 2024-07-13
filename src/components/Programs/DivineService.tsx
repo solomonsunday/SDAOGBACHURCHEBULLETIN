@@ -13,44 +13,44 @@ const DivineService = () => {
           <div className="text-xs"> Organist</div>
 
           <div className="col-span-3 text-sm">
-            Call to Worship: (John 10:10)
+            Call to Worship: (2Chron. 7;14)
           </div>
-          <div className="text-xs"> Elder G. Adeoti</div>
+          <div className="text-xs"> Pst. Happy Kona</div>
           <div className="col-span-3 text-sm"> Invocation</div>
           <div className="text-xs"> Congregation </div>
           <div className="col-span-3 text-sm">
             {" "}
-            Welcome / opening Hymn (SDAH 538)
+            Welcome / opening Hymn (SDAH 258)
           </div>
-          <div className="text-xs"> Deacon C. Ehisianya</div>
+          <div className="text-xs"> Elder A. Ajie</div>
           <div className="col-span-3 text-sm"> Pastoral Prayer</div>
-          <div className="text-xs">Elder C. Nwaogu</div>
+          <div className="text-xs">Elder C. Chilaka</div>
           <div className="col-span-3 text-sm"> Stewardship </div>
-          <div className="text-xs"> Mrs. M. Olusona</div>
+          <div className="text-xs">Elder O. Alala</div>
           <div className="col-span-3 text-sm"> Musical Selection (Choir)</div>
-          <div className="text-xs"> Mrs. M. Olusona </div>
+          <div className="text-xs">Elder O. Alala </div>
 
           {/* <div className="col-span-3 text-sm">
             Induction: (Adventurer & Pathfinder Clubs)
           </div>
           <div className="text-xs">MG. F.L. Alonge </div> */}
           <div className="col-span-3 text-sm">
-            Scripture Reading (John 6:67-68)
+            Scripture Reading (Ephesians 5:15,16)
           </div>
-          <div className="text-xs"> Zipporah Moses</div>
+          <div className="text-xs"> Elder G. Olusona</div>
           <div className="col-span-3 text-sm">
-            Hymn of Consecration (SDAH 574)
+            Hymn of Consecration (Revive us Again)
           </div>
-          <div className="text-xs"> Zipporah Moses</div>
+          <div className="text-xs">Elder G. Olusona</div>
           <div className="col-span-3 text-sm">
             Sermon Title{" "}
             <span className="font-bold"> “To whom shall wew go” </span>
           </div>
           <div className="text-xs">Elder G. Adeoti </div>
-          <div className="col-span-3 text-sm">Closing Hymn (SDAH 531) </div>
-          <div className="text-xs"> Elder C. Nwaogu</div>
+          <div className="col-span-3 text-sm">Closing Hymn (SDAH 245) </div>
+          <div className="text-xs">Elder C. Chilaka </div>
           <div className="col-span-3 text-sm">Benediction</div>
-          <div className="text-xs"> Elder G. Adeoti</div>
+          <div className="text-xs"> Pastor Happy Kona</div>
           <div className="col-span-3 text-sm">Doxology</div>
           <div className="text-xs"> Congregation</div>
         </div>

@@ -9,16 +9,15 @@ const PastorDesk = () => {
         </div>
         <div className="space-y-3">
           <div className="text-lg font-semibold underline">
-            {/* <p className="dark:text-white"> -</p> */}
+            <p className="dark:text-white"> 2 Chron. 7:14</p>
           </div>
           <p className="text-orange-500">
-            'We are too busy to pray, and so are too busy to have power. We have
-            great deal of activity, but we accomplish little; many services but
-            few conversions; much machinery but few results R.A. Torrey. When
-            was the last time you whisper a prayer to God. When was the last
-            time you spend quality time on your knees in fervent prayers? May we
-            experience the power of prayer in our lives as individuals, families
-            and a Church, in Jesus Christ name Happy Sabbath'
+            'if my people, who are called by my name, will humble themselves and
+            pray and seek my face and turn from their wicked ways, then I will
+            hear from heaven, and I will forgive their sin and will heal their
+            land'
+            <br /> May we commit ourselves to fervent and genuine prayers in
+            Jesus Christ name. Happy Sabbath
           </p>
         </div>
       </section>
