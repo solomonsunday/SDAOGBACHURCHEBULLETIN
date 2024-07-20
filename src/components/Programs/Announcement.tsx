@@ -19,17 +19,30 @@ const Announcement = () => {
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            <span className="font-bold"> Notice of Meeting:</span>
-            Church board meeting holds tomorrow by 3:00pm - 6:00pm at the board
-            room here in Ogba Church.
+            Today is the climax of LMC ASAM week of prayer and our Mid-year
+            Revival prayer program, we thank God for it’s success and appreciate
+            all who attended and made these prayer programs a success..
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            Children Ministry graduation Sabbath comes up on 27/7/2024. Uniform
-            for all Children and their coordinators is White and black
-            skirt/trousers. Please give them all the needed supports. N/B:
-            Parents are encouraged to bring their children to their classes
-            every Sabbath with their snacks.
+            There will be Holy Communion service today immediately after divine
+            service.
+          </li>
+
+          <li className="pb-2 border-b border-orange-200">
+            Next sabbath is Children Ministry graduation Sabbath Uniform for all
+            Children and their coordinators is White and black skirt/trousers.
+            Please give them all the needed supports. N/B: Parents are
+            encouraged to bring their children to their classes every Sabbath
+            with their snacks.
+          </li>
+
+          <li className="pb-2 border-b border-orange-200">
+            <span className="font-bold">ICT Department:</span> Support the
+            Church media ministry. We need the following items for more
+            effectiveness in the ICT Department of the Church. (a) A laptop-
+            Dell XPs 15 estimated at ₦1,200,000.
+            <br /> (b) A camera Sony NX3 estimated at ₦1,600,000.
           </li>
 
           <li className="pb-2 border-b border-orange-200">
@@ -40,21 +53,7 @@ const Announcement = () => {
             while we pray for the restoration of health for all affected and the
             lifting of the ban as soon as possible.
           </li>
-          <li className="pb-2 border-b border-orange-200">
-            <span className="font-bold">ICT Department:</span> Support the
-            Church media ministry. We need the following items for more
-            effectiveness in the ICT Department of the Church. (a) A laptop-
-            Dell XPs 15 estimated at ₦1,200,000.
-            <br /> (b) A camera Sony NX3 estimated at ₦1,600,000.
-          </li>
 
-          <li className="pb-2 border-b border-orange-200">
-            ASAM week of prayer comes up on 17th - 20th July, 2024.
-          </li>
-
-          <li className="pb-2 border-b border-orange-200">
-            There will be Holy Communion next Sabbath here in Ogba Church.
-          </li>
           <li className="pb-2 border-b border-orange-200">
             Hybrid Mid-year week of revival program begins today and ends next
             Sabbath 13th - 20th July, 2024. Time: 5:00am - 6:00am Venue: Zoom
@@ -67,22 +66,33 @@ const Announcement = () => {
           </li>
 
           <li className="pb-2 border-b border-orange-200">
+            Remnant Federation Adventurers nature trip is tomorrow 21/7/2024
+            .Venue: Lekki Conservation Centre. Departure: 8:00a.m @Ogba church.
+          </li>
+
+          <li className="pb-2 border-b border-orange-200">
+            The AYM of Ogba Church in collaboration with the church will be
+            conducting a One Day Evangelism at Oke-ira. Theme: Reach out and
+            tell the world. Date: 3/7/2024. Time: 8:00a.m Venue: Oke-Ira. Let’s
+            pray for it’s success and plan to attend.
+          </li>
+
+          <li className="pb-2 border-b border-orange-200">
+            AYM Ogba holds her 2024 Youth Choir Concert here in Ogba Church.
+            Theme: Called to Freedom. Date: 10/8/2024. Time is 1:00p.m -4:00p.m.
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            LMC Pathfinders Camporee comes up as follows: Theme: SAMSON. Date:
+            August 18th – 25th, 2024. Registration is ₦15,000
+          </li>
+
+          <li className="pb-2 border-b border-orange-200">
             Registration for AWM National Convention at Babcock University has
             been extended; registration fee remains ₦30,000..
           </li>
           <li className="pb-2 border-b border-orange-200">
             AMO Convention comes up in Babcock University by 21-25 August, 2024.
             Registration: 15,000 .
-          </li>
-
-          <li className="pb-2 border-b border-orange-200">
-            Remnant Federation Adventurers nature trip is open for registration:
-            Reg. ₦5,000,.Venue: Lekki Conservation Centre. Date: 21/7/2024.
-            Departure: 8:00a.m @Ogba church.
-          </li>
-          <li className="pb-2 border-b border-orange-200">
-            LMC Pathfinders Camporee comes up as follows: Theme: SAMSON. Date:
-            August 18th – 25th, 2024. Registration is ₦15,000
           </li>
           <li className="pb-2 border-b border-orange-200">
             WAD Health Congress holds as follows: Date: Sept. 3-8, 2024. Venue:
