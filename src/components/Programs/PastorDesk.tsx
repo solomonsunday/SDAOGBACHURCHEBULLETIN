@@ -9,15 +9,13 @@ const PastorDesk = () => {
         </div>
         <div className="space-y-3">
           <div className="text-lg font-semibold underline">
-            <p className="dark:text-white"> 2 Chron. 7:14</p>
+            <p className="dark:text-white"> Isaiah 54:10</p>
           </div>
           <p className="text-orange-500">
-            'if my people, who are called by my name, will humble themselves and
-            pray and seek my face and turn from their wicked ways, then I will
-            hear from heaven, and I will forgive their sin and will heal their
-            land'
-            <br /> May we commit ourselves to fervent and genuine prayers in
-            Jesus Christ name. Happy Sabbath
+            'For the mountains shall depart and the hills be removed, But My
+            kindness shall not depart from you, Nor shall My covenant of peace
+            be removed” Says the Lord, who has mercy on you. Shalom'
+            <br /> Shalom
           </p>
         </div>
       </section>
