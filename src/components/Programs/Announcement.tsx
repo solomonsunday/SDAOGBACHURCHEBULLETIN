@@ -19,22 +19,19 @@ const Announcement = () => {
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            Today is the climax of LMC ASAM week of prayer and our Mid-year
-            Revival prayer program, we thank God for it’s success and appreciate
-            all who attended and made these prayer programs a success..
+            Today is our Children Ministry Graduation Sabbath. Let’s celebrate
+            with our children. N/B: Parents are encouraged to bring their
+            children to their classes every Sabbath with their snacks.
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            There will be Holy Communion service today immediately after divine
-            service.
+            The Church Board meets today immediately after divine service.
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            Next sabbath is Children Ministry graduation Sabbath Uniform for all
-            Children and their coordinators is White and black skirt/trousers.
-            Please give them all the needed supports. N/B: Parents are
-            encouraged to bring their children to their classes every Sabbath
-            with their snacks.
+            We thank God for the success of Sister Charity Oluebube Iheanacho
+            and Mr Moniyi Steven’s traditional marriage yesterday, may God bless
+            their union.
           </li>
 
           <li className="pb-2 border-b border-orange-200">
@@ -53,21 +50,13 @@ const Announcement = () => {
             while we pray for the restoration of health for all affected and the
             lifting of the ban as soon as possible.
           </li>
-
           <li className="pb-2 border-b border-orange-200">
-            Hybrid Mid-year week of revival program begins today and ends next
-            Sabbath 13th - 20th July, 2024. Time: 5:00am - 6:00am Venue: Zoom
-            everyday and at the church auditorium on Wednesday and Friday
-            evenings 6:00pm - 7:00pm
+            There will be District Combined Worship on 17/8/2024.
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            There will be Combined worship on 17th August, 2024.
-          </li>
-
-          <li className="pb-2 border-b border-orange-200">
-            Remnant Federation Adventurers nature trip is tomorrow 21/7/2024
-            .Venue: Lekki Conservation Centre. Departure: 8:00a.m @Ogba church.
+            Remnant Federation Adventurers nature trip last Sunday at Lekki
+            Conservation center was a success to the glory of God.
           </li>
 
           <li className="pb-2 border-b border-orange-200">
@@ -85,10 +74,18 @@ const Announcement = () => {
             LMC Pathfinders Camporee comes up as follows: Theme: SAMSON. Date:
             August 18th – 25th, 2024. Registration is ₦15,000
           </li>
+          <li className="pb-2 border-b border-orange-200">
+            WNUC ASAM Convention comes up on 3rd – 6th October, 2024 at Ibadan.
+            Registration is ₦16,000
+          </li>
 
           <li className="pb-2 border-b border-orange-200">
             Registration for AWM National Convention at Babcock University has
             been extended; registration fee remains ₦30,000..
+          </li>
+
+          <li className="pb-2 border-b border-orange-200">
+            There will be District Combined Worship on 17/8/2024.
           </li>
           <li className="pb-2 border-b border-orange-200">
             AMO Convention comes up in Babcock University by 21-25 August, 2024.
@@ -110,6 +107,7 @@ const Announcement = () => {
             University. Registration:N35,000Expected attendees: Pastors, Elders,
             Treasurers, Stewardship leaders and welfare leader..
           </li>
+
           <li className="pb-2 border-b border-orange-200">
             Support the Church projects for this year: (a) Empowerment of
             members (b) Oke-Ira evangelism project (c) Reconstruction and
@@ -117,6 +115,7 @@ const Announcement = () => {
             Fence (e) Construction of more toilets facilities (f) Raising of the
             Church School to Standard
           </li>
+
           <li className="pb-2 border-b border-orange-200">
             Return your faithful tithes and give generous offerings. Send your
             tithes, offerings and other donations to the church account{" "}

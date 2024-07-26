@@ -16,24 +16,24 @@ const SabbathSchool = () => {
         <div className="col-span-3 text-sm capitalize">
           Opening Remark (Welcome & Prayer)
         </div>
-        <div className="text-xs"> Bro. Benjamin Oshiotse </div>
+        <div className="text-xs"> Sharon Francis</div>
 
         <div className="col-span-3 text-sm capitalize">
           Welcome / Supt's Opening Remark
         </div>
-        <div className="text-xs"> -</div>
+        <div className="text-xs"> Sis. Naomi Benjamin</div>
 
         <div className="col-span-3 text-sm capitalize">
           {" "}
-          Welcome / Opening Hymn (SDAH 506)
+          Welcome / Opening Hymn (SDAH 306)
         </div>
-        <div className="text-xs capitalize"> Sis. Adaoha Alala</div>
+        <div className="text-xs capitalize"> Ada Chidinda</div>
 
         <div className="col-span-3 text-sm capitalize"> Keeping on Course</div>
-        <div className="text-xs capitalize"> Sis. Ogechi Happy Kona</div>
+        <div className="text-xs capitalize"> -</div>
 
         <div className="col-span-3 text-sm capitalize"> Mission Spotlight </div>
-        <div className="text-xs capitalize"> - </div>
+        <div className="text-xs capitalize"> Izuchukwu Ihesiaba</div>
 
         <div className="col-span-3 text-sm capitalize">
           {" "}
@@ -44,7 +44,7 @@ const SabbathSchool = () => {
           {" "}
           Study Time, Lesson Introduction
         </div>
-        <div className="text-xs capitalize"> Bro. Chimezie Mbagwu</div>
+        <div className="text-xs capitalize"> Sis. Naomi Benjamin</div>
         <div className="col-span-3 text-sm capitalize">
           Unit Activities / Lesson Study (40 Mins)
         </div>
@@ -52,21 +52,21 @@ const SabbathSchool = () => {
         <div className="col-span-3 text-sm capitalize">Lesson Summary</div>
         <div className="text-xs capitalize"> -</div>
         <div className="col-span-3 text-sm capitalize">Friend's time</div>
-        <div className="text-xs capitalize"> Sis. Adaoha Alala</div>
+        <div className="text-xs capitalize"> Chukwuemeka Desire</div>
 
         <div className="col-span-3 text-sm capitalize">Special Feature</div>
-        <div className="text-xs capitalize">-</div>
+        <div className="text-xs capitalize"> Sis. Bessy Francis</div>
 
         <div className="col-span-3 text-sm capitalize">
           Lesson Preview/Announcement / Closing Remark
         </div>
-        <div className="text-xs capitalize"> Bro. Chimezie Mbagwu </div>
+        <div className="text-xs capitalize"> abbath School</div>
         <div className="col-span-3 text-sm capitalize">
-          Closing Hymn (SDAH 608)
+          Closing Hymn (SDAH 248)
         </div>
-        <div className="text-xs"> Bro. Benjamin Oshiotse</div>
+        <div className="text-xs"> Ugochukwu Emmanuel</div>
         <div className="col-span-3 text-sm capitalize">Closing Prayer</div>
-        <div className="text-xs"> Sis. Ogechi Happy Kona</div>
+        <div className="text-xs"> Elder Chilaka</div>
       </div>
     </section>
   );

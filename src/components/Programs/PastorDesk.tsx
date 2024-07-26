@@ -9,13 +9,21 @@ const PastorDesk = () => {
         </div>
         <div className="space-y-3">
           <div className="text-lg font-semibold underline">
-            <p className="dark:text-white"> Isaiah 54:10</p>
+            <p className="dark:text-white">
+              {" "}
+              Ellen G. White, The Great Controversy 486
+            </p>
           </div>
           <p className="text-orange-500">
-            'For the mountains shall depart and the hills be removed, But My
-            kindness shall not depart from you, Nor shall My covenant of peace
-            be removed” Says the Lord, who has mercy on you. Shalom'
-            <br /> Shalom
+            'God wants every child of tender age to be His child, to be adopted
+            into His family. Young though they may be, the youth may be members
+            of the household of faith and have a most precious experience. They
+            may have hearts that are tender and ready to receive impressions
+            that will be lasting. They may have their hearts drawn out in
+            confidence and love for Jesus, and live for the Saviour. Christ will
+            make them little missionaries. The whole current of her thought may
+            be changed, so that sin will not appear a thing to be enjoyed, but
+            to be shunned and hated ...'
           </p>
         </div>
       </section>
