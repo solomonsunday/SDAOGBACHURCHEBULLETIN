@@ -38,7 +38,7 @@ const Welcome = () => {
         <div className="text-center flex justify-center">
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2  w-full">
             <p className="text-orange-400 underline">TOPIC FOR THE WEEK</p>
-            Controversies
+            Inside Out
           </blockquote>
         </div>
         <div className="text-center flex justify-center">
@@ -46,10 +46,10 @@ const Welcome = () => {
             <p className="text-orange-400 underline">MEMORY TEXT</p>
 
             <span className="px-1 text-xs italic">
-              “And He said to them, ‘The Sabbath was made for man, and not man
-              for the Sabbath. Therefore the Son of Man is also Lord of the
-              Sabbath”
-              <span className="font-bold"> (Mark 2:27-28 NKJV) </span>
+              “There is nothing that enters a man from outside which can defile
+              him; but the things which come out of him, those are the things
+              that defile a man (Mark 7:15 NKJV)”
+              <span className="font-bold"> (Mark 4:24-25 NKJV) </span>
             </span>
           </blockquote>
         </div>

@@ -9,13 +9,15 @@ const PastorDesk = () => {
         </div>
         <div className="space-y-3">
           <div className="text-lg font-semibold underline">
-            <p className="dark:text-white"> Isaiah 54:10</p>
+            <p className="dark:text-white"> Ellen G. White, Education</p>
           </div>
           <p className="text-orange-500">
-            'For the mountains shall depart and the hills be removed, But My
-            kindness shall not depart from you, Nor shall My covenant of peace
-            be removed” Says the Lord, who has mercy on you. Shalom'
-            <br /> Shalom
+            'The greatest want of the world is the want of men- men who will not
+            be bought or sold; men who in their inmost souls are true and
+            honest; men who do not fear to call sin by its right name; men whose
+            conscience is as true to duty as the needle to the pole; men who
+            will stand for the right though the heavens fall.' Happy Men’s
+            Sabbath.
           </p>
         </div>
       </section>
