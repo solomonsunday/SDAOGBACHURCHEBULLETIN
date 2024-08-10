@@ -38,7 +38,7 @@ const Welcome = () => {
         <div className="text-center flex justify-center">
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2  w-full">
             <p className="text-orange-400 underline">TOPIC FOR THE WEEK</p>
-            Parables
+            Inside Out
           </blockquote>
         </div>
         <div className="text-center flex justify-center">
@@ -46,11 +46,9 @@ const Welcome = () => {
             <p className="text-orange-400 underline">MEMORY TEXT</p>
 
             <span className="px-1 text-xs italic">
-              “Then He said to them, Take heed what you hear. With the same
-              measure you use, it will be measured to you; and to you who hear,
-              more will be given. For whoever has, to him more will be given;
-              but whoever does not have, even what he has will be taken away
-              from him”
+              “There is nothing that enters a man from outside which can defile
+              him; but the things which come out of him, those are the things
+              that defile a man (Mark 7:15 NKJV)”
               <span className="font-bold"> (Mark 4:24-25 NKJV) </span>
             </span>
           </blockquote>

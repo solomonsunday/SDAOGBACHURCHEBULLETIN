@@ -19,19 +19,22 @@ const Announcement = () => {
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            Today is our Children Ministry Graduation Sabbath. Let’s celebrate
-            with our children. N/B: Parents are encouraged to bring their
-            children to their classes every Sabbath with their snacks.
+            Online prayer meeting/morning devotion holds every Sunday and
+            Wednesday morning (5:00a.m -6:00a.m) via zoom. Zoom link to be
+            shared on thee church’s WhatsApp platform..
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            The Church Board meets today immediately after divine service.
+            Today is the long anticipated Youth Choir Concert by 1:00p.m here in
+            Ogba Church, Theme: Called to Freedom
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            We thank God for the success of Sister Charity Oluebube Iheanacho
-            and Mr Moniyi Steven’s traditional marriage yesterday, may God bless
-            their union.
+            ICT Department: Please redeem your pledges to the Lord and support
+            the Church media ministry if you are yet to do so.. We need the
+            following items for more effectiveness in the ICT Department of the
+            Church. (a) A laptop- Dell XPs 15 estimated at ₦1,200,000. (b) A
+            camera Sony NX3 estimated at ₦1,600,000.
           </li>
 
           <li className="pb-2 border-b border-orange-200">
@@ -40,6 +43,22 @@ const Announcement = () => {
             effectiveness in the ICT Department of the Church. (a) A laptop-
             Dell XPs 15 estimated at ₦1,200,000.
             <br /> (b) A camera Sony NX3 estimated at ₦1,600,000.
+          </li>
+
+          <li className="pb-2 border-b border-orange-200">
+            Pre-Camp meeting holds tomorrow by 10:00a.m here in Ogba church. The
+            camp meeting of this year will be a one day LMC wide combined
+            service at Ileke village, Lagos Ibadan Express way.
+          </li>
+
+          <li className="pb-2 border-b border-orange-200">
+            There will be emergency church at business next Sabbath immediately
+            after worship
+          </li>
+
+          <li className="pb-2 border-b border-orange-200">
+            There will be a meeting/interaction of the young people in the
+            Church with the Church leadership on 17th August, 2024.
           </li>
 
           <li className="pb-2 border-b border-orange-200">
@@ -52,23 +71,6 @@ const Announcement = () => {
           </li>
           <li className="pb-2 border-b border-orange-200">
             There will be District Combined Worship on 17/8/2024.
-          </li>
-
-          <li className="pb-2 border-b border-orange-200">
-            Remnant Federation Adventurers nature trip last Sunday at Lekki
-            Conservation center was a success to the glory of God.
-          </li>
-
-          <li className="pb-2 border-b border-orange-200">
-            The AYM of Ogba Church in collaboration with the church will be
-            conducting a One Day Evangelism at Oke-ira. Theme: Reach out and
-            tell the world. Date: 3/7/2024. Time: 8:00a.m Venue: Oke-Ira. Let’s
-            pray for it’s success and plan to attend.
-          </li>
-
-          <li className="pb-2 border-b border-orange-200">
-            AYM Ogba holds her 2024 Youth Choir Concert here in Ogba Church.
-            Theme: Called to Freedom. Date: 10/8/2024. Time is 1:00p.m -4:00p.m.
           </li>
           <li className="pb-2 border-b border-orange-200">
             LMC Pathfinders Camporee comes up as follows: Theme: SAMSON. Date:
