@@ -38,7 +38,7 @@ const Welcome = () => {
         <div className="text-center flex justify-center">
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2  w-full">
             <p className="text-orange-400 underline">TOPIC FOR THE WEEK</p>
-            Inside Out
+            Teaching Disciples: Part I
           </blockquote>
         </div>
         <div className="text-center flex justify-center">
@@ -46,10 +46,10 @@ const Welcome = () => {
             <p className="text-orange-400 underline">MEMORY TEXT</p>
 
             <span className="px-1 text-xs italic">
-              “There is nothing that enters a man from outside which can defile
-              him; but the things which come out of him, those are the things
-              that defile a man (Mark 7:15 NKJV)”
-              <span className="font-bold"> (Mark 4:24-25 NKJV) </span>
+              “When He had called the people to Himself, with His disciples
+              also, He said to them, “Whoever desires to come after Me, let him
+              deny himself, and take up his cross, and follow Me”
+              <span className="font-bold"> (Mark 8:34 NKJV) </span>
             </span>
           </blockquote>
         </div>
