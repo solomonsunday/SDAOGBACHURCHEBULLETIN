@@ -25,8 +25,16 @@ const Announcement = () => {
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            Today is the long anticipated Youth Choir Concert by 1:00p.m here in
-            Ogba Church, Theme: Called to Freedom
+            Today is combined service
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            There will be an emergency church at business meeting immediately
+            after worship today
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            There will be a meeting/interaction of the young people in the
+            Church with the Church leadership today after the church at business
+            meeting
           </li>
 
           <li className="pb-2 border-b border-orange-200">
@@ -45,36 +53,25 @@ const Announcement = () => {
             <br /> (b) A camera Sony NX3 estimated at ₦1,600,000.
           </li>
 
-          <li className="pb-2 border-b border-orange-200">
-            Pre-Camp meeting holds tomorrow by 10:00a.m here in Ogba church. The
-            camp meeting of this year will be a one day LMC wide combined
-            service at Ileke village, Lagos Ibadan Express way.
-          </li>
-
-          <li className="pb-2 border-b border-orange-200">
-            There will be emergency church at business next Sabbath immediately
-            after worship
-          </li>
-
-          <li className="pb-2 border-b border-orange-200">
-            There will be a meeting/interaction of the young people in the
-            Church with the Church leadership on 17th August, 2024.
-          </li>
-
-          <li className="pb-2 border-b border-orange-200">
+          {/* <li className="pb-2 border-b border-orange-200">
             Ogba Church Single’s planned Prison Visitation for 13/7/2024 is
             hereby postponed till further notice pending when the ban on prison
             visitation due to Cholera outbreak is lifted. Members are encouraged
             to keep bringing in the relief materials as they are none perishable
             while we pray for the restoration of health for all affected and the
             lifting of the ban as soon as possible.
-          </li>
-          <li className="pb-2 border-b border-orange-200">
-            There will be District Combined Worship on 17/8/2024.
-          </li>
+          </li> */}
           <li className="pb-2 border-b border-orange-200">
             LMC Pathfinders Camporee comes up as follows: Theme: SAMSON. Date:
             August 18th – 25th, 2024. Registration is ₦15,000
+          </li>
+
+          <li className="pb-2 border-b border-orange-200">
+            The AYM of Ogba Church in collaboration with the church will be
+            conducting a One Day Evangelism at Oke-ira with details as follow:
+            Theme: Reach out and tell the world Date:14/9/2024 Time: 8:30am
+            Venue: Oke-ira Ogba Dress Code: Departmental Uniform Let's pray for
+            it's success and plan to attend
           </li>
           <li className="pb-2 border-b border-orange-200">
             WNUC ASAM Convention comes up on 3rd – 6th October, 2024 at Ibadan.
@@ -87,9 +84,6 @@ const Announcement = () => {
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            There will be District Combined Worship on 17/8/2024.
-          </li>
-          <li className="pb-2 border-b border-orange-200">
             AMO Convention comes up in Babcock University by 21-25 August, 2024.
             Registration: 15,000 .
           </li>
@@ -100,9 +94,12 @@ const Announcement = () => {
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            PAN AFRICAN YOUTH CONGRESS (ECD/SID/WAD) holds December 23rd -28th,
-            2024 at Babcock University Nigeria. Registration: Early
-            Bird-₦57,000. This is for Senior Youths & Master Guides.
+            <span className="font-bold">
+              PAN AFRICAN YOUTH CONGRESS (ECD / SID / WAD) holds as follows:
+            </span>
+            Venue: Babcock University, Nigeria Date: 23 - 28 Decembers, 2024
+            Registration: Early Bird-#57,000 This is for Senior Youths & Master
+            Guides
           </li>
           <li className="pb-2 border-b border-orange-200">
             GC/WAD Stewardship Conference holds August 25- 31, 2024 @ Babcock
