@@ -9,15 +9,13 @@ const PastorDesk = () => {
         </div>
         <div className="space-y-3">
           <div className="text-lg font-semibold underline">
-            <p className="dark:text-white"> Ellen G. White, Education</p>
+            <p className="dark:text-white"> 2 Chronicles 7:14</p>
           </div>
           <p className="text-orange-500">
-            'The greatest want of the world is the want of men- men who will not
-            be bought or sold; men who in their inmost souls are true and
-            honest; men who do not fear to call sin by its right name; men whose
-            conscience is as true to duty as the needle to the pole; men who
-            will stand for the right though the heavens fall.' Happy Men’s
-            Sabbath.
+            'If My People who are called by my name will humble themselves, and
+            pray and seek my face, and turn from their wicked ways, then I will
+            hear from heaven, and will forgive their sin and heal their land.'
+            HAPPY SABBATH
           </p>
         </div>
       </section>

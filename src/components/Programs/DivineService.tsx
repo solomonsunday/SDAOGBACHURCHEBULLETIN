@@ -15,52 +15,52 @@ const DivineService = () => {
           <div className="col-span-3 text-sm">
             Call to Worship: (Leviticus 19:18)
           </div>
-          <div className="text-xs"> Elder G.A.I Olusona</div>
+          <div className="text-xs"> Bro N. Unuakpor</div>
           <div className="col-span-3 text-sm"> Invocation</div>
           <div className="text-xs"> Congregation </div>
           <div className="col-span-3 text-sm">
             {" "}
-            Welcome /Adoration Hymn (SDAH 422)
+            Welcome /Adoration Hymn (SDAH 508)
           </div>
-          <div className="text-xs"> Deacon L. Ezekiel</div>
+          <div className="text-xs"> Pst. H. Kona</div>
           <div className="col-span-3 text-sm"> Pastoral Prayer</div>
-          <div className="text-xs">Elder K. Onwulata</div>
+          <div className="text-xs">Elder V. Njoku</div>
           <div className="col-span-3 text-sm"> Stewardship </div>
-          <div className="text-xs">Elder T. Aina</div>
+          <div className="text-xs">Elder. G. Adeoti</div>
           <div className="col-span-3 text-sm">
             {" "}
             Musical Selection (All Children)
           </div>
-          <div className="text-xs"> Elder T. Aina </div>
+          <div className="text-xs"> Mrs. B. Chilaka </div>
 
           {/* <div className="col-span-3 text-sm">
             Induction: (Adventurer & Pathfinder Clubs)
           </div>
           <div className="text-xs">MG. F.L. Alonge </div> */}
           <div className="col-span-3 text-sm">
-            Scripture Reading (Romans 5:18-19)
+            Scripture Reading (Isaiah 52:7-8)
           </div>
-          <div className="text-xs"> Deacon C. Mbagwu</div>
-          <div className="col-span-3 text-sm">Hymn of Consecration (246)</div>
-          <div className="text-xs">Deacon C. Mbagwu</div>
+          <div className="text-xs"> Sis.T. Onifade</div>
+          <div className="col-span-3 text-sm">Hymn of Consecration (516)</div>
+          <div className="text-xs">Mrs O. Ajayeoba</div>
           <div className="col-span-3 text-sm">
             Sermon Title{" "}
             <span className="font-bold">
               {" "}
-              “Identity of an Ideal Adventist”{" "}
+              A Call For Adventist Family's Mission Work{" "}
             </span>
           </div>
-          <div className="text-xs">Elder G.A.I Olusona </div>
+          <div className="text-xs">Bro. N. Unuakpor </div>
 
-          <div className="text-xs">Man Part 2 </div>
+          {/* <div className="text-xs">Man Part 2 </div>
           <div className="col-span-3 text-sm">
             (Anchor – Elder E.J. Agbara){" "}
-          </div>
-          <div className="col-span-3 text-sm">Closing Hymn (SDAH 595) </div>
-          <div className="text-xs">Elder K. Onwulata</div>
+          </div> */}
+          <div className="col-span-3 text-sm">Closing Hymn (SDAH 359) </div>
+          <div className="text-xs">Elder V. Njoku</div>
           <div className="col-span-3 text-sm">Benediction</div>
-          <div className="text-xs"> Elder G.A.I Olusona</div>
-          <div className="col-span-3 text-sm">Doxology</div>
+          <div className="text-xs"> Bro N. Unuakpor</div>
+          <div className="col-span-3 text-sm">Doxology(SDAH 319)</div>
           <div className="text-xs"> Congregation</div>
         </div>
       </section>
