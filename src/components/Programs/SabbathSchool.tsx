@@ -16,7 +16,7 @@ const SabbathSchool = () => {
         <div className="col-span-3 text-sm capitalize">
           Opening Remark (Welcome & Prayer)
         </div>
-        <div className="text-xs"> Sis. Chika Promise</div>
+        <div className="text-xs"> Mrs. Chinonso Moses</div>
 
         <div className="col-span-3 text-sm capitalize">
           Welcome / Supt's Opening Remark
@@ -25,12 +25,12 @@ const SabbathSchool = () => {
 
         <div className="col-span-3 text-sm capitalize">
           {" "}
-          Welcome / Opening Hymn (SDAH 359)
+          Welcome / Opening Hymn (SDAH 249)
         </div>
-        <div className="text-xs capitalize"> Bright Enyia</div>
+        <div className="text-xs capitalize"> Mrs. Rejoice Ugochukwu</div>
 
         <div className="col-span-3 text-sm capitalize"> Keeping on Course</div>
-        <div className="text-xs capitalize"> Sis. Dawn Walson</div>
+        <div className="text-xs capitalize"> Mrs. Blessing Chimezie</div>
 
         <div className="col-span-3 text-sm capitalize"> Mission Spotlight </div>
         <div className="text-xs capitalize"> - </div>
@@ -44,7 +44,7 @@ const SabbathSchool = () => {
           {" "}
           Study Time, Lesson Introduction
         </div>
-        <div className="text-xs capitalize"> Bro. Chimezie</div>
+        <div className="text-xs capitalize"> Mrs. Adaoma Ogbenyia</div>
         <div className="col-span-3 text-sm capitalize">
           Unit Activities / Lesson Study (40 Mins)
         </div>
@@ -52,20 +52,20 @@ const SabbathSchool = () => {
         <div className="col-span-3 text-sm capitalize">Lesson Summary</div>
         <div className="text-xs capitalize"> -</div>
         <div className="col-span-3 text-sm capitalize">Friend's time</div>
-        <div className="text-xs capitalize"> Bro. Uchendu Imo</div>
+        <div className="text-xs capitalize"> Mrs. Gift Christopher</div>
 
         <div className="col-span-3 text-sm capitalize">AMO Special Feature</div>
         <div className="text-xs capitalize"> Bro. Lucky Ezekiel</div>
         <div className="col-span-3 text-sm capitalize">
           Lesson Preview/Announcement / Closing Remark
         </div>
-        <div className="text-xs capitalize"> Bro. Chimezie/Sis Dawn </div>
+        <div className="text-xs capitalize">Mrs. Adaoma Ogbenyia</div>
         <div className="col-span-3 text-sm capitalize">
-          Closing Hymn (SDAH 286)
+          Closing Hymn (SDAH 083)
         </div>
-        <div className="text-xs"> SIs. Chika Promise </div>
+        <div className="text-xs">Mrs. Rejoice Ugochukwu </div>
         <div className="col-span-3 text-sm capitalize">Closing Prayer</div>
-        <div className="text-xs"> Bro. Bright Enyia </div>
+        <div className="text-xs">Mrs. Francisca Azomaukwu</div>
       </div>
     </section>
   );

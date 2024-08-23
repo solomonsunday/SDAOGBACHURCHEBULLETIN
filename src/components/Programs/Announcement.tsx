@@ -21,20 +21,20 @@ const Announcement = () => {
           <li className="pb-2 border-b border-orange-200">
             Online prayer meeting/morning devotion holds every Sunday and
             Wednesday morning (5:00a.m -6:00a.m) via zoom. Zoom link to be
-            shared on thee church’s WhatsApp platform..
+            shared on thee church’s WhatsApp platform...
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            Today is combined service
+            Both the AYM and the AMO are out for their Camporee and Convention
+            respectively, these programmes will be ending tomorrow. We wish them
+            happy camping and safe journey back home.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            There will be an emergency church at business meeting immediately
-            after worship today
+          The AWM National Convention in Babcock University Ogun State starts tomorrow, wishing all 
+          the delegates journey mercies and happy camping.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            There will be a meeting/interaction of the young people in the
-            Church with the Church leadership today after the church at business
-            meeting
+          The Ogba district Pastor, Pastor Happy Kona will be away on study leave from Sept.16th – Nov. 10th, 2024. Let’s support and uphold him in our prayers.
           </li>
 
           <li className="pb-2 border-b border-orange-200">

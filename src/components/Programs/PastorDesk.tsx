@@ -9,13 +9,13 @@ const PastorDesk = () => {
         </div>
         <div className="space-y-3">
           <div className="text-lg font-semibold underline">
-            <p className="dark:text-white"> 2 Chronicles 7:14</p>
+            <p className="dark:text-white"> Proverbs 31:30,31</p>
           </div>
           <p className="text-orange-500">
-            'If My People who are called by my name will humble themselves, and
-            pray and seek my face, and turn from their wicked ways, then I will
-            hear from heaven, and will forgive their sin and heal their land.'
-            HAPPY SABBATH
+            'Charm is deceptive, and beauty is fleeting; but a woman who fears
+            the LORD is to be praised. Honor her for all that her hands have
+            done, and let her works bring her praise at the city gate.' HAPPY
+            SABBATH
           </p>
         </div>
       </section>
