@@ -38,7 +38,7 @@ const Welcome = () => {
         <div className="text-center flex justify-center">
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2  w-full">
             <p className="text-orange-400 underline">TOPIC FOR THE WEEK</p>
-            Teaching Disciples: Part I
+            Teaching Disciples: Part II
           </blockquote>
         </div>
         <div className="text-center flex justify-center">
@@ -46,10 +46,9 @@ const Welcome = () => {
             <p className="text-orange-400 underline">MEMORY TEXT</p>
 
             <span className="px-1 text-xs italic">
-              “When He had called the people to Himself, with His disciples
-              also, He said to them, “Whoever desires to come after Me, let him
-              deny himself, and take up his cross, and follow Me”
-              <span className="font-bold"> (Mark 8:34 NKJV) </span>
+              “For even the Son of Man did not come to be served, but to serve,
+              and to give His life a ransom for man”
+              <span className="font-bold"> (Mark 10:44 NKJV) </span>
             </span>
           </blockquote>
         </div>
