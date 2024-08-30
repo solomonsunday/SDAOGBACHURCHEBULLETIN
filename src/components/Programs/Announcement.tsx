@@ -21,7 +21,7 @@ const Announcement = () => {
           <li className="pb-2 border-b border-orange-200">
             Online prayer meeting/morning devotion holds every Sunday and
             Wednesday morning (5:00a.m -6:00a.m) via zoom. Zoom link to be
-            shared on thee church’s WhatsApp platform...
+            shared on the church’s WhatsApp, Facebook and Instagram platforms
           </li>
 
           <li className="pb-2 border-b border-orange-200">
@@ -30,19 +30,34 @@ const Announcement = () => {
             happy camping and safe journey back home.
           </li>
           <li className="pb-2 border-b border-orange-200">
-          The AWM National Convention in Babcock University Ogun State starts tomorrow, wishing all 
-          the delegates journey mercies and happy camping.
+            The AWM Tri-Union Convention is currently ongoing at Babcock
+            University and will be ending tomorrow. We wish our women a happy
+            camping and safe journey back home
           </li>
           <li className="pb-2 border-b border-orange-200">
-          The Ogba district Pastor, Pastor Happy Kona will be away on study leave from Sept.16th – Nov. 10th, 2024. Let’s support and uphold him in our prayers.
+            The Ogba district Pastor, Pastor Happy Kona will be away on study
+            leave from Sept.16th – Nov. 10th, 2024. Let’s support and uphold him
+            in our prayers.
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            Sabbath School Community Guest Day is slated for 28/9/2024. Please
+            invite your friends /neighbors to fellowship with us and support the
+            program.
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            Church Board meeting holds September 8, 2024. Time is 11:00am prompt
+            at the Board room.
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            ICT Department: Please redeem your pledges to the Lord and support
-            the Church media ministry if you are yet to do so.. We need the
-            following items for more effectiveness in the ICT Department of the
-            Church. (a) A laptop- Dell XPs 15 estimated at ₦1,200,000. (b) A
-            camera Sony NX3 estimated at ₦1,600,000.
+            ICT Department:{" "}
+            <span className="font-bold text-orange-500">
+              Please redeem your pledges
+            </span>
+            to the Lord and support the Church media ministry if you are yet to
+            do so.. We need the following items for more effectiveness in the
+            ICT Department of the Church. (a) A laptop- Dell XPs 15 estimated at
+            ₦1,200,000. (b) A camera Sony NX3 estimated at ₦1,600,000.
           </li>
 
           <li className="pb-2 border-b border-orange-200">
@@ -74,18 +89,20 @@ const Announcement = () => {
             it's success and plan to attend
           </li>
           <li className="pb-2 border-b border-orange-200">
+            GC/WAD Stewardship Conference is currently ongoing @ Babcock
+            University and will be ending today. Our Pastors, Elders,
+            Treasurers, Stewardship leaders and welfare leader are in
+            attendance. Let’s pray for it’s success and journey mercies back
+            home.
+          </li>
+          <li className="pb-2 border-b border-orange-200">
             WNUC ASAM Convention comes up on 3rd – 6th October, 2024 at Ibadan.
             Registration is ₦16,000
           </li>
-
           <li className="pb-2 border-b border-orange-200">
-            Registration for AWM National Convention at Babcock University has
-            been extended; registration fee remains ₦30,000..
-          </li>
-
-          <li className="pb-2 border-b border-orange-200">
-            AMO Convention comes up in Babcock University by 21-25 August, 2024.
-            Registration: 15,000 .
+            The Ogba district Pastor, Pst. Happy Kona will be away on study
+            leave from Sept. 16 - Nov. 10, 2024 Let's support and uphold him in
+            our prayers
           </li>
           <li className="pb-2 border-b border-orange-200">
             WAD Health Congress holds as follows: Date: Sept. 3-8, 2024. Venue:
@@ -100,11 +117,6 @@ const Announcement = () => {
             Venue: Babcock University, Nigeria Date: 23 - 28 Decembers, 2024
             Registration: Early Bird-#57,000 This is for Senior Youths & Master
             Guides
-          </li>
-          <li className="pb-2 border-b border-orange-200">
-            GC/WAD Stewardship Conference holds August 25- 31, 2024 @ Babcock
-            University. Registration:N35,000Expected attendees: Pastors, Elders,
-            Treasurers, Stewardship leaders and welfare leader..
           </li>
 
           <li className="pb-2 border-b border-orange-200">

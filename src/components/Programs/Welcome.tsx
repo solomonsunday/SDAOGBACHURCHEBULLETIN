@@ -89,6 +89,27 @@ const Welcome = () => {
             </a>
           </blockquote>
         </div>
+        <div className="text-center flex justify-center">
+          <blockquote className="rounded-lg capitalize bg-[#304D30] py-2 w-full relative overflow-auto">
+            <div className="right-0 pr-1 pt-0 absolute">
+              <div className="bg-red-700 text-white px-2  rounded-lg">New</div>
+            </div>
+            <a
+              href="https://us02web.zoom.us/j/82044972297?pwd=GmOaK1QcBfhnphBQ4KEQiUQnBwWilA.1"
+              target="_blank"
+              className="text-orange-500 cursor-pointer "
+            >
+              <div className="">
+                <p className="underline">Early Morning Prayer</p>
+
+                <p>Click here to join us online</p>
+                <span className="text-xs text-orange-500">
+                  Time: 5:00 AM Every Wednesday and Sunday
+                </span>
+              </div>
+            </a>
+          </blockquote>
+        </div>
       </div>
     </section>
   );
