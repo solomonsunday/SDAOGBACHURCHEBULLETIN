@@ -49,17 +49,17 @@ const DivineService = () => {
             Sermon Title{" "}
             <span className="font-bold"> DARE TO ASK FOR MORE</span>
           </div>
-          <div className="text-xs">Elder P. Nwaejigh </div>
+          <div className="text-xs">Bro. Ugochukwu Azomukwu </div>
 
           {/* <div className="text-xs">Man Part 2 </div>
           <div className="col-span-3 text-sm">
             (Anchor – Elder E.J. Agbara){" "}
           </div> */}
-          <div className="col-span-3 text-sm">Closing Hymn (SDAH 359) </div>
-          <div className="text-xs"> Mrs. C. Nwachukwu</div>
+          <div className="col-span-3 text-sm">Closing Hymn (SDAH 180) </div>
+          <div className="text-xs">Bro. Benjamin Oshiotse</div>
           <div className="col-span-3 text-sm">Benediction</div>
           <div className="text-xs">Bro. Ugochukwu Azomukwu</div>
-          <div className="col-span-3 text-sm">Doxology(SDAH 180)</div>
+          <div className="col-span-3 text-sm">Doxology</div>
           <div className="text-xs"> Congregation</div>
         </div>
       </section>
