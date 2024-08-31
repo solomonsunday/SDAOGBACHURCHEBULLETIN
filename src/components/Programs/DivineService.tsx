@@ -29,7 +29,7 @@ const DivineService = () => {
           <div className="text-xs">Benjamin Gospel</div>
           <div className="col-span-3 text-sm">
             {" "}
-            Musical Selection (All Women)
+            Musical Selection
           </div>
           <div className="text-xs">Benjamin Gospel </div>
 
