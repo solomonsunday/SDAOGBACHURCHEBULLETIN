@@ -13,7 +13,7 @@ const DivineService = () => {
           <div className="text-xs"> Organist</div>
 
           <div className="col-span-3 text-sm">
-            Call to Worship: (Isaiah 41:10)
+            Call to Worship: (SDAH 873)
           </div>
           <div className="text-xs">Bro. Ugochukwu Azomukwu</div>
           <div className="col-span-3 text-sm"> Invocation</div>
