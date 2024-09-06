@@ -38,7 +38,7 @@ const Welcome = () => {
         <div className="text-center flex justify-center">
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2  w-full">
             <p className="text-orange-400 underline">TOPIC FOR THE WEEK</p>
-            Teaching Disciples: Part II
+            The Last Days
           </blockquote>
         </div>
         <div className="text-center flex justify-center">
@@ -46,9 +46,11 @@ const Welcome = () => {
             <p className="text-orange-400 underline">MEMORY TEXT</p>
 
             <span className="px-1 text-xs italic">
-              “For even the Son of Man did not come to be served, but to serve,
-              and to give His life a ransom for man”
-              <span className="font-bold"> (Mark 10:44 NKJV) </span>
+              “Then they will see the Son of Man coming in the clouds with great
+              power and glory. And then He will send His angels, and gather His
+              elect from the four winds, from the farthest part of the earth to
+              the farthest part of heaven”
+              <span className="font-bold">(Mark 13:26-27 NKJV)</span>
             </span>
           </blockquote>
         </div>

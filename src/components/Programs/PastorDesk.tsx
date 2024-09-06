@@ -9,13 +9,13 @@ const PastorDesk = () => {
         </div>
         <div className="space-y-3">
           <div className="text-lg font-semibold underline">
-            <p className="dark:text-white"> Proverbs 31:30,31</p>
+            <p className="dark:text-white">Luke 10:39-40</p>
           </div>
           <p className="text-orange-500">
-            'Charm is deceptive, and beauty is fleeting; but a woman who fears
-            the LORD is to be praised. Honor her for all that her hands have
-            done, and let her works bring her praise at the city gate.' HAPPY
-            SABBATH
+            Mary, sat..at Jesus’ feet and heard His word. But Martha was
+            distracted with much serving… As we come into God’s presence in
+            worship today, may we not be distracted from beholding the graceful
+            face of Christ and hearing His life-impacting words.
           </p>
         </div>
       </section>
