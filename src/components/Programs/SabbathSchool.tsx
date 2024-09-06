@@ -16,7 +16,7 @@ const SabbathSchool = () => {
         <div className="col-span-3 text-sm capitalize">
           Opening Remark (Welcome & Prayer)
         </div>
-        <div className="text-xs"> Bro. Chimezie Mbagwu</div>
+        <div className="text-xs">Sis. Funke Adeoti</div>
 
         <div className="col-span-3 text-sm capitalize">
           Welcome / Supt's Opening Remark
@@ -25,12 +25,12 @@ const SabbathSchool = () => {
 
         <div className="col-span-3 text-sm capitalize">
           {" "}
-          Welcome / Opening Hymn (SDAH 221)
+          Welcome / Opening Hymn (SDAH 603)
         </div>
-        <div className="text-xs capitalize"> Bro. Benjamin Oshiotse</div>
+        <div className="text-xs capitalize"> Sis. Nkiruka Ihesiaba Wogu</div>
 
         <div className="col-span-3 text-sm capitalize"> Keeping on Course</div>
-        <div className="text-xs capitalize">Bro Ugochukwu Azomaukwu</div>
+        <div className="text-xs capitalize"> Elder Emeka Agbara</div>
 
         <div className="col-span-3 text-sm capitalize"> Mission Spotlight </div>
         <div className="text-xs capitalize"> - </div>
@@ -44,7 +44,7 @@ const SabbathSchool = () => {
           {" "}
           Study Time, Lesson Introduction
         </div>
-        <div className="text-xs capitalize"> Bro. Chimezie Mbagwu </div>
+        <div className="text-xs capitalize"> Bro Chimezie Mbagwu </div>
         <div className="col-span-3 text-sm capitalize">
           Unit Activities / Lesson Study (40 Mins)
         </div>
@@ -52,17 +52,17 @@ const SabbathSchool = () => {
         <div className="col-span-3 text-sm capitalize">Lesson Summary</div>
         <div className="text-xs capitalize"> -</div>
         <div className="col-span-3 text-sm capitalize">Friend's time</div>
-        <div className="text-xs capitalize"> Bro. Benjamin Oshiotse</div>
+        <div className="text-xs capitalize"> Sis. Nkiruka Ihesiaba Wogu</div>
         <div className="col-span-3 text-sm capitalize">
           Lesson Preview/Announcement / Closing Remark
         </div>
-        <div className="text-xs capitalize">Bro. Chimezie</div>
+        <div className="text-xs capitalize">Bro Chimezie</div>
         <div className="col-span-3 text-sm capitalize">
-          Closing Hymn (SDAH 227)
+          Closing Hymn (SDAH 604)
         </div>
-        <div className="text-xs">Bro Ugochukwu Azomaukwu </div>
+        <div className="text-xs">Sis. Funke Adeoti </div>
         <div className="col-span-3 text-sm capitalize">Closing Prayer</div>
-        <div className="text-xs">-</div>
+        <div className="text-xs">Elder Emeka Agbara</div>
       </div>
     </section>
   );

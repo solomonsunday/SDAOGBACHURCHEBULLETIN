@@ -12,53 +12,48 @@ const DivineService = () => {
           <div className="col-span-3 text-sm "> Prelude</div>
           <div className="text-xs"> Organist</div>
 
-          <div className="col-span-3 text-sm">
-            Call to Worship: (SDAH 873)
-          </div>
-          <div className="text-xs">Bro. Ugochukwu Azomukwu</div>
+          <div className="col-span-3 text-sm">Call to Worship: (Rev 3:20)</div>
+          <div className="text-xs"> Pst. H. Kona</div>
           <div className="col-span-3 text-sm"> Invocation</div>
           <div className="text-xs"> Congregation </div>
           <div className="col-span-3 text-sm">
             {" "}
-            Welcome /Opening Hymn (SDAH 506)
+            Welcome /Opening Hymn (SDAH 258)
           </div>
-          <div className="text-xs"> Bro. Benjamin Oshiotse</div>
+          <div className="text-xs">Mrs. M. Alabi</div>
           <div className="col-span-3 text-sm"> Pastoral Prayer</div>
-          <div className="text-xs">Eld. Oyenuga Victor </div>
+          <div className="text-xs"> Elder A. Ajie </div>
           <div className="col-span-3 text-sm"> Stewardship </div>
-          <div className="text-xs">Benjamin Gospel</div>
-          <div className="col-span-3 text-sm">
-            {" "}
-            Musical Selection
-          </div>
-          <div className="text-xs">Benjamin Gospel </div>
+          <div className="text-xs">Mrs. M. Alabi</div>
+          <div className="col-span-3 text-sm"> Musical Selection</div>
+          <div className="text-xs">Mrs. M. Alabi</div>
 
           {/* <div className="col-span-3 text-sm">
             Induction: (Adventurer & Pathfinder Clubs)
           </div>
           <div className="text-xs">MG. F.L. Alonge </div> */}
           <div className="col-span-3 text-sm">
-            Scripture Reading (2Kings 20:5-6)
+            Scripture Reading (1 Samuel 3:10)
           </div>
-          <div className="text-xs">Chinomso Ihesiaba</div>
+          <div className="text-xs">Elder A. Ajie</div>
           <div className="col-span-3 text-sm">
-            Hymn of Consecration (SDAH 291)
+            Hymn of Consecration (Master Speak)
           </div>
-          <div className="text-xs"> Chinomso Ihesiaba</div>
+          <div className="text-xs">Elder A. Ajie</div>
           <div className="col-span-3 text-sm">
             Sermon Title{" "}
-            <span className="font-bold"> DARE TO ASK FOR MORE</span>
+            <span className="font-bold">Does the Lord still speak to Us</span>
           </div>
-          <div className="text-xs">Bro. Ugochukwu Azomukwu </div>
+          <div className="text-xs">Pst. H. Kona </div>
 
           {/* <div className="text-xs">Man Part 2 </div>
           <div className="col-span-3 text-sm">
             (Anchor – Elder E.J. Agbara){" "}
           </div> */}
-          <div className="col-span-3 text-sm">Closing Hymn (SDAH 180) </div>
-          <div className="text-xs">Bro. Benjamin Oshiotse</div>
+          <div className="col-span-3 text-sm">Closing Hymn (SDAH 330) </div>
+          <div className="text-xs">Mrs. M. Alabi</div>
           <div className="col-span-3 text-sm">Benediction</div>
-          <div className="text-xs">Bro. Ugochukwu Azomukwu</div>
+          <div className="text-xs">Pst. H. Kona</div>
           <div className="col-span-3 text-sm">Doxology</div>
           <div className="text-xs"> Congregation</div>
         </div>
