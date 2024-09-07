@@ -22,11 +22,19 @@ const Announcement = () => {
             Wednesday morning (5:00a.m -6:00a.m) via zoom. Zoom link to be
             shared on the church’s WhatsApp, Facebook and Instagram platforms
           </li>
+
           <li className="pb-2 border-b border-orange-200">
-            The AWM Tri-Union Convention is currently ongoing at Babcock
-            University and will be ending tomorrow. We wish our women a happy
-            camping and safe journey back home
+            A One Day Evangelism worship holds at Oke-ira with details as
+            follow: Theme: Reach out and tell the world Date:14/9/2024 Time:
+            8:30am Venue: Oke-ira Ogba Dress Code: Departmental Uniform Let's
+            pray for it's success and plan to attend
           </li>
+
+          <li className="pb-2 border-b border-orange-200">
+            The AWM Tri-Union Convention and GC/WAD Stewardship Conference both
+            held at Babcock University was a success to the glory of God.
+          </li>
+
           <li className="pb-2 border-b border-orange-200">
             The Ogba district Pastor, Pastor Happy Kona will be away on study
             leave from Sept.16th – Nov. 10th, 2024. Let’s support and uphold him
@@ -56,7 +64,6 @@ const Announcement = () => {
             ICT Department of the Church. (a) A laptop- Dell XPs 15 estimated at
             ₦1,200,000. (b) A camera Sony NX3 estimated at ₦1,600,000.
           </li>
-
           <li className="pb-2 border-b border-orange-200">
             <span className="font-bold">ICT Department:</span> Support the
             Church media ministry. We need the following items for more
@@ -73,15 +80,8 @@ const Announcement = () => {
             assigned 6 centers. Members are encouraged to support this program.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            GC/WAD Stewardship Conference is currently ongoing @ Babcock
-            University and will be ending today. Our Pastors, Elders,
-            Treasurers, Stewardship leaders and welfare leader are in
-            attendance. Let’s pray for it’s success and journey mercies back
-            home.
-          </li>
-          <li className="pb-2 border-b border-orange-200">
-            WNUC ASAM Convention comes up on 3rd – 6th October, 2024 at Ibadan.
-            Registration is ₦16,000
+            WNUC ASAM convention comes up as follows: Date: 3rd - 6th Oct. 2024.
+            Venue is Ibadan Registration - N16,000.
           </li>
           <li className="pb-2 border-b border-orange-200">
             12. Members are by this notice invited to the public presentation of
