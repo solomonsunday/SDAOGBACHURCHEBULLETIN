@@ -9,6 +9,7 @@ import { useRouter } from "next/navigation";
 import withAuth from "@/common/HOC/withAuth";
 import { useGetUsers } from "@/hooks/useGetUsers";
 import Switch from "react-switch";
+import { AppUsers } from "@/common/interfaces";
 
 // import PaginationButton from "@/components/Common/PaginationButton.old";
 
@@ -16,21 +17,10 @@ const User = () => {
   const router = useRouter();
 
   const { fetchAllUsers, users, loading } = useGetUsers();
-  const [verified, setVerified] = useState(false);
-  const [filteredUser, setFilteredUser] = useState([
-    {
-      id: "1",
-      firstName: "solomon",
-      lastName: "sunday",
-      userName: "lomon",
-      status: "active",
-    },
-  ]);
-
-  console.log(users, "users");
+  const [filteredUser, setFilteredUser] = useState<AppUsers[]>([]);
 
   useEffect(() => {
-    // setFilteredUser(users);
+    setFilteredUser(users);
   }, [users]);
 
   useEffect(() => {
@@ -112,10 +102,7 @@ const User = () => {
                         {data.userName}{" "}
                       </td>
                       <td className="text-sm whitespace-nowrap py-2">
-                        <Switch
-                          onChange={() => setVerified((prev) => !prev)}
-                          checked={verified}
-                        />
+                        <Switch onChange={() => ""} checked={data.isVerified} />
                       </td>
                     </tr>
                   );

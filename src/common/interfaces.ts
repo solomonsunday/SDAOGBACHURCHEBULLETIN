@@ -27,6 +27,15 @@ export interface IUser extends ISignUpUser, Omit<ISignUpUser, "password"> {
   status: string; // Active or Inactive
 }
 
+export interface AppUsers {
+  createdDate: string;
+  firstName: string;
+  isVerified: boolean;
+  lastName: string;
+  password: string;
+  userName: string;
+}
+
 export interface IKeywords {
   onSearch: (query: string) => void;
 }
