@@ -45,7 +45,6 @@ const EditAnnouncement = ({ params }: { params: { slug: string } }) => {
   const submitData = (data: IAnnouncement) => {
     try {
       UpdateAnnouncementData(announcementId, data);
-      console.log(data, "data");
     } catch (error) {
       console.log(error);
     } finally {

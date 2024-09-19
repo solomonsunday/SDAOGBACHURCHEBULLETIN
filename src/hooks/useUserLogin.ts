@@ -20,7 +20,6 @@ export const useLoginUser = () => {
       const res = await httpLogin(data);
       if (res) {
         setUserData(res.data.data);
-        console.log(res.data.data, " user");
         sessionStorage.setItem("token", res.data.data.token);
         sessionStorage.setItem("user", JSON.stringify(res.data.data.user));
         setIsAuthenticated(true);

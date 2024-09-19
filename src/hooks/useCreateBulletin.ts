@@ -17,7 +17,6 @@ export const useCreateBulletins = () => {
     try {
       setLoading(true);
       const res = await httpCreateBulletin(data);
-      console.log(res, "response");
       if (res) {
         setBulletins(res.data.data);
         toast.success("Bulletin created successfully");
