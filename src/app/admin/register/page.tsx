@@ -16,14 +16,11 @@ const Register = () => {
     formState: { errors },
   } = useForm<ISignUpUser>();
 
-  const { setRegisterUser, usersData, loading } = useRegisterUser();
+  const { setRegisterUser, loading } = useRegisterUser();
   const [inputType, setInputType] = useState<"password" | "text">("password");
   const [confirmPasswordType, setConfirmPasswordType] = useState<
     "password" | "text"
   >("password");
-  const [inputField, setInputField] = useState<
-    "password" | "confirm Password"
-  >();
 
   const registerUser = (data: ISignUpUser) => {
     setRegisterUser(data);
@@ -56,7 +53,7 @@ const Register = () => {
               </p>
             </div>
             <div className="flex justify-center font-bold text-orange-500">
-              Resgister
+              Register
             </div>
             <div className="">
               <label className="pb-10 text-sm font-medium">Firstname</label>
