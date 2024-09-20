@@ -28,11 +28,11 @@ export interface IUser extends ISignUpUser, Omit<ISignUpUser, "password"> {
 }
 
 export interface AppUsers {
+  id?: string;
   createdDate: string;
   firstName: string;
   isVerified: boolean;
   lastName: string;
-  password: string;
   userName: string;
 }
 

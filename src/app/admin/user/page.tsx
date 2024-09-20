@@ -10,13 +10,17 @@ import withAuth from "@/common/HOC/withAuth";
 import { useGetUsers } from "@/hooks/useGetUsers";
 import Switch from "react-switch";
 import { AppUsers } from "@/common/interfaces";
+import { useUpdateUserDetail } from "@/hooks/useUpdateUser";
+import { getCurrentUser } from "@/services/store";
 
 // import PaginationButton from "@/components/Common/PaginationButton.old";
 
 const User = () => {
   const router = useRouter();
+  const currentUser = getCurrentUser();
 
-  const { fetchAllUsers, users, loading } = useGetUsers();
+  const { fetchAllUsers, users, loading, setLoading } = useGetUsers();
+  const { UpdateUserDetailById } = useUpdateUserDetail();
   const [filteredUser, setFilteredUser] = useState<AppUsers[]>([]);
 
   useEffect(() => {
@@ -27,9 +31,16 @@ const User = () => {
     fetchAllUsers();
   }, []);
 
-  // const handleApprove = () => {
-  //   console.log(true);
-  // };
+  const updateUserStatus = async (id: string, status: boolean) => {
+    try {
+      setLoading(true);
+      await UpdateUserDetailById(id, { isVerified: status });
+      fetchAllUsers();
+    } catch (error) {
+    } finally {
+      setLoading(false);
+    }
+  };
 
   const handleSearch = (query: string) => {
     if (query.trim() === "") {
@@ -102,7 +113,13 @@ const User = () => {
                         {data.userName}{" "}
                       </td>
                       <td className="text-sm whitespace-nowrap py-2">
-                        <Switch onChange={() => ""} checked={data.isVerified} />
+                        <Switch
+                          disabled={data.userName === "dev"}
+                          onChange={() =>
+                            updateUserStatus(data.id!, !data.isVerified)
+                          }
+                          checked={data.isVerified}
+                        />
                       </td>
                     </tr>
                   );

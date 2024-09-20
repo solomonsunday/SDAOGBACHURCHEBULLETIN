@@ -1,10 +1,12 @@
 import axios from "axios";
 import {
+  AppUsers,
   BulletinStatusEnum,
   CreateBulletinDTO,
   IAnnouncement,
   ISignIn,
   ISignUpUser,
+  IUser,
 } from "@/common/interfaces";
 import { getAuthFromLocal } from "./store";
 
@@ -180,6 +182,18 @@ export async function httpPublishBulletin(
 export async function httpGetUsers() {
   try {
     return axios.get(`${API_URL}/auth/users`, {
+      headers: {
+        Authorization: "Bearer " + getAuthFromLocal(),
+      },
+    });
+  } catch (error) {
+    console.log(error);
+  }
+}
+
+export async function httpUpdateUserById(id: string, data: Partial<AppUsers>) {
+  try {
+    return await axios.patch(`${API_URL}/auth/verify-user/${id}`, data, {
       headers: {
         Authorization: "Bearer " + getAuthFromLocal(),
       },

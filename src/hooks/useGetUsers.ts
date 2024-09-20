@@ -33,5 +33,5 @@ export const useGetUsers = () => {
     fetchAllUsers();
   }, [fetchAllUsers]);
 
-  return { fetchAllUsers, users, loading };
+  return { fetchAllUsers, users, loading, setLoading };
 };
