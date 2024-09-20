@@ -11,13 +11,11 @@ import { useGetUsers } from "@/hooks/useGetUsers";
 import Switch from "react-switch";
 import { AppUsers } from "@/common/interfaces";
 import { useUpdateUserDetail } from "@/hooks/useUpdateUser";
-import { getCurrentUser } from "@/services/store";
 
 // import PaginationButton from "@/components/Common/PaginationButton.old";
 
 const User = () => {
   const router = useRouter();
-  const currentUser = getCurrentUser();
 
   const { fetchAllUsers, users, loading, setLoading } = useGetUsers();
   const { UpdateUserDetailById } = useUpdateUserDetail();

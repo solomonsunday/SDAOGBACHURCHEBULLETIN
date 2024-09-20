@@ -6,7 +6,6 @@ import {
   IAnnouncement,
   ISignIn,
   ISignUpUser,
-  IUser,
 } from "@/common/interfaces";
 import { getAuthFromLocal } from "./store";
 
@@ -35,8 +34,8 @@ export async function httpRegister(authObject: ISignUpUser) {
     console.log(error);
   }
 }
-// Bulletin Request
 
+// Bulletin Request
 export async function httpCreateBulletin(featureObj: CreateBulletinDTO) {
   try {
     return axios.post(`${API_URL}/bulletin/create`, featureObj, {
@@ -98,7 +97,6 @@ export async function httpDeleteBulletinById(id: string) {
 }
 
 // Announcement Request
-
 export async function httpCreateAnnouncement(Obj: IAnnouncement) {
   try {
     return axios.post(`${API_URL}/announcement/create`, Obj, {
@@ -178,7 +176,6 @@ export async function httpPublishBulletin(
 }
 
 // User
-
 export async function httpGetUsers() {
   try {
     return axios.get(`${API_URL}/auth/users`, {
@@ -202,13 +199,3 @@ export async function httpUpdateUserById(id: string, data: Partial<AppUsers>) {
     console.log(error);
   }
 }
-
-// async function httpPublishBulletin(setError: (error: ErrorResponse) => void) {
-//   try {
-//     const res = await fetch(`${API_URL}/users`, httpHeaders);
-//     await handleErrors(res);
-//     return await res.json();
-//   } catch (error) {
-//     setError(error as ErrorResponse);
-//   }
-// }

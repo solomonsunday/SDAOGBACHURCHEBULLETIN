@@ -1,8 +1,4 @@
-import {
-  UserGroupIcon,
-  InformationCircleIcon,
-  NewspaperIcon,
-} from "@heroicons/react/24/outline";
+import { InformationCircleIcon } from "@heroicons/react/24/outline";
 import React, {
   ForwardRefExoticComponent,
   RefAttributes,
