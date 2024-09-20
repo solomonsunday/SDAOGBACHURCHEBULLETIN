@@ -1,25 +1,63 @@
-import Image from "next/image";
-import StatusCount from "./StatusCount";
+import {
+  UserGroupIcon,
+  InformationCircleIcon,
+  NewspaperIcon,
+} from "@heroicons/react/24/outline";
+import React, {
+  ForwardRefExoticComponent,
+  RefAttributes,
+  SVGProps,
+} from "react";
+import { Spinner } from "../Common/Spinner";
 
-export default function UsersChart() {
+export interface DashboardCard {
+  bg_color: string;
+  count?: number;
+  title: string;
+  description: string;
+  data: string;
+  textColor?: string;
+  loading?: boolean;
+  Icon?: ForwardRefExoticComponent<
+    Omit<SVGProps<SVGSVGElement>, "ref"> & {
+      title?: string | undefined;
+      titleId?: string | undefined;
+    } & RefAttributes<SVGSVGElement>
+  >;
+}
+
+export default function UsersChart(dashboardCardProps: DashboardCard) {
+  const {
+    bg_color = "bg-blue-500",
+    count = 500,
+    title = "Current Total User",
+    description,
+    data,
+    textColor = "text-white",
+    loading = false,
+    Icon = InformationCircleIcon,
+  } = dashboardCardProps;
   return (
-    <div className=" bg-white w-full md:w-1/2 rounded-[.7684rem] px-5 pt-[.875rem] pb-[.9375rem] font-poppins h-[14.8125rem]">
-      Users
-      <div className=" flex justify-between items-center">
-        <Image
-          src={"/assets/svgs/pie-chart.svg"}
-          className=""
-          alt="icon"
-          width={168}
-          height={84}
-        />
-
-        <div className=" flex gap-y-[1.1875rem] flex-col">
-          <StatusCount className="bg-[#0FC6C2]" count={83} status="Regular" />
-          <StatusCount className="bg-[#3B82F6]" count={46} status="New" />
-          <StatusCount className="bg-[#FFC700]" count={28} status="Inactive" />
+    <div
+      className={`shadow-2xl ${[
+        bg_color,
+      ]} w-full md:w-1/2 rounded-xl p-8 pb-[.9375rem] font-poppins h-[10.8125rem] ${textColor}`}
+    >
+      <p className="font-medium text-2xl">{title}</p>
+      <div className="flex justify-between items-center mt-2">
+        <div className="flex items-center gap-2 ">
+          <Icon width={40} height={40} />
+          {loading ? (
+            <Spinner width={20} height={20} />
+          ) : (
+            <p className="font-semibold text-2xl">
+              {count} {data}
+              {count > 1 ? "s" : ""}
+            </p>
+          )}
         </div>
       </div>
+      <p className="pt-2">{description}</p>
     </div>
   );
 }
