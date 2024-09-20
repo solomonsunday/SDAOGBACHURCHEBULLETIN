@@ -13,26 +13,38 @@ const Announcement = () => {
           </li>
           <li className="pb-2 font-bold border-b border-orange-200">
             Members are encouraged to use the barcode at the entrance of the
-            church to get the e-bulletin as the hard copy in limited quantity is
-            only for the Elderly ones who are not tech savvy or those without a
-            smart phone.
+            church to get the e-bulletin .
+            <span className="font-bold text-orange-200">
+              {" "}
+              Please Note: On the e-bulletin app, you will find links to join
+              both the midweek prayer and early morning prayers.
+            </span>{" "}
+            The hard copy in limited quantity is only for the Elderly ones who
+            are not tech savvy or those without a smart phone.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            Online prayer meeting/morning devotion holds every Sunday and
+            Online prayer meeting / morning devotion holds every Sunday and
             Wednesday morning (5:00a.m -6:00a.m) via zoom. Zoom link to be
-            shared on the church’s WhatsApp, Facebook and Instagram platforms
+            shared on the church’s WhatsApp, Facebook and Instagram platforms,
+            you can also find the Zoom links on the e-bulletin app
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            A One Day Evangelism worship holds at Oke-ira with details as
-            follow: Theme: Reach out and tell the world Date:14/9/2024 Time:
-            8:30am Venue: Oke-ira Ogba Dress Code: Departmental Uniform Let's
-            pray for it's success and plan to attend
+            Thank God for the success of our “One Day Evangelism worship at
+            Power line Oke-ira Ogba last Sabbath.
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            The AWM Tri-Union Convention and GC/WAD Stewardship Conference both
-            held at Babcock University was a success to the glory of God.
+            Today is World Pathfinders Day Celebration Theme: Jesus Camps with
+            You. This marks the 74th Anniversary of Pathfinders all over the
+            world.
+          </li>
+
+          <li className="pb-2 border-b border-orange-200">
+            The public presentation of the Book: Leading the Leaders of
+            organization written by Pastor Uchegbue U.O. is tomorrow, members
+            are invited to this book launch. Time is 2:00p.m. Venue: LMC
+            Headquarters Ogba.
           </li>
 
           <li className="pb-2 border-b border-orange-200">
@@ -41,23 +53,18 @@ const Announcement = () => {
             in our prayers.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            Sabbath School Community Guest Day is slated for 28/9/2024. Please
-            invite your friends /neighbors to fellowship with us and support the
-            program.
+            Sabbath School Community Guest Day is slated for 12/10/2024. Please
+            invite your friends/ neighbours to fellowship with us and support
+            the program.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            WAD Health Congress is currently ongoing at Valley View University,
-            Accra Ghana.
+            Pastors Appreciation Day comes up on 12/10/2024. Let’s plan for it’s
+            success.
           </li>
-          <li className="pb-2 border-b border-orange-200">
-            Ogba Church Board meeting holds tomorrow. Time is 11:00a.m prompt at
-            the Board room.
-          </li>
-
           <li className="pb-2 border-b border-orange-200">
             ICT Department:{" "}
             <span className="font-bold text-orange-500">
-              Please redeem your pledges
+              Please Redeem Your Pledges
             </span>{" "}
             to the Lord and support the Church media ministry if you are yet to
             do so.. We need the following items for more effectiveness in the
@@ -82,12 +89,6 @@ const Announcement = () => {
           <li className="pb-2 border-b border-orange-200">
             WNUC ASAM convention comes up as follows: Date: 3rd - 6th Oct. 2024.
             Venue is Ibadan Registration - N16,000.
-          </li>
-          <li className="pb-2 border-b border-orange-200">
-            12. Members are by this notice invited to the public presentation of
-            the Book: Leading the Leaders of organization written by Pastor
-            Uchegbue U.O. Date: 22/9/2024. Time: 2:00pm Venue: LMC headquarters
-            Ogba
           </li>
 
           <li className="pb-2 border-b border-orange-200">

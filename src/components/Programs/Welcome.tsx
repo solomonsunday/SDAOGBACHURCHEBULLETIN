@@ -38,7 +38,7 @@ const Welcome = () => {
         <div className="text-center flex justify-center">
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2  w-full">
             <p className="text-orange-400 underline">TOPIC FOR THE WEEK</p>
-            The Last Days
+            Tried and Crucified
           </blockquote>
         </div>
         <div className="text-center flex justify-center">
@@ -46,11 +46,10 @@ const Welcome = () => {
             <p className="text-orange-400 underline">MEMORY TEXT</p>
 
             <span className="px-1 text-xs italic">
-              “Then they will see the Son of Man coming in the clouds with great
-              power and glory. And then He will send His angels, and gather His
-              elect from the four winds, from the farthest part of the earth to
-              the farthest part of heaven”
-              <span className="font-bold">(Mark 13:26-27 NKJV)</span>
+              “And at the ninth hour Jesus cried out with a loud voice, saying,
+              Eloi, Eloi, lama sabachthani? which is translated, ‘ My God, My
+              God, why have you forsaken Me?”
+              <span className="font-bold">(Mark 15:34 NKJV)</span>
             </span>
           </blockquote>
         </div>

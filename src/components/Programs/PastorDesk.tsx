@@ -12,10 +12,8 @@ const PastorDesk = () => {
             <p className="dark:text-white">Luke 10:39-40</p>
           </div>
           <p className="text-orange-500">
-            Mary, sat..at Jesus’ feet and heard His word. But Martha was
-            distracted with much serving… As we come into God’s presence in
-            worship today, may we not be distracted from beholding the graceful
-            face of Christ and hearing His life-impacting words.
+            "We all, like sheep, have gone astray, each of us has turned to our
+            own way; and the Lord has laid on him the iniquity of us all."
           </p>
         </div>
       </section>
