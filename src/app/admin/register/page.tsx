@@ -5,7 +5,7 @@ import Button from "@/components/Admin/button";
 import { Spinner } from "@/components/Common/Spinner";
 import { useRegisterUser } from "@/hooks/useRegisterUser";
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 // import { useForm } from "react-hook-form";
 
@@ -16,13 +16,30 @@ const Register = () => {
     formState: { errors },
   } = useForm<ISignUpUser>();
 
-  const { setRegisterUser, usersData, loading } = useRegisterUser();
-
-  console.log(usersData, "userData");
+  const { setRegisterUser, loading } = useRegisterUser();
+  const [inputType, setInputType] = useState<"password" | "text">("password");
+  const [confirmPasswordType, setConfirmPasswordType] = useState<
+    "password" | "text"
+  >("password");
 
   const registerUser = (data: ISignUpUser) => {
-    console.log(data, "data");
     setRegisterUser(data);
+  };
+
+  const togglePasswordVisibility = () => {
+    if (inputType === "text") {
+      setInputType("password");
+      return;
+    }
+    setInputType("text");
+  };
+
+  const toggleConfirmPasswordVisibility = () => {
+    if (confirmPasswordType === "text") {
+      setConfirmPasswordType("password");
+      return;
+    }
+    setConfirmPasswordType("text");
   };
   return (
     <>
@@ -36,7 +53,7 @@ const Register = () => {
               </p>
             </div>
             <div className="flex justify-center font-bold text-orange-500">
-              Resgister
+              Register
             </div>
             <div className="">
               <label className="pb-10 text-sm font-medium">Firstname</label>
@@ -81,11 +98,19 @@ const Register = () => {
               </p>
             )}
             <div className="pt-5">
-              <label className="pb-10 text-sm font-medium">Password</label>
+              <div className="flex justify-between items-center">
+                <label className="text-xs">Password</label>
+                <span
+                  className="text-xs text-orange-400 cursor-pointer italic"
+                  onClick={togglePasswordVisibility}
+                >
+                  {inputType !== "password" ? "Hide password" : "Show password"}
+                </span>
+              </div>
               <input
                 {...register("password", { required: true })}
                 id="password"
-                type="password"
+                type={inputType}
                 className="focus:invalid:border-red-500 px-3 focus:outline-none focus:border-blue-300 w-full py-2 bg-transparent border border-gray-300 rounded-lg"
               />
             </div>
@@ -95,14 +120,23 @@ const Register = () => {
               </p>
             )}
             <div className="pt-5">
-              <label className="pb-10 text-sm font-medium">
-                {" "}
-                Confirm Password
-              </label>
+              <div className="flex justify-between items-center">
+                <label className="text-xs">Confirm password</label>
+                <span
+                  className="text-xs text-orange-400 cursor-pointer italic"
+                  onClick={() => {
+                    toggleConfirmPasswordVisibility();
+                  }}
+                >
+                  {confirmPasswordType !== "password"
+                    ? "Hide password"
+                    : "Show password"}
+                </span>
+              </div>
               <input
                 {...register("confirmPassword", { required: true })}
                 id="confirmPassword"
-                type="password"
+                type={confirmPasswordType}
                 className="focus:invalid:border-red-500 px-3 focus:outline-none focus:border-blue-300 w-full py-2 bg-transparent border border-gray-300 rounded-lg"
               />
             </div>
@@ -122,7 +156,7 @@ const Register = () => {
               </Button>
             </div>
 
-            <div className="text-center mt-0 pt-1 ">
+            <div className="text-center mt-0 pt-1">
               <p className="text-sm">
                 Already have an account?
                 <Link href="/admin/signin">

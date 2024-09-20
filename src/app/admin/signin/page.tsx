@@ -5,7 +5,7 @@ import Button from "@/components/Admin/button";
 import { Spinner } from "@/components/Common/Spinner";
 import { useLoginUser } from "@/hooks/useUserLogin";
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 // import { useForm } from "react-hook-form";
 
@@ -17,10 +17,18 @@ const SignIn = () => {
   } = useForm<ISignIn>();
 
   const { loginUser, loading } = useLoginUser();
+  const [inputType, setInputType] = useState<"password" | "text">("password");
 
   const handleLoginUser = (data: ISignIn) => {
-    console.log(data, "data");
     loginUser(data);
+  };
+
+  const togglePasswordVisibility = () => {
+    if (inputType === "text") {
+      setInputType("password");
+      return;
+    }
+    setInputType("text");
   };
   return (
     <>
@@ -52,11 +60,19 @@ const SignIn = () => {
               </p>
             )}
             <div className="pt-5">
-              <label className="pb-10 text-xs">Password</label>
+              <div className="flex justify-between items-center">
+                <label className="text-xs">Password</label>
+                <span
+                  className="text-xs text-orange-400 cursor-pointer italic"
+                  onClick={togglePasswordVisibility}
+                >
+                  {inputType !== "password" ? "Hide password" : "Show password"}
+                </span>
+              </div>
               <input
                 {...register("password", { required: true })}
                 id="password"
-                type="password"
+                type={inputType}
                 className="focus:invalid:border-red-500 px-3 focus:outline-none focus:border-blue-300 w-full py-2 bg-transparent border border-gray-300 rounded-lg"
               />
             </div>
@@ -66,7 +82,7 @@ const SignIn = () => {
               </p>
             )}
             <div className="text-right mt-0 pt-0 pb-5 cursor-pointer hover:underline">
-              <p className="text-xs">Forget password</p>
+              <p className="text-xs text-orange-400 italic">Forget password</p>
             </div>
             <Button
               type="submit"
@@ -75,7 +91,7 @@ const SignIn = () => {
             >
               {loading ? <Spinner height={15} width={15} /> : "Login"}
             </Button>
-            <div className="text-center mt-0 pt-0 ">
+            <div className="text-center mt-0 pt-1">
               <p className="text-sm">
                 Don't have an account yet?
                 <Link href="/admin/register">

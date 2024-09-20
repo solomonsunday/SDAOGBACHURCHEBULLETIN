@@ -35,7 +35,6 @@ const EditBulletin = ({ params }: { params: { slug: string } }) => {
   const { announcements } = useGetAnnouncements();
 
   const bulletinId = params.slug;
-  console.log(bulletin, "bulletin");
 
   useEffect(() => {
     fetchBulletinById(bulletinId);

@@ -23,7 +23,6 @@ const CreateAnnouncement = () => {
   const submitData = (data: IAnnouncement) => {
     try {
       createAnnouncement(data);
-      console.log(data, "data");
     } catch (error) {
       console.log(error);
     } finally {

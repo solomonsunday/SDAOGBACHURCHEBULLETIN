@@ -15,7 +15,6 @@ const ListBulletin = ({ params }: { params: { slug: string } }) => {
   const { fetchBulletinById, bulletin, isLoading } = useGetBulletinById();
   const { PublishBulletin, loading, message } = usePublishBulletin();
   const bulletinId = params.slug;
-  console.log(bulletin, "bulletin");
 
   useEffect(() => {
     fetchBulletinById(bulletinId);

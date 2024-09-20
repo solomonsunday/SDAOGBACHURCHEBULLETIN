@@ -1,5 +1,10 @@
 import { LockOpenIcon } from "@heroicons/react/20/solid";
-import { Cog6ToothIcon } from "@heroicons/react/24/outline";
+import {
+  Cog6ToothIcon,
+  InformationCircleIcon,
+  NewspaperIcon,
+  UserGroupIcon,
+} from "@heroicons/react/24/outline";
 import Image from "next/image";
 
 export const DASHBOARD_SIDEBAR_LINK = [
@@ -22,45 +27,21 @@ export const DASHBOARD_SIDEBAR_LINK = [
     key: "bulletin",
     label: "Bulletin",
     path: "/admin/bulletin",
-    icon: (
-      <Image
-        src={"/assets/svgs/price-list-icon.svg"}
-        className=""
-        alt="icon"
-        width={21.75}
-        height={29}
-      />
-    ),
+    icon: <NewspaperIcon width={30.75} height={32} />,
   },
 
   {
     key: "announcement",
     label: "Announcement",
     path: "/admin/announcement",
-    icon: (
-      <Image
-        src={"/assets/svgs/announcement.svg"}
-        className="text-white"
-        alt="icon"
-        width={35}
-        height={40}
-      />
-    ),
+    icon: <InformationCircleIcon width={30.75} height={32} />,
   },
 
   {
     key: "users",
     label: "User",
     path: "/admin/user",
-    icon: (
-      <Image
-        src={"/assets/svgs/avatar.svg"}
-        className=""
-        alt="icon"
-        width={30.75}
-        height={32}
-      />
-    ),
+    icon: <UserGroupIcon width={30.75} height={32} />,
   },
 ];
 

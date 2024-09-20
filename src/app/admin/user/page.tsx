@@ -9,37 +9,36 @@ import { useRouter } from "next/navigation";
 import withAuth from "@/common/HOC/withAuth";
 import { useGetUsers } from "@/hooks/useGetUsers";
 import Switch from "react-switch";
+import { AppUsers } from "@/common/interfaces";
+import { useUpdateUserDetail } from "@/hooks/useUpdateUser";
 
 // import PaginationButton from "@/components/Common/PaginationButton.old";
 
 const User = () => {
   const router = useRouter();
 
-  const { fetchAllUsers, users, loading } = useGetUsers();
-  const [verified, setVerified] = useState(false);
-  const [filteredUser, setFilteredUser] = useState([
-    {
-      id: "1",
-      firstName: "solomon",
-      lastName: "sunday",
-      userName: "lomon",
-      status: "active",
-    },
-  ]);
-
-  console.log(users, "users");
+  const { fetchAllUsers, users, loading, setLoading } = useGetUsers();
+  const { UpdateUserDetailById } = useUpdateUserDetail();
+  const [filteredUser, setFilteredUser] = useState<AppUsers[]>([]);
 
   useEffect(() => {
-    // setFilteredUser(users);
+    setFilteredUser(users);
   }, [users]);
 
   useEffect(() => {
     fetchAllUsers();
   }, []);
 
-  // const handleApprove = () => {
-  //   console.log(true);
-  // };
+  const updateUserStatus = async (id: string, status: boolean) => {
+    try {
+      setLoading(true);
+      await UpdateUserDetailById(id, { isVerified: status });
+      fetchAllUsers();
+    } catch (error) {
+    } finally {
+      setLoading(false);
+    }
+  };
 
   const handleSearch = (query: string) => {
     if (query.trim() === "") {
@@ -113,8 +112,11 @@ const User = () => {
                       </td>
                       <td className="text-sm whitespace-nowrap py-2">
                         <Switch
-                          onChange={() => setVerified((prev) => !prev)}
-                          checked={verified}
+                          disabled={data.userName === "dev"}
+                          onChange={() =>
+                            updateUserStatus(data.id!, !data.isVerified)
+                          }
+                          checked={data.isVerified}
                         />
                       </td>
                     </tr>
