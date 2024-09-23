@@ -188,15 +188,15 @@ const EditBulletin = ({ params }: { params: { slug: string } }) => {
       shouldValidate: true,
     });
     setValue(
-      "divinceServiceClosingHymnNo",
-      bulletin?.divinceServiceClosingHymnNo,
+      "divineServiceClosingHymnNo",
+      bulletin?.divineServiceClosingHymnNo,
       {
         shouldDirty: true,
         shouldValidate: true,
       }
     );
     setValue(
-      "divinceServiceClosingHymnBy",
+      "divineServiceClosingHymnBy",
       bulletin?.divineServiceOpeningHymnBy,
       {
         shouldDirty: true,
@@ -232,16 +232,16 @@ const EditBulletin = ({ params }: { params: { slug: string } }) => {
       shouldValidate: true,
     });
     setValue(
-      "spiritualReadingBibleVerse",
-      bulletin?.spiritualReadingBibleVerse,
+      "scripturalReadingBibleVerse",
+      bulletin?.scripturalReadingBibleVerse,
       {
         shouldDirty: true,
         shouldValidate: true,
       }
     );
     setValue(
-      "spiritualReadingBibleVerseBy",
-      bulletin?.spiritualReadingBibleVerseBy,
+      "scripturalReadingBibleVerseBy",
+      bulletin?.scripturalReadingBibleVerseBy,
       {
         shouldDirty: true,
         shouldValidate: true,
@@ -575,14 +575,14 @@ const EditBulletin = ({ params }: { params: { slug: string } }) => {
                     <Input
                       type="text"
                       placeHolder="Spiritual Reading Bible Verse"
-                      {...register("spiritualReadingBibleVerse", {})}
+                      {...register("scripturalReadingBibleVerse", {})}
                     />
                   </div>{" "}
                   <div className=" h-[3.75rem]">
                     <Input
                       type="text"
                       placeHolder="Spiritual Reading Bible VerseBy"
-                      {...register("spiritualReadingBibleVerseBy", {})}
+                      {...register("scripturalReadingBibleVerseBy", {})}
                     />
                   </div>{" "}
                   <div className=" h-[3.75rem]">
@@ -617,14 +617,14 @@ const EditBulletin = ({ params }: { params: { slug: string } }) => {
                     <Input
                       type="text"
                       placeHolder="Closing Hymn No"
-                      {...register("divinceServiceClosingHymnNo", {})}
+                      {...register("divineServiceClosingHymnNo", {})}
                     />
                   </div>
                   <div className=" h-[3.75rem]">
                     <Input
                       type="text"
                       placeHolder="Closing Hymn By"
-                      {...register("divinceServiceClosingHymnBy", {})}
+                      {...register("divineServiceClosingHymnBy", {})}
                     />
                   </div>
                   <div className=" h-[3.75rem]">

@@ -162,8 +162,9 @@ export async function httpPublishBulletin(
   status: BulletinStatusEnum
 ) {
   try {
-    return await axios.patch(
+    return axios.patch(
       `${API_URL}/bulletin/${id}/status?status=${status}`,
+      {},
       {
         headers: {
           Authorization: "Bearer " + getAuthFromLocal(),
@@ -174,6 +175,16 @@ export async function httpPublishBulletin(
     console.log(error);
   }
 }
+
+// export async function httpCreateAnnouncement(Obj: IAnnouncement) {
+//   try {
+//     return await axios.post(`${API_URL}/announcement/create`, Obj, {
+//       headers: { Authorization: "Bearer " + getAuthFromLocal() },
+//     });
+//   } catch (error) {
+//     console.log(error);
+//   }
+// }
 
 // User
 export async function httpGetUsers() {

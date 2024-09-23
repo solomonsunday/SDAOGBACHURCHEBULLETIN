@@ -36,9 +36,13 @@ const ListBulletin = ({ params }: { params: { slug: string } }) => {
           <div className="flex flex-wrap gap-5 justify-between ml-[.125rem] mr-[.625rem]">
             <BackButton text="Bulletin List Page" />
           </div>
-          <div className="p-3">
+          <div className="gap-2 p-3">
             <Button
-              className="p-3 hover:bg-orange-400"
+              className={`p-3 ${
+                bulletin?.status !== BulletinStatusEnum.PUBLISHED
+                  ? "bg-green-900  hover:bg-green-700"
+                  : "bg-red-600 hover:bg-red-800"
+              }`}
               onClick={() => handlePublish()}
             >
               {!loading && bulletin?.status !== BulletinStatusEnum.PUBLISHED
@@ -294,15 +298,15 @@ const ListBulletin = ({ params }: { params: { slug: string } }) => {
                   </div>
                   <div className="col-span-3 ">
                     Spiritual Reading (
-                    {bulletin?.spiritualReadingBibleVerse
-                      ? bulletin.spiritualReadingBibleVerse
+                    {bulletin?.scripturalReadingBibleVerse
+                      ? bulletin.scripturalReadingBibleVerse
                       : "-"}
                     )
                   </div>
                   <div className="">
                     {" "}
-                    {bulletin?.spiritualReadingBibleVerseBy
-                      ? bulletin.spiritualReadingBibleVerseBy
+                    {bulletin?.scripturalReadingBibleVerseBy
+                      ? bulletin.scripturalReadingBibleVerseBy
                       : "-"}
                   </div>
                   <div className="col-span-3 ">

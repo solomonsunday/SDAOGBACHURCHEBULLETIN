@@ -179,7 +179,7 @@ const CreateBulletin = () => {
                     <div className=" h-[3.75rem]">
                       <Input
                         type="text"
-                        placeHolder="Welcome /Supt's Openning Remark by"
+                        placeHolder="Welcome /Supt's Opening Remark by"
                         {...register("openningRemarkBy", {})}
                       />
                     </div>
@@ -214,7 +214,7 @@ const CreateBulletin = () => {
                     <div className=" h-[3.75rem]">
                       <Input
                         type="text"
-                        placeHolder="study Time, Lession Introduction by"
+                        placeHolder="study Time, Lesson Introduction by"
                         {...register("lessonIntroductionBy", {})}
                       />
                     </div>
@@ -351,20 +351,20 @@ const CreateBulletin = () => {
                       <Input
                         type="text"
                         placeHolder="Spiritual Reading Bible Verse"
-                        {...register("spiritualReadingBibleVerse", {})}
+                        {...register("scripturalReadingBibleVerse", {})}
                       />
                     </div>{" "}
                     <div className=" h-[3.75rem]">
                       <Input
                         type="text"
                         placeHolder="Spiritual Reading Bible VerseBy"
-                        {...register("spiritualReadingBibleVerseBy", {})}
+                        {...register("scripturalReadingBibleVerse", {})}
                       />
                     </div>{" "}
                     <div className=" h-[3.75rem]">
                       <Input
                         type="text"
-                        placeHolder="Hymn Of Concecration No"
+                        placeHolder="Hymn Of Consecration No"
                         {...register("hymnOfConcecrationNo", {})}
                       />
                     </div>
@@ -385,7 +385,7 @@ const CreateBulletin = () => {
                     <div className=" h-[3.75rem]">
                       <Input
                         type="text"
-                        placeHolder="Hymn Of Concecration No By"
+                        placeHolder="Hymn Of Consecration No By"
                         {...register("hymnOfConcecrationNoBy", {})}
                       />
                     </div>
@@ -393,14 +393,14 @@ const CreateBulletin = () => {
                       <Input
                         type="text"
                         placeHolder="Closing Hymn No"
-                        {...register("divinceServiceClosingHymnNo", {})}
+                        {...register("divineServiceClosingHymnNo", {})}
                       />
                     </div>
                     <div className=" h-[3.75rem]">
                       <Input
                         type="text"
                         placeHolder="Closing Hymn By"
-                        {...register("divinceServiceClosingHymnBy", {})}
+                        {...register("divineServiceClosingHymnBy", {})}
                       />
                     </div>
                     <div className=" h-[3.75rem]">
