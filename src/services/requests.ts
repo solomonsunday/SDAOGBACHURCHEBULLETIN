@@ -15,6 +15,7 @@ export interface QueryParamDto {
   end_date?: string;
   search?: string | null;
   next_page_token?: string | null;
+  current_date?: string;
 }
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL;

@@ -7,24 +7,22 @@ import { useRegisterUser } from "@/hooks/useRegisterUser";
 import Link from "next/link";
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
-// import { useForm } from "react-hook-form";
+import { toast } from "react-toastify";
 
 const Register = () => {
   const {
     register,
     handleSubmit,
     formState: { errors },
+    watch,
   } = useForm<ISignUpUser>();
-
+  const confirmPasswordValue = watch("confirmPassword");
+  const passwordValue = watch("password");
   const { setRegisterUser, loading } = useRegisterUser();
   const [inputType, setInputType] = useState<"password" | "text">("password");
   const [confirmPasswordType, setConfirmPasswordType] = useState<
     "password" | "text"
   >("password");
-
-  const registerUser = (data: ISignUpUser) => {
-    setRegisterUser(data);
-  };
 
   const togglePasswordVisibility = () => {
     if (inputType === "text") {
@@ -41,6 +39,14 @@ const Register = () => {
     }
     setConfirmPasswordType("text");
   };
+
+  const registerUser = (data: ISignUpUser) => {
+    if (data.password !== data.confirmPassword) {
+      return toast.error("Password does not match");
+    }
+    setRegisterUser(data);
+  };
+
   return (
     <>
       <NoAuthHeader />
@@ -140,10 +146,16 @@ const Register = () => {
                 className="focus:invalid:border-red-500 px-3 focus:outline-none focus:border-blue-300 w-full py-2 bg-transparent border border-gray-300 rounded-lg"
               />
             </div>
-            {errors?.confirmPassword && (
+            {confirmPasswordValue && confirmPasswordValue !== passwordValue ? (
+              <p className=" text-red-500 text-sm italic ">
+                Password does not match
+              </p>
+            ) : errors?.confirmPassword ? (
               <p className=" text-red-500 text-sm italic ">
                 Confirm Password is required
               </p>
+            ) : (
+              ""
             )}
             <div className="pt-5">
               {" "}
