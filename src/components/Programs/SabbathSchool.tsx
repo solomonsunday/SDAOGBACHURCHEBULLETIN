@@ -11,15 +11,15 @@ const SabbathSchool = () => {
           {" "}
           Singspiration (8:45 AM)
         </div>
-        <div className="text-xs capitalize">Song Leaders - Timininu Abioye</div>
+        <div className="text-xs capitalize">Song Leaders</div>
 
         <div className="col-span-3 text-sm capitalize">
           Opening Remark (Welcome & Prayer)
         </div>
-        <div className="text-xs">Com. Goodluck Eze</div>
+        <div className="text-xs"> Sis. Chika Promise</div>
 
         <div className="col-span-3 text-sm capitalize">Welcome & Prayer</div>
-        <div className="text-xs">Expl. Chiamaka Chukwuemeka</div>
+        <div className="text-xs">Sis. Adaoha Alala</div>
 
         {/* <div className="col-span-3 text-sm capitalize">
           Welcome / Supt's Opening Remark
@@ -28,12 +28,17 @@ const SabbathSchool = () => {
 
         <div className="col-span-3 text-sm capitalize">
           {" "}
-          Welcome / Opening Hymn (SDAH 579)
+          Welcome / Opening Hymn (SDAH 251)
         </div>
-        <div className="text-xs capitalize"> Izuchukwu Chukwuma</div>
+        <div className="text-xs capitalize">Bro. Benjamin Oshiotse</div>
+        <div className="col-span-3 text-sm capitalize">
+          {" "}
+          Welcome / Opening Hymn (Mark 16:6)
+        </div>
+        <div className="text-xs capitalize">Sis. Nkeiruka Ihesiaba Wogu</div> 
 
         <div className="col-span-3 text-sm capitalize"> Keeping on Course</div>
-        <div className="text-xs capitalize">MG Kelechi Nwachukwu</div>
+        <div className="text-xs capitalize">-</div>
 
         <div className="col-span-3 text-sm capitalize"> Mission Spotlight </div>
         <div className="text-xs capitalize"> - </div>
@@ -47,7 +52,7 @@ const SabbathSchool = () => {
           {" "}
           Study Time, Lesson Introduction
         </div>
-        <div className="text-xs capitalize"> Com. Goodluck Eze </div>
+        <div className="text-xs capitalize"> Bro. Chiemzie Mbagwu </div>
         <div className="col-span-3 text-sm capitalize">
           Unit Activities / Lesson Study (40 Mins)
         </div>

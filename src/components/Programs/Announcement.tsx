@@ -30,21 +30,8 @@ const Announcement = () => {
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            Thank God for the success of our “One Day Evangelism worship at
-            Power line Oke-ira Ogba last Sabbath.
-          </li>
-
-          <li className="pb-2 border-b border-orange-200">
-            Today is World Pathfinders Day Celebration Theme: Jesus Camps with
-            You. This marks the 74th Anniversary of Pathfinders all over the
-            world.
-          </li>
-
-          <li className="pb-2 border-b border-orange-200">
-            The public presentation of the Book: Leading the Leaders of
-            organization written by Pastor Uchegbue U.O. is tomorrow, members
-            are invited to this book launch. Time is 2:00p.m. Venue: LMC
-            Headquarters Ogba.
+            WNUC ASAM Convention comes up on 3rd – 6th October, 2024 at Ibadan.
+            Lets pray for it’s success.
           </li>
 
           <li className="pb-2 border-b border-orange-200">
@@ -52,14 +39,19 @@ const Announcement = () => {
             leave from Sept.16th – Nov. 10th, 2024. Let’s support and uphold him
             in our prayers.
           </li>
+
           <li className="pb-2 border-b border-orange-200">
-            Sabbath School Community Guest Day is slated for 12/10/2024. Please
-            invite your friends/ neighbours to fellowship with us and support
-            the program.
+            Today is our Sabbath School Community Guest Day, we welcome you our
+            esteemed guest and friends of Jesus. God bless you all and thanks
+            for coming.
           </li>
           <li className="pb-2 border-b border-orange-200">
             Pastors Appreciation Day comes up on 12/10/2024. Let’s plan for it’s
             success.
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            There will be LMC Combined Worship here in Ogba on the 16th of
+            November, 2024
           </li>
           <li className="pb-2 border-b border-orange-200">
             ICT Department:{" "}
@@ -85,10 +77,6 @@ const Announcement = () => {
           <li className="pb-2 border-b border-orange-200">
             ⁠WAD impact evangelism holds next year March. Ogba District has been
             assigned 6 centers. Members are encouraged to support this program.
-          </li>
-          <li className="pb-2 border-b border-orange-200">
-            WNUC ASAM convention comes up as follows: Date: 3rd - 6th Oct. 2024.
-            Venue is Ibadan Registration - N16,000.
           </li>
 
           <li className="pb-2 border-b border-orange-200">
