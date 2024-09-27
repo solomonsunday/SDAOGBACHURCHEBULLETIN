@@ -38,7 +38,7 @@ const Welcome = () => {
         <div className="text-center flex justify-center">
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2  w-full">
             <p className="text-orange-400 underline">TOPIC FOR THE WEEK</p>
-            Tried and Crucified
+            The Risen Lord
           </blockquote>
         </div>
         <div className="text-center flex justify-center">
@@ -46,10 +46,10 @@ const Welcome = () => {
             <p className="text-orange-400 underline">MEMORY TEXT</p>
 
             <span className="px-1 text-xs italic">
-              “And at the ninth hour Jesus cried out with a loud voice, saying,
-              Eloi, Eloi, lama sabachthani? which is translated, ‘ My God, My
-              God, why have you forsaken Me?”
-              <span className="font-bold">(Mark 15:34 NKJV)</span>
+              “But he said to them, Do not be alarmed. You seek Jesus of
+              Nazareth, who was crucified. He is risen! He is not here. See the
+              place where they laid Him”
+              <span className="font-bold"> (Mark 16:6 NKJV)</span>
             </span>
           </blockquote>
         </div>
