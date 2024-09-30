@@ -22,7 +22,11 @@ const Announcement = () => {
           <ol className="space-y-4 list-decimal">
             {publishedData.announcements?.map((item) => {
               console.log(item, "announcement");
-              return <li key={item.id}>{item?.content}</li>;
+              return (
+                <li className="pb-2 border-b border-orange-200" key={item.id}>
+                  {item?.content}
+                </li>
+              );
             })}
           </ol>
         </div>

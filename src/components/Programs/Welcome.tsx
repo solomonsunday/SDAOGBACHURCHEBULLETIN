@@ -59,10 +59,9 @@ const Welcome = () => {
                 <p className="text-orange-400 underline">MEMORY TEXT</p>
 
                 <span className="px-1 text-xs italic">
-                  ({publishedData?.lessonMemoryVerse || "--"})
+                  “ {publishedData?.lessonMemoryTest || "--"} ”
                   <span className="font-bold">
-                    {" "}
-                    “ {publishedData?.lessonMemoryTest || "--"} ”
+                    ({publishedData?.lessonMemoryVerse || "--"})
                   </span>
                 </span>
               </blockquote>
