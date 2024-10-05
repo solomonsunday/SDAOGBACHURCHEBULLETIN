@@ -32,13 +32,13 @@ const Welcome = () => {
         <div className="text-center flex justify-center">
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2  w-full ">
             <p className="text-orange-400 underline">THEME FOR THIS QUARTER</p>
-            The Book of Mark
+            Themes in the Gospel of John
           </blockquote>
         </div>
         <div className="text-center flex justify-center">
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2  w-full">
             <p className="text-orange-400 underline">TOPIC FOR THE WEEK</p>
-            The Risen Lord
+            Signs that Points the Way
           </blockquote>
         </div>
         <div className="text-center flex justify-center">
@@ -46,10 +46,11 @@ const Welcome = () => {
             <p className="text-orange-400 underline">MEMORY TEXT</p>
 
             <span className="px-1 text-xs italic">
-              “But he said to them, Do not be alarmed. You seek Jesus of
-              Nazareth, who was crucified. He is risen! He is not here. See the
-              place where they laid Him”
-              <span className="font-bold"> (Mark 16:6 NKJV)</span>
+              “And truly Jesus did many other signs in the presence of His
+              disciples, which are not written in the book; but these are
+              written that you may believe that Jesus is the Christ, the Son of
+              God, and that believing you may have life in His name.”
+              <span className="font-bold">(John 20:30-31 NKJV)</span>
             </span>
           </blockquote>
         </div>
@@ -81,7 +82,6 @@ const Welcome = () => {
             >
               <div className="">
                 <p className="underline">Join us to pray on Midweek</p>
-
                 <p>Click here to join us online</p>
                 <span className="text-xs text-orange-500">
                   Time: 8:00 PM Every Wednesday

@@ -9,11 +9,12 @@ const PastorDesk = () => {
         </div>
         <div className="space-y-3">
           <div className="text-lg font-semibold underline">
-            <p className="dark:text-white">Luke 10:39-40</p>
+            <p className="dark:text-white">(The Great Controversy, p.19)</p>
           </div>
           <p className="text-orange-500">
-            "We all, like sheep, have gone astray, each of us has turned to our
-            own way; and the Lord has laid on him the iniquity of us all."
+            "Satan well knows that all whom he can lead to neglect prayer and
+            the searching of the Scriptures will be overcome by his attacks.
+            Therefore he invites every possible device to engross the mind. "
           </p>
         </div>
       </section>

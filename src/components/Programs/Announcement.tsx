@@ -23,6 +23,10 @@ const Announcement = () => {
             are not tech savvy or those without a smart phone.
           </li>
           <li className="pb-2 border-b border-orange-200">
+            Thank God for the success of our Sabbath School Community Guest Day
+            last Sabbath.
+          </li>
+          <li className="pb-2 border-b border-orange-200">
             Online prayer meeting / morning devotion holds every Sunday and
             Wednesday morning (5:00a.m -6:00a.m) via zoom. Zoom link to be
             shared on the church’s WhatsApp, Facebook and Instagram platforms,
@@ -30,8 +34,13 @@ const Announcement = () => {
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            WNUC ASAM Convention comes up on 3rd – 6th October, 2024 at Ibadan.
-            Lets pray for it’s success.
+            WNUC ASAM Convention is currently ongoing at Scripture Union Nigeria
+            Ibadan. Let’s pray for it’s success and journey mercies for all.
+          </li>
+
+          <li className="pb-2 border-b border-orange-200">
+            Pastors Appreciation Day comes up on 12/10/2024. Let’s plan for it’s
+            success.
           </li>
 
           <li className="pb-2 border-b border-orange-200">
@@ -41,13 +50,9 @@ const Announcement = () => {
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            Today is our Sabbath School Community Guest Day, we welcome you our
-            esteemed guest and friends of Jesus. God bless you all and thanks
-            for coming.
-          </li>
-          <li className="pb-2 border-b border-orange-200">
-            Pastors Appreciation Day comes up on 12/10/2024. Let’s plan for it’s
-            success.
+            The family of Mr/Mrs. Godswill Obumneke Onuoha will be dedicating
+            Baby Micelle Uloaku Obumneke to God here in Ogba Church next
+            Sabbath.
           </li>
           <li className="pb-2 border-b border-orange-200">
             There will be LMC Combined Worship here in Ogba on the 16th of
@@ -73,6 +78,12 @@ const Announcement = () => {
           <li className="pb-2 border-b border-orange-200">
             LMC YAWM Retreat hold here in Ogba church from 25 - 27 October 2024.
             Registration: #7,000
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            YM of LMC Youth Curriculum Campout holds Oct. 31st – Nov. 2nd, 2024
+            at Ogba Church, Registration is ₦3,000. Arrival time is 2p.m. Those
+            to attend: Adventurers, Pathfinders, Ambassadors, Young Adult,
+            Mentees, Master Guides.
           </li>
           <li className="pb-2 border-b border-orange-200">
             ⁠WAD impact evangelism holds next year March. Ogba District has been
