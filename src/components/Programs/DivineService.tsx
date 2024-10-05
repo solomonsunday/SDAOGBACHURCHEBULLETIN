@@ -11,63 +11,50 @@ const DivineService = () => {
         <div className="grid grid-cols-4 gap-2">
           <div className="col-span-3 text-sm "> Prelude</div>
           <div className="text-xs"> Organist</div>
-
           <div className="col-span-3 text-sm">
-            Call to Worship: (Psalm 146:1-10)
+            Call to Worship: (Hebrew 4:14-16)
           </div>
-          <div className="text-xs"> Pst. (Dr) O. Ogbonna</div>
-          <div className="col-span-3 text-sm"> Doxology</div>
-          <div className="text-xs"> Congregation </div>
-          <div className="col-span-3 text-sm"> Invocation</div>
-          <div className="text-xs"> st. (Dr) O. Ogbonna </div>
-          <div className="col-span-3 text-sm">
-            {" "}
-            Welcome/Introduction of Officiating Ministers
-          </div>
-          <div className="text-xs">Elder O. Alala </div>
-
-          <div className="col-span-3 text-sm">
-            {" "}
-            Welcome /Opening Hymn (SDAH 422)
-          </div>
-          <div className="text-xs">Mrs. B. Chilaka </div>
-
-          <div className="col-span-3 text-sm"> Pastoral Prayer</div>
           <div className="text-xs"> Elder G. Adeoti</div>
+          {/* <div className="col-span-3 text-sm"> Doxology</div>
+          <div className="text-xs"> Congregation </div> */}
+          <div className="col-span-3 text-sm"> Invocation</div>
+          <div className="text-xs"> Congregation</div>
+          <div className="col-span-3 text-sm">
+            {" "}
+            Welcome / Opening Hymn: (SDAH 517)
+          </div>
+          <div className="text-xs">Bro. B. Oshiotse </div>
+          <div className="col-span-3 text-sm"> Pastoral Prayer</div>
+          <div className="text-xs">Elder E.J. Agbara</div>
           <div className="col-span-3 text-sm"> Stewardship </div>
-          <div className="text-xs">Elder A. Ajie</div>
-          <div className="col-span-3 text-sm"> Musical Selection</div>
-          <div className="text-xs">Deacon I.Oyeniyi</div>
-
+          <div className="text-xs">Deacon L. Ezekiel</div>
+          <div className="col-span-3 text-sm"> Musical Selection: (Choir) </div>
+          <div className="text-xs">Deacon L. Ezekiel</div>
           {/* <div className="col-span-3 text-sm">
             Induction: (Adventurer & Pathfinder Clubs)
           </div>
           <div className="text-xs">MG. F.L. Alonge </div> */}
           <div className="col-span-3 text-sm">
-            Scripture Reading (Luke 12:35-40)
+            Scripture Reading: (James 1:2-4)
           </div>
-          <div className="text-xs"> Elizabeth Ihesiaba</div>
+          <div className="text-xs"> Fabulous Chidinda </div>
           <div className="col-span-3 text-sm">
-            Hymn of Consecration (SDAH 593)
+            Hymn of Consecration (SDAH 519)
           </div>
-          <div className="text-xs">Mrs. B. Chilaka</div>
+          <div className="text-xs">Fabulous Chidinda</div>
           <div className="col-span-3 text-sm">
-            Sermon Title{" "}
+            Sermon Title:{" "}
             <span className="font-bold text-orange-500">
               {" "}
-              Hope Beyond the Present Crises
+              "Faith Under Pressure"
             </span>
           </div>
-          <div className="text-xs"> Pst. (Dr) O. Ogbonna </div>
+          <div className="text-xs"> Elder G. Adeoti </div>
 
-          <div className="col-span-3 text-sm">
-            Appreciation/Closing Hymn(SDAH 483)
-          </div>
-          <div className="text-xs">Elder O Alala</div>
-          <div className="col-span-3 text-sm">Closing Hymn (SDAH 330) </div>
-          <div className="text-xs">Mrs. M. Alabi</div>
+          <div className="col-span-3 text-sm">Closing Hymn: (SDAH 304)</div>
+          <div className="text-xs">Elder E.J Agbara</div>
           <div className="col-span-3 text-sm">Benediction</div>
-          <div className="text-xs"> Pst. (Dr) O. Ogbonna</div>
+          <div className="text-xs"> Elder G. Adeoti</div>
           <div className="col-span-3 text-sm">Doxology</div>
           <div className="text-xs"> Congregation</div>
         </div>
