@@ -19,27 +19,22 @@ const SabbathSchool = () => {
         <div className="text-xs"> Bro. Chimezie Mbagwu</div>
 
         <div className="col-span-3 text-sm capitalize">Opening Prayer</div>
-        <div className="text-xs">Sis. Adaoha Alala</div>
-
-        {/* <div className="col-span-3 text-sm capitalize">
-          Welcome / Supt's Opening Remark
-        </div>
-        <div className="text-xs"> Bro. Chimezie Mbagwu </div> */}
+        <div className="text-xs">Sis. Gift Christopher</div>
 
         <div className="col-span-3 text-sm capitalize">
           {" "}
-          Opening Hymn (SDAH 474)
+          Opening Hymn (SDAH 25)
         </div>
-        <div className="text-xs capitalize">Bro. Chimezie Kingsley Udo</div>
+        <div className="text-xs capitalize"> Bro. Uchendu Imo</div>
         <div className="col-span-3 text-sm capitalize"> Keeping on Course</div>
-        <div className="text-xs capitalize">Sis. Adeola Adedokun</div>
+        <div className="text-xs capitalize">Bro. Idowu Oyeniyi</div>
         <div className="col-span-3 text-sm capitalize"> Mission Spotlight </div>
         <div className="text-xs capitalize"> - </div>
         <div className="col-span-3 text-sm capitalize">
           {" "}
-          Lesson Study (Signs that points the way){" "}
+          Lesson Study (Signs of Divinity){" "}
         </div>
-        <div className="text-xs capitalize"> Bro. Chiemzie Mbagwu </div>
+        <div className="text-xs capitalize"> Bro. Chimeze Mbagwu </div>
 
         <div className="col-span-3 text-sm capitalize">
           {" "}
@@ -51,62 +46,25 @@ const SabbathSchool = () => {
         </div>
         <div className="text-xs capitalize"> - </div>
         <div className="col-span-3 text-sm capitalize">Lesson Summary</div>
-        <div className="text-xs capitalize"> Bro. Chiemzie Mbagwu </div>
+        <div className="text-xs capitalize"> - </div>
         <div className="col-span-3 text-sm capitalize">
           Welcome / Friend's time
         </div>
-        <div className="text-xs capitalize">Sis. Adaoha Alala</div>
+        <div className="text-xs capitalize">Bro. Uchendu Imo</div>
         <div className="col-span-3 text-sm capitalize">
           Special Song: (Hillary Family)
         </div>
-        <div className="text-xs capitalize">Sis. Adaoha Alala</div>
+        <div className="text-xs capitalize">Sis. Kelechi Ejukwu</div>
 
-        <div className="col-span-3 text-sm capitalize">
-          Sabbath School Report
-        </div>
-        <div className="text-xs capitalize">Sis. Adaoha Alala</div>
         <div className="col-span-3 text-sm capitalize">
           Lesson Preview/Announcement / Closing Remark
         </div>
         <div className="text-xs capitalize">Bro. Chiemzie Mbagwu</div>
-        <div className="col-span-3 text-sm capitalize">Closing Hymn (340)</div>
-        <div className="text-xs">Bro. Chiemzie Mbagwu</div>
+        <div className="col-span-3 text-sm capitalize">Closing Hymn (229)</div>
+        <div className="text-xs"> Sis. Gift Christopher</div>
         <div className="col-span-3 text-sm capitalize">Closing Prayer</div>
-        <div className="text-xs">Sis. Adeola Adedokun</div>
+        <div className="text-xs"> Bro. Idowu Oyeniyi</div>
       </div>
-
-      {/* <div className="border-8 rounded-md border-orange-500 p-3 text-center my-3">
-        <div className="col-span-3  capitalize font-extrabold text-lg text-orange-500 ">
-          Community Guest Day
-        </div>
-        <div className="text-sm font-bold capitalize">
-          {" "}
-          (Bro. Uchendu Imo) - Anchor
-        </div>
-        <div className="underline"></div>
-
-        <div> (1)</div>
-        <div> Acknowledgement & Songs of Praise</div>
-        <br />
-        <div>(2)</div>
-        <div>
-          {" "}
-          Symposium & Interaction (Living with Uncertainty in times of Trouble)
-        </div>
-        <br />
-
-        <div> (3) </div>
-        <div>
-          {" "}
-          Welcoming & Friends Time: (Questions about the church, Song
-          Presentation)
-        </div>
-        <br />
-
-        <div> (4) </div>
-        <div> Presentation: (Children, Church Choir, Youth Choir)</div>
-        <br />
-      </div> */}
     </section>
   );
 };

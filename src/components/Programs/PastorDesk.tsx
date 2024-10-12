@@ -9,12 +9,13 @@ const PastorDesk = () => {
         </div>
         <div className="space-y-3">
           <div className="text-lg font-semibold underline">
-            <p className="dark:text-white">(The Great Controversy, p.19)</p>
+            <p className="dark:text-white">Psalms 51:10-12</p>
           </div>
           <p className="text-orange-500">
-            "Satan well knows that all whom he can lead to neglect prayer and
-            the searching of the Scriptures will be overcome by his attacks.
-            Therefore he invites every possible device to engross the mind. "
+            "Create in me a clean heart, O God, And renew a steadfast spirit
+            within me. Do not cast me away from Your presence, And do not take
+            Your Holy Spirit from me. Restore to me the joy of Your salvation,
+            And uphold me by Your generous Spirit."
           </p>
         </div>
       </section>
