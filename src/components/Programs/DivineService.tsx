@@ -12,49 +12,49 @@ const DivineService = () => {
           <div className="col-span-3 text-sm "> Prelude</div>
           <div className="text-xs"> Organist</div>
           <div className="col-span-3 text-sm">
-            Call to Worship: (Hebrew 4:14-16)
+            Call to Worship:(Isaiah 26:3)
           </div>
-          <div className="text-xs"> Elder G. Adeoti</div>
+          <div className="text-xs"> Elder A. Ajie</div>
           {/* <div className="col-span-3 text-sm"> Doxology</div>
           <div className="text-xs"> Congregation </div> */}
           <div className="col-span-3 text-sm"> Invocation</div>
           <div className="text-xs"> Congregation</div>
           <div className="col-span-3 text-sm">
             {" "}
-            Welcome / Opening Hymn: (SDAH 517)
+            Welcome / Opening Hymn: (SDAH 532)
           </div>
-          <div className="text-xs">Bro. B. Oshiotse </div>
+          <div className="text-xs">Elder A. Adebayo </div>
           <div className="col-span-3 text-sm"> Pastoral Prayer</div>
-          <div className="text-xs">Elder E.J. Agbara</div>
+          <div className="text-xs"> Mrs. E. Oguntade</div>
           <div className="col-span-3 text-sm"> Stewardship </div>
-          <div className="text-xs">Deacon L. Ezekiel</div>
+          <div className="text-xs">Bro. S. Hillary</div>
           <div className="col-span-3 text-sm"> Musical Selection: (Choir) </div>
-          <div className="text-xs">Deacon L. Ezekiel</div>
+          <div className="text-xs">Bro. S. Hillary</div>
           {/* <div className="col-span-3 text-sm">
             Induction: (Adventurer & Pathfinder Clubs)
           </div>
           <div className="text-xs">MG. F.L. Alonge </div> */}
           <div className="col-span-3 text-sm">
-            Scripture Reading: (James 1:2-4)
+            Scripture Reading: (Luke 16:20-29)
           </div>
-          <div className="text-xs"> Fabulous Chidinda </div>
+          <div className="text-xs">Timileyin Abioye </div>
           <div className="col-span-3 text-sm">
-            Hymn of Consecration (SDAH 519)
+            Hymn of Consecration (SDAH 212)
           </div>
-          <div className="text-xs">Fabulous Chidinda</div>
+          <div className="text-xs">Timileyin Abioye</div>
           <div className="col-span-3 text-sm">
             Sermon Title:{" "}
             <span className="font-bold text-orange-500">
               {" "}
-              "Faith Under Pressure"
+              "Living in Tomorrow’s life Today"
             </span>
           </div>
-          <div className="text-xs"> Elder G. Adeoti </div>
+          <div className="text-xs"> Elder A. Ajie </div>
 
-          <div className="col-span-3 text-sm">Closing Hymn: (SDAH 304)</div>
-          <div className="text-xs">Elder E.J Agbara</div>
+          <div className="col-span-3 text-sm">Closing Hymn: (SDAH 430)</div>
+          <div className="text-xs">Mrs. E. Oguntade </div>
           <div className="col-span-3 text-sm">Benediction</div>
-          <div className="text-xs"> Elder G. Adeoti</div>
+          <div className="text-xs"> Elder A. Ajie</div>
           <div className="col-span-3 text-sm">Doxology</div>
           <div className="text-xs"> Congregation</div>
         </div>

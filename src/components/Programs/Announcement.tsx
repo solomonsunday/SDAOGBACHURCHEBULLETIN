@@ -34,12 +34,12 @@ const Announcement = () => {
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            WNUC ASAM Convention is currently ongoing at Scripture Union Nigeria
-            Ibadan. Let’s pray for it’s success and journey mercies for all.
+            Thank God for the success of the just concluded WNUC ASAM Convention
+            at Scripture Union Nigeria, Ibadan.
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            Pastors Appreciation Day comes up on 12/10/2024. Let’s plan for it’s
+            Pastors Appreciation Day comes up on 23/11/2024. Let’s plan for it’s
             success.
           </li>
 
@@ -50,9 +50,7 @@ const Announcement = () => {
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            The family of Mr/Mrs. Godswill Obumneke Onuoha will be dedicating
-            Baby Micelle Uloaku Obumneke to God here in Ogba Church next
-            Sabbath.
+          The family of Mr/Mrs. Godswill Obumneke Onuoha will be dedicating Baby Michelle Uloaku Obumneke to God today here in Ogba Church.
           </li>
           <li className="pb-2 border-b border-orange-200">
             There will be LMC Combined Worship here in Ogba on the 16th of
