@@ -40,6 +40,13 @@ const EditBulletin = ({ params }: { params: { slug: string } }) => {
     fetchBulletinById(bulletinId);
   }, [bulletinId]);
 
+  const formattedStartDate = bulletin?.startDate
+    ? new Date(bulletin?.startDate).toISOString().split("T")[0]
+    : "";
+  const formattedEndDate = bulletin?.endDate
+    ? new Date(bulletin?.endDate!).toISOString().split("T")[0]
+    : "";
+
   useEffect(() => {
     if (!bulletin) return;
     setValue("themeForTheQuarter", bulletin?.themeForTheQuarter, {
@@ -62,6 +69,18 @@ const EditBulletin = ({ params }: { params: { slug: string } }) => {
       shouldDirty: true,
       shouldValidate: true,
     });
+    setValue("midweekPrayerZoomLink", bulletin?.midweekPrayerZoomLink, {
+      shouldDirty: true,
+      shouldValidate: true,
+    });
+    setValue(
+      "earlyMorningPrayerZoomLink",
+      bulletin?.earlyMorningPrayerZoomLink,
+      {
+        shouldDirty: true,
+        shouldValidate: true,
+      }
+    );
 
     setValue("singspirationTime", bulletin?.singspirationTime, {
       shouldDirty: true,
@@ -247,11 +266,11 @@ const EditBulletin = ({ params }: { params: { slug: string } }) => {
         shouldValidate: true,
       }
     );
-    setValue("startDate", bulletin?.startDate, {
+    setValue("startDate", formattedStartDate, {
       shouldDirty: true,
       shouldValidate: true,
     });
-    setValue("endDate", bulletin?.endDate, {
+    setValue("endDate", formattedEndDate, {
       shouldDirty: true,
       shouldValidate: true,
     });
@@ -313,6 +332,7 @@ const EditBulletin = ({ params }: { params: { slug: string } }) => {
                       {errors.startDate.message}
                     </p>
                   )}
+
                   <div className=" h-[3.75rem] cursor-pointer">
                     {/* <span className="text-blue-600 italic">
                       Select an end date
@@ -367,9 +387,26 @@ const EditBulletin = ({ params }: { params: { slug: string } }) => {
                   </div>
                   <div className=" h-[3.75rem]">
                     <Input
+                      disabled
                       type="text"
-                      placeHolder="zoom link account"
+                      placeHolder="Zoom link account"
                       {...register("onLineZoomLink", {})}
+                    />
+                  </div>
+                  <div className="h-[3rem]">
+                    <Input
+                      disabled
+                      type="text"
+                      placeHolder="Midweek prayer zoom link "
+                      {...register("midweekPrayerZoomLink", {})}
+                    />
+                  </div>
+                  <div className="h-[3rem]">
+                    <Input
+                      disabled
+                      type="text"
+                      placeHolder="Early Morning Prayer zoom Link"
+                      {...register("earlyMorningPrayerZoomLink", {})}
                     />
                   </div>
                 </div>

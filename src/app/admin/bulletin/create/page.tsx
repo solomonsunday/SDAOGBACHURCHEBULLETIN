@@ -143,6 +143,7 @@ const CreateBulletin = () => {
 
                     <div className="h-[3rem]">
                       <Input
+                        disabled
                         type="text"
                         placeHolder="zoom link"
                         {...register("onLineZoomLink", {})}
@@ -151,6 +152,7 @@ const CreateBulletin = () => {
                     </div>
                     <div className="h-[3rem]">
                       <Input
+                        disabled
                         type="text"
                         placeHolder="midweek prayer zoom link "
                         {...register("midweekPrayerZoomLink", {})}
@@ -159,6 +161,7 @@ const CreateBulletin = () => {
                     </div>
                     <div className="h-[3rem]">
                       <Input
+                        disabled
                         type="text"
                         placeHolder="early Morning Prayer zoom Link"
                         {...register("earlyMorningPrayerZoomLink", {})}

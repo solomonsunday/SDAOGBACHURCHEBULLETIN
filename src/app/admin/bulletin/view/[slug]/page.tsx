@@ -108,24 +108,76 @@ const ListBulletin = ({ params }: { params: { slug: string } }) => {
                   </blockquote>
                 </div>
 
-                <div>
-                  <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 pl-8  overflow-auto">
-                    <a
-                      href={bulletin?.onLineZoomLink}
-                      target="_blank"
-                      className="text-blue-700 cursor-pointer"
-                    >
-                      <div className="">
-                        <p className="underline">Join us Online via Zoom</p>
+                {bulletin?.onLineZoomLink && (
+                  <div>
+                    <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 pl-8  overflow-auto">
+                      <a
+                        href={bulletin?.onLineZoomLink}
+                        target="_blank"
+                        className="text-blue-700 cursor-pointer"
+                      >
+                        <div className="">
+                          <p className="underline">Join us Online via Zoom</p>
 
-                        <p>Click here to join us online </p>
-                        <span className="text-orange-500 ">
-                          Every Sabbath Morning
-                        </span>
+                          <p>Click here to join us online </p>
+                          <span className="text-orange-500 ">
+                            Every Sabbath Morning
+                          </span>
+                        </div>
+                      </a>
+                    </blockquote>
+                  </div>
+                )}
+
+                {bulletin?.midweekPrayerZoomLink && (
+                  <div className="text-center flex justify-center">
+                    <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 w-full  overflow-auto">
+                      <a
+                        // href="https://us02web.zoom.us/j/83976497702?pwd=TmJpa3VBU05XUWlHb1JVOTY3S1gyQT09"
+                        href={bulletin?.onLineZoomLink}
+                        target="_blank"
+                        className="text-blue-700 cursor-pointer "
+                      >
+                        <div className="">
+                          <p className="underline">
+                            Join us to pray on Midweek
+                          </p>
+
+                          <p>Click here to join us online</p>
+                          <span className="text-xs text-orange-500">
+                            Time: 8:00 PM Every Wednesday
+                          </span>
+                        </div>
+                      </a>
+                    </blockquote>
+                  </div>
+                )}
+                {bulletin?.earlyMorningPrayerZoomLink && (
+                  <div className="text-center flex justify-center">
+                    <blockquote className="rounded-lg capitalize bg-[#304D30] py-2 w-full relative overflow-auto">
+                      <div className="right-0 pr-1 pt-0 absolute">
+                        <div className="bg-red-700 text-white px-2  rounded-lg">
+                          New
+                        </div>
                       </div>
-                    </a>
-                  </blockquote>
-                </div>
+                      <a
+                        // href="https://us02web.zoom.us/j/82044972297?pwd=GmOaK1QcBfhnphBQ4KEQiUQnBwWilA.1"
+                        href={bulletin?.onLineZoomLink}
+                        target="_blank"
+                        className="text-orange-500 cursor-pointer "
+                      >
+                        <div className="">
+                          <p className="underline">Early Morning Prayer</p>
+
+                          <p>Click here to join us online</p>
+                          <span className="text-xs text-orange-500">
+                            Time: 5:00 AM Every Wednesday and Sunday
+                          </span>
+                        </div>
+                      </a>
+                    </blockquote>
+                  </div>
+                )}
               </div>
             </section>
 

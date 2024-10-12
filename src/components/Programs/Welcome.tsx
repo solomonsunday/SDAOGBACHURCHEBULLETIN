@@ -67,25 +67,27 @@ const Welcome = () => {
               </blockquote>
             </div>
 
-            <div className="text-center flex justify-center">
-              <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 w-full  overflow-auto">
-                <a
-                  // href="https://us02web.zoom.us/j/82591974493?pwd=Yk8vUEwrR1ZtZ1hvWEcvdFdjLzVWZz09"
-                  href={publishedData?.onLineZoomLink}
-                  target="_blank"
-                  className="text-blue-700 cursor-pointer"
-                >
-                  <div className="">
-                    <p className="underline">Join us Online via Zoom</p>
+            {publishedData?.onLineZoomLink && (
+              <div className="text-center flex justify-center">
+                <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 w-full  overflow-auto">
+                  <a
+                    // href="https://us02web.zoom.us/j/82591974493?pwd=Yk8vUEwrR1ZtZ1hvWEcvdFdjLzVWZz09"
+                    href={publishedData?.onLineZoomLink}
+                    target="_blank"
+                    className="text-blue-700 cursor-pointer"
+                  >
+                    <div className="">
+                      <p className="underline">Join us Online via Zoom</p>
 
-                    <p>Click here to join us online </p>
-                    <span className="text-xs text-orange-500">
-                      Every Sabbath Morning
-                    </span>
-                  </div>
-                </a>
-              </blockquote>
-            </div>
+                      <p>Click here to join us online </p>
+                      <span className="text-xs text-orange-500">
+                        Every Sabbath Morning
+                      </span>
+                    </div>
+                  </a>
+                </blockquote>
+              </div>
+            )}
             {publishedData?.midweekPrayerZoomLink && (
               <div className="text-center flex justify-center">
                 <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 w-full  overflow-auto">
