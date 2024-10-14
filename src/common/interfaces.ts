@@ -49,6 +49,9 @@ export interface IBulletin extends IBaseEntity, Pick<IAnnouncement, "content"> {
   lessonMemoryTest: string;
   lessonMemoryVerse: string;
   onLineZoomLink: string;
+  midweekPrayerZoomLink: string;
+  earlyMorningPrayerZoomLink: string;
+  FamilyPresentationBy: string;
 
   // sabbath school
   singspirationTime: string;
@@ -80,14 +83,14 @@ export interface IBulletin extends IBaseEntity, Pick<IAnnouncement, "content"> {
   pastoralPrayerBy: string;
   stewardshipBy: string;
   musicalSelectionBy: string;
-  spiritualReadingBibleVerse: string;
-  spiritualReadingBibleVerseBy: string;
+  scripturalReadingBibleVerse: string;
+  scripturalReadingBibleVerseBy: string;
   sermonTitle: string;
   preacher: string;
   hymnOfConcecrationNo: string;
   hymnOfConcecrationNoBy: string;
-  divinceServiceClosingHymnNo: string;
-  divinceServiceClosingHymnBy: string;
+  divineServiceClosingHymnNo: string;
+  divineServiceClosingHymnBy: string;
   benediction: string;
   doxology: string;
 

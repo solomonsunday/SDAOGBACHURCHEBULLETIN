@@ -40,6 +40,13 @@ const EditBulletin = ({ params }: { params: { slug: string } }) => {
     fetchBulletinById(bulletinId);
   }, [bulletinId]);
 
+  const formattedStartDate = bulletin?.startDate
+    ? new Date(bulletin?.startDate).toISOString().split("T")[0]
+    : "";
+  const formattedEndDate = bulletin?.endDate
+    ? new Date(bulletin?.endDate!).toISOString().split("T")[0]
+    : "";
+
   useEffect(() => {
     if (!bulletin) return;
     setValue("themeForTheQuarter", bulletin?.themeForTheQuarter, {
@@ -62,6 +69,18 @@ const EditBulletin = ({ params }: { params: { slug: string } }) => {
       shouldDirty: true,
       shouldValidate: true,
     });
+    setValue("midweekPrayerZoomLink", bulletin?.midweekPrayerZoomLink, {
+      shouldDirty: true,
+      shouldValidate: true,
+    });
+    setValue(
+      "earlyMorningPrayerZoomLink",
+      bulletin?.earlyMorningPrayerZoomLink,
+      {
+        shouldDirty: true,
+        shouldValidate: true,
+      }
+    );
 
     setValue("singspirationTime", bulletin?.singspirationTime, {
       shouldDirty: true,
@@ -188,15 +207,15 @@ const EditBulletin = ({ params }: { params: { slug: string } }) => {
       shouldValidate: true,
     });
     setValue(
-      "divinceServiceClosingHymnNo",
-      bulletin?.divinceServiceClosingHymnNo,
+      "divineServiceClosingHymnNo",
+      bulletin?.divineServiceClosingHymnNo,
       {
         shouldDirty: true,
         shouldValidate: true,
       }
     );
     setValue(
-      "divinceServiceClosingHymnBy",
+      "divineServiceClosingHymnBy",
       bulletin?.divineServiceOpeningHymnBy,
       {
         shouldDirty: true,
@@ -232,26 +251,26 @@ const EditBulletin = ({ params }: { params: { slug: string } }) => {
       shouldValidate: true,
     });
     setValue(
-      "spiritualReadingBibleVerse",
-      bulletin?.spiritualReadingBibleVerse,
+      "scripturalReadingBibleVerse",
+      bulletin?.scripturalReadingBibleVerse,
       {
         shouldDirty: true,
         shouldValidate: true,
       }
     );
     setValue(
-      "spiritualReadingBibleVerseBy",
-      bulletin?.spiritualReadingBibleVerseBy,
+      "scripturalReadingBibleVerseBy",
+      bulletin?.scripturalReadingBibleVerseBy,
       {
         shouldDirty: true,
         shouldValidate: true,
       }
     );
-    setValue("startDate", bulletin?.startDate, {
+    setValue("startDate", formattedStartDate, {
       shouldDirty: true,
       shouldValidate: true,
     });
-    setValue("endDate", bulletin?.endDate, {
+    setValue("endDate", formattedEndDate, {
       shouldDirty: true,
       shouldValidate: true,
     });
@@ -297,9 +316,15 @@ const EditBulletin = ({ params }: { params: { slug: string } }) => {
 
                 <div className=" md:w-full w-full grid grid-cols-2 gap-4 gap-y-3">
                   <div className=" h-[3.75rem] cursor-pointer">
-                    {/* <span className="text-blue-600 italic">
-                      Select a start date
-                    </span> */}
+                    <span className=" italic">
+                      Select a start date{" "}
+                      <span className="text-red-500">*</span>{" "}
+                      {errors?.startDate && (
+                        <span className="text-red-500 italic">
+                          {errors.startDate.message}
+                        </span>
+                      )}
+                    </span>
                     <Input
                       type="date"
                       placeHolder="Start Date"
@@ -308,15 +333,16 @@ const EditBulletin = ({ params }: { params: { slug: string } }) => {
                       })}
                     />
                   </div>
-                  {errors?.startDate && (
-                    <p className="text-red-500 italic">
-                      {errors.startDate.message}
-                    </p>
-                  )}
+
                   <div className=" h-[3.75rem] cursor-pointer">
-                    {/* <span className="text-blue-600 italic">
-                      Select an end date
-                    </span> */}
+                    <span className=" italic">
+                      Select an end date <span className="text-red-500">*</span>
+                      {errors?.endDate && (
+                        <span className="text-red-500 italic">
+                          {errors.endDate.message}
+                        </span>
+                      )}
+                    </span>
                     <Input
                       type="date"
                       placeHolder="End Date"
@@ -325,11 +351,6 @@ const EditBulletin = ({ params }: { params: { slug: string } }) => {
                       })}
                     />
                   </div>
-                  {errors?.endDate && (
-                    <p className="text-red-500 italic">
-                      {errors.endDate.message}
-                    </p>
-                  )}
                 </div>
               </div>
               <div className="flex flex-col flex-wrap justify-between w-full gap-5 px-3 pt-6 pb-8 bg-white rounded-lg md:flex-row h-fit gap-y-3 gap-x-3 font-poppins">
@@ -368,8 +389,22 @@ const EditBulletin = ({ params }: { params: { slug: string } }) => {
                   <div className=" h-[3.75rem]">
                     <Input
                       type="text"
-                      placeHolder="zoom link account"
+                      placeHolder="Zoom link account"
                       {...register("onLineZoomLink", {})}
+                    />
+                  </div>
+                  <div className="h-[3rem]">
+                    <Input
+                      type="text"
+                      placeHolder="Midweek prayer zoom link "
+                      {...register("midweekPrayerZoomLink", {})}
+                    />
+                  </div>
+                  <div className="h-[3rem]">
+                    <Input
+                      type="text"
+                      placeHolder="Early Morning Prayer zoom Link"
+                      {...register("earlyMorningPrayerZoomLink", {})}
                     />
                   </div>
                 </div>
@@ -575,14 +610,14 @@ const EditBulletin = ({ params }: { params: { slug: string } }) => {
                     <Input
                       type="text"
                       placeHolder="Spiritual Reading Bible Verse"
-                      {...register("spiritualReadingBibleVerse", {})}
+                      {...register("scripturalReadingBibleVerse", {})}
                     />
                   </div>{" "}
                   <div className=" h-[3.75rem]">
                     <Input
                       type="text"
                       placeHolder="Spiritual Reading Bible VerseBy"
-                      {...register("spiritualReadingBibleVerseBy", {})}
+                      {...register("scripturalReadingBibleVerseBy", {})}
                     />
                   </div>{" "}
                   <div className=" h-[3.75rem]">
@@ -617,14 +652,14 @@ const EditBulletin = ({ params }: { params: { slug: string } }) => {
                     <Input
                       type="text"
                       placeHolder="Closing Hymn No"
-                      {...register("divinceServiceClosingHymnNo", {})}
+                      {...register("divineServiceClosingHymnNo", {})}
                     />
                   </div>
                   <div className=" h-[3.75rem]">
                     <Input
                       type="text"
                       placeHolder="Closing Hymn By"
-                      {...register("divinceServiceClosingHymnBy", {})}
+                      {...register("divineServiceClosingHymnBy", {})}
                     />
                   </div>
                   <div className=" h-[3.75rem]">

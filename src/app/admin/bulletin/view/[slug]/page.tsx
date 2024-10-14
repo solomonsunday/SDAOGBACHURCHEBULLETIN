@@ -36,9 +36,13 @@ const ListBulletin = ({ params }: { params: { slug: string } }) => {
           <div className="flex flex-wrap gap-5 justify-between ml-[.125rem] mr-[.625rem]">
             <BackButton text="Bulletin List Page" />
           </div>
-          <div className="p-3">
+          <div className="gap-2 p-3">
             <Button
-              className="p-3 hover:bg-orange-400"
+              className={`p-3 ${
+                bulletin?.status !== BulletinStatusEnum.PUBLISHED
+                  ? "bg-green-900  hover:bg-green-700"
+                  : "bg-red-600 hover:bg-red-800"
+              }`}
               onClick={() => handlePublish()}
             >
               {!loading && bulletin?.status !== BulletinStatusEnum.PUBLISHED
@@ -67,8 +71,8 @@ const ListBulletin = ({ params }: { params: { slug: string } }) => {
                 <div className="border border-orange-500 "></div>
               </div>
               <div className="space-y-2">
-                <div>
-                  <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 pl-8 ">
+                <div className="text-center flex justify-center ">
+                  <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 w-full">
                     <p className="text-orange-400 underline">
                       THEME FOR THIS QUARTER
                     </p>
@@ -77,16 +81,16 @@ const ListBulletin = ({ params }: { params: { slug: string } }) => {
                       : "-"}
                   </blockquote>
                 </div>
-                <div>
-                  <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 pl-8 ">
+                <div className="text-center flex justify-center ">
+                  <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 w-full ">
                     <p className="text-orange-400 underline">
                       TOPIC FOR THE WEEK
                     </p>
                     {bulletin?.topicForTheWeek ? bulletin.topicForTheWeek : "-"}
                   </blockquote>
                 </div>
-                <div>
-                  <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 pl-8 ">
+                <div className="text-center flex justify-center ">
+                  <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 w-full ">
                     <p className="text-orange-400 underline">MEMORY TEXT</p>
 
                     <span className="px-1 italic ">
@@ -104,24 +108,76 @@ const ListBulletin = ({ params }: { params: { slug: string } }) => {
                   </blockquote>
                 </div>
 
-                <div>
-                  <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 pl-8  overflow-auto">
-                    <a
-                      href={bulletin?.onLineZoomLink}
-                      target="_blank"
-                      className="text-blue-700 cursor-pointer"
-                    >
-                      <div className="">
-                        <p className="underline">Join us Online via Zoom</p>
+                {bulletin?.onLineZoomLink && (
+                  <div className="text-center flex justify-center ">
+                    <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 w-full  overflow-auto">
+                      <a
+                        href={bulletin?.onLineZoomLink}
+                        target="_blank"
+                        className="text-blue-700 cursor-pointer"
+                      >
+                        <div className="">
+                          <p className="underline">Join us Online via Zoom</p>
 
-                        <p>Click here to join us online </p>
-                        <span className="text-orange-500 ">
-                          Every Sabbath Morning
-                        </span>
+                          <p>Click here to join us online </p>
+                          <span className="text-orange-500 ">
+                            Every Sabbath Morning
+                          </span>
+                        </div>
+                      </a>
+                    </blockquote>
+                  </div>
+                )}
+
+                {bulletin?.midweekPrayerZoomLink && (
+                  <div className="text-center flex justify-center">
+                    <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 w-full  overflow-auto">
+                      <a
+                        // href="https://us02web.zoom.us/j/83976497702?pwd=TmJpa3VBU05XUWlHb1JVOTY3S1gyQT09"
+                        href={bulletin?.onLineZoomLink}
+                        target="_blank"
+                        className="text-blue-700 cursor-pointer "
+                      >
+                        <div className="">
+                          <p className="underline">
+                            Join us to pray on Midweek
+                          </p>
+
+                          <p>Click here to join us online</p>
+                          <span className="text-xs text-orange-500">
+                            Time: 8:00 PM Every Wednesday
+                          </span>
+                        </div>
+                      </a>
+                    </blockquote>
+                  </div>
+                )}
+                {bulletin?.earlyMorningPrayerZoomLink && (
+                  <div className="text-center flex justify-center">
+                    <blockquote className="rounded-lg capitalize bg-[#304D30] py-2 w-full relative overflow-auto">
+                      <div className="right-0 pr-1 pt-0 absolute">
+                        <div className="bg-red-700 text-white px-2  rounded-lg">
+                          New
+                        </div>
                       </div>
-                    </a>
-                  </blockquote>
-                </div>
+                      <a
+                        // href="https://us02web.zoom.us/j/82044972297?pwd=GmOaK1QcBfhnphBQ4KEQiUQnBwWilA.1"
+                        href={bulletin?.onLineZoomLink}
+                        target="_blank"
+                        className="text-orange-500 cursor-pointer "
+                      >
+                        <div className="">
+                          <p className="underline">Early Morning Prayer</p>
+
+                          <p>Click here to join us online</p>
+                          <span className="text-xs text-orange-500">
+                            Time: 5:00 AM Every Wednesday and Sunday
+                          </span>
+                        </div>
+                      </a>
+                    </blockquote>
+                  </div>
+                )}
               </div>
             </section>
 
@@ -294,15 +350,15 @@ const ListBulletin = ({ params }: { params: { slug: string } }) => {
                   </div>
                   <div className="col-span-3 ">
                     Spiritual Reading (
-                    {bulletin?.spiritualReadingBibleVerse
-                      ? bulletin.spiritualReadingBibleVerse
+                    {bulletin?.scripturalReadingBibleVerse
+                      ? bulletin.scripturalReadingBibleVerse
                       : "-"}
                     )
                   </div>
                   <div className="">
                     {" "}
-                    {bulletin?.spiritualReadingBibleVerseBy
-                      ? bulletin.spiritualReadingBibleVerseBy
+                    {bulletin?.scripturalReadingBibleVerseBy
+                      ? bulletin.scripturalReadingBibleVerseBy
                       : "-"}
                   </div>
                   <div className="col-span-3 ">

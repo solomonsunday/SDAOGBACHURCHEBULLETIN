@@ -5,10 +5,14 @@ interface Props {
   type: string;
   disabled?: boolean;
   className?: string;
+  defaultValue?: string;
 }
 
 const Input = React.forwardRef<HTMLInputElement, Props>(
-  ({ placeHolder, type, className, disabled = false, ...props }, ref) => {
+  (
+    { placeHolder, type, defaultValue, className, disabled = false, ...props },
+    ref
+  ) => {
     const inputRef = React.useRef<HTMLInputElement>(null);
 
     useImperativeHandle(ref, () => inputRef.current!);
@@ -22,6 +26,7 @@ const Input = React.forwardRef<HTMLInputElement, Props>(
         type={type}
         onWheel={(e) => e.currentTarget.blur()}
         disabled={disabled}
+        defaultValue={defaultValue}
         {...props}
       />
     );

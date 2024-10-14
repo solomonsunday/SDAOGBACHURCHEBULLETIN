@@ -31,6 +31,29 @@ const CreateBulletin = () => {
 
   useEffect(() => {
     fetchAnnouncements();
+
+    setValue(
+      "onLineZoomLink",
+      "https://us02web.zoom.us/j/82591974493?pwd=Yk8vUEwrR1ZtZ1hvWEcvdFdjLzVWZz09",
+      {
+        shouldValidate: true,
+      }
+    );
+    setValue(
+      "earlyMorningPrayerZoomLink",
+      "https://us02web.zoom.us/j/82044972297?pwd=GmOaK1QcBfhnphBQ4KEQiUQnBwWilA",
+      {
+        shouldValidate: true,
+      }
+    );
+
+    setValue(
+      "midweekPrayerZoomLink",
+      "https://us02web.zoom.us/j/83976497702?pwd=TmJpa3VBU05XUWlHb1JVOTY3S1gyQT09",
+      {
+        shouldValidate: true,
+      }
+    );
   }, []);
 
   const submitData = () => {
@@ -76,9 +99,14 @@ const CreateBulletin = () => {
                   </div>
 
                   <div className=" md:w-full w-full grid grid-cols-2 gap-4 gap-y-3">
-                    <div className=" h-[3.75rem] cursor-pointer">
-                      <span className="text-blue-600 italic">
-                        Select a start date
+                    <div className=" h-[3rem]">
+                      <span className="font-semibold">
+                        Select a start date{" "}
+                        {errors?.startDate && (
+                          <span className="text-red-500 italic">
+                            {errors.startDate.message}
+                          </span>
+                        )}
                       </span>
                       <Input
                         type="date"
@@ -88,14 +116,15 @@ const CreateBulletin = () => {
                         })}
                       />
                     </div>
-                    {errors?.startDate && (
-                      <p className="text-red-500 italic">
-                        {errors.startDate.message}
-                      </p>
-                    )}
-                    <div className=" h-[3.75rem] cursor-pointer">
-                      <span className="text-blue-600 italic">
-                        Select an end date
+
+                    <div className=" h-[3rem]">
+                      <span className="font-semibold">
+                        Select an end date{" "}
+                        {errors?.endDate && (
+                          <span className="text-red-500 italic">
+                            {errors.endDate.message}
+                          </span>
+                        )}
                       </span>
                       <Input
                         type="date"
@@ -112,28 +141,32 @@ const CreateBulletin = () => {
                     <h2>Welcome</h2>
                   </div>
                   <div className="md:w-full w-full grid grid-cols-3 gap-4 gap-y-3">
-                    <div className="h-[3.75rem]">
+                    <div className="h-[3rem]">
+                      {/* <span className="font-semibold">
+                        Theme for this quarter
+                      </span> */}
+
                       <Input
                         type="text"
                         placeHolder="theme for this quarter"
                         {...register("themeForTheQuarter", {})}
                       />
                     </div>
-                    <div className="h-[3.75rem]">
+                    <div className="h-[3rem]">
                       <Input
                         type="text"
                         placeHolder="topic for the week"
                         {...register("topicForTheWeek", {})}
                       />
                     </div>
-                    <div className="h-[3.75rem]">
+                    <div className="h-[3rem]">
                       <Input
                         type="text"
                         placeHolder="memory verse"
                         {...register("lessonMemoryVerse", {})}
                       />
                     </div>
-                    <div className="h-[3.75rem]">
+                    <div className="h-[3rem]">
                       <Input
                         type="text"
                         placeHolder="memory test"
@@ -141,11 +174,28 @@ const CreateBulletin = () => {
                       />
                     </div>
 
-                    <div className="h-[3.75rem]">
+                    <div className="h-[3rem]">
                       <Input
+                        disabled
                         type="text"
-                        placeHolder="zoom link account"
+                        placeHolder="zoom link"
                         {...register("onLineZoomLink", {})}
+                      />
+                    </div>
+                    <div className="h-[3rem]">
+                      <Input
+                        disabled
+                        type="text"
+                        placeHolder="midweek prayer zoom link "
+                        {...register("midweekPrayerZoomLink", {})}
+                      />
+                    </div>
+                    <div className="h-[3rem]">
+                      <Input
+                        disabled
+                        type="text"
+                        placeHolder="early Morning Prayer zoom Link"
+                        {...register("earlyMorningPrayerZoomLink", {})}
                       />
                     </div>
                   </div>
@@ -155,119 +205,121 @@ const CreateBulletin = () => {
                     <h2>Sabbath School</h2>
                   </div>
                   <div className="md:w-full w-full grid grid-cols-3 gap-4 gap-y-3">
-                    <div className=" h-[3.75rem]">
+                    <div className=" h-[3rem]">
                       <Input
                         type="text"
                         placeHolder="Singspiration time"
                         {...register("singspirationTime", {})}
+                        defaultValue="8:45"
                       />
                     </div>
-                    <div className=" h-[3.75rem]">
+                    <div className=" h-[3rem]">
                       <Input
                         type="text"
                         placeHolder="Song Leader"
                         {...register("songLeader", {})}
+                        defaultValue="Song leader"
                       />
                     </div>
-                    <div className=" h-[3.75rem]">
+                    <div className=" h-[3rem]">
                       <Input
                         type="text"
                         placeHolder="Opening Prayer by"
                         {...register("openingPrayerBy", {})}
                       />
                     </div>
-                    <div className=" h-[3.75rem]">
+                    <div className=" h-[3rem]">
                       <Input
                         type="text"
-                        placeHolder="Welcome /Supt's Openning Remark by"
+                        placeHolder="Welcome /Supt's Opening Remark by"
                         {...register("openningRemarkBy", {})}
                       />
                     </div>
-                    <div className=" h-[3.75rem]">
+                    <div className=" h-[3rem]">
                       <Input
                         type="text"
                         placeHolder="Welcome / Opening Hymn"
                         {...register("openingHymn", {})}
                       />
                     </div>
-                    <div className=" h-[3.75rem]">
+                    <div className=" h-[3rem]">
                       <Input
                         type="text"
                         placeHolder="Welcome / Opening Hymn by"
                         {...register("openingHymnBy", {})}
                       />
                     </div>{" "}
-                    <div className="h-[3.75rem]">
+                    <div className="h-[3rem]">
                       <Input
                         type="text"
                         placeHolder="keeping On Course by"
                         {...register("keepingOnCourseBy", {})}
                       />
                     </div>{" "}
-                    <div className="h-[3.75rem]">
+                    <div className="h-[3rem]">
                       <Input
                         type="text"
                         placeHolder="Mission Spotlight by"
                         {...register("missionSpotlightBy", {})}
                       />
                     </div>{" "}
-                    <div className=" h-[3.75rem]">
+                    <div className=" h-[3rem]">
                       <Input
                         type="text"
-                        placeHolder="study Time, Lession Introduction by"
+                        placeHolder="study Time, Lesson Introduction by"
                         {...register("lessonIntroductionBy", {})}
                       />
                     </div>
-                    <div className=" h-[3.75rem]">
+                    <div className=" h-[3rem]">
                       <Input
                         type="text"
                         placeHolder="Unit Activities (35 Minutes) by"
                         {...register("unitActivities", {})}
                       />
                     </div>{" "}
-                    <div className=" h-[3.75rem]">
+                    <div className=" h-[3rem]">
                       <Input
                         type="text"
                         placeHolder="Lesson Summary by"
                         {...register("lessonSummaryBy", {})}
                       />
                     </div>{" "}
-                    <div className=" h-[3.75rem]">
+                    <div className=" h-[3rem]">
                       <Input
                         type="text"
                         placeHolder="Friend's Time by"
                         {...register("friendTimeBy", {})}
                       />
                     </div>
-                    <div className=" h-[3.75rem]">
+                    <div className=" h-[3rem]">
                       <Input
                         type="text"
                         placeHolder="Special Features"
                         {...register("specialFeature", {})}
                       />
                     </div>
-                    <div className=" h-[3.75rem]">
+                    <div className=" h-[3rem]">
                       <Input
                         type="text"
                         placeHolder="Announcement / Closing Remark by"
                         {...register("annnouncementClosingRemarkBy", {})}
                       />
                     </div>
-                    <div className=" h-[3.75rem]">
+                    <div className=" h-[3rem]">
                       <Input
                         type="text"
                         placeHolder="Closing Hymn No"
                         {...register("ssClosingHymnNo", {})}
                       />
                     </div>
-                    <div className=" h-[3.75rem]">
+                    <div className=" h-[3rem]">
                       <Input
                         type="text"
                         placeHolder="Closing Hymn by"
                         {...register("ssClosingHymnBy", {})}
                       />
                     </div>
-                    <div className=" h-[3.75rem]">
+                    <div className=" h-[3rem]">
                       <Input
                         type="text"
                         placeHolder="Sabbath School Closing Prayer by"
@@ -284,137 +336,147 @@ const CreateBulletin = () => {
                   </div>
 
                   <div className=" md:w-full w-full grid grid-cols-3 gap-4 gap-y-3">
-                    <div className=" h-[3.75rem]">
+                    <div className=" h-[3rem]">
                       <Input
                         type="text"
                         placeHolder="Prelude"
                         {...register("prelude", {})}
+                        defaultValue="Organist"
                       />
                     </div>
-                    <div className=" h-[3.75rem]">
+                    <div className=" h-[3rem]">
                       <Input
                         type="text"
                         placeHolder="Call To Worship Hymn No"
                         {...register("callToWorshipHymnNo", {})}
                       />
                     </div>
-                    <div className=" h-[3.75rem]">
+                    <div className=" h-[3rem]">
                       <Input
                         type="text"
                         placeHolder="Call To Worship By"
                         {...register("callToWorshipBy", {})}
                       />
                     </div>
-                    <div className=" h-[3.75rem]">
+                    <div className=" h-[3rem]">
                       <Input
                         type="text"
                         placeHolder="Invocation"
                         {...register("invocation", {})}
+                        defaultValue="Congregation"
                       />
                     </div>
-                    <div className=" h-[3.75rem]">
+                    <div className=" h-[3rem]">
                       <Input
                         type="text"
                         placeHolder="Opening Hymn No"
                         {...register("divineServiceOpeningHymnNo", {})}
                       />
                     </div>
-                    <div className=" h-[3.75rem]">
+                    <div className=" h-[3rem]">
                       <Input
                         type="text"
                         placeHolder="Welcome / Opening Hymn by"
                         {...register("divineServiceOpeningHymnBy", {})}
                       />
                     </div>{" "}
-                    <div className=" h-[3.75rem]">
+                    <div className=" h-[3rem]">
                       <Input
                         type="text"
                         placeHolder="Pastoral Prayer By"
                         {...register("pastoralPrayerBy", {})}
                       />
                     </div>{" "}
-                    <div className=" h-[3.75rem]">
+                    <div className=" h-[3rem]">
                       <Input
                         type="text"
                         placeHolder="Stewardship By"
                         {...register("stewardshipBy", {})}
                       />
                     </div>{" "}
-                    <div className=" h-[3.75rem]">
+                    <div className=" h-[3rem]">
                       <Input
                         type="text"
                         placeHolder="Musical Selection By"
                         {...register("musicalSelectionBy", {})}
                       />
                     </div>
-                    <div className=" h-[3.75rem]">
+                    <div className=" h-[3rem]">
                       <Input
                         type="text"
                         placeHolder="Spiritual Reading Bible Verse"
-                        {...register("spiritualReadingBibleVerse", {})}
+                        {...register("scripturalReadingBibleVerse", {})}
                       />
                     </div>{" "}
-                    <div className=" h-[3.75rem]">
+                    <div className=" h-[3rem]">
                       <Input
                         type="text"
                         placeHolder="Spiritual Reading Bible VerseBy"
-                        {...register("spiritualReadingBibleVerseBy", {})}
+                        {...register("scripturalReadingBibleVerseBy", {})}
                       />
                     </div>{" "}
-                    <div className=" h-[3.75rem]">
+                    <div className=" h-[3rem]">
                       <Input
                         type="text"
-                        placeHolder="Hymn Of Concecration No"
+                        placeHolder="Hymn Of Consecration No"
                         {...register("hymnOfConcecrationNo", {})}
                       />
                     </div>
-                    <div className=" h-[3.75rem]">
+                    <div className=" h-[3rem]">
+                      <Input
+                        type="text"
+                        placeHolder="Hymn Of Consecration No By"
+                        {...register("hymnOfConcecrationNoBy", {})}
+                      />
+                    </div>
+                    <div className=" h-[3rem]">
                       <Input
                         type="text"
                         placeHolder="Sermon Title"
                         {...register("sermonTitle", {})}
                       />
                     </div>
-                    <div className=" h-[3.75rem]">
+                    <div className=" h-[3rem]">
                       <Input
                         type="text"
                         placeHolder="Preacher"
                         {...register("preacher", {})}
                       />
                     </div>
-                    <div className=" h-[3.75rem]">
+                    <div className=" h-[3rem]">
                       <Input
                         type="text"
-                        placeHolder="Hymn Of Concecration No By"
+                        placeHolder="Hymn Of Consecration No By"
                         {...register("hymnOfConcecrationNoBy", {})}
                       />
                     </div>
-                    <div className=" h-[3.75rem]">
+                    <div className=" h-[3rem]">
                       <Input
                         type="text"
                         placeHolder="Closing Hymn No"
-                        {...register("divinceServiceClosingHymnNo", {})}
+                        {...register("divineServiceClosingHymnNo", {})}
                       />
                     </div>
-                    <div className=" h-[3.75rem]">
+                    <div className=" h-[3rem]">
                       <Input
                         type="text"
                         placeHolder="Closing Hymn By"
-                        {...register("divinceServiceClosingHymnBy", {})}
+                        {...register("divineServiceClosingHymnBy", {})}
                       />
                     </div>
-                    <div className=" h-[3.75rem]">
+                    <div className=" h-[3rem]">
                       <Input
                         type="text"
                         placeHolder="Benediction"
                         {...register("benediction", {})}
                       />
                     </div>
-                    <div className=" h-[3.75rem]">
+                    <div className=" h-[3rem]">
                       <Input
                         type="text"
                         placeHolder="Doxology"
                         {...register("doxology", {})}
+                        defaultValue="Congregation"
                       />
                     </div>
                   </div>
@@ -424,7 +486,7 @@ const CreateBulletin = () => {
                     <div className="font-semibold text-2xl">
                       <h2>Announcements</h2>
                     </div>
-                    <div className=" h-[3.75rem] w-full">
+                    <div className=" h-[3rem] w-full">
                       <div className="mb-12">
                         <div className="flex items-center mt-1">
                           <Select
@@ -436,12 +498,6 @@ const CreateBulletin = () => {
                             minMenuHeight={10}
                             closeMenuOnSelect={false}
                             components={animatedComponents}
-                            // value={announcements.map((item) => {
-                            //   return {
-                            //     label: item.content,
-                            //     value: item.content,
-                            //   };
-                            // })}
                             theme={
                               {
                                 borderRadius: 10,
@@ -493,14 +549,14 @@ const CreateBulletin = () => {
                   </div>
 
                   <div className=" md:w-full w-full grid grid-cols-2 gap-4 gap-y-3">
-                    <div className=" h-[3.75rem]">
+                    <div className=" h-[3rem]">
                       <Input
                         type="text"
                         placeHolder="Bible Verse"
                         {...register("pastorDeskBibleVerse", {})}
                       />
                     </div>
-                    <div className=" h-[3.75rem]">
+                    <div className=" h-[3rem]">
                       <Input
                         type="text"
                         placeHolder="Bible Verse Description"
