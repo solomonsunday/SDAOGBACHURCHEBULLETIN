@@ -28,21 +28,19 @@ const SabbathSchool = () => {
             </div>
 
             <div className="col-span-3 text-sm capitalize">
-              Opening Remark: (Welcome & Prayer)
+              Opening Remark / Welcome
             </div>
             <div className="text-xs">
               {publishedData?.openningRemarkBy || "--"}
             </div>
 
-            <div className="col-span-3 text-sm capitalize">
-              Welcome & Prayer
-            </div>
+            <div className="col-span-3 text-sm capitalize">Opening Prayer</div>
             <div className="text-xs">
               {publishedData?.openingPrayerBy || "--"}
             </div>
 
             <div className="col-span-3 text-sm capitalize">
-              Welcome / Supt's Opening Remark
+              Supt's Opening Remark
             </div>
             <div className="text-xs">
               {" "}
@@ -51,7 +49,7 @@ const SabbathSchool = () => {
 
             <div className="col-span-3 text-sm capitalize">
               {" "}
-              Welcome / Opening Hymn: ({publishedData?.openingHymn || "--"})
+              Opening Hymn: ({publishedData?.openingHymn || "--"})
             </div>
             <div className="text-xs capitalize">
               {" "}
