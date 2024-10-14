@@ -21,14 +21,14 @@ const SabbathSchool = () => {
           <div className="grid grid-cols-4 gap-2  border rounded-md border-orange-500 p-4 ">
             <div className="col-span-3 text-sm capitalize">
               {" "}
-              Singspiration ({publishedData?.singspirationTime || "--"})
+              Singspiration: ({publishedData?.singspirationTime || "--"})
             </div>
             <div className="text-xs capitalize">
               {publishedData?.songLeader || "--"}
             </div>
 
             <div className="col-span-3 text-sm capitalize">
-              Opening Remark (Welcome & Prayer)
+              Opening Remark: (Welcome & Prayer)
             </div>
             <div className="text-xs">
               {publishedData?.openningRemarkBy || "--"}
@@ -51,7 +51,7 @@ const SabbathSchool = () => {
 
             <div className="col-span-3 text-sm capitalize">
               {" "}
-              Welcome / Opening Hymn ({publishedData?.openingHymn || "--"})
+              Welcome / Opening Hymn: ({publishedData?.openingHymn || "--"})
             </div>
             <div className="text-xs capitalize">
               {" "}
@@ -92,7 +92,7 @@ const SabbathSchool = () => {
               {publishedData?.lessonIntroductionBy || "--"}{" "}
             </div>
             <div className="col-span-3 text-sm capitalize">
-              Unit Activities / Lesson Study (40 Mins)
+              Unit Activities / Lesson Study: (40 Mins)
             </div>
             <div className="text-xs capitalize">
               {" "}
@@ -108,6 +108,11 @@ const SabbathSchool = () => {
               {" "}
               {publishedData?.friendTimeBy || "--"}
             </div>
+            <div className="col-span-3 text-sm capitalize">Special Feature</div>
+            <div className="text-xs capitalize">
+              {" "}
+              {publishedData?.specialFeature || "--"}
+            </div>
             <div className="col-span-3 text-sm capitalize">
               Lesson Preview/Announcement / Closing Remark
             </div>
@@ -115,7 +120,7 @@ const SabbathSchool = () => {
               {publishedData?.annnouncementClosingRemarkBy || "--"}
             </div>
             <div className="col-span-3 text-sm capitalize">
-              Closing Hymn ({publishedData?.ssClosingHymnNo || "--"})
+              Closing Hymn: ({publishedData?.ssClosingHymnNo || "--"})
             </div>
             <div className="text-xs">
               {publishedData?.ssClosingHymnBy || "--"}

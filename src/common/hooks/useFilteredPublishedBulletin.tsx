@@ -20,12 +20,15 @@ const useFilteredPublishedBulletin = () => {
     const publishedBulletin = bulletins.filter(
       (bulletin) => bulletin.status === BulletinStatusEnum.PUBLISHED
     ); // Pick all the bulletin whose status is published
-    const bulletin = publishedBulletin.reduce((closest, current) => {
-      const currentDiff = Math.abs(+new Date(current.startDate) - today);
-      const closestDiff = Math.abs(+new Date(closest.startDate) - today);
+    const bulletin =
+      publishedBulletin.length > 0
+        ? publishedBulletin.reduce((closest, current) => {
+            const currentDiff = Math.abs(+new Date(current.startDate) - today);
+            const closestDiff = Math.abs(+new Date(closest.startDate) - today);
 
-      return currentDiff < closestDiff ? current : closest;
-    }); // then from the list of the published, select the bulletin which start date is closer to today's date
+            return currentDiff < closestDiff ? current : closest;
+          })
+        : null; // then from the list of the published, select the bulletin which start date is closer to today's date
 
     if (bulletin) {
       setPublishedData(bulletin);

@@ -316,9 +316,15 @@ const EditBulletin = ({ params }: { params: { slug: string } }) => {
 
                 <div className=" md:w-full w-full grid grid-cols-2 gap-4 gap-y-3">
                   <div className=" h-[3.75rem] cursor-pointer">
-                    {/* <span className="text-blue-600 italic">
-                      Select a start date
-                    </span> */}
+                    <span className=" italic">
+                      Select a start date{" "}
+                      <span className="text-red-500">*</span>{" "}
+                      {errors?.startDate && (
+                        <span className="text-red-500 italic">
+                          {errors.startDate.message}
+                        </span>
+                      )}
+                    </span>
                     <Input
                       type="date"
                       placeHolder="Start Date"
@@ -327,16 +333,16 @@ const EditBulletin = ({ params }: { params: { slug: string } }) => {
                       })}
                     />
                   </div>
-                  {errors?.startDate && (
-                    <p className="text-red-500 italic">
-                      {errors.startDate.message}
-                    </p>
-                  )}
 
                   <div className=" h-[3.75rem] cursor-pointer">
-                    {/* <span className="text-blue-600 italic">
-                      Select an end date
-                    </span> */}
+                    <span className=" italic">
+                      Select an end date <span className="text-red-500">*</span>
+                      {errors?.endDate && (
+                        <span className="text-red-500 italic">
+                          {errors.endDate.message}
+                        </span>
+                      )}
+                    </span>
                     <Input
                       type="date"
                       placeHolder="End Date"
@@ -345,11 +351,6 @@ const EditBulletin = ({ params }: { params: { slug: string } }) => {
                       })}
                     />
                   </div>
-                  {errors?.endDate && (
-                    <p className="text-red-500 italic">
-                      {errors.endDate.message}
-                    </p>
-                  )}
                 </div>
               </div>
               <div className="flex flex-col flex-wrap justify-between w-full gap-5 px-3 pt-6 pb-8 bg-white rounded-lg md:flex-row h-fit gap-y-3 gap-x-3 font-poppins">
@@ -387,7 +388,6 @@ const EditBulletin = ({ params }: { params: { slug: string } }) => {
                   </div>
                   <div className=" h-[3.75rem]">
                     <Input
-                      disabled
                       type="text"
                       placeHolder="Zoom link account"
                       {...register("onLineZoomLink", {})}
@@ -395,7 +395,6 @@ const EditBulletin = ({ params }: { params: { slug: string } }) => {
                   </div>
                   <div className="h-[3rem]">
                     <Input
-                      disabled
                       type="text"
                       placeHolder="Midweek prayer zoom link "
                       {...register("midweekPrayerZoomLink", {})}
@@ -403,7 +402,6 @@ const EditBulletin = ({ params }: { params: { slug: string } }) => {
                   </div>
                   <div className="h-[3rem]">
                     <Input
-                      disabled
                       type="text"
                       placeHolder="Early Morning Prayer zoom Link"
                       {...register("earlyMorningPrayerZoomLink", {})}

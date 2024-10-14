@@ -71,8 +71,8 @@ const ListBulletin = ({ params }: { params: { slug: string } }) => {
                 <div className="border border-orange-500 "></div>
               </div>
               <div className="space-y-2">
-                <div>
-                  <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 pl-8 ">
+                <div className="text-center flex justify-center ">
+                  <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 w-full">
                     <p className="text-orange-400 underline">
                       THEME FOR THIS QUARTER
                     </p>
@@ -81,16 +81,16 @@ const ListBulletin = ({ params }: { params: { slug: string } }) => {
                       : "-"}
                   </blockquote>
                 </div>
-                <div>
-                  <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 pl-8 ">
+                <div className="text-center flex justify-center ">
+                  <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 w-full ">
                     <p className="text-orange-400 underline">
                       TOPIC FOR THE WEEK
                     </p>
                     {bulletin?.topicForTheWeek ? bulletin.topicForTheWeek : "-"}
                   </blockquote>
                 </div>
-                <div>
-                  <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 pl-8 ">
+                <div className="text-center flex justify-center ">
+                  <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 w-full ">
                     <p className="text-orange-400 underline">MEMORY TEXT</p>
 
                     <span className="px-1 italic ">
@@ -109,8 +109,8 @@ const ListBulletin = ({ params }: { params: { slug: string } }) => {
                 </div>
 
                 {bulletin?.onLineZoomLink && (
-                  <div>
-                    <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 pl-8  overflow-auto">
+                  <div className="text-center flex justify-center ">
+                    <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 w-full  overflow-auto">
                       <a
                         href={bulletin?.onLineZoomLink}
                         target="_blank"

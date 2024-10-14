@@ -31,6 +31,29 @@ const CreateBulletin = () => {
 
   useEffect(() => {
     fetchAnnouncements();
+
+    setValue(
+      "onLineZoomLink",
+      "https://us02web.zoom.us/j/82591974493?pwd=Yk8vUEwrR1ZtZ1hvWEcvdFdjLzVWZz09",
+      {
+        shouldValidate: true,
+      }
+    );
+    setValue(
+      "earlyMorningPrayerZoomLink",
+      "https://us02web.zoom.us/j/82044972297?pwd=GmOaK1QcBfhnphBQ4KEQiUQnBwWilA",
+      {
+        shouldValidate: true,
+      }
+    );
+
+    setValue(
+      "midweekPrayerZoomLink",
+      "https://us02web.zoom.us/j/83976497702?pwd=TmJpa3VBU05XUWlHb1JVOTY3S1gyQT09",
+      {
+        shouldValidate: true,
+      }
+    );
   }, []);
 
   const submitData = () => {
@@ -77,7 +100,14 @@ const CreateBulletin = () => {
 
                   <div className=" md:w-full w-full grid grid-cols-2 gap-4 gap-y-3">
                     <div className=" h-[3rem]">
-                      <span className="font-semibold">Select a start date</span>
+                      <span className="font-semibold">
+                        Select a start date{" "}
+                        {errors?.startDate && (
+                          <span className="text-red-500 italic">
+                            {errors.startDate.message}
+                          </span>
+                        )}
+                      </span>
                       <Input
                         type="date"
                         placeHolder="Start Date"
@@ -86,13 +116,16 @@ const CreateBulletin = () => {
                         })}
                       />
                     </div>
-                    {errors?.startDate && (
-                      <p className="text-red-500 italic">
-                        {errors.startDate.message}
-                      </p>
-                    )}
+
                     <div className=" h-[3rem]">
-                      <span className="font-semibold">Select an end date</span>
+                      <span className="font-semibold">
+                        Select an end date{" "}
+                        {errors?.endDate && (
+                          <span className="text-red-500 italic">
+                            {errors.endDate.message}
+                          </span>
+                        )}
+                      </span>
                       <Input
                         type="date"
                         placeHolder="End Date"
@@ -147,7 +180,6 @@ const CreateBulletin = () => {
                         type="text"
                         placeHolder="zoom link"
                         {...register("onLineZoomLink", {})}
-                        defaultValue="https://us02web.zoom.us/j/82591974493?pwd=Yk8vUEwrR1ZtZ1hvWEcvdFdjLzVWZz09"
                       />
                     </div>
                     <div className="h-[3rem]">
@@ -156,7 +188,6 @@ const CreateBulletin = () => {
                         type="text"
                         placeHolder="midweek prayer zoom link "
                         {...register("midweekPrayerZoomLink", {})}
-                        defaultValue="https://us02web.zoom.us/j/83976497702?pwd=TmJpa3VBU05XUWlHb1JVOTY3S1gyQT09"
                       />
                     </div>
                     <div className="h-[3rem]">
@@ -165,7 +196,6 @@ const CreateBulletin = () => {
                         type="text"
                         placeHolder="early Morning Prayer zoom Link"
                         {...register("earlyMorningPrayerZoomLink", {})}
-                        defaultValue="https://us02web.zoom.us/j/83976497702?pwd=TmJpa3VBU05XUWlHb1JVOTY3S1gyQT09"
                       />
                     </div>
                   </div>
@@ -382,7 +412,7 @@ const CreateBulletin = () => {
                       <Input
                         type="text"
                         placeHolder="Spiritual Reading Bible VerseBy"
-                        {...register("scripturalReadingBibleVerse", {})}
+                        {...register("scripturalReadingBibleVerseBy", {})}
                       />
                     </div>{" "}
                     <div className=" h-[3rem]">
@@ -468,12 +498,6 @@ const CreateBulletin = () => {
                             minMenuHeight={10}
                             closeMenuOnSelect={false}
                             components={animatedComponents}
-                            // value={announcements.map((item) => {
-                            //   return {
-                            //     label: item.content,
-                            //     value: item.content,
-                            //   };
-                            // })}
                             theme={
                               {
                                 borderRadius: 10,
