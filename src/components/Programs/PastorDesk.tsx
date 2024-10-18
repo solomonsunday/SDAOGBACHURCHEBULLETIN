@@ -9,13 +9,14 @@ const PastorDesk = () => {
         </div>
         <div className="space-y-3">
           <div className="text-lg font-semibold underline">
-            <p className="dark:text-white">Psalms 51:10-12</p>
+            <p className="dark:text-white"> Joel 2:25</p>
           </div>
           <p className="text-orange-500">
-            "Create in me a clean heart, O God, And renew a steadfast spirit
-            within me. Do not cast me away from Your presence, And do not take
-            Your Holy Spirit from me. Restore to me the joy of Your salvation,
-            And uphold me by Your generous Spirit."
+            “So I will restore to you the years that the swarming locust has
+            eaten, The crawling locust, The consuming locust, And the chewing
+            locust, My great army which I sent among you. May the Almighty God,
+            who is great restorer, restore to you whatever good thing the enemy
+            deceitfully stole from you in Jesus name."
           </p>
         </div>
       </section>

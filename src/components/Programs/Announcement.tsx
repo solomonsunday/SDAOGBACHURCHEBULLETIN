@@ -22,10 +22,7 @@ const Announcement = () => {
             The hard copy in limited quantity is only for the Elderly ones who
             are not tech savvy or those without a smart phone.
           </li>
-          <li className="pb-2 border-b border-orange-200">
-            Thank God for the success of our Sabbath School Community Guest Day
-            last Sabbath.
-          </li>
+
           <li className="pb-2 border-b border-orange-200">
             Online prayer meeting / morning devotion holds every Sunday and
             Wednesday morning (5:00a.m -6:00a.m) via zoom. Zoom link to be
@@ -34,44 +31,40 @@ const Announcement = () => {
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            Thank God for the success of the just concluded WNUC ASAM Convention
-            at Scripture Union Nigeria, Ibadan.
+            Today is our Heritage Sabbath to be coordinated by the SOP
+            department.
+          </li>
+
+          <li className="pb-2 border-b border-orange-200">
+            There will be Week of Prayer from 2nd – 9th November, 2024. Let’s
+            prepare to be a part of this program.
           </li>
 
           <li className="pb-2 border-b border-orange-200">
             Pastors Appreciation Day comes up on 23/11/2024. Let’s plan for it’s
             success.
           </li>
-
           <li className="pb-2 border-b border-orange-200">
             The Ogba district Pastor, Pastor Happy Kona will be away on study
             leave from Sept.16th – Nov. 10th, 2024. Let’s support and uphold him
             in our prayers.
-          </li>
-
-          <li className="pb-2 border-b border-orange-200">
-          The family of Mr/Mrs. Godswill Obumneke Onuoha will be dedicating Baby Michelle Uloaku Obumneke to God today here in Ogba Church.
           </li>
           <li className="pb-2 border-b border-orange-200">
             There will be LMC Combined Worship here in Ogba on the 16th of
             November, 2024
           </li>
           <li className="pb-2 border-b border-orange-200">
-            ICT Department:{" "}
-            <span className="font-bold text-orange-500">
-              Please Redeem Your Pledges
-            </span>{" "}
-            to the Lord and support the Church media ministry if you are yet to
-            do so.. We need the following items for more effectiveness in the
-            ICT Department of the Church. (a) A laptop- Dell XPs 15 estimated at
-            ₦1,200,000. (b) A camera Sony NX3 estimated at ₦1,600,000.
+            ICT Department: to the Lord and support the Church media ministry if
+            you are yet to do so.. We need the following items for more
+            effectiveness in the ICT Department of the Church. (a) A laptop-
+            Dell XPs 15 estimated at ₦1,200,000. (b) A camera Sony NX3 estimated
+            at ₦1,600,000.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            <span className="font-bold">ICT Department:</span> Support the
-            Church media ministry. We need the following items for more
-            effectiveness in the ICT Department of the Church. (a) A laptop-
-            Dell XPs 15 estimated at ₦1,200,000.
-            <br /> (b) A camera Sony NX3 estimated at ₦1,600,000.
+            <span className="font-bold">ICT Department:</span>Kindly support the
+            Church media ministry if you are yet to do so.. We need the
+            following items for more effectiveness in the ICT Department of the
+            Church. (a) A Computer System. (b) A camera Sony NX3.
           </li>
           <li className="pb-2 border-b border-orange-200">
             LMC YAWM Retreat hold here in Ogba church from 25 - 27 October 2024.

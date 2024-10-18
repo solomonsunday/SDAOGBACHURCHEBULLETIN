@@ -12,29 +12,28 @@ const SabbathSchool = () => {
           Singspiration (8:45 AM)
         </div>
         <div className="text-xs capitalize">Song Leaders</div>
-
         <div className="col-span-3 text-sm capitalize">
-          Opening Remark / Welcome
+          Welcome/Opening Remark
         </div>
-        <div className="text-xs"> Bro. Chimezie Mbagwu</div>
-
+        <div className="text-xs"> Sis. Nkiru Nwaesiaba</div>
         <div className="col-span-3 text-sm capitalize">Opening Prayer</div>
-        <div className="text-xs">Sis. Gift Christopher</div>
-
+        <div className="text-xs">Bro. Stanley Hillary</div>
         <div className="col-span-3 text-sm capitalize">
           {" "}
-          Opening Hymn (SDAH 25)
+          Opening Hymn (SDAH 103)
         </div>
-        <div className="text-xs capitalize"> Bro. Uchendu Imo</div>
+        <div className="text-xs capitalize">Sis. Nkiru Nwaesiaba</div>
         <div className="col-span-3 text-sm capitalize"> Keeping on Course</div>
         <div className="text-xs capitalize">Bro. Idowu Oyeniyi</div>
+        <div className="col-span-3 text-sm capitalize"> Choruses</div>
+        <div className="text-xs capitalize">Shepherdess Ogechi Kona </div>
         <div className="col-span-3 text-sm capitalize"> Mission Spotlight </div>
         <div className="text-xs capitalize"> - </div>
         <div className="col-span-3 text-sm capitalize">
           {" "}
-          Lesson Study (Signs of Divinity){" "}
+          Lesson Study (The Backstory: The Prologue){" "}
         </div>
-        <div className="text-xs capitalize"> Bro. Chimeze Mbagwu </div>
+        <div className="text-xs capitalize"> Bro. Iruka Johnson </div>
 
         <div className="col-span-3 text-sm capitalize">
           {" "}
@@ -52,18 +51,29 @@ const SabbathSchool = () => {
         </div>
         <div className="text-xs capitalize">Bro. Uchendu Imo</div>
         <div className="col-span-3 text-sm capitalize">
-          Special Song: (Hillary Family)
+          Special Song: (Stanley Hillary & Family)
         </div>
-        <div className="text-xs capitalize">Sis. Kelechi Ejukwu</div>
-
+        <div className="text-xs capitalize">Bro. Uchendu Imo</div>
         <div className="col-span-3 text-sm capitalize">
-          Lesson Preview/Announcement / Closing Remark
+          Interview - (Pa Abel Oyelekan)
         </div>
-        <div className="text-xs capitalize">Bro. Chiemzie Mbagwu</div>
-        <div className="col-span-3 text-sm capitalize">Closing Hymn (229)</div>
-        <div className="text-xs"> Sis. Gift Christopher</div>
+        <div className="text-xs capitalize">Bro. Uchendu Imo</div>
+        <div className="col-span-3 text-sm capitalize">
+          Book Reviews Steps to Christ
+        </div>
+        <div className="text-xs capitalize">Bro, Onyedikachi Alala</div>
+        <div className="col-span-3 text-sm capitalize">
+          Literature Evangelism – Canvassing
+        </div>
+        <div className="text-xs capitalize"> Shepherdess Ogechi Kona</div>
+        <div className="col-span-3 text-sm capitalize">
+          Announcement / Closing Hymn (SDAH 348)
+        </div>
+        <div className="text-xs capitalize">Sis. Nkiru Nwaesiaba</div>
+        {/* <div className="col-span-3 text-sm capitalize">Closing Hymn (229)</div>
+        <div className="text-xs"> Sis. Gift Christopher</div> */}
         <div className="col-span-3 text-sm capitalize">Closing Prayer</div>
-        <div className="text-xs"> Bro. Idowu Oyeniyi</div>
+        <div className="text-xs"> Pastor Agbada</div>
       </div>
     </section>
   );
