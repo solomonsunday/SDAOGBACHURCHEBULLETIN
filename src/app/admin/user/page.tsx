@@ -12,8 +12,6 @@ import Switch from "react-switch";
 import { AppUsers } from "@/common/interfaces";
 import { useUpdateUserDetail } from "@/hooks/useUpdateUser";
 
-// import PaginationButton from "@/components/Common/PaginationButton.old";
-
 const User = () => {
   const router = useRouter();
 
