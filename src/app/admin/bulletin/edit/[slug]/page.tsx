@@ -284,7 +284,6 @@ const EditBulletin = ({ params }: { params: { slug: string } }) => {
       console.log(error);
     } finally {
       router.push("/admin/bulletin");
-      // Todo: make bulletin list page auto fetch data after an update and delete without refreshing it
     }
   };
   return (

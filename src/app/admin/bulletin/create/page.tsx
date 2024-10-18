@@ -142,10 +142,6 @@ const CreateBulletin = () => {
                   </div>
                   <div className="md:w-full w-full grid grid-cols-3 gap-4 gap-y-3">
                     <div className="h-[3rem]">
-                      {/* <span className="font-semibold">
-                        Theme for this quarter
-                      </span> */}
-
                       <Input
                         type="text"
                         placeHolder="theme for this quarter"
@@ -521,7 +517,6 @@ const CreateBulletin = () => {
                                 selectedAnnouncements,
                                 "selectedAnnouncementsrst"
                               );
-                              // setSelectedAnnouncements(anounce);
                               setValue("announcementIds", anounce, {
                                 shouldValidate: true,
                                 shouldDirty: true,
