@@ -1,137 +1,81 @@
-import useFilteredPublishedBulletin from "@/common/hooks/useFilteredPublishedBulletin";
 import React from "react";
-import { Spinner } from "../Common/Spinner";
 
 const SabbathSchool = () => {
-  const { loading, publishedData } = useFilteredPublishedBulletin();
-
   return (
-    <>
-      <section className="pt-10 dark:text-white" id="sabbathschool">
-        <div className="font-serif dark:text-orange-400 text-3xl pb-2 mb-5 text-[#304D30] text-center border-b border-[#304D30]">
-          Sabbath School <span className="text-base">(8:45 - 10:45 AM)</span>
+    <section className="pt-10 dark:text-white " id="sabbathschool">
+      <div className="font-serif dark:text-orange-400 text-3xl pb-2 mb-5 text-[#304D30] text-center border-b border-[#304D30]">
+        Sabbath School <span className="text-base">(8:45 - 10:45 AM)</span>
+      </div>
+      <div className="grid grid-cols-4 gap-2 border-8 rounded-md border-orange-500 p-3">
+        <div className="col-span-3 text-sm capitalize">
+          {" "}
+          Singspiration (8:45 AM)
         </div>
-        {loading ? (
-          <Spinner width={20} height={20} />
-        ) : !publishedData ? (
-          <p className="text-white flex items-center justify-center ">
-            No data created for this week!
-          </p>
-        ) : (
-          <div className="grid grid-cols-4 gap-2  border rounded-md border-orange-500 p-4 ">
-            <div className="col-span-3 text-sm capitalize">
-              {" "}
-              Singspiration: ({publishedData?.singspirationTime || "--"})
-            </div>
-            <div className="text-xs capitalize">
-              {publishedData?.songLeader || "--"}
-            </div>
+        <div className="text-xs capitalize">Song Leaders</div>
+        <div className="col-span-3 text-sm capitalize">
+          Welcome/Opening Remark
+        </div>
+        <div className="text-xs"> Sis. Nkiru Nwaesiaba</div>
+        <div className="col-span-3 text-sm capitalize">Opening Prayer</div>
+        <div className="text-xs">Bro. Stanley Hillary</div>
+        <div className="col-span-3 text-sm capitalize">
+          {" "}
+          Opening Hymn (SDAH 103)
+        </div>
+        <div className="text-xs capitalize">Sis. Nkiru Nwaesiaba</div>
+        <div className="col-span-3 text-sm capitalize"> Keeping on Course</div>
+        <div className="text-xs capitalize">Bro. Idowu Oyeniyi</div>
+        <div className="col-span-3 text-sm capitalize"> Choruses</div>
+        <div className="text-xs capitalize">Shepherdess Ogechi Kona </div>
+        <div className="col-span-3 text-sm capitalize"> Mission Spotlight </div>
+        <div className="text-xs capitalize"> - </div>
+        <div className="col-span-3 text-sm capitalize">
+          {" "}
+          Lesson Study (The Backstory: The Prologue){" "}
+        </div>
+        <div className="text-xs capitalize"> Bro. Iruka Johnson </div>
 
-            <div className="col-span-3 text-sm capitalize">
-              Opening Remark / Welcome
-            </div>
-            <div className="text-xs">
-              {publishedData?.openningRemarkBy || "--"}
-            </div>
-
-            <div className="col-span-3 text-sm capitalize">Opening Prayer</div>
-            <div className="text-xs">
-              {publishedData?.openingPrayerBy || "--"}
-            </div>
-
-            <div className="col-span-3 text-sm capitalize">
-              Supt's Opening Remark
-            </div>
-            <div className="text-xs">
-              {" "}
-              {publishedData?.openningRemarkBy || "--"}{" "}
-            </div>
-
-            <div className="col-span-3 text-sm capitalize">
-              {" "}
-              Opening Hymn: ({publishedData?.openingHymn || "--"})
-            </div>
-            <div className="text-xs capitalize">
-              {" "}
-              {publishedData?.openingHymnBy || "--"}
-            </div>
-
-            <div className="col-span-3 text-sm capitalize">
-              {" "}
-              Keeping on Course
-            </div>
-            <div className="text-xs capitalize">
-              {" "}
-              {publishedData?.keepingOnCourseBy}
-            </div>
-
-            <div className="col-span-3 text-sm capitalize">
-              {" "}
-              Mission Spotlight{" "}
-            </div>
-            <div className="text-xs capitalize">
-              {" "}
-              {publishedData?.missionSpotlightBy || "--"}{" "}
-            </div>
-
-            <div className="col-span-3 text-sm capitalize">
-              {" "}
-              Family Presentation{" "}
-            </div>
-            <div className="text-xs capitalize">
-              {publishedData?.FamilyPresentationBy || "--"}
-            </div>
-            <div className="col-span-3 text-sm capitalize">
-              {" "}
-              Study Time, Lesson Introduction
-            </div>
-            <div className="text-xs capitalize">
-              {" "}
-              {publishedData?.lessonIntroductionBy || "--"}{" "}
-            </div>
-            <div className="col-span-3 text-sm capitalize">
-              Unit Activities / Lesson Study: (40 Mins)
-            </div>
-            <div className="text-xs capitalize">
-              {" "}
-              {publishedData?.lessonIntroductionBy || "--"}{" "}
-            </div>
-            <div className="col-span-3 text-sm capitalize">Lesson Summary</div>
-            <div className="text-xs capitalize">
-              {" "}
-              {publishedData?.lessonSummaryBy || "--"}
-            </div>
-            <div className="col-span-3 text-sm capitalize">Friend's time</div>
-            <div className="text-xs capitalize">
-              {" "}
-              {publishedData?.friendTimeBy || "--"}
-            </div>
-            <div className="col-span-3 text-sm capitalize">Special Feature</div>
-            <div className="text-xs capitalize">
-              {" "}
-              {publishedData?.specialFeature || "--"}
-            </div>
-            <div className="col-span-3 text-sm capitalize">
-              Lesson Preview/Announcement / Closing Remark
-            </div>
-            <div className="text-xs capitalize">
-              {publishedData?.annnouncementClosingRemarkBy || "--"}
-            </div>
-            <div className="col-span-3 text-sm capitalize">
-              Closing Hymn: ({publishedData?.ssClosingHymnNo || "--"})
-            </div>
-            <div className="text-xs">
-              {publishedData?.ssClosingHymnBy || "--"}
-            </div>
-
-            <div className="col-span-3 text-sm capitalize">Closing Prayer</div>
-            <div className="text-xs">
-              {publishedData?.ssClosingPrayerBy || "--"}
-            </div>
-          </div>
-        )}
-      </section>
-    </>
+        <div className="col-span-3 text-sm capitalize">
+          {" "}
+          Family Presentation{" "}
+        </div>
+        <div className="text-xs capitalize">-</div>
+        <div className="col-span-3 text-sm capitalize">
+          Unit Activities / Lesson Study (40 Mins)
+        </div>
+        <div className="text-xs capitalize"> - </div>
+        <div className="col-span-3 text-sm capitalize">Lesson Summary</div>
+        <div className="text-xs capitalize"> - </div>
+        <div className="col-span-3 text-sm capitalize">
+          Welcome / Friend's time
+        </div>
+        <div className="text-xs capitalize">Bro. Uchendu Imo</div>
+        <div className="col-span-3 text-sm capitalize">
+          Special Song: (Stanley Hillary & Family)
+        </div>
+        <div className="text-xs capitalize">Bro. Uchendu Imo</div>
+        <div className="col-span-3 text-sm capitalize">
+          Interview - (Pa Abel Oyelekan)
+        </div>
+        <div className="text-xs capitalize">Bro. Uchendu Imo</div>
+        <div className="col-span-3 text-sm capitalize">
+          Book Reviews Steps to Christ
+        </div>
+        <div className="text-xs capitalize">Bro, Onyedikachi Alala</div>
+        <div className="col-span-3 text-sm capitalize">
+          Literature Evangelism – Canvassing
+        </div>
+        <div className="text-xs capitalize"> Shepherdess Ogechi Kona</div>
+        <div className="col-span-3 text-sm capitalize">
+          Announcement / Closing Hymn (SDAH 348)
+        </div>
+        <div className="text-xs capitalize">Sis. Nkiru Nwaesiaba</div>
+        {/* <div className="col-span-3 text-sm capitalize">Closing Hymn (229)</div>
+        <div className="text-xs"> Sis. Gift Christopher</div> */}
+        <div className="col-span-3 text-sm capitalize">Closing Prayer</div>
+        <div className="text-xs"> Pastor Agbada</div>
+      </div>
+    </section>
   );
 };
 
