@@ -41,8 +41,8 @@ const Announcement = () => {
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            Pastors Appreciation Day comes up on 23/11/2024. Let’s plan for it’s
-            success.
+            Pastors Appreciation Day for Ogba Church comes up on 23/11/2024
+            Let's plan for it's success.
           </li>
           <li className="pb-2 border-b border-orange-200">
             The Ogba district Pastor, Pastor Happy Kona will be away on study
@@ -54,11 +54,10 @@ const Announcement = () => {
             November, 2024
           </li>
           <li className="pb-2 border-b border-orange-200">
-            ICT Department: to the Lord and support the Church media ministry if
-            you are yet to do so.. We need the following items for more
-            effectiveness in the ICT Department of the Church. (a) A laptop-
-            Dell XPs 15 estimated at ₦1,200,000. (b) A camera Sony NX3 estimated
-            at ₦1,600,000.
+            ICT Department: Kindly support the Church media ministry if you are
+            yet to do so. We need the following items for more effectiveness in
+            the ICT Department of the Church a. A computer System b. A camera,
+            Sony NX3.
           </li>
           <li className="pb-2 border-b border-orange-200">
             <span className="font-bold">ICT Department:</span>Kindly support the
@@ -71,7 +70,7 @@ const Announcement = () => {
             Registration: #7,000
           </li>
           <li className="pb-2 border-b border-orange-200">
-            YM of LMC Youth Curriculum Campout holds Oct. 31st – Nov. 2nd, 2024
+            AYM Ogba Youth Curriculum Campout holds Oct. 31st – Nov. 2nd, 2024
             at Ogba Church, Registration is ₦3,000. Arrival time is 2p.m. Those
             to attend: Adventurers, Pathfinders, Ambassadors, Young Adult,
             Mentees, Master Guides.
