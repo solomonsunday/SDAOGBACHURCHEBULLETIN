@@ -1,6 +1,11 @@
+import useFilteredPublishedBulletin from "@/common/hooks/useFilteredPublishedBulletin";
 import React from "react";
+import { Spinner } from "../Common/Spinner";
 
 const Announcement = () => {
+  const { loading, publishedData } = useFilteredPublishedBulletin();
+  console.log(publishedData, "announcement");
+
   return (
     <section className="pt-10 " id="announcement">
       <div className="dark:text-orange-400 font-serif text-3xl pb-2 mb-5 text-[#304D30] text-center border-b border-[#304D30]">

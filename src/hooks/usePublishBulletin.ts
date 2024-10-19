@@ -15,7 +15,7 @@ export const usePublishBulletin = () => {
         const result = await httpPublishBulletin(id, status);
         if (result) {
           setMessage(result.data.data);
-          toast.success("Updated Successfully");
+          toast.success("Bulletin updated Successfully");
         }
       } catch (error) {
         let errorMessage: string = "";
