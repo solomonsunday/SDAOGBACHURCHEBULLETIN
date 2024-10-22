@@ -1,9 +1,7 @@
 "use client";
 import { toTitleCase } from "@/common/util";
-// import { ArrowSmallLeftIcon } from "@heroicons/react/24/outline";
 import { XMarkIcon } from "@heroicons/react/24/solid";
 import classnames from "classnames";
-// import { useRouter } from "next/navigation";
 
 interface IDialogProps {
   parameters: {
@@ -25,19 +23,11 @@ export default function ModalLayout({
   parameters.position = parameters?.position || "center";
   parameters.size = parameters?.size || "small";
 
-  // const { back } = useRouter();
-
   function renderHeader(): JSX.Element {
     return (
       <div className="sticky bg-white top-0 shadow-sm px-6 py-3 border-b">
         <div className="flex items-center justify-between">
           <div className="flex items-center">
-            {/* <ArrowSmallLeftIcon
-              width={20}
-              className="mb-1 mr-2 cursor-pointer"
-              onClick={() => back()}
-            /> */}
-
             <p className="text-lg mb-1 font-semibold">
               {toTitleCase(parameters.title)}
             </p>
