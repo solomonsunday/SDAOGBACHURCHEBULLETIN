@@ -5,6 +5,7 @@ import React, {
   SVGProps,
 } from "react";
 import { Spinner } from "../Common/Spinner";
+import Link from "next/link";
 
 export interface DashboardCard {
   bg_color: string;
@@ -14,6 +15,7 @@ export interface DashboardCard {
   data: string;
   textColor?: string;
   loading?: boolean;
+  link?: string;
   Icon?: ForwardRefExoticComponent<
     Omit<SVGProps<SVGSVGElement>, "ref"> & {
       title?: string | undefined;
@@ -32,9 +34,10 @@ export default function UsersChart(dashboardCardProps: DashboardCard) {
     textColor = "text-white",
     loading = false,
     Icon = InformationCircleIcon,
+    link =""
   } = dashboardCardProps;
   return (
-    <div
+    <Link href={link}
       className={`shadow-2xl ${[
         bg_color,
       ]} w-full md:w-1/2 rounded-xl p-8 pb-[.9375rem] font-poppins h-[10.8125rem] ${textColor}`}
@@ -54,6 +57,6 @@ export default function UsersChart(dashboardCardProps: DashboardCard) {
         </div>
       </div>
       <p className="pt-2">{description}</p>
-    </div>
+    </Link>
   );
 }

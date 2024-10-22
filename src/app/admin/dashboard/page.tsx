@@ -65,6 +65,7 @@ const Dashboard = () => {
                 description="Total number of bulletin created by admin"
                 loading={loadingBulletinData}
                 Icon={NewspaperIcon}
+                link="bulletin"
               />
             </div>
             <div className=" w-full md:flex-row flex-col h-fit flex justify-between rounded-[.7684rem] gap-[1.125rem]">
@@ -76,6 +77,7 @@ const Dashboard = () => {
                 description="Total number of admin that can create bulletin"
                 loading={loadingUserData}
                 Icon={UserGroupIcon}
+                link="user"
               />
               <UsersChart
                 data="Church"
