@@ -1,6 +1,5 @@
 import React from "react";
 
-
 const DivineService = () => {
   return (
     <div id="divineservice">
@@ -15,46 +14,37 @@ const DivineService = () => {
           <div className="col-span-3 text-sm">
             Call to Worship:(Zechariah 2:1-5)
           </div>
-          <div className="text-xs">Elder O. Alala</div>
-          {/* <div className="col-span-3 text-sm"> Doxology</div>
-          <div className="text-xs"> Congregation </div> */}
+          <div className="text-xs">Pst. D. Alabi</div>
           <div className="col-span-3 text-sm"> Invocation</div>
           <div className="text-xs"> Congregation</div>
-          <div className="col-span-3 text-sm"> Welcome</div>
-          <div className="text-xs">Bro. U. Imo </div>
-          <div className="col-span-3 text-sm">Adoration Hymn: (SDAH 532)</div>
-          <div className="text-xs"> Shepherdess O. Kona</div>
+          <div className="col-span-3 text-sm">Adoration Hymn: (SDAH 159)</div>
+          <div className="text-xs"> Mrs. A.O. Lasisi </div>
           <div className="col-span-3 text-sm"> Pastoral Prayer</div>
-          <div className="text-xs">Elder A. Chilaka</div>
+          <div className="text-xs">Elder C. Nwaogu</div>
           <div className="col-span-3 text-sm"> Stewardship </div>
-          <div className="text-xs">Elder A.B. Adedokun</div>
+          <div className="text-xs">Bro. O. Young</div>
           <div className="col-span-3 text-sm"> Musical Selection: (Choir) </div>
-          <div className="text-xs">Elizabeth Nwaesiaba</div>
-          {/* <div className="col-span-3 text-sm">
-            Induction: (Adventurer & Pathfinder Clubs)
-          </div>
-          <div className="text-xs">MG. F.L. Alonge </div> */}
+          <div className="text-xs">Bro. O. Young</div>
           <div className="col-span-3 text-sm">
-            Scripture Reading: (2 Peter 1:19-21)
+            Scripture Reading: (Romans 10:13-18)
           </div>
-          <div className="text-xs">Sis. Inioluwa Olusona </div>
+          <div className="text-xs">Mrs. E. Egbu </div>
           <div className="col-span-3 text-sm">
-            Hymn of Consecration (Go forth on Wings)
+            Hymn of Consecration (SDAC 109)
           </div>
-          <div className="text-xs">Sis. Inioluwa Olusona</div>
+          <div className="text-xs">Mrs. E. Egbu</div>
           <div className="col-span-3 text-sm">
             Sermon Title:{" "}
             <span className="font-bold text-orange-500">
               {" "}
-              "Sermon Title: The Spirit of Prophecy connects us to Jesus and the
-              Bible: God Speaks, We will listen?"
+              "Believe and Share the Good News"
             </span>
           </div>
-          <div className="text-xs"> Elder O. Alala</div>
-          <div className="col-span-3 text-sm">Closing Hymn: (SDAH 350)</div>
-          <div className="text-xs"> Elder A.B. Adedokun </div>
+          <div className="text-xs">Pst. D. Alabi</div>
+          <div className="col-span-3 text-sm">Closing Hymn: (SDAH 198)</div>
+          <div className="text-xs">Elder C. Nwaogu Benediction </div>
           <div className="col-span-3 text-sm">Benediction</div>
-          <div className="text-xs">Elder O. Alala</div>
+          <div className="text-xs">Pst. D. Alabi</div>
           <div className="col-span-3 text-sm">Doxology</div>
           <div className="text-xs"> Congregation</div>
         </div>
