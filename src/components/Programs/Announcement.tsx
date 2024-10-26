@@ -31,8 +31,21 @@ const Announcement = () => {
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            Today is our Heritage Sabbath to be coordinated by the SOP
-            department.
+            LMC YAWM Retreat is currently ongoing here in Ogba Church and will
+            end tomorrow. We pray for its success and safe journey for all
+            delegates
+          </li>
+
+          <li className="pb-2 border-b border-orange-200">
+            LMC AMO Monthly meeting holds here in Ogba Church tomorrow, 27th
+            October, 2024. Time is 11:00a.m. All men please endeavour to attend.
+          </li>
+
+          <li className="pb-2 border-b border-orange-200">
+            AYM Ogba Youth Curriculum Campout holds Oct. 31st – Nov. 2nd, 2024
+            at Ogba Church, Registration is ₦3,000. Arrival time is 2p.m. Those
+            to attend: Adventurers, Pathfinders, Ambassadors, Young Adult,
+            Mentees, Master Guides.
           </li>
 
           <li className="pb-2 border-b border-orange-200">
@@ -44,11 +57,13 @@ const Announcement = () => {
             Pastors Appreciation Day for Ogba Church comes up on 23/11/2024
             Let's plan for it's success.
           </li>
+
           <li className="pb-2 border-b border-orange-200">
             The Ogba district Pastor, Pastor Happy Kona will be away on study
             leave from Sept.16th – Nov. 10th, 2024. Let’s support and uphold him
             in our prayers.
           </li>
+
           <li className="pb-2 border-b border-orange-200">
             There will be LMC Combined Worship here in Ogba on the 16th of
             November, 2024
@@ -56,25 +71,16 @@ const Announcement = () => {
           <li className="pb-2 border-b border-orange-200">
             ICT Department: Kindly support the Church media ministry if you are
             yet to do so. We need the following items for more effectiveness in
-            the ICT Department of the Church a. A computer System b. A camera,
+            the ICT Department of the Church a. A camera,
             Sony NX3.
           </li>
-          <li className="pb-2 border-b border-orange-200">
+          {/* <li className="pb-2 border-b border-orange-200">
             <span className="font-bold">ICT Department:</span>Kindly support the
             Church media ministry if you are yet to do so.. We need the
             following items for more effectiveness in the ICT Department of the
-            Church. (a) A Computer System. (b) A camera Sony NX3.
-          </li>
-          <li className="pb-2 border-b border-orange-200">
-            LMC YAWM Retreat hold here in Ogba church from 25 - 27 October 2024.
-            Registration: #7,000
-          </li>
-          <li className="pb-2 border-b border-orange-200">
-            AYM Ogba Youth Curriculum Campout holds Oct. 31st – Nov. 2nd, 2024
-            at Ogba Church, Registration is ₦3,000. Arrival time is 2p.m. Those
-            to attend: Adventurers, Pathfinders, Ambassadors, Young Adult,
-            Mentees, Master Guides.
-          </li>
+            Church. (a) A camera Sony NX3.
+          </li> */}
+
           <li className="pb-2 border-b border-orange-200">
             ⁠WAD impact evangelism holds next year March. Ogba District has been
             assigned 6 centers. Members are encouraged to support this program.

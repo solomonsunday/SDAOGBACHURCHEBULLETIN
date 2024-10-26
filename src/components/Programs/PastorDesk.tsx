@@ -1,7 +1,7 @@
 import React from "react";
 
 const PastorDesk = () => {
-return (
+  return (
     <div id="pastordesk">
       <section className="pt-10 pb-10" id="features">
         <div className="dark:text-orange-400 font-serif text-3xl pb-4 mb-5 text-[#304D30] text-center border-b border-[#304D30]">
@@ -9,14 +9,15 @@ return (
         </div>
         <div className="space-y-3">
           <div className="text-lg font-semibold underline">
-            <p className="dark:text-white"> Joel 2:25</p>
+            <p className="dark:text-white"> Philippians 2:5-8</p>
           </div>
           <p className="text-orange-500">
-            “So I will restore to you the years that the swarming locust has
-            eaten, The crawling locust, The consuming locust, And the chewing
-            locust, My great army which I sent among you. May the Almighty God,
-            who is great restorer, restore to you whatever good thing the enemy
-            deceitfully stole from you in Jesus name."
+            “Let this mind be in you which was also in Christ Jesus, who being
+            in the form of God, did not consider it robbery to be equal with
+            God, but made himself of no reputation, taking the form of a
+            bondservant, and coming in the likeness of men. And being found in
+            appearance as a man, He humbled Himself and became obedient to the
+            point of death, even the death of the cross"
           </p>
         </div>
       </section>
