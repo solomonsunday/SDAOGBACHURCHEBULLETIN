@@ -31,33 +31,24 @@ const Announcement = () => {
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            LMC YAWM Retreat is currently ongoing here in Ogba Church and will
-            end tomorrow. We pray for its success and safe journey for all
-            delegates
+            AYM of Ogba Youth Curriculum Campout is currently ongoing here in
+            Ogba Church and will end today. We pray for it success.
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            LMC AMO Monthly meeting holds here in Ogba Church tomorrow, 27th
-            October, 2024. Time is 11:00a.m. All men please endeavour to attend.
+            This coming week will be our Week of Prayer from 2nd -9th November,
+            2024. Let’s prepare to be a part of this program.
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            AYM Ogba Youth Curriculum Campout holds Oct. 31st – Nov. 2nd, 2024
-            at Ogba Church, Registration is ₦3,000. Arrival time is 2p.m. Those
-            to attend: Adventurers, Pathfinders, Ambassadors, Young Adult,
-            Mentees, Master Guides.
+            Ogba Church AMO Monthly meeting holds tomorrow 3rd November, 2024.
+            All men are expected to be in attendance and your presence will be
+            highly appreciated. Time: 9:30a.m. Venue is Board Room.
           </li>
-
-          <li className="pb-2 border-b border-orange-200">
-            There will be Week of Prayer from 2nd – 9th November, 2024. Let’s
-            prepare to be a part of this program.
-          </li>
-
           <li className="pb-2 border-b border-orange-200">
             Pastors Appreciation Day for Ogba Church comes up on 23/11/2024
             Let's plan for it's success.
           </li>
-
           <li className="pb-2 border-b border-orange-200">
             The Ogba district Pastor, Pastor Happy Kona will be away on study
             leave from Sept.16th – Nov. 10th, 2024. Let’s support and uphold him
@@ -71,8 +62,7 @@ const Announcement = () => {
           <li className="pb-2 border-b border-orange-200">
             ICT Department: Kindly support the Church media ministry if you are
             yet to do so. We need the following items for more effectiveness in
-            the ICT Department of the Church a. A camera,
-            Sony NX3.
+            the ICT Department of the Church a. A camera, Sony NX3.
           </li>
           {/* <li className="pb-2 border-b border-orange-200">
             <span className="font-bold">ICT Department:</span>Kindly support the
