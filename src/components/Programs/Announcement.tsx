@@ -4,7 +4,6 @@ import { Spinner } from "../Common/Spinner";
 
 const Announcement = () => {
   const { loading, publishedData } = useFilteredPublishedBulletin();
-  console.log(publishedData, "announcement");
 
   return (
     <section className="pt-10 " id="announcement">
