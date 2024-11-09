@@ -12,25 +12,28 @@ const SabbathSchool = () => {
           Singspiration (8:45 AM)
         </div>
         <div className="text-xs capitalize">Song Leaders</div>
-        <div className="col-span-3 text-sm capitalize">
+        {/* <div className="col-span-3 text-sm capitalize">
           Welcome/Opening Remark
         </div>
-        <div className="text-xs">Bro. Chimezie Mbagwu</div>
+        <div className="text-xs">Bro. Chimezie Mbagwu</div> */}
         <div className="col-span-3 text-sm capitalize">Opening Prayer</div>
-        <div className="text-xs">Bro. Benjamin Oshiotse</div>
+        <div className="text-xs">Bro. Iruka Johnson</div>
         <div className="col-span-3 text-sm capitalize">
-          Opening Hymn (SDAH 370)
+          Opening Hymn (SDAH 245)
         </div>
-        <div className="text-xs capitalize">Sis. Miriam Okorie</div>
-        <div className="col-span-3 text-sm capitalize"> Keeping on Course</div>
-        <div className="text-xs capitalize">Elder Abiodun Adebayo</div>
+        <div className="text-xs capitalize">Bro. Idowu Oyeniyi</div>
+        <div className="col-span-3 text-sm capitalize">
+          {" "}
+          Keeping on Course (Bro. Chimezie Mbagwu)
+        </div>
+        <div className="text-xs capitalize">Bro. Lucky Ezekiel</div>
         <div className="col-span-3 text-sm capitalize"> Mission Spotlight </div>
         <div className="text-xs capitalize"> - </div>
         <div className="col-span-3 text-sm capitalize">
           {" "}
-          Lesson Study (Witnesses of Christ as the Messiah)){" "}
+          Lesson Study (Witnesses of Christ as the Messiah)
         </div>
-        <div className="text-xs capitalize">Bro. Chimezie Mbagwu</div>
+        <div className="text-xs capitalize">Bro. Iruka Johnson</div>
 
         <div className="col-span-3 text-sm capitalize">
           {" "}
@@ -47,21 +50,24 @@ const SabbathSchool = () => {
           Welcome / Friend's time
         </div>
         <div className="text-xs capitalize"> Sis. Miriam Okorie</div>
-        <div className="col-span-3 text-sm capitalize">
-          Special Song: (Youth Choir)
-        </div>
-        <div className="text-xs capitalize">Youth Choir</div>
+        <div className="col-span-3 text-sm capitalize">Special Song</div>
+        <div className="text-xs capitalize">Bro. Idowu Oyeniyi</div>
+
+        <div className="col-span-3 text-sm capitalize">Couples Quiz</div>
+        <div className="text-xs capitalize">Bro. Fikayo Alonge</div>
         <div className="col-span-3 text-sm capitalize">
           Closing Remark/Announcement
         </div>
-        <div className="text-xs capitalize">Bro. Chimezie Mbagwu</div>
+        <div className="text-xs capitalize">Bro. Iruka Johnson</div>
 
         <div className="col-span-3 text-sm capitalize">
           Closing Hymn (SDAH 457)
         </div>
-        <div className="text-xs capitalize"> Bro. Benjamin Oshiotse</div>
-        <div className="col-span-3 text-sm capitalize">Closing Prayer</div>
-        <div className="text-xs">Elder Abiodun Adebayo</div>
+        <div className="text-xs capitalize"> Bro. Iruka Johnson</div>
+        <div className="col-span-3 text-sm capitalize">
+          Closing Prayer - (Elder Abiodun Adebayo)
+        </div>
+        <div className="text-xs">Bro. Lucky Ezekiel</div>
       </div>
     </section>
   );

@@ -9,7 +9,7 @@ const PastorDesk = () => {
         </div>
         <div className="space-y-3">
           <div className="text-lg font-semibold underline">
-            <p className="dark:text-white"> Psalm 51:10</p>
+            <p className="dark:text-white">Psalm 51:10</p>
           </div>
           <p className="text-orange-500">
             “Create in me a pure heart, O God, and renew a steadfast spirit

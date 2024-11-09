@@ -31,19 +31,18 @@ const Announcement = () => {
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            AYM of Ogba Youth Curriculum Campout is currently ongoing here in
-            Ogba Church and will end today. We pray for it success.
+            Today is the climax of our Week of Prayer program. May God grant
+            answers to our petitions..
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            This coming week will be our Week of Prayer from 2nd -9th November,
-            2024. Let’s prepare to be a part of this program.
+            AYM Ogba Adventurers and Pathfinders class achievement examinations
+            holds tomorrow 10/11/2024. Time is 10:00a.m – 12:30p.m at Children
+            Church. Appearance is Class A Uniform.
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            Ogba Church AMO Monthly meeting holds tomorrow 3rd November, 2024.
-            All men are expected to be in attendance and your presence will be
-            highly appreciated. Time: 9:30a.m. Venue is Board Room.
+            Next Sabbath is LMC Combined Worship here in Ogba.
           </li>
           <li className="pb-2 border-b border-orange-200">
             Pastors Appreciation Day for Ogba Church comes up on 23/11/2024
@@ -54,23 +53,11 @@ const Announcement = () => {
             leave from Sept.16th – Nov. 10th, 2024. Let’s support and uphold him
             in our prayers.
           </li>
-
-          <li className="pb-2 border-b border-orange-200">
-            There will be LMC Combined Worship here in Ogba on the 16th of
-            November, 2024
-          </li>
           <li className="pb-2 border-b border-orange-200">
             ICT Department: Kindly support the Church media ministry if you are
             yet to do so. We need the following items for more effectiveness in
             the ICT Department of the Church a. A camera, Sony NX3.
           </li>
-          {/* <li className="pb-2 border-b border-orange-200">
-            <span className="font-bold">ICT Department:</span>Kindly support the
-            Church media ministry if you are yet to do so.. We need the
-            following items for more effectiveness in the ICT Department of the
-            Church. (a) A camera Sony NX3.
-          </li> */}
-
           <li className="pb-2 border-b border-orange-200">
             ⁠WAD impact evangelism holds next year March. Ogba District has been
             assigned 6 centers. Members are encouraged to support this program.

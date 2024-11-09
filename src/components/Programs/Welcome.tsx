@@ -38,7 +38,7 @@ const Welcome = () => {
         <div className="text-center flex justify-center">
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2  w-full">
             <p className="text-orange-400 underline">TOPIC FOR THE WEEK</p>
-            The Testimony of the Samaritans
+            More Testimonies About Jesus
           </blockquote>
         </div>
         <div className="text-center flex justify-center">
@@ -46,10 +46,9 @@ const Welcome = () => {
             <p className="text-orange-400 underline">MEMORY TEXT</p>
 
             <span className="px-1 text-xs italic">
-              “Then they said to the woman, ‘Now we believe, not because of what
-              you said, for we ourselves have heard Him and we know that this is
-              indeed the Christ, the Savoir of the world”
-              <span className="font-bold">(John 4:42 NKJV)</span>
+              “And I, if I am lifted up from the earth, will draw all peoples to
+              Myself”
+              <span className="font-bold">(John 12:32 NKJV)</span>
             </span>
           </blockquote>
         </div>

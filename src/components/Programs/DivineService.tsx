@@ -14,37 +14,37 @@ const DivineService = () => {
           <div className="col-span-3 text-sm">
             Call to Worship:(Hebrew 4:11-12)
           </div>
-          <div className="text-xs">Elder G. Adeoti</div>
+          <div className="text-xs">Elder V.O. Oyenuga</div>
           <div className="col-span-3 text-sm"> Invocation</div>
           <div className="text-xs"> Congregation</div>
           <div className="col-span-3 text-sm">Adoration Hymn: (SDAH 272)</div>
-          <div className="text-xs">Bro. S. Oyelekan </div>
+          <div className="text-xs">Mrs. O. Happy Kona </div>
           <div className="col-span-3 text-sm"> Pastoral Prayer</div>
-          <div className="text-xs">Elder E.J, Agbara</div>
+          <div className="text-xs"> Elder A. Ajie</div>
           <div className="col-span-3 text-sm"> Stewardship </div>
-          <div className="text-xs"> Elder A. Adebayo</div>
+          <div className="text-xs"> Elder T. Aina </div>
           <div className="col-span-3 text-sm"> Musical Selection: (Choir) </div>
-          <div className="text-xs">Elder A. Adebayo</div>
+          <div className="text-xs"> Elder T. Aina </div>
           <div className="col-span-3 text-sm">
-            Scripture Reading: (MATHEW 7:24-27)
+            Scripture Reading: (Revelation 14:6-12)
           </div>
-          <div className="text-xs">Mrs. C. NwachukwU</div>
+          <div className="text-xs">Bro. C. Nwaesiaba</div>
           <div className="col-span-3 text-sm">
-            Hymn of Consecration (SDAC 270)
+            Hymn of Consecration (SDAC 216)
           </div>
-          <div className="text-xs">Mrs. C. Nwachukwu</div>
+          <div className="text-xs">Bro. C. Nwaesiaba</div>
           <div className="col-span-3 text-sm">
             Sermon Title:{" "}
             <span className="font-bold text-orange-500">
               {" "}
-              "The World OF God In The Life OF The CHurch"
+              "The Word and the Final Proclamation of the Gospel"
             </span>
           </div>
-          <div className="text-xs">Elder G. Adeoti</div>
+          <div className="text-xs">Elder V.O. Oyenuga</div>
           <div className="col-span-3 text-sm">Closing Hymn: (SDAH 272)</div>
-          <div className="text-xs">Elder E.J, Agbara </div>
+          <div className="text-xs">Elder A. Ajie </div>
           <div className="col-span-3 text-sm">Benediction</div>
-          <div className="text-xs">Elder G. Adeoti</div>
+          <div className="text-xs">Elder V.O. Oyenuga</div>
           <div className="col-span-3 text-sm">Doxology</div>
           <div className="text-xs"> Congregation</div>
         </div>
