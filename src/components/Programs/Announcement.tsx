@@ -31,27 +31,27 @@ const Announcement = () => {
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            Today is the climax of our Week of Prayer program. May God grant
-            answers to our petitions..
+            Today is LMC Combined Worship here in Ogba Church
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            AYM Ogba Adventurers and Pathfinders class achievement examinations
-            holds tomorrow 10/11/2024. Time is 10:00a.m – 12:30p.m at Children
-            Church. Appearance is Class A Uniform.
+            SDA Church Ogba Church Board meeting holds tomorrow by 11:00a.m here
+            in the Board Room..
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            Next Sabbath is LMC Combined Worship here in Ogba.
+            Next Sabbath is our Pastors Appreciation day for Ogba Church. Let’s
+            come bearing our gifts and make it a memorable one.
           </li>
+
           <li className="pb-2 border-b border-orange-200">
-            Pastors Appreciation Day for Ogba Church comes up on 23/11/2024
-            Let's plan for it's success.
+            Ogba Church Harvest Thanksgiving Service comes up on 30/11/2024.
+            Let’s plan for its success.
           </li>
+
           <li className="pb-2 border-b border-orange-200">
-            The Ogba district Pastor, Pastor Happy Kona will be away on study
-            leave from Sept.16th – Nov. 10th, 2024. Let’s support and uphold him
-            in our prayers.
+            We are happy to announce the safe return of our District Pastor,
+            Pst. Happy Kona who was away on Sabbatical.
           </li>
           <li className="pb-2 border-b border-orange-200">
             ICT Department: Kindly support the Church media ministry if you are

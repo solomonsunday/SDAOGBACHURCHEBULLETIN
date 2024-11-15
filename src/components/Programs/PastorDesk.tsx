@@ -9,18 +9,14 @@ const PastorDesk = () => {
         </div>
         <div className="space-y-3">
           <div className="text-lg font-semibold underline">
-            <p className="dark:text-white">Psalm 51:10</p>
+            <p className="dark:text-white">Psalm 100:3-5</p>
           </div>
           <p className="text-orange-500">
-            “Create in me a pure heart, O God, and renew a steadfast spirit
-            within me. Have you ever felt like your relationship with God needed
-            a fresh start? It’s as if there’s a glitch in the connection,
-            causing you to feel distant or stuck. Just like a computer or phone
-            that needs a reboot when it’s not functioning properly, our
-            relationship with God sometimes require a reset too. David
-            understand the need for a reboot, a fresh start, a renewed spirit.
-            He wanted to restore his relationship with God and remove anything
-            that kept the apart."
+            “Know that the Lord, He is God; It is He who has made us, and not we
+            ourselves; We are His people and the sheep of His pasture. Enter
+            into His gates with thanksgiving, And into His courts with praise.
+            Be thankful to Him, and bless His name. For the Lord is good; His
+            mercy is everlasting, And His truth endures to all generation."
           </p>
         </div>
       </section>

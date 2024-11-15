@@ -34,7 +34,7 @@ const ListBulletin = ({ params }: { params: { slug: string } }) => {
       <Container className="md:px-[3.125rem] px-[2.5rem] pt-6 pb-7 ">
         <div className="flex items-center justify-between">
           <div className="flex flex-wrap gap-5 justify-between ml-[.125rem] mr-[.625rem]">
-            <BackButton text="Bulletin List Page" />
+            <BackButton text="Users List Page" />
           </div>
           <div className="gap-2 p-3">
             <Button

@@ -17,7 +17,7 @@ const SabbathSchool = () => {
         </div>
         <div className="text-xs">Bro. Chimezie Mbagwu</div> */}
         <div className="col-span-3 text-sm capitalize">Opening Prayer</div>
-        <div className="text-xs">Bro. Iruka Johnson</div>
+        <div className="text-xs">-</div>
         <div className="col-span-3 text-sm capitalize">
           Opening Hymn (SDAH 245)
         </div>
@@ -51,7 +51,7 @@ const SabbathSchool = () => {
         </div>
         <div className="text-xs capitalize"> Sis. Miriam Okorie</div>
         <div className="col-span-3 text-sm capitalize">Special Song</div>
-        <div className="text-xs capitalize">Bro. Idowu Oyeniyi</div>
+        <div className="text-xs capitalize">Shepherdess International</div>
 
         <div className="col-span-3 text-sm capitalize">Couples Quiz</div>
         <div className="text-xs capitalize">Bro. Fikayo Alonge</div>
