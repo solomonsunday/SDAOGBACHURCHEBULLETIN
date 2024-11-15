@@ -33,7 +33,7 @@ const SabbathSchool = () => {
           {" "}
           Lesson Study (Witnesses of Christ as the Messiah)
         </div>
-        <div className="text-xs capitalize">Bro. Iruka Johnson</div>
+        <div className="text-xs capitalize">-</div>
 
         <div className="col-span-3 text-sm capitalize">
           {" "}
@@ -49,25 +49,23 @@ const SabbathSchool = () => {
         <div className="col-span-3 text-sm capitalize">
           Welcome / Friend's time
         </div>
-        <div className="text-xs capitalize"> Sis. Miriam Okorie</div>
+        <div className="text-xs capitalize"> -</div>
         <div className="col-span-3 text-sm capitalize">Special Song</div>
         <div className="text-xs capitalize">Shepherdess International</div>
 
         <div className="col-span-3 text-sm capitalize">Couples Quiz</div>
-        <div className="text-xs capitalize">Bro. Fikayo Alonge</div>
+        <div className="text-xs capitalize">-</div>
         <div className="col-span-3 text-sm capitalize">
           Closing Remark/Announcement
         </div>
-        <div className="text-xs capitalize">Bro. Iruka Johnson</div>
+        <div className="text-xs capitalize">-</div>
 
         <div className="col-span-3 text-sm capitalize">
           Closing Hymn (SDAH 457)
         </div>
-        <div className="text-xs capitalize"> Bro. Iruka Johnson</div>
-        <div className="col-span-3 text-sm capitalize">
-          Closing Prayer - (Elder Abiodun Adebayo)
-        </div>
-        <div className="text-xs">Bro. Lucky Ezekiel</div>
+        <div className="text-xs capitalize"> -</div>
+        <div className="col-span-3 text-sm capitalize">Closing Prayer -</div>
+        <div className="text-xs">-</div>
       </div>
     </section>
   );
