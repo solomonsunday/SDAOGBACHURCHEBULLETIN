@@ -31,27 +31,19 @@ const Announcement = () => {
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            Today is LMC Combined Worship here in Ogba Church
+            Ogba Church Harvest Thanksgiving service comes up next Sabbath.
+            Let’s plan for it’s success.
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            SDA Church Ogba Church Board meeting holds tomorrow by 11:00a.m here
-            in the Board Room..
+            Ogba Church Singles Prison Visitation comes up on 14/12/2024, let’s
+            support this project with items for female inmates (clothes, dollop
+            slippers, sanitary and personal care supplies) and pray for it’s
+            success.
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            Next Sabbath is our Pastors Appreciation day for Ogba Church. Let’s
-            come bearing our gifts and make it a memorable one.
-          </li>
-
-          <li className="pb-2 border-b border-orange-200">
-            Ogba Church Harvest Thanksgiving Service comes up on 30/11/2024.
-            Let’s plan for its success.
-          </li>
-
-          <li className="pb-2 border-b border-orange-200">
-            We are happy to announce the safe return of our District Pastor,
-            Pst. Happy Kona who was away on Sabbatical.
+            Today is Our Pastors Appreciation Day
           </li>
           <li className="pb-2 border-b border-orange-200">
             ICT Department: Kindly support the Church media ministry if you are
@@ -59,10 +51,16 @@ const Announcement = () => {
             the ICT Department of the Church a. A camera, Sony NX3.
           </li>
           <li className="pb-2 border-b border-orange-200">
+            Stewardship Week holds from November 30th – December. 7th, 2024.
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            Keep the Church environment clean. Dispose every trash properly in
+            the waste baskets.{" "}
+          </li>
+          <li className="pb-2 border-b border-orange-200">
             ⁠WAD impact evangelism holds next year March. Ogba District has been
             assigned 6 centers. Members are encouraged to support this program.
           </li>
-
           <li className="pb-2 border-b border-orange-200">
             <span className="font-bold">
               PAN AFRICAN YOUTH CONGRESS (ECD / SID / WAD) holds as follows:
@@ -71,7 +69,6 @@ const Announcement = () => {
             Registration: Early Bird-#57,000 This is for Senior Youths & Master
             Guides
           </li>
-
           <li className="pb-2 border-b border-orange-200">
             Support the Church projects for this year: (a) Empowerment of
             members (b) Oke-Ira evangelism project (c) Reconstruction and

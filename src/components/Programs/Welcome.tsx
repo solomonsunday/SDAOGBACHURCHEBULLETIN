@@ -38,7 +38,7 @@ const Welcome = () => {
         <div className="text-center flex justify-center">
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2  w-full">
             <p className="text-orange-400 underline">TOPIC FOR THE WEEK</p>
-            Blessed Are Those Who Believe
+            Fulfilling Old Testament Prophecies
           </blockquote>
         </div>
         <div className="text-center flex justify-center">
@@ -46,8 +46,10 @@ const Welcome = () => {
             <p className="text-orange-400 underline">MEMORY TEXT</p>
 
             <span className="px-1 text-xs italic">
-              “Jesus said to him, ‘Thomas, because you have seen Me, you have believed. Blessed are those who have not seen and yet have believed”
-              <span className="font-bold">(John 20:29 NKJV)</span>
+              “But I have a greater witness than John’s; for the works which the
+              Father has given Me to finish the very works that I do bear
+              witness of Me, that the Father has sent Me”
+              <span className="font-bold">(John 5:36 NKJV)</span>
             </span>
           </blockquote>
         </div>

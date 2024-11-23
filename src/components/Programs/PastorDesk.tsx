@@ -9,14 +9,17 @@ const PastorDesk = () => {
         </div>
         <div className="space-y-3">
           <div className="text-lg font-semibold underline">
-            <p className="dark:text-white">Psalm 100:3-5</p>
+            <p className="dark:text-white">Matthew 5:23-24</p>
           </div>
           <p className="text-orange-500">
-            “Know that the Lord, He is God; It is He who has made us, and not we
-            ourselves; We are His people and the sheep of His pasture. Enter
-            into His gates with thanksgiving, And into His courts with praise.
-            Be thankful to Him, and bless His name. For the Lord is good; His
-            mercy is everlasting, And His truth endures to all generation."
+            “Therefore if you bring your gift to the altar, and there remember
+            that your brother has something against you, leave your gift there
+            before the altar and go your way. First be reconciled to your
+            brother, and then come and offer your gift. Don’t go about the
+            worship of God with a mouthful of scriptures and songs, yet with a
+            heart full of hate, grudge, bitterness and unforgiveness against a
+            brother/sister. Forgiveness, peace and reconciliation are part of
+            Christian duty."
           </p>
         </div>
       </section>
