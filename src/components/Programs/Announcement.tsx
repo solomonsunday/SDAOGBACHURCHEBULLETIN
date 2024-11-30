@@ -31,19 +31,19 @@ const Announcement = () => {
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            Ogba Church Harvest Thanksgiving service comes up next Sabbath.
-            Let’s plan for it’s success.
+            Today is our Harvest Thanksgiving Celebration
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            Ogba Church Singles Prison Visitation comes up on 14/12/2024, let’s
-            support this project with items for female inmates (clothes, dollop
-            slippers, sanitary and personal care supplies) and pray for it’s
-            success.
+            Ogba Church Singles' Prison visitation comes up on the 14/12/2024,
+            let’s support this project with items for female inmates ( clothes,
+            dollop slippers, Sanitary and personal care supplies) and pray for
+            its success.
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            Today is Our Pastors Appreciation Day
+            There will be Combined worship and officers Dedication here in Ogba
+            church on 14/12/2024
           </li>
           <li className="pb-2 border-b border-orange-200">
             ICT Department: Kindly support the Church media ministry if you are

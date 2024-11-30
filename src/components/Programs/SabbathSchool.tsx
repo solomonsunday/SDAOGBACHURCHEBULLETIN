@@ -15,22 +15,22 @@ const SabbathSchool = () => {
         <div className="col-span-3 text-sm capitalize">
           Welcome/Opening Remark
         </div>
-        <div className="text-xs">MG. Maurine Gospel</div>
+        <div className="text-xs">-</div>
 
         <div className="col-span-3 text-sm capitalize">Opening Prayer</div>
-        <div className="text-xs">Ran. David Lucky</div>
+        <div className="text-xs">-</div>
         <div className="col-span-3 text-sm capitalize">
           Opening Hymn (SDAH 249)
         </div>
-        <div className="text-xs capitalize">Sun. Darasimi Adebayo</div>
+        <div className="text-xs capitalize">-</div>
         <div className="col-span-3 text-sm capitalize"> Keeping on Course</div>
-        <div className="text-xs capitalize">Com. Gift Christopher </div>
+        <div className="text-xs capitalize">- </div>
         <div className="col-span-3 text-sm capitalize"> Mission Spotlight </div>
-        <div className="text-xs capitalize"> Com. Gift Christopher </div>
+        <div className="text-xs capitalize"> - </div>
         <div className="col-span-3 text-sm capitalize">
           Lesson Study (Fulfilling Old Testament Prophecies)
         </div>
-        <div className="text-xs capitalize"> MG. Maurine Gospel</div>
+        <div className="text-xs capitalize"> -</div>
 
         <div className="col-span-3 text-sm capitalize">
           {" "}
@@ -42,11 +42,11 @@ const SabbathSchool = () => {
         </div>
         <div className="text-xs capitalize">-</div>
         <div className="col-span-3 text-sm capitalize">Lesson Summary</div>
-        <div className="text-xs capitalize">Elder Ajie Anthony</div>
+        <div className="text-xs capitalize">-</div>
         <div className="col-span-3 text-sm capitalize">
           Welcome / Friend's time
         </div>
-        <div className="text-xs capitalize"> MG. Maurine Gospel</div>
+        <div className="text-xs capitalize"> -</div>
         {/* <div className="col-span-3 text-sm capitalize">Special Song</div>
         <div className="text-xs capitalize">Shepherdess International</div> */}
         {/* 
@@ -55,14 +55,14 @@ const SabbathSchool = () => {
         <div className="col-span-3 text-sm capitalize">
           Closing Remark/Announcement
         </div>
-        <div className="text-xs capitalize">Deac. Chimezie Mbagwu</div>
+        <div className="text-xs capitalize">-</div>
 
         <div className="col-span-3 text-sm capitalize">
           Closing Hymn (SDAH 4)
         </div>
-        <div className="text-xs capitalize"> Sun. Darasimi Adebayo</div>
+        <div className="text-xs capitalize"> -</div>
         <div className="col-span-3 text-sm capitalize">Closing Prayer</div>
-        <div className="text-xs">Com. Chioma Chima</div>
+        <div className="text-xs">-</div>
       </div>
     </section>
   );

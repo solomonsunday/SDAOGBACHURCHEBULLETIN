@@ -38,7 +38,7 @@ const Welcome = () => {
         <div className="text-center flex justify-center">
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2  w-full">
             <p className="text-orange-400 underline">TOPIC FOR THE WEEK</p>
-            Fulfilling Old Testament Prophecies
+            The Source of Life
           </blockquote>
         </div>
         <div className="text-center flex justify-center">
@@ -46,10 +46,9 @@ const Welcome = () => {
             <p className="text-orange-400 underline">MEMORY TEXT</p>
 
             <span className="px-1 text-xs italic">
-              “But I have a greater witness than John’s; for the works which the
-              Father has given Me to finish the very works that I do bear
-              witness of Me, that the Father has sent Me”
-              <span className="font-bold">(John 5:36 NKJV)</span>
+              “‘I am the way, the truth, and the life. No one comes to the
+              Father except through Me”
+              <span className="font-bold">(John 14:6 NKJV)</span>
             </span>
           </blockquote>
         </div>
@@ -73,16 +72,16 @@ const Welcome = () => {
           </blockquote>
         </div>
         <div className="text-center flex justify-center">
-          <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 w-full  overflow-auto">
+          <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 w-full  overflow-auto bg-cover bg-no-repeat bg-[url('/assets/imgs/welcome/midweek-img.jpg')] h-36">
             <a
               href="https://us02web.zoom.us/j/83976497702?pwd=TmJpa3VBU05XUWlHb1JVOTY3S1gyQT09"
               target="_blank"
-              className="text-blue-700 cursor-pointer "
+              className="cursor-pointer "
             >
-              <div className="">
-                <p className="underline">Join us to pray on Midweek</p>
+              <div className=" text-green-950 font-bold shadow-2xl">
+                {/* <p className="underline">Join us to pray on Midweek</p> */}
                 <p>Click here to join us online</p>
-                <span className="text-xs text-orange-500">
+                <span className="">
                   Time: 8:00 PM Every Wednesday
                 </span>
               </div>
@@ -90,21 +89,20 @@ const Welcome = () => {
           </blockquote>
         </div>
         <div className="text-center flex justify-center">
-          <blockquote className="rounded-lg capitalize bg-[#304D30] py-2 w-full relative overflow-auto">
+          <blockquote className="rounded-lg capitalize py-2 w-full relative overflow-auto bg-cover bg-no-repeat bg-[url('/assets/imgs/welcome/early-morning.jpg')] h-36">
             <div className="right-0 pr-1 pt-0 absolute">
-              <div className="bg-red-700 text-white px-2  rounded-lg">New</div>
+              {/* <div className="bg-red-700 text-white px-2 rounded-lg">New</div> */}
             </div>
             <a
               href="https://us02web.zoom.us/j/82044972297?pwd=GmOaK1QcBfhnphBQ4KEQiUQnBwWilA.1"
               target="_blank"
-              className="text-orange-500 cursor-pointer "
+              className="cursor-pointer "
             >
-              <div className="">
-                <p className="underline">Early Morning Prayer</p>
-
-                <p>Click here to join us online</p>
-                <span className="text-xs text-orange-500">
-                  Time: 5:00 AM Every Wednesday and Sunday
+              <div className="text-black text-lg font-bold shadow-2xl">
+                {/* <p className="underline">Early Morning Prayer</p> */}
+                <p className="">Click here to join us online</p>
+                <span className=" text-white">
+                   5AM Every Wednesday & Sunday
                 </span>
               </div>
             </a>
