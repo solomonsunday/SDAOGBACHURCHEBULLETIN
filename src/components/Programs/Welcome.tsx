@@ -72,7 +72,7 @@ const Welcome = () => {
           </blockquote>
         </div>
         <div className="text-center flex justify-center">
-          <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 w-full  overflow-auto bg-cover bg-no-repeat bg-[url('/assets/imgs/welcome/midweek-img.jpg')] h-36">
+          <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 w-full  overflow-auto bg-cover bg-no-repeat bg-[url('/assets/imgs/welcome/midweek-img.jpg')] h-[150px]">
             <a
               href="https://us02web.zoom.us/j/83976497702?pwd=TmJpa3VBU05XUWlHb1JVOTY3S1gyQT09"
               target="_blank"
@@ -89,7 +89,7 @@ const Welcome = () => {
           </blockquote>
         </div>
         <div className="text-center flex justify-center">
-          <blockquote className="rounded-lg capitalize py-2 w-full relative overflow-auto bg-cover bg-no-repeat bg-[url('/assets/imgs/welcome/early-morning.jpg')] h-36">
+          <blockquote className="rounded-lg capitalize py-2 w-full relative overflow-auto bg-cover bg-no-repeat bg-[url('/assets/imgs/welcome/early-morning.jpg')] h-[150px]">
             <div className="right-0 pr-1 pt-0 absolute">
               {/* <div className="bg-red-700 text-white px-2 rounded-lg">New</div> */}
             </div>
