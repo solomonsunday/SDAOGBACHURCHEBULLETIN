@@ -22,25 +22,37 @@ const Announcement = () => {
             The hard copy in limited quantity is only for the Elderly ones who
             are not tech savvy or those without a smart phone.
           </li>
-
           <li className="pb-2 border-b border-orange-200">
             Online prayer meeting / morning devotion holds every Sunday and
             Wednesday morning (5:00a.m -6:00a.m) via zoom. Zoom link to be
             shared on the church’s WhatsApp, Facebook and Instagram platforms,
             you can also find the Zoom links on the e-bulletin app
           </li>
-
           <li className="pb-2 border-b border-orange-200">
-            Today is our Harvest Thanksgiving Celebration
+            Today is the climax of our Stewardship week, may God help us to be
+            faithful stewards
           </li>
-
           <li className="pb-2 border-b border-orange-200">
-            Ogba Church Singles' Prison visitation comes up on the 14/12/2024,
-            let’s support this project with items for female inmates ( clothes,
-            dollop slippers, Sanitary and personal care supplies) and pray for
-            its success.
+            Ogba Master Guide Club & Water Drive Medical check up holds today
+            immediately after service. Church members are encouraged to attend.{" "}
           </li>
-
+          <li className="pb-2 border-b border-orange-200">
+            Church Board meets tomorrow by 11:00a.m. Venue is board room.
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            Next Sabbath is District Combined Worship and Officers Dedication
+            here in Ogba church.
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            Church Board meets tomorrow by 11:00a.m. Venue is board room.
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            Ogba Church Singles Prison Visitation slated to hold next Sabbath
+            has been postponed due to the officers’ dedication program, a new
+            date will be communicated. Let’s support this project with items for
+            female inmates (clothes, dollop slippers, sanitary and personal care
+            supplies) and pray for It’s success.
+          </li>
           <li className="pb-2 border-b border-orange-200">
             There will be Combined worship and officers Dedication here in Ogba
             church on 14/12/2024
@@ -51,11 +63,17 @@ const Announcement = () => {
             the ICT Department of the Church a. A camera, Sony NX3.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            Stewardship Week holds from November 30th – December. 7th, 2024.
-          </li>
-          <li className="pb-2 border-b border-orange-200">
             Keep the Church environment clean. Dispose every trash properly in
             the waste baskets.{" "}
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            Retired Pastor A.O. Oladeinde passed away within the week. Let’s
+            pray for his family.
+          </li>{" "}
+          <li className="pb-2 border-b border-orange-200">
+            Pastors Ordination: There will be ordination service on January 25th
+            2025 for the following Pastors: Adekanye S.A., Babalola V.A, Happy
+            Kona and Majolagbe T.C. Congratulations.
           </li>
           <li className="pb-2 border-b border-orange-200">
             ⁠WAD impact evangelism holds next year March. Ogba District has been
@@ -76,7 +94,6 @@ const Announcement = () => {
             Fence (e) Construction of more toilets facilities (f) Raising of the
             Church School to Standard
           </li>
-
           <li className="pb-2 border-b border-orange-200">
             Return your faithful tithes and give generous offerings. Send your
             tithes, offerings and other donations to the church account{" "}

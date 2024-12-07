@@ -15,14 +15,14 @@ const SabbathSchool = () => {
         <div className="col-span-3 text-sm capitalize">
           Welcome/Opening Remark
         </div>
-        <div className="text-xs">-</div>
+        <div className="text-xs">Sis. Adeola Adedokun</div>
 
         <div className="col-span-3 text-sm capitalize">Opening Prayer</div>
-        <div className="text-xs">-</div>
+        <div className="text-xs">Sis. Adeola Adedokun</div>
         <div className="col-span-3 text-sm capitalize">
-          Opening Hymn (SDAH 249)
+          Opening Hymn (SDAH 012)
         </div>
-        <div className="text-xs capitalize">-</div>
+        <div className="text-xs capitalize">Bro. Chimezie Mbagwu</div>
         <div className="col-span-3 text-sm capitalize"> Keeping on Course</div>
         <div className="text-xs capitalize">- </div>
         <div className="col-span-3 text-sm capitalize"> Mission Spotlight </div>
@@ -30,7 +30,7 @@ const SabbathSchool = () => {
         <div className="col-span-3 text-sm capitalize">
           Lesson Study (Fulfilling Old Testament Prophecies)
         </div>
-        <div className="text-xs capitalize"> -</div>
+        <div className="text-xs capitalize">Bro. Iruka Johnson</div>
 
         <div className="col-span-3 text-sm capitalize">
           {" "}
@@ -46,7 +46,7 @@ const SabbathSchool = () => {
         <div className="col-span-3 text-sm capitalize">
           Welcome / Friend's time
         </div>
-        <div className="text-xs capitalize"> -</div>
+        <div className="text-xs capitalize">Sis. Funke Oyekale</div>
         {/* <div className="col-span-3 text-sm capitalize">Special Song</div>
         <div className="text-xs capitalize">Shepherdess International</div> */}
         {/* 
@@ -55,14 +55,16 @@ const SabbathSchool = () => {
         <div className="col-span-3 text-sm capitalize">
           Closing Remark/Announcement
         </div>
-        <div className="text-xs capitalize">-</div>
+        <div className="text-xs capitalize">Bro. Chimezie Mbagwu</div>
 
         <div className="col-span-3 text-sm capitalize">
-          Closing Hymn (SDAH 4)
+          Closing Hymn (SDAH 322)
         </div>
-        <div className="text-xs capitalize"> -</div>
-        <div className="col-span-3 text-sm capitalize">Closing Prayer</div>
-        <div className="text-xs">-</div>
+        <div className="text-xs capitalize">Bro. Chimezie Mbagwu</div>
+        <div className="col-span-3 text-sm capitalize">
+          Closing Prayer (Elder Olusona)
+        </div>
+        <div className="text-xs"> Sis. Funke Oyekale</div>
       </div>
     </section>
   );

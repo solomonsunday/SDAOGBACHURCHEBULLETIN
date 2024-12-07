@@ -38,7 +38,7 @@ const Welcome = () => {
         <div className="text-center flex justify-center">
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2  w-full">
             <p className="text-orange-400 underline">TOPIC FOR THE WEEK</p>
-            The Source of Life
+            The Way, the Truth, and the Life
           </blockquote>
         </div>
         <div className="text-center flex justify-center">
@@ -46,9 +46,9 @@ const Welcome = () => {
             <p className="text-orange-400 underline">MEMORY TEXT</p>
 
             <span className="px-1 text-xs italic">
-              “‘I am the way, the truth, and the life. No one comes to the
-              Father except through Me”
-              <span className="font-bold">(John 14:6 NKJV)</span>
+              “No one has seen God at any time. The only begotten Son, who is in
+              the bosom of the Father, He has declared Him”
+              <span className="font-bold">(John 1:18 NKJV)</span>
             </span>
           </blockquote>
         </div>
@@ -81,15 +81,13 @@ const Welcome = () => {
               <div className=" text-green-950 font-bold shadow-2xl">
                 {/* <p className="underline">Join us to pray on Midweek</p> */}
                 <p>Click here to join us online</p>
-                <span className="">
-                  Time: 8:00 PM Every Wednesday
-                </span>
+                <span className="">Time: 8:00 PM Every Wednesday</span>
               </div>
             </a>
           </blockquote>
         </div>
         <div className="text-center flex justify-center">
-          <blockquote className="rounded-lg capitalize py-2 w-full relative overflow-auto bg-cover bg-no-repeat bg-[url('/assets/imgs/welcome/early-morning.jpg')] h-[150px]">
+          <blockquote className="rounded-lg capitalize py-2 w-full relative overflow-auto sm:bg-cover sm:bg-no-repeat sm:bg-[url('/assets/imgs/welcome/early-morning.jpg')] sm:h-[150px] md:bg-[#304D30]">
             <div className="right-0 pr-1 pt-0 absolute">
               {/* <div className="bg-red-700 text-white px-2 rounded-lg">New</div> */}
             </div>
@@ -102,7 +100,7 @@ const Welcome = () => {
                 {/* <p className="underline">Early Morning Prayer</p> */}
                 <p className="">Click here to join us online</p>
                 <span className=" text-white">
-                   5AM Every Wednesday & Sunday
+                  5AM Every Wednesday & Sunday
                 </span>
               </div>
             </a>
