@@ -29,34 +29,24 @@ const Announcement = () => {
             you can also find the Zoom links on the e-bulletin app
           </li>
           <li className="pb-2 border-b border-orange-200">
-            Today is the climax of our Stewardship week, may God help us to be
-            faithful stewards
+            You are welcome to Ogba District Combine Worship and Officers
+            Dedication Service.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            Ogba Master Guide Club & Water Drive Medical check up holds today
-            immediately after service. Church members are encouraged to attend.{" "}
+            AYM Ogba Year-End Thanksgiving program holds today. Time: 2:00p.m.
+            Venue: Children Church. Theme: TEHILA (Praise)
           </li>
           <li className="pb-2 border-b border-orange-200">
-            Church Board meets tomorrow by 11:00a.m. Venue is board room.
+            There will be an emergency Church at Business meeting next Sabbath
+            after the divine servive.{" "}
           </li>
-          <li className="pb-2 border-b border-orange-200">
-            Next Sabbath is District Combined Worship and Officers Dedication
-            here in Ogba church.
-          </li>
-          <li className="pb-2 border-b border-orange-200">
-            Church Board meets tomorrow by 11:00a.m. Venue is board room.
-          </li>
-          <li className="pb-2 border-b border-orange-200">
+          {/* <li className="pb-2 border-b border-orange-200">
             Ogba Church Singles Prison Visitation slated to hold next Sabbath
             has been postponed due to the officers’ dedication program, a new
             date will be communicated. Let’s support this project with items for
             female inmates (clothes, dollop slippers, sanitary and personal care
             supplies) and pray for It’s success.
-          </li>
-          <li className="pb-2 border-b border-orange-200">
-            There will be Combined worship and officers Dedication here in Ogba
-            church on 14/12/2024
-          </li>
+          </li> */}
           <li className="pb-2 border-b border-orange-200">
             ICT Department: Kindly support the Church media ministry if you are
             yet to do so. We need the following items for more effectiveness in

@@ -38,7 +38,7 @@ const Welcome = () => {
         <div className="text-center flex justify-center">
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2  w-full">
             <p className="text-orange-400 underline">TOPIC FOR THE WEEK</p>
-            The Way, the Truth, and the Life
+            The Father, the Son, and the Spirit
           </blockquote>
         </div>
         <div className="text-center flex justify-center">
@@ -46,9 +46,10 @@ const Welcome = () => {
             <p className="text-orange-400 underline">MEMORY TEXT</p>
 
             <span className="px-1 text-xs italic">
-              “No one has seen God at any time. The only begotten Son, who is in
-              the bosom of the Father, He has declared Him”
-              <span className="font-bold">(John 1:18 NKJV)</span>
+              “The Helper, the Holy Spirit, whom the Father will send in My
+              name, He will teach you all things, and bring to your remembrance
+              all things that I said to you”
+              <span className="font-bold">(John 14:26 NKJV)</span>
             </span>
           </blockquote>
         </div>
@@ -72,7 +73,7 @@ const Welcome = () => {
           </blockquote>
         </div>
         <div className="text-center flex justify-center">
-          <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 w-full  overflow-auto bg-cover bg-no-repeat bg-[url('/assets/imgs/welcome/midweek-img.jpg')] h-[150px]">
+          <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 w-full  overflow-auto bg-cover bg-no-repeat bg-[url('/assets/imgs/welcome/midweek-img.jpg')] h-[190px]">
             <a
               href="https://us02web.zoom.us/j/83976497702?pwd=TmJpa3VBU05XUWlHb1JVOTY3S1gyQT09"
               target="_blank"
@@ -87,7 +88,7 @@ const Welcome = () => {
           </blockquote>
         </div>
         <div className="text-center flex justify-center">
-          <blockquote className="rounded-lg capitalize py-2 w-full relative overflow-auto sm:bg-cover sm:bg-no-repeat sm:bg-[url('/assets/imgs/welcome/early-morning.jpg')] sm:h-[150px] md:bg-[#304D30]">
+          <blockquote className="rounded-lg capitalize py-2 w-full relative overflow-auto sm:bg-cover sm:bg-no-repeat sm:bg-[url('/assets/imgs/welcome/early-morning.jpg')] sm:h-[190px] md:bg-[#304D30]">
             <div className="right-0 pr-1 pt-0 absolute">
               {/* <div className="bg-red-700 text-white px-2 rounded-lg">New</div> */}
             </div>

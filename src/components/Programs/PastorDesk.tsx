@@ -14,12 +14,14 @@ const PastorDesk = () => {
             </p>
           </div>
           <p className="text-orange-500">
-            “The idea of stewardship should have a practical bearing upon all
-            the people of God…. Practical benevolence will give spiritual life
-            to thousands of nominal professors’ of the truth who now mourn over
-            their darkness. It will transform them from selfish, covetous
-            worshipers of mammon, to earnest, faithful coworkers with Christ in
-            the salvation of sinners.. "
+            “All who labour in the cause of God in any capacity, should be
+            whole-hearted in the work. There is a lesson for us in the
+            experience of Gideon’s’ army. Those whose hearts were in the work
+            were so earnest that they would not stop to kneel by the brook to
+            drink, but dipped up the water in their hands as they hurried to the
+            battle, and these are the ones whom God used… The Lord God of Israel
+            is watching every worker, to see whether he is earnest. Happy
+            Sabbath Beloved Saints of God "
           </p>
         </div>
       </section>
