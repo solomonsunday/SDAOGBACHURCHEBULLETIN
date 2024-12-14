@@ -57,17 +57,18 @@ const Announcement = () => {
             the waste baskets.{" "}
           </li>
           <li className="pb-2 border-b border-orange-200">
-            Retired Pastor A.O. Oladeinde passed away within the week. Let’s
-            pray for his family.
-          </li>{" "}
-          <li className="pb-2 border-b border-orange-200">
             Pastors Ordination: There will be ordination service on January 25th
             2025 for the following Pastors: Adekanye S.A., Babalola V.A, Happy
             Kona and Majolagbe T.C. Congratulations.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            ⁠WAD impact evangelism holds next year March. Ogba District has been
-            assigned 6 centers. Members are encouraged to support this program.
+            WAD Impact Advisory for all Pastors, First Elders and Personal
+            Ministry leaders @ Ede. Date is Jan. 29- Feb. 1, 2025.
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            WAD impact evangelism holds next year, March 2 - 15 2025 Ogba
+            District now has 2 centers, Members are encouraged to support this
+            program..
           </li>
           <li className="pb-2 border-b border-orange-200">
             <span className="font-bold">
@@ -78,11 +79,10 @@ const Announcement = () => {
             Guides
           </li>
           <li className="pb-2 border-b border-orange-200">
-            Support the Church projects for this year: (a) Empowerment of
-            members (b) Oke-Ira evangelism project (c) Reconstruction and
-            renovation of the baptistry (d) Renovation and beautification of the
-            Fence (e) Construction of more toilets facilities (f) Raising of the
-            Church School to Standard
+            12. Support the Church projects for this year a. Empowerment of
+            members b. Oke Ira evangelism project c. Renovation and
+            beautification of the Fence d. Construction of more toilets
+            facilities e. Raising of the Church school to Standard.
           </li>
           <li className="pb-2 border-b border-orange-200">
             Return your faithful tithes and give generous offerings. Send your
