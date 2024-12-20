@@ -38,7 +38,7 @@ const Welcome = () => {
         <div className="text-center flex justify-center">
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2  w-full">
             <p className="text-orange-400 underline">TOPIC FOR THE WEEK</p>
-            The Father, the Son, and the Spirit
+            The Hour of Glory: The Cross and Resurrection
           </blockquote>
         </div>
         <div className="text-center flex justify-center">
@@ -46,10 +46,11 @@ const Welcome = () => {
             <p className="text-orange-400 underline">MEMORY TEXT</p>
 
             <span className="px-1 text-xs italic">
-              “The Helper, the Holy Spirit, whom the Father will send in My
-              name, He will teach you all things, and bring to your remembrance
-              all things that I said to you”
-              <span className="font-bold">(John 14:26 NKJV)</span>
+              “Then Pilate said to him, So you are a king? Jesus answered, ‘You
+              say that I am a king. For this purpose I was born and for this
+              purpose I have come into the world to bear witness to the truth.
+              Everyone who is of the truth listens to my voice”
+              <span className="font-bold"> (John 18:37 NKJV)</span>
             </span>
           </blockquote>
         </div>

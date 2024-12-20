@@ -11,38 +11,37 @@ const DivineService = () => {
         <div className="grid grid-cols-4 gap-2">
           <div className="col-span-3 text-sm "> Prelude</div>
           <div className="text-xs"> Organist</div>
-          <div className="col-span-3 text-sm">Call to Worship: (SDAH 832)</div>
-          <div className="text-xs">Pst. Uchegbue U.O.</div>
+          <div className="col-span-3 text-sm">Call to Worship: (Hebrew 9:27)</div>
+          <div className="text-xs">Elder Anthony Ajie</div>
           <div className="col-span-3 text-sm"> Invocation</div>
-          <div className="text-xs">Pst. Uchegbue U.O.</div>
-          <div className="col-span-3 text-sm">Adoration Hymn: (SDAH 528)</div>
-          <div className="text-xs">Elder Njoku Vitalis </div>
+          <div className="text-xs">Congregation</div>
+          <div className="col-span-3 text-sm">Adoration Hymn: (SDAH 523)</div>
+          <div className="text-xs">Mrs. Olanike Davies </div>
           <div className="col-span-3 text-sm"> Pastoral Prayer</div>
-          <div className="text-xs">Pst. Kona Happy U.</div>
+          <div className="text-xs">Elder Promise Nwaejigh</div>
           <div className="col-span-3 text-sm"> Stewardship </div>
-          <div className="text-xs"> Elder Gbenga Adeoti</div>
+          <div className="text-xs">Deacon Ugo Azomaukwu</div>
           <div className="col-span-3 text-sm"> Musical Selection: (Choir) </div>
-          <div className="text-xs">Mrs. Saturday Esther </div>
+          <div className="text-xs">Deacon Ugo Azomaukwu</div>
           <div className="col-span-3 text-sm">
-            Scripture Reading: (Exodus 18:13-23)
+            Scripture Reading: (Deuteronomy 30:19)
           </div>
-          <div className="text-xs">MG Francis Chidera</div>
+          <div className="text-xs">Sis. Kelechi Ejukwu</div>
           <div className="col-span-3 text-sm">
-            Hymn of Consecration (SDAH 359)
+            Hymn of Consecration (SDAH 212)
           </div>
-          <div className="text-xs">Sis. Chioma Otti</div>
-
+          <div className="text-xs">Sis. Kelechi Ejukwu</div>
           <div className="col-span-3 text-sm">
             Sermon Title:{" "}
             <span className="font-bold text-orange-500">
-              " Called to Hold the Prophet’s Hand"
+              "BIRTH and DEATH"
             </span>
           </div>
-          <div className="text-xs">Pst. Uchegbue U,O.</div>
-          <div className="col-span-3 text-sm">Closing Hymn: (SDAH 576)</div>
-          <div className="text-xs"> Elder Gbenga Adeoti</div>
+          <div className="text-xs">Elder Anthony Ajie</div>
+          <div className="col-span-3 text-sm">Closing Hymn: (SDAH 430)</div>
+          <div className="text-xs">Elder Promise Nwaejigh</div>
           <div className="col-span-3 text-sm">Benediction</div>
-          <div className="text-xs">Pst. Uchegbue U,O.</div>
+          <div className="text-xs">Elder Anthony Ajie</div>
           <div className="col-span-3 text-sm">Doxology</div>
           <div className="text-xs"> Congregation</div>
         </div>

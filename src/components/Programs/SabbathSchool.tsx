@@ -18,20 +18,19 @@ const SabbathSchool = () => {
         <div className="text-xs">Bro. Chimezie Mbagwu</div>
 
         <div className="col-span-3 text-sm capitalize">Opening Prayer</div>
-        <div className="text-xs">Sis. Chika Promise</div>
+        <div className="text-xs">Sis. Nkeiru Ihesiaba Wogu</div>
         <div className="col-span-3 text-sm capitalize">
-          Opening Hymn (SDAH 007)
+          Opening Hymn (SDAH 163)
         </div>
-        <div className="text-xs capitalize">Sis. Nkeiru Ihesiaba Wogu</div>
+        <div className="text-xs capitalize">Sis. Kelechi Nwachukwu</div>
         <div className="col-span-3 text-sm capitalize"> Keeping on Course</div>
-        <div className="text-xs capitalize">Bro. Bright Enyia </div>
+        <div className="text-xs capitalize">Bro. Benjamin Oshiotse </div>
         <div className="col-span-3 text-sm capitalize"> Mission Spotlight </div>
         <div className="text-xs capitalize"> - </div>
         <div className="col-span-3 text-sm capitalize">
           Lesson Study (The Father, The Son, and The Spirit)
         </div>
-        <div className="text-xs capitalize"> Sis. Dawn Walson</div>
-
+        <div className="text-xs capitalize">Bro. Chimezie Mbagwu</div>
         <div className="col-span-3 text-sm capitalize">
           {" "}
           Family Presentation
@@ -50,7 +49,7 @@ const SabbathSchool = () => {
         <div className="col-span-3 text-sm capitalize">
           Special Presentation
         </div>
-        <div className="text-xs capitalize">Bro. Bright Enyia</div>
+        <div className="text-xs capitalize">Bro. Benjamin Oshiotse</div>
         {/* 
         <div className="col-span-3 text-sm capitalize">Couples Quiz</div>
         <div className="text-xs capitalize">-</div> */}
@@ -58,15 +57,12 @@ const SabbathSchool = () => {
           Closing Remark/Announcement
         </div>
         <div className="text-xs capitalize">Bro. Chimezie Mbagwu</div>
-
         <div className="col-span-3 text-sm capitalize">
-          Closing Hymn (SDAH 229)
+          Closing Hymn (SDAH 171)
         </div>
-        <div className="text-xs capitalize"> Sis. Chika Promise</div>
-        <div className="col-span-3 text-sm capitalize">
-          Closing Prayer (Elder Olusona)
-        </div>
-        <div className="text-xs">Sis. Dawn Walson</div>
+        <div className="text-xs capitalize"> Sis. Nkeiru Ihesiaba Wogu</div>
+        <div className="col-span-3 text-sm capitalize">Closing Prayer</div>
+        <div className="text-xs">Sis. Kelechi Nwachukwu</div>
       </div>
     </section>
   );

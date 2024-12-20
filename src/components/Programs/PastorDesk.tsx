@@ -14,14 +14,10 @@ const PastorDesk = () => {
             </p>
           </div>
           <p className="text-orange-500">
-            “All who labour in the cause of God in any capacity, should be
-            whole-hearted in the work. There is a lesson for us in the
-            experience of Gideon’s’ army. Those whose hearts were in the work
-            were so earnest that they would not stop to kneel by the brook to
-            drink, but dipped up the water in their hands as they hurried to the
-            battle, and these are the ones whom God used… The Lord God of Israel
-            is watching every worker, to see whether he is earnest. Happy
-            Sabbath Beloved Saints of God "
+            “But those who hope in the Lord will renew their strength. They will
+            soar on wings like eagles; they will run and not grow weary, they
+            will walk and not be faint. You shall finish this year strong and
+            strengthened for greater exploits of faith in Jesus Christ name."
           </p>
         </div>
       </section>
