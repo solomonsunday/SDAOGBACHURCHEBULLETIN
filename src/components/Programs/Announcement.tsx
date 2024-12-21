@@ -55,7 +55,7 @@ const Announcement = () => {
           <li className="pb-2 border-b border-orange-200">
             Ogba Church Student’s Sabbath of Thanksgiving and prayers holds as
             follows: Theme: For the Love of True and Holistic Higher Education
-            Date: 4/1/2025. Time: 9:00a.m. Venue: SDA Church Ogba. Oh that man
+            Date: 4/1/2025. Time: 9:00a.m. Venue: SDA Church Ogba. Oh that men
             would praise the Lord
           </li>
           <li className="pb-2 border-b border-orange-200">
