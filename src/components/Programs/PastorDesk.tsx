@@ -14,10 +14,11 @@ const PastorDesk = () => {
             </p>
           </div>
           <p className="text-orange-500">
-            “But those who hope in the Lord will renew their strength. They will
-            soar on wings like eagles; they will run and not grow weary, they
-            will walk and not be faint. You shall finish this year strong and
-            strengthened for greater exploits of faith in Jesus Christ name."
+            “True education means more than the pursual of a certain course of
+            study. It means more than a preparation for the life that now is. It
+            has to do with the whole being and with the whole period of
+            existence possible to man. I is the harmonious development of the
+            physical, the mental, and the spiritual powers."
           </p>
         </div>
       </section>

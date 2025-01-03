@@ -32,13 +32,13 @@ const Welcome = () => {
         <div className="text-center flex justify-center">
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2  w-full ">
             <p className="text-orange-400 underline">THEME FOR THIS QUARTER</p>
-            Themes in the Gospel of John
+            God’s Love and Justice
           </blockquote>
         </div>
         <div className="text-center flex justify-center">
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2  w-full">
             <p className="text-orange-400 underline">TOPIC FOR THE WEEK</p>
-            The Hour of Glory: The Cross and Resurrection
+            God Loves Freely
           </blockquote>
         </div>
         <div className="text-center flex justify-center">
@@ -46,11 +46,9 @@ const Welcome = () => {
             <p className="text-orange-400 underline">MEMORY TEXT</p>
 
             <span className="px-1 text-xs italic">
-              “Then Pilate said to him, So you are a king? Jesus answered, ‘You
-              say that I am a king. For this purpose I was born and for this
-              purpose I have come into the world to bear witness to the truth.
-              Everyone who is of the truth listens to my voice”
-              <span className="font-bold"> (John 18:37 NKJV)</span>
+              “I will heal their backsliding, I will love them freely, for My
+              anger has turned away from him”
+              <span className="font-bold"> (Hosea 14:4 NKJV)</span>
             </span>
           </blockquote>
         </div>

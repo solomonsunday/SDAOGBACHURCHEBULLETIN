@@ -29,14 +29,13 @@ const Announcement = () => {
             you can also find the Zoom links on the e-bulletin app
           </li>
           <li className="pb-2 border-b border-orange-200">
-            Emergency Church at Business Meeting holds today immediately after
-            the divine service.
+            We are celebrating Ogba Church Students’ Sabbath of Thanksgiving and
+            prayers. Theme: for the Love of True and Holistic higher Education.
+            Oh that man would praise the Lord
           </li>
           <li className="pb-2 border-b border-orange-200">
-            PAN AFRICAN YOUTH CONGRESS (ECD/SID/WAD) starts on Monday 23rd –
-            28th December, 2024 @ Babcock University, Nigeria. Let’s pray for
-            journey mercies for all Adventist Youths across Africa coming for
-            this programme and its success.
+            Annual 10 Days of Prayer Program commences January 8th – 18th, 2025.
+            Please plan to attend with your family.
           </li>
           <li className="pb-2 border-b border-orange-200">
             Pastors Ordination: There will be ordination service on January 25th
@@ -44,19 +43,14 @@ const Announcement = () => {
             Kona and Majolagbe T.C. Congratulations.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            Elder Okorie lost the mother this week. Let’s remember the family in
-            our prayers.
+            There will be an All Night of Prayer program on January 18th, 2025.
+            Please plan to attend.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            ICT Department: Kindly support the Church media ministry if you are
-            yet to do so. We need the following items for more effectiveness in
-            the ICT Department of the Church a. A camera, Sony NX3.
-          </li>
-          <li className="pb-2 border-b border-orange-200">
-            Ogba Church Student’s Sabbath of Thanksgiving and prayers holds as
-            follows: Theme: For the Love of True and Holistic Higher Education
-            Date: 4/1/2025. Time: 9:00a.m. Venue: SDA Church Ogba. Oh that men
-            would praise the Lord
+            ICT Department: We thank you for your tremendous support and
+            commitment to the media ministry of this church in the past year,
+            pleased to announced the purchase of a beautiful Camera for the
+            church to the glory of God.
           </li>
           <li className="pb-2 border-b border-orange-200">
             WAD Impact Advisory for all Pastors, First Elders and Personal

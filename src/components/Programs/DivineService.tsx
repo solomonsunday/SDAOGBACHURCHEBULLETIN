@@ -10,38 +10,40 @@ const DivineService = () => {
         </div>
         <div className="grid grid-cols-4 gap-2">
           <div className="col-span-3 text-sm "> Prelude</div>
-          <div className="text-xs"> Organist</div>
-          <div className="col-span-3 text-sm">Call to Worship: (Hebrew 9:27)</div>
-          <div className="text-xs">Elder Anthony Ajie</div>
+          <div className="text-xs"> Organist/Student Praise Team</div>
+          <div className="col-span-3 text-sm">Call to Worship: (Luke 2:52)</div>
+          <div className="text-xs">Tofunmi Abioye</div>
           <div className="col-span-3 text-sm"> Invocation</div>
-          <div className="text-xs">Congregation</div>
-          <div className="col-span-3 text-sm">Adoration Hymn: (SDAH 523)</div>
-          <div className="text-xs">Mrs. Olanike Davies </div>
+          <div className="text-xs">Pst. Happy Kona </div>
+          <div className="col-span-3 text-sm">Adoration Hymn: (SDAH 312.)</div>
+          <div className="text-xs">Semilore Olusona </div>
           <div className="col-span-3 text-sm"> Pastoral Prayer</div>
-          <div className="text-xs">Elder Promise Nwaejigh</div>
+          <div className="text-xs">Pst. Happy Kona </div>
           <div className="col-span-3 text-sm"> Stewardship </div>
-          <div className="text-xs">Deacon Ugo Azomaukwu</div>
-          <div className="col-span-3 text-sm"> Musical Selection: (Choir) </div>
-          <div className="text-xs">Deacon Ugo Azomaukwu</div>
+          <div className="text-xs">Glory Kelechi</div>
           <div className="col-span-3 text-sm">
-            Scripture Reading: (Deuteronomy 30:19)
+            {" "}
+            Musical Selection: (Radiance Choir/ Ogba Choir){" "}
           </div>
-          <div className="text-xs">Sis. Kelechi Ejukwu</div>
+          <div className="text-xs">Joy Kelechi</div>
           <div className="col-span-3 text-sm">
-            Hymn of Consecration (SDAH 212)
+            Scripture Reading: (2Cor 5: 14)
           </div>
-          <div className="text-xs">Sis. Kelechi Ejukwu</div>
+          <div className="text-xs">Semilore Olusona</div>
           <div className="col-span-3 text-sm">
-            Sermon Title:{" "}
-            <span className="font-bold text-orange-500">
-              "BIRTH and DEATH"
-            </span>
+            Hymn of Consecration (Praise Team - SDAH 258)
           </div>
-          <div className="text-xs">Elder Anthony Ajie</div>
-          <div className="col-span-3 text-sm">Closing Hymn: (SDAH 430)</div>
-          <div className="text-xs">Elder Promise Nwaejigh</div>
-          <div className="col-span-3 text-sm">Benediction</div>
-          <div className="text-xs">Elder Anthony Ajie</div>
+          <div className="text-xs">Tofunmi Abioye</div>
+          <div className="col-span-3 text-sm">
+            Sermon Title: <span className="font-bold text-orange-500">"Dare to Stand out, Dare to make a difference"</span>
+          </div>
+          <div className="text-xs">Dr Bolanle Adebawojo</div>
+          <div className="col-span-3 text-sm">Closing Hymn: (SDAH 330)</div>
+          <div className="text-xs">Joy Kingsley</div>
+          <div className="col-span-3 text-sm">
+            Benediction / Prayer for the Church
+          </div>
+          <div className="text-xs">Pastor H. Kona</div>
           <div className="col-span-3 text-sm">Doxology</div>
           <div className="text-xs"> Congregation</div>
         </div>
