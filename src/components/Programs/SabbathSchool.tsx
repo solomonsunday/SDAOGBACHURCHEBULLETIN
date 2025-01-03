@@ -47,10 +47,10 @@ const SabbathSchool = () => {
           Welcome / Friend's time
         </div>
         <div className="text-xs capitalize">Sis. Victoria Nwachukwu</div>
-        <div className="col-span-3 text-sm capitalize">
+        {/* <div className="col-span-3 text-sm capitalize">
           Special Presentation
         </div>
-        <div className="text-xs capitalize">Bro. Benjamin Oshiotse</div>
+        <div className="text-xs capitalize">Bro. Benjamin Oshiotse</div> */}
         {/* 
         <div className="col-span-3 text-sm capitalize">Couples Quiz</div>
         <div className="text-xs capitalize">-</div> */}

@@ -14,14 +14,14 @@ const SpecialFeature = () => {
           <ul className="p-2 space-y-2 text-center">
             <li>
               {" "}
-              Hymnal Session by Student Praise Team as Sabbath School Crew Exits
+              * Hymnal Session by Student Praise Team as Sabbath School Crew Exits
               (3 Hymns){" "}
             </li>
-            <li> How well do you know your Hymnal</li>
-            <li> Bible Verses in Songs</li>
+            <li> * How well do you know your Hymnal</li>
+            <li> * Bible Verses in Songs</li>
             <li>
               {" "}
-              ANNOUNCEMENTS -{" "}
+              * ANNOUNCEMENTS -{" "}
               <span className="text-orange-500">Kelechi Nwachukwu</span>
             </li>
           </ul>
@@ -69,7 +69,7 @@ const SpecialFeature = () => {
               </li>
               <li>
                 {" "}
-                *Prayer: <span className="text-orange-500">Pastor H. Kona</span>
+                * Prayer: <span className="text-orange-500">Pastor H. Kona</span>
               </li>
             </ul>
           </div>
