@@ -9,7 +9,7 @@ const Announcement = () => {
       <div className="space-y-4 dark:text-white">
         <ol className="space-y-4 list-decimal">
           <li className="pb-2 border-b border-orange-200 font-extrabold text-orange-400">
-            GC Theme for the year 2024: Chosen for Mission
+            GC Theme for the year 2025: Chosen for Mission
           </li>
           <li className="pb-2 font-bold border-b border-orange-200">
             Members are encouraged to use the barcode at the entrance of the
@@ -23,10 +23,11 @@ const Announcement = () => {
             are not tech savvy or those without a smart phone.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            Online prayer meeting / morning devotion holds every Sunday and
-            Wednesday morning (5:00a.m -6:00a.m) via zoom. Zoom link to be
-            shared on the church’s WhatsApp, Facebook and Instagram platforms,
-            you can also find the Zoom links on the e-bulletin app
+            Online Midweek service holds 8:00pm - 9:00pm on Wednesdays, Online
+            prayer meeting / morning devotion holds every Sunday and Wednesday
+            morning (5:00a.m -6:00a.m) via zoom. Zoom link to be shared on the
+            church’s WhatsApp, Facebook and Instagram platforms, you can also
+            find the Zoom links on the e-bulletin app
           </li>
           <li className="pb-2 border-b border-orange-200">
             We are celebrating Ogba Church Students’ Sabbath of Thanksgiving and
@@ -38,7 +39,7 @@ const Announcement = () => {
             Please plan to attend with your family.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            Pastors Ordination: There will be ordination service on January 25th
+            Pastors Ordination: There will be ordination service on February 1,
             2025 for the following Pastors: Adekanye S.A., Babalola V.A, Happy
             Kona and Majolagbe T.C. Congratulations.
           </li>
