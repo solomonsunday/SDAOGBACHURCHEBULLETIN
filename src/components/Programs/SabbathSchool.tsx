@@ -1,5 +1,5 @@
 import React from "react";
-import SpecialFeature from "./SpecialFeature";
+// import SpecialFeature from "./SpecialFeature";
 
 const SabbathSchool = () => {
   return (
