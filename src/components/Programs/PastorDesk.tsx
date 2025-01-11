@@ -10,15 +10,16 @@ const PastorDesk = () => {
         <div className="space-y-3">
           <div className="text-lg font-semibold underline">
             <p className="dark:text-white">
-              Ellen G. White Testimonies for the Church p 387
+              Ellen G. White, Review and Herald, Oct. 30, 1888.
             </p>
           </div>
           <p className="text-orange-500">
-            “True education means more than the pursual of a certain course of
-            study. It means more than a preparation for the life that now is. It
-            has to do with the whole being and with the whole period of
-            existence possible to man. I is the harmonious development of the
-            physical, the mental, and the spiritual powers."
+            “We must have the spirit of supplication to God. The enemy holds
+            many of you from prayer, by telling you that you do not feel your
+            prayers, and that you would better wait until you realize more of
+            the spirit of intercession, lest your prayers should be a mockery.
+            But you must say to Satan, “It is written” that “men ought always to
+            pray, and not to faint”..
           </p>
         </div>
       </section>

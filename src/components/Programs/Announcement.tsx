@@ -29,33 +29,45 @@ const Announcement = () => {
             church’s WhatsApp, Facebook and Instagram platforms, you can also
             find the Zoom links on the e-bulletin app
           </li>
+
           <li className="pb-2 border-b border-orange-200">
-            We are celebrating Ogba Church Students’ Sabbath of Thanksgiving and
-            prayers. Theme: for the Love of True and Holistic higher Education.
-            Oh that man would praise the Lord
+            The annual 10 Days of Prayer program is currently ongoing Jan 8- 18,
+            2025. Thank God for the gift of prayer, let's continue to attend
+            with our families as it continues this week.
           </li>
-          <li className="pb-2 border-b border-orange-200">
-            Annual 10 Days of Prayer Program commences January 8th – 18th, 2025.
-            Please plan to attend with your family.
-          </li>
-          <li className="pb-2 border-b border-orange-200">
-            Pastors Ordination: There will be ordination service on February 1,
-            2025 for the following Pastors: Adekanye S.A., Babalola V.A, Happy
-            Kona and Majolagbe T.C. Congratulations.
-          </li>
+
           <li className="pb-2 border-b border-orange-200">
             There will be an All Night of Prayer program on January 18th, 2025.
             Please plan to attend.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            ICT Department: We thank you for your tremendous support and
+            ICT Department:We thank you for your tremendous support and
             commitment to the media ministry of this church in the past year,
-            pleased to announced the purchase of a beautiful Camera for the
+            pleased to announce the purchase of a beautiful Camera for the
             church to the glory of God.
           </li>
           <li className="pb-2 border-b border-orange-200">
+            Remnant Federation of AYM is inviting all her members to a prayer
+            conference with the theme: EMPOWERED FOR MISSION Venue: SDA Church
+            Ojokoro Date: 12/01/25 Time: 9:00am - 12:00 Beginning with Christ, a
+            day with the Lord makes the difference.
+          </li>
+
+          <li className="pb-2 border-b border-orange-200">
+            LMC wide day of fasting and prayer holds as follows: Date:
+            19/1/2025. Time: 9:00am Venue: SDA Church Ogba.
+          </li>
+
+          <li className="pb-2 border-b border-orange-200">
+            Here is the funeral arrangements in honour of Late Pastor Oladeinde
+            ; Service of songs: SDA Church Bariga, 19/1/2025 time: 4:00pm.
+            Burial service: SDA Church 10, Basiru Alamu Street, Sango Date:
+            23/1/2025 Time: 9:00am.
+          </li>
+
+          <li className="pb-2 border-b border-orange-200">
             WAD Impact Advisory for all Pastors, First Elders and Personal
-            Ministry leaders @ Ede. Date is Jan. 29- Feb. 1, 2025.
+            Ministry leaders holds at Ede. Date: Jan. 29- Feb. 1, 2025.
           </li>
           <li className="pb-2 border-b border-orange-200">
             WAD impact evangelism holds next year, March 2 - 15 2025 Ogba
@@ -63,14 +75,42 @@ const Announcement = () => {
             program..
           </li>
           <li className="pb-2 border-b border-orange-200">
+            Pastors Ordination: There will be ordination service on February 1,
+            2025 for the following Pastors: Adekanye S.A., Babalola V.A, Happy
+            Kona and Majolagbe T.C. Congratulations.
+          </li>
+          <li className="pb-2 border-b border-orange-200">
             Keep the Church environment clean. Dispose every trash properly in
             the waste baskets.{" "}
           </li>
+
           <li className="pb-2 border-b border-orange-200">
             There’s a call for ground breakers for the upcoming WAD Impact
             Evangelism. Please contact the Pastor or your Church Personal
             Ministry Leader if the Lord convicts your work in this area for Him.
           </li>
+
+          <li className="pb-2 border-b border-orange-200">
+            GC Secretary of SDA Church visits Nigeria with details as follows:
+            Date: 6/2/2025 Time: 9:00am- 12:00noon. Welcome/reception venue: SDA
+            Church Maryland. N/B: All Church Clerks, Pastors, and Conference
+            officers are to be present, members are also encouraged to be in
+            attendance.
+          </li>
+
+          <li className="pb-2 border-b border-orange-200">
+            <span className="font-bold">LMC CHILDREN DEPARTMENT:</span> Children
+            Department New Curriculum Launch is next Sabbath 18/1/2025 Zonal
+            Quiz: Ogba zone (Ogba, Iju and Ojokoro District) LMC children
+            department quiz holds as follows: Date: 20/4/2025. Venue: SDA Church
+            Ogba. Material for Study: Michael Asks Why. Beginner(1-3yrs): God's
+            words. Kindergarten (4-6yrs): Our worst enemy. Primary (7-9yrs):
+            Where did sin come from? and Can the dead speak? Power Point
+            (10-12yrs): God's unchanging law and Death and Resurrection. Real
+            time and Cornerstone will study the Book of Daniel- complete study,
+            Images and symbols.
+          </li>
+
           <li className="pb-2 border-b border-orange-200">
             Support the Church projects for this year a. Empowerment of members
             b. Oke Ira evangelism project c. Renovation and beautification of
