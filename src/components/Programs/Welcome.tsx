@@ -38,7 +38,7 @@ const Welcome = () => {
         <div className="text-center flex justify-center">
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2  w-full">
             <p className="text-orange-400 underline">TOPIC FOR THE WEEK</p>
-            Covenantal Love
+            To Be Pleasing to God
           </blockquote>
         </div>
         <div className="text-center flex justify-center">
@@ -46,10 +46,10 @@ const Welcome = () => {
             <p className="text-orange-400 underline">MEMORY TEXT</p>
 
             <span className="px-1 text-xs italic">
-              “Jesus answered and said to him, ‘If anyone loves Me, he will keep
-              My word; and My Father will love him, and We will come to him and
-              make Our home with him’”
-              <span className="font-bold"> (John 14:23 NKJV)</span>
+              “The Lord your God in your midst, the Mighty One, will save; He
+              will rejoice over you with gladness, He will quiet you with His
+              love, He will rejoice over you with singing”
+              <span className="font-bold"> (Zephaniah 3:17 NKJV)</span>
             </span>
           </blockquote>
         </div>

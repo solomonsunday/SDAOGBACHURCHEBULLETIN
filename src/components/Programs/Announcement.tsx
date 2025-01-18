@@ -31,31 +31,22 @@ const Announcement = () => {
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            The annual 10 Days of Prayer program is currently ongoing Jan 8- 18,
-            2025. Thank God for the gift of prayer, let's continue to attend
-            with our families as it continues this week.
+            The annual Global 10 Days of Prayer program ended yesterday and
+            today is the celebration Sabbath for it's success and answered
+            prayers
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            Today is our Children Department New Curriculum Launch
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            There will be an All Night of Prayer program on January 18th, 2025.
-            Please plan to attend.
-          </li>
-          <li className="pb-2 border-b border-orange-200">
-            ICT Department:We thank you for your tremendous support and
-            commitment to the media ministry of this church in the past year,
-            pleased to announce the purchase of a beautiful Camera for the
-            church to the glory of God.
-          </li>
-          <li className="pb-2 border-b border-orange-200">
-            Remnant Federation of AYM is inviting all her members to a prayer
-            conference with the theme: EMPOWERED FOR MISSION Venue: SDA Church
-            Ojokoro Date: 12/01/25 Time: 9:00am - 12:00 Beginning with Christ, a
-            day with the Lord makes the difference.
+            The planned All Night of prayer program for tonight has been
+            postponed till further notice.
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            LMC wide day of fasting and prayer holds as follows: Date:
-            19/1/2025. Time: 9:00am Venue: SDA Church Ogba.
+            LMC day of fasting and prayer holds tomorrow Date: 19/1/2025. Time:
+            9:00am Venue: SDA Church Ogba.
           </li>
 
           <li className="pb-2 border-b border-orange-200">
@@ -63,6 +54,15 @@ const Announcement = () => {
             ; Service of songs: SDA Church Bariga, 19/1/2025 time: 4:00pm.
             Burial service: SDA Church 10, Basiru Alamu Street, Sango Date:
             23/1/2025 Time: 9:00am.
+          </li>
+
+          <li className="pb-2 border-b border-orange-200">
+            Youth week of prayer starts Feb. 1 - 8, 2025 in all our churches.
+            Please plan to attend with your family.
+          </li>
+
+          <li className="pb-2 border-b border-orange-200">
+            Global Youth Day comes up 9/2/2025.
           </li>
 
           <li className="pb-2 border-b border-orange-200">
@@ -80,8 +80,12 @@ const Announcement = () => {
             Kona and Majolagbe T.C. Congratulations.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            Keep the Church environment clean. Dispose every trash properly in
-            the waste baskets.{" "}
+            Family life and Christian home week comes up Feb. 9 - 15, 2025. This
+            will climax with the family life and Christian home Sabbath
+            celebration on 15/2/2025
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            There will be Ogba church at business meeting on 22/2/2025.
           </li>
 
           <li className="pb-2 border-b border-orange-200">
@@ -109,6 +113,10 @@ const Announcement = () => {
             (10-12yrs): God's unchanging law and Death and Resurrection. Real
             time and Cornerstone will study the Book of Daniel- complete study,
             Images and symbols.
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            Keep the Church environment clean. Dispose every trash properly in
+            the waste baskets.{" "}
           </li>
 
           <li className="pb-2 border-b border-orange-200">

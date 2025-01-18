@@ -11,45 +11,38 @@ const DivineService = () => {
         <div className="grid grid-cols-4 gap-2">
           <div className="col-span-3 text-sm "> Prelude</div>
           <div className="text-xs"> Organist/Student Praise Team</div>
-          <div className="col-span-3 text-sm">
-            Call to Worship: (John 16:33)
-          </div>
-          <div className="text-xs"> Elder Abiodun Adebayo</div>
+          <div className="col-span-3 text-sm">Call to Worship: (-)</div>
+          <div className="text-xs"> -</div>
           <div className="col-span-3 text-sm"> Invocation</div>
           <div className="text-xs">Congregation</div>
-          <div className="col-span-3 text-sm">Adoration Hymn: (SDAH 469)</div>
-          <div className="text-xs"> Elder Chukwuma Ihesiaba</div>
+          <div className="col-span-3 text-sm">Adoration Hymn: (SDAH -)</div>
+          <div className="text-xs"> -</div>
           <div className="col-span-3 text-sm"> Pastoral Prayer</div>
-          <div className="text-xs"> Mrs. Adeola Adedokun</div>
+          <div className="text-xs"> -</div>
           <div className="col-span-3 text-sm"> Stewardship </div>
-          <div className="text-xs"> Bro. Sunday Oyelekan</div>
+          <div className="text-xs"> -</div>
           <div className="col-span-3 text-sm">
             {" "}
             Musical Selection: (Ogba Choir){" "}
           </div>
-          <div className="text-xs"> Bro. Sunday Oyelekan</div>
+          <div className="text-xs"> -</div>
+          <div className="col-span-3 text-sm">Scripture Reading: (-)</div>
+          <div className="text-xs"> -</div>
           <div className="col-span-3 text-sm">
-            Scripture Reading: (Isaiah 40:31)
+            Hymn of Consecration (SDAH -)
           </div>
-          <div className="text-xs"> Mrs. Chinyere Nwachukwu</div>
-          <div className="col-span-3 text-sm">
-            Hymn of Consecration (SDAH 322)
-          </div>
-          <div className="text-xs"> Mrs. Chinyere Nwachukwu</div>
+          <div className="text-xs"> -</div>
           <div className="col-span-3 text-sm">
             Sermon Title:{" "}
-            <span className="font-bold text-orange-500">
-              {" "}
-              “Unanswered Prayers (and Faith)”
-            </span>
+            <span className="font-bold text-orange-500"> “-”</span>
           </div>
-          <div className="text-xs"> Elder Abiodun Adebayo</div>
-          <div className="col-span-3 text-sm">Closing Hymn: (SDAH 530)</div>
-          <div className="text-xs"> Mrs. Adeola Adedokun</div>
+          <div className="text-xs"> -</div>
+          <div className="col-span-3 text-sm">Closing Hymn: (SDAH -)</div>
+          <div className="text-xs">-</div>
           <div className="col-span-3 text-sm">
             Benediction / Prayer for the Church
           </div>
-          <div className="text-xs">Elder Abiodun Adebayo</div>
+          <div className="text-xs">-</div>
           <div className="col-span-3 text-sm">Doxology</div>
           <div className="text-xs"> Congregation</div>
         </div>
