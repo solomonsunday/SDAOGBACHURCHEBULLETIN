@@ -16,16 +16,16 @@ const SabbathSchool = () => {
         <div className="col-span-3 text-sm capitalize">
           Welcome/Opening Remark
         </div>
-        <div className="text-xs">-</div>
+        <div className="text-xs">Bro Chimezie Mbagwu</div>
 
         <div className="col-span-3 text-sm capitalize">Opening Prayer</div>
-        <div className="text-xs">-</div>
+        <div className="text-xs">Sis. Nkeiru Wogu Ihesiaba</div>
         <div className="col-span-3 text-sm capitalize">
-          Opening Hymn (SDAH -)
+          Opening Hymn (SDAH 319)
         </div>
-        <div className="text-xs capitalize">-</div>
+        <div className="text-xs capitalize">Sis. Kelechi Nwachukwu</div>
         <div className="col-span-3 text-sm capitalize"> Keeping on Course</div>
-        <div className="text-xs capitalize">- </div>
+        <div className="text-xs capitalize">Sis. Chika Promise </div>
         <div className="col-span-3 text-sm capitalize">
           {" "}
           Mission Spotlight(5 - 7 Mins){" "}
@@ -35,18 +35,18 @@ const SabbathSchool = () => {
         <div className="col-span-3 text-sm capitalize">
           Scripture Reading (2mins){" "}
         </div>
-        <div className="text-xs capitalize"> - </div>
+        <div className="text-xs capitalize">Sis. Kelechi Nwachukwu</div>
 
         <div className="col-span-3 text-sm capitalize">
           {" "}
           Special Music/Poem (3-5mins)
         </div>
-        <div className="text-xs capitalize"> -</div>
+        <div className="text-xs capitalize">Bro. Benjamin Oshiotse</div>
 
         <div className="col-span-3 text-sm capitalize">
           Lesson Study (9:30am-10:15a.m)
         </div>
-        <div className="text-xs capitalize">-</div>
+        <div className="text-xs capitalize">Bro. Chimezie Mbagwu</div>
         <div className="col-span-3 text-sm capitalize">
           Unit Activities / Lesson Study (40 Mins)
         </div>
@@ -60,13 +60,13 @@ const SabbathSchool = () => {
           {" "}
           Interactive Session (Lesson Recap/Quiz/Game)
         </div>
-        <div className="text-xs capitalize">-(10mins)</div>
+        <div className="text-xs capitalize">Children Ministries(10mins)</div>
         <div className="col-span-3 text-sm capitalize">Lesson Summary</div>
         <div className="text-xs capitalize">-</div>
         <div className="col-span-3 text-sm capitalize">
           Welcome / Friend's time
         </div>
-        <div className="text-xs capitalize"> - (5mins)</div>
+        <div className="text-xs capitalize">Bro. Benjamin Oshiotse(5mins)</div>
         {/* <div className="col-span-3 text-sm capitalize">
           Special Presentation
         </div>
@@ -77,15 +77,15 @@ const SabbathSchool = () => {
         <div className="col-span-3 text-sm capitalize">
           Closing Remark/Announcement
         </div>
-        <div className="text-xs capitalize">- (3mins)</div>
+        <div className="text-xs capitalize">Bro. Chimezie Mbagwu (3mins)</div>
         <div className="col-span-3 text-sm capitalize">
-          Closing Hymn (SDAH -) (2min)
+          Closing Hymn (SDAH 309) (2min)
         </div>
-        <div className="text-xs capitalize">-</div>
+        <div className="text-xs capitalize">Sis. Nkeiru Wogu Ihesiaba</div>
         <div className="col-span-3 text-sm capitalize">
           Closing Prayer (2min)
         </div>
-        <div className="text-xs">-</div>
+        <div className="text-xs">Sis. Loveth Idowu</div>
       </div>
       {/* <SpecialFeature /> */}
     </section>
