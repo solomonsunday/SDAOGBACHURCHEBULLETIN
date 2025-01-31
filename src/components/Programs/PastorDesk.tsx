@@ -9,13 +9,11 @@ const PastorDesk = () => {
         </div>
         <div className="space-y-3">
           <div className="text-lg font-semibold underline">
-            <p className="dark:text-white">Ellen G. White, Prayer</p>
+            <p className="dark:text-white"> 1 Thes. 5:24 NIV</p>
           </div>
           <p className="text-orange-500">
-            “Keep your wants, your joys, your sorrows, your cares, your fears,
-            before God. You cannot burden Him; you cannot weary Him, He who
-            numbers the hairs of your head is not indifferent to the wants of
-            His children ”
+            “The one who calls you is faithful, and he will do it. Let‘s be
+            faithful in our carious callings as elect of God. ”
           </p>
         </div>
       </section>
