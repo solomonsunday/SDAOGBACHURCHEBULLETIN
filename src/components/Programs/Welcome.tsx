@@ -38,7 +38,7 @@ const Welcome = () => {
         <div className="text-center flex justify-center">
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2  w-full">
             <p className="text-orange-400 underline">TOPIC FOR THE WEEK</p>
-            The Wrath of Divine Love
+            God’s Love of Justice
           </blockquote>
         </div>
         <div className="text-center flex justify-center">
@@ -46,10 +46,11 @@ const Welcome = () => {
             <p className="text-orange-400 underline">MEMORY TEXT</p>
 
             <span className="px-1 text-xs italic">
-              “But He, being full of compassion, forgave their iniquity, and did
-              not destroy them. Yes, many a time He turned His anger away, and
-              did not stir up all His wrath”
-              <span className="font-bold"> (Psalm 78:38, NKJV)</span>
+              “But let him who glories glory in this, that he understands and
+              knows Me, that I am the LORD, exercising lovingkindness, judgment,
+              and righteousness in the earth. For in these I delight' says the
+              LORD"
+              <span className="font-bold"> (Jer. 9:24, NKJV)</span>
             </span>
           </blockquote>
         </div>

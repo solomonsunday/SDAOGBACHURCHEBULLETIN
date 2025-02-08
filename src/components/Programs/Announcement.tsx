@@ -9,7 +9,7 @@ const Announcement = () => {
       <div className="space-y-4 dark:text-white">
         <ol className="space-y-4 list-decimal">
           <li className="pb-2 border-b border-orange-200 font-extrabold text-orange-400">
-            GC Theme for the year 2025: Chosen for Mission
+            GC Theme for the year 2025: I will go (SDAH 319)
           </li>
           <li className="pb-2 font-bold border-b border-orange-200">
             Members are encouraged to use the barcode at the entrance of the
@@ -32,15 +32,15 @@ const Announcement = () => {
 
           <li className="pb-2 border-b border-orange-200">
             <span className="font-bold">
-              Welcome to the ordination service of the following Pastors.
-              Adekanye S.A, Babalola V. A, Happy Kona and Majolagbe T.C.
-              Congratulations and glory to God.
+              Today is the climax of our Youth Week of Prayer, we are grateful
+              to all who participated and thank God for it’s success.
             </span>
           </li>
           <li className="pb-2 border-b border-orange-200">
-            <span className="font-bold">ADVENTIST MEN ORGANIZATION:</span>
-            AMO monthly meeting holds tomorrow 02/02/2025 Venue: boardroom
-            Time:10:00am
+            {/* <span className="font-bold">ADVENTIST MEN ORGANIZATION:</span> */}
+            There is a TMI call for prayer every morning by 5:00am - 5:30am
+            throughout the month of February for the success of the upcoming WAD
+            IMPACT evangelism
           </li>
 
           <li className="pb-2 border-b border-orange-200">
@@ -54,53 +54,33 @@ const Announcement = () => {
             beginners class upstairs.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            There is a TMI call for prayer every morning by 5:00am - 5:30am
-            throughout the month of February for the success of the upcoming WAD
-            IMPACT evangelism
+            Tomorrow 9/2/2025 is Global Youth Day celebration and the youths are
+            marking it with a hike to Oke-ira and share tracts in the process so
+            all members are encouraged to attend.
           </li>
-
           <li className="pb-2 border-b border-orange-200">
-            Here is the funeral arrangements in honour of Late Pastor Oladeinde
-            ; Service of songs: SDA Church Bariga, 19/1/2025 time: 4:00pm.
-            Burial service: SDA Church 10, Basiru Alamu Street, Sango Date:
-            23/1/2025 Time: 9:00am.
+            The ground breaking activities for the upcoming WADIMPACT evangelism
+            has started, please contact the Pastor or our Personal Ministry
+            leader if the Lord convicts you to join in preparing the land of
+            Oke-ira for Christ.
           </li>
-
           <li className="pb-2 border-b border-orange-200">
-            Youth week of prayer starts Feb. 1 - 8, 2025 in all our churches.
-            Please plan to attend with your family.
-          </li>
-
-          <li className="pb-2 border-b border-orange-200">
-            Global Youth Day comes up 9/2/2025.
+            All Night prayer program holds next Sabbath, 15/2/2025 by 10:00pm.
+            Come let's wait on the Lord for the success of the WADIMPACT
+            evangelism and our personal needs.
           </li>
           <li className="pb-2 border-b border-orange-200">
             WAD impact evangelism holds next year, March 2 - 15 2025 Ogba
             District now has 2 centers, Members are encouraged to support this
             program..
           </li>
-
           <li className="pb-2 border-b border-orange-200">
-            Family life and Christian home week comes up Feb. 9 - 15, 2025. It
-            is now to be home fellowship based
+            Family life and Christian home week has been putoff, our Union has
+            directed churches to use the period to strengthen home fellowships
+            in preparation for the WADIMPACT evangelism.
           </li>
           <li className="pb-2 border-b border-orange-200">
             There will be Ogba church at business meeting on 22/2/2025.
-          </li>
-
-          <li className="pb-2 border-b border-orange-200">
-            There’s a call for ground breakers for the upcoming WAD Impact
-            Evangelism. Please contact the Pastor or your Church Personal
-            Ministry Leader if the Lord convicts your work in this area for Him.
-          </li>
-
-          <li className="pb-2 border-b border-orange-200">
-            Special meeting with the GC Secretary of SDA Church, Pastor Erton-C
-            Kohler on mission focus, evangelism, membership nurturing and
-            retention holds as follows: Date: 7/2/2025 Time: 9:00am- 12:00noon.
-            Venue: SDA Church Maryland. N/B: All Church Clerks, Pastors, and
-            Conference officers are to be present, members are also encouraged
-            to be in attendance.
           </li>
           <li className="pb-2 border-b border-orange-200">
             LMC Elders Certification comes up April 13, 2025. All Elders are to

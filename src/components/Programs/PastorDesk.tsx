@@ -9,13 +9,15 @@ const PastorDesk = () => {
         </div>
         <div className="space-y-3">
           <div className="text-lg font-semibold underline">
-            <p className="dark:text-white"> 1 Thes. 5:24 NIV</p>
+            <p className="dark:text-white"> 1 Timothy 4:12</p>
           </div>
           <p className="text-orange-500">
-            “The one who calls you is faithful, and he will do it. Let‘s be
-            faithful in our carious callings as elect of God. ”
+            “ Let no one despise your Youth, but be an example to the believers
+            in word, in conduct, in love, in spirit, in faith, in purity. It’s
+            the conclusion of our AYM week of prayer. May our Youth reflect
+            Christ in their conducts speeches in Jesus name.”
           </p>
-        </div>
+        </div>  
       </section>
     </div>
   );
