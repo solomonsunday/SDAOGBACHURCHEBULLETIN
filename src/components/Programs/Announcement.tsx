@@ -29,13 +29,6 @@ const Announcement = () => {
             church’s WhatsApp, Facebook and Instagram platforms, you can also
             find the Zoom links on the e-bulletin app
           </li>
-
-          <li className="pb-2 border-b border-orange-200">
-            <span className="font-bold">
-              Today is the climax of our Youth Week of Prayer, we are grateful
-              to all who participated and thank God for it’s success.
-            </span>
-          </li>
           <li className="pb-2 border-b border-orange-200">
             {/* <span className="font-bold">ADVENTIST MEN ORGANIZATION:</span> */}
             There is a TMI call for prayer every morning by 5:00am - 5:30am
@@ -54,20 +47,20 @@ const Announcement = () => {
             beginners class upstairs.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            Tomorrow 9/2/2025 is Global Youth Day celebration and the youths are
-            marking it with a hike to Oke-ira and share tracts in the process so
-            all members are encouraged to attend.
+            Next Sabbath is Global Children Sabbath of Prayer for discipleship.
+            We will take a few minutes to offer a special prayer for our
+            children.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            The ground breaking activities for the upcoming WADIMPACT evangelism
-            has started, please contact the Pastor or our Personal Ministry
-            leader if the Lord convicts you to join in preparing the land of
-            Oke-ira for Christ.
+            The ground breaking activities for the upcoming WAD IMPACT
+            evangelism has started, please contact the Pastor or our Personal
+            Ministry leader if the Lord convicts you to join in the preparing
+            the land of Oke-ira for Christ.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            All Night prayer program holds next Sabbath, 15/2/2025 by 10:00pm.
-            Come let's wait on the Lord for the success of the WADIMPACT
-            evangelism and our personal needs.
+            All Night prayer program holds tonight 15/2/2025 by 10:00a.m. Come
+            let’s wait on the Lord for success of the WAD IMPACT evangelism and
+            our personal needs.
           </li>
           <li className="pb-2 border-b border-orange-200">
             WAD impact evangelism holds next year, March 2 - 15 2025 Ogba

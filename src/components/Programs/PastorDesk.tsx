@@ -9,15 +9,16 @@ const PastorDesk = () => {
         </div>
         <div className="space-y-3">
           <div className="text-lg font-semibold underline">
-            <p className="dark:text-white"> 1 Timothy 4:12</p>
+            <p className="dark:text-white"> John 20:21</p>
           </div>
           <p className="text-orange-500">
-            “ Let no one despise your Youth, but be an example to the believers
-            in word, in conduct, in love, in spirit, in faith, in purity. It’s
-            the conclusion of our AYM week of prayer. May our Youth reflect
-            Christ in their conducts speeches in Jesus name.”
+            “..Jesus said ....As the Father has sent me, I am sending you.”
+            Jesus has sent us to be light in this dark world, his ambassadors in
+            this strange land, to lead people to His Kingdom, to be conduits of
+            His love and grace in this chaotic world. Support and participate in
+            the Church planned outreach evangelism at Oke-ira. Happy Sabbath.”
           </p>
-        </div>  
+        </div>
       </section>
     </div>
   );
