@@ -9,14 +9,17 @@ const PastorDesk = () => {
         </div>
         <div className="space-y-3">
           <div className="text-lg font-semibold underline">
-            <p className="dark:text-white"> John 20:21</p>
+            <p className="dark:text-white">
+              Ellen G. White, Review and Herald, Oct. 30, 1888.
+            </p>
           </div>
           <p className="text-orange-500">
-            “..Jesus said ....As the Father has sent me, I am sending you.”
-            Jesus has sent us to be light in this dark world, his ambassadors in
-            this strange land, to lead people to His Kingdom, to be conduits of
-            His love and grace in this chaotic world. Support and participate in
-            the Church planned outreach evangelism at Oke-ira. Happy Sabbath.”
+            “We must have the spirit of supplication to God. The enemy holds
+            many of you from prayer, by telling you that you do not feel your
+            prayers, and that you would better wait until you realize more of
+            the spirit of intercession, lest your prayers should be a mockery.
+            But you must say to Satan, “It is written” that “men ought always to
+            pray, and not to faint”.. ”
           </p>
         </div>
       </section>

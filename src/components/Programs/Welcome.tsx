@@ -37,8 +37,10 @@ const Welcome = () => {
         </div>
         <div className="text-center flex justify-center">
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2  w-full">
-            <p className="text-orange-400 underline">TOPIC FOR THE WEEK</p>
-            God’s Love of Justice
+            <p className="text-orange-400 underline">
+              TOPIC FOR THE WEEK (Lesson 8)
+            </p>
+            Free Will, Love, and Divine Providence
           </blockquote>
         </div>
         <div className="text-center flex justify-center">
@@ -46,11 +48,10 @@ const Welcome = () => {
             <p className="text-orange-400 underline">MEMORY TEXT</p>
 
             <span className="px-1 text-xs italic">
-              “But let him who glories glory in this, that he understands and
-              knows Me, that I am the LORD, exercising lovingkindness, judgment,
-              and righteousness in the earth. For in these I delight' says the
-              LORD"
-              <span className="font-bold"> (Jer. 9:24, NKJV)</span>
+              "These things I have spoken to you, that in Me you may have peace.
+              In the world you will have tribulation; but be of good cheer, I
+              have overcome the world”.
+              <span className="font-bold">(John 16:33, NKJV)</span>
             </span>
           </blockquote>
         </div>

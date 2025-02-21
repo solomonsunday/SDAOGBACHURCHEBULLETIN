@@ -35,6 +35,10 @@ const Announcement = () => {
             throughout the month of February for the success of the upcoming WAD
             IMPACT evangelism
           </li>
+          <li className="pb-2 border-b border-orange-200">
+            Today is Global Children Sabbath of prayer for discipleship. We will
+            take a few minutes to offer a special prayer for out Children.
+          </li>
 
           <li className="pb-2 border-b border-orange-200">
             Parents are reminded to make payment for the Alive in Jesus
@@ -47,9 +51,8 @@ const Announcement = () => {
             beginners class upstairs.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            Next Sabbath is Global Children Sabbath of Prayer for discipleship.
-            We will take a few minutes to offer a special prayer for our
-            children.
+            Remnant Federation holds her Basic Staff Traning in Ogba church
+            tomorrow, 8:00a.m -4:00p.m. Registration is ₦1,000.
           </li>
           <li className="pb-2 border-b border-orange-200">
             The ground breaking activities for the upcoming WAD IMPACT
@@ -62,22 +65,25 @@ const Announcement = () => {
             let’s wait on the Lord for success of the WAD IMPACT evangelism and
             our personal needs.
           </li>
-          <li className="pb-2 border-b border-orange-200">
-            WAD impact evangelism holds next year, March 2 - 15 2025 Ogba
-            District now has 2 centers, Members are encouraged to support this
-            program..
-          </li>
+
           <li className="pb-2 border-b border-orange-200">
             Family life and Christian home week has been putoff, our Union has
             directed churches to use the period to strengthen home fellowships
             in preparation for the WADIMPACT evangelism.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            There will be Ogba church at business meeting on 22/2/2025.
+            There will be Ogba church at business meeting today immediately
+            after the service.
           </li>
           <li className="pb-2 border-b border-orange-200">
             LMC Elders Certification comes up April 13, 2025. All Elders are to
             prepare for this by studying the Elders' Handbook.
+          </li>
+
+          <li className="pb-2 border-b border-orange-200">
+            Adventurer Family Camp 2025 comes up on April 17-20, 2025. Theme: A
+            Walk with Jesus (1 John 2:6). Venue: Ogba Church. Registration Fee:
+            ₦6,000.
           </li>
           <li className="pb-2 border-b border-orange-200">
             <span className="font-bold">
