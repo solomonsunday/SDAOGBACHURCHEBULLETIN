@@ -107,7 +107,6 @@ const Services = () => {
               </p>
             </div>
 
-            {/* items 4 */}
             <div className="flex flex-col items-center space-y-2 md:w-1/3">
               <div className="flex items-center justify-center h-24 mb-6">
                 <Image

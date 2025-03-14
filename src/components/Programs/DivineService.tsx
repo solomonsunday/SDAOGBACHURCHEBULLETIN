@@ -61,10 +61,6 @@ const DivineService = () => {
                 {publishedData?.musicalSelectionBy || "--"}
               </div>
 
-              {/* <div className="col-span-3 text-sm">
-            Induction: (Adventurer & Pathfinder Clubs)
-          </div>
-          <div className="text-xs">MG. F.L. Alonge </div> */}
               <div className="col-span-3 text-sm">
                 Scripture Reading (
                 {publishedData?.scripturalReadingBibleVerse || "--"})
@@ -87,10 +83,6 @@ const DivineService = () => {
               </div>
               <div className="text-xs"> {publishedData?.preacher || "--"} </div>
 
-              {/* <div className="text-xs">Man Part 2 </div>
-          <div className="col-span-3 text-sm">
-            (Anchor – Elder E.J. Agbara){" "}
-          </div> */}
               <div className="col-span-3 text-sm">
                 Closing Hymn (
                 {publishedData?.divineServiceClosingHymnNo || "--"}){" "}
