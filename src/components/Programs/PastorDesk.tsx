@@ -14,7 +14,7 @@ const PastorDesk = () => {
           <Spinner width={20} height={20} />
         ) : !publishedData ? (
           <p className="text-white flex items-center justify-center ">
-            No data created for this week
+            No data created for this week!
           </p>
         ) : (
           <div className="space-y-3">

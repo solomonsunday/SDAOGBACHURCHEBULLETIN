@@ -36,7 +36,7 @@ const Welcome = () => {
           <Spinner width={30} height={30} />
         ) : !publishedData ? (
           <p className="text-white flex items-center justify-center ">
-            No data created for this week
+            No data created for this week!
           </p>
         ) : (
           <div className="space-y-2">
