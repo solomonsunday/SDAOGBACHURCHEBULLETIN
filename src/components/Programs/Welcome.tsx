@@ -38,9 +38,9 @@ const Welcome = () => {
         <div className="text-center flex justify-center">
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2  w-full">
             <p className="text-orange-400 underline">
-              TOPIC FOR THE WEEK (Lesson 8)
+              TOPIC FOR THE WEEK (Lesson 13)
             </p>
-            Free Will, Love, and Divine Providence
+            Love❤️ Is the Fulfillment of the Law 📖
           </blockquote>
         </div>
         <div className="text-center flex justify-center">
@@ -48,10 +48,9 @@ const Welcome = () => {
             <p className="text-orange-400 underline">MEMORY TEXT</p>
 
             <span className="px-1 text-xs italic">
-              "These things I have spoken to you, that in Me you may have peace.
-              In the world you will have tribulation; but be of good cheer, I
-              have overcome the world”.
-              <span className="font-bold">(John 16:33, NKJV)</span>
+              "Owe no one anything except to love one another, for he who loves
+              another has fulfilled the law”.
+              <span className="font-bold">(Romans 13:8, NKJV)</span>
             </span>
           </blockquote>
         </div>

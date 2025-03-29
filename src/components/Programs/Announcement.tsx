@@ -31,59 +31,53 @@ const Announcement = () => {
           </li>
           <li className="pb-2 border-b border-orange-200">
             {/* <span className="font-bold">ADVENTIST MEN ORGANIZATION:</span> */}
-            There is a TMI call for prayer every morning by 5:00am - 5:30am
-            throughout the month of February for the success of the upcoming WAD
-            IMPACT evangelism
+            Ogba district Children Ministry quiz comes up as follows: Date:
+            29/3/2025 Time: 2:30pm Venue: District HQ (Ogba Church){" "}
+            <span className="font-bold">
+              PS: The Children are encouraged to wait behind after worship today
+              for preparations
+            </span>
           </li>
           <li className="pb-2 border-b border-orange-200">
-            Today is Global Children Sabbath of prayer for discipleship. We will
-            take a few minutes to offer a special prayer for out Children.
+            AMO monthly meeting holds Sunday 06/04/25 Time: 10:00am Venue: Board
+            room
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            Parents are reminded to make payment for the Alive in Jesus
-            neckerchief given to their children. Please see Mrs. Idowu Loveth
+            Adventurers Family Camp comes up on April 17th -20th, 2025. Theme: A
+            Walk with Jesus (1 John 2:6). Venue: Ogba Church. Registration Fee:
+            ₦6,000.
           </li>
 
+          <li className="pb-2 border-b border-orange-200">
+            Appeal for Donation towards Zoom Subscription: Our yearly Zoom
+            subscription is $160. Please kindly donate towards it, preferably in
+            dollars as the Lord impresses it in your heart.
+          </li>
+
+          <li className="pb-2 border-b border-orange-200">
+            Here is the funeral arrangements in honour of Late brother Mr.
+            Innocent O. Ogbenyia; Service of songs: SDA Church Ogba, 6/4/2025
+            time: 4:00pm. Burial service: At his hometown, Umuodu Umuakwu in
+            Isiala Ngwa L.G.A of Abia state Date: 17/4/2025 Time: 10:00am.
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            WNUC Pathfinders comporee holds as follows: Theme: OBEDIENCE Date:
+            August 10th - 17th, 2025 Venue: Reno Secondary School, Sagamu, Ogun
+            state Registration: #12,500
+          </li>
           <li className="pb-2 border-b border-orange-200">
             The church leadership is calling for a regular donation of snacks
             and support from members for our children in Baby steps and
             beginners class upstairs.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            Remnant Federation holds her Basic Staff Traning in Ogba church
-            tomorrow, 8:00a.m -4:00p.m. Registration is ₦1,000.
-          </li>
-          <li className="pb-2 border-b border-orange-200">
-            The ground breaking activities for the upcoming WAD IMPACT
-            evangelism has started, please contact the Pastor or our Personal
-            Ministry leader if the Lord convicts you to join in the preparing
-            the land of Oke-ira for Christ.
-          </li>
-          <li className="pb-2 border-b border-orange-200">
-            All Night prayer program holds tonight 15/2/2025 by 10:00a.m. Come
-            let’s wait on the Lord for success of the WAD IMPACT evangelism and
-            our personal needs.
-          </li>
-
-          <li className="pb-2 border-b border-orange-200">
-            Family life and Christian home week has been putoff, our Union has
-            directed churches to use the period to strengthen home fellowships
-            in preparation for the WADIMPACT evangelism.
-          </li>
-          <li className="pb-2 border-b border-orange-200">
-            There will be Ogba church at business meeting today immediately
-            after the service.
+            Keep the Church environment clean. Dispose every trash properly in
+            the waste baskets.{" "}
           </li>
           <li className="pb-2 border-b border-orange-200">
             LMC Elders Certification comes up April 13, 2025. All Elders are to
             prepare for this by studying the Elders' Handbook.
-          </li>
-
-          <li className="pb-2 border-b border-orange-200">
-            Adventurer Family Camp 2025 comes up on April 17-20, 2025. Theme: A
-            Walk with Jesus (1 John 2:6). Venue: Ogba Church. Registration Fee:
-            ₦6,000.
           </li>
           <li className="pb-2 border-b border-orange-200">
             <span className="font-bold">
@@ -92,14 +86,11 @@ const Announcement = () => {
             Ogba zone (Ogba, Iju and Ojokoro District) LMC children department
             quiz holds as follows: Date: 20/4/2025. Venue: SDA Church Ogba.
             Material for Study: Michael Asks Why. Beginner(1-3yrs): God's words.
-            Kindergarten (4-6yrs): Our worst enemy. Primary (7-9yrs): Where did
-            sin come from? and Can the dead speak? Power Point (10-12yrs): God's
-            unchanging law and Death and Resurrection. Real time and Cornerstone
-            will study the Book of Daniel- complete study, Images and symbols.
-          </li>
-          <li className="pb-2 border-b border-orange-200">
-            Keep the Church environment clean. Dispose every trash properly in
-            the waste baskets.{" "}
+            Kindergarten (4-6yrs): Our worst enemy. Primary (7-9yrs): Where's
+            did sin come from? and Can the dead speak? Power Point (10-12yrs):
+            God's unchanging law and Death and Resurrection. Real time and
+            Cornerstone will study the Book of Daniel- complete study, Images
+            and symbols.
           </li>
 
           <li className="pb-2 border-b border-orange-200">

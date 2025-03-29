@@ -9,17 +9,14 @@ const PastorDesk = () => {
         </div>
         <div className="space-y-3">
           <div className="text-lg font-semibold underline">
-            <p className="dark:text-white">
-              Ellen G. White, Review and Herald, Oct. 30, 1888.
-            </p>
+            <p className="dark:text-white">1 Peter 5:8</p>
           </div>
           <p className="text-orange-500">
-            “We must have the spirit of supplication to God. The enemy holds
-            many of you from prayer, by telling you that you do not feel your
-            prayers, and that you would better wait until you realize more of
-            the spirit of intercession, lest your prayers should be a mockery.
-            But you must say to Satan, “It is written” that “men ought always to
-            pray, and not to faint”.. ”
+            “Be sober-minded; be watchful. Your adversary the devil prowls
+            around like a roaring lion, seeking someone to devour. The days are
+            evil; the enemy is seeking to take advantage of us. Therefore, let
+            nothing distract you from beholding Christ daily in word, in prayer
+            with and in fellowship. Happy Sabbath.”
           </p>
         </div>
       </section>
