@@ -30,7 +30,6 @@ const Announcement = () => {
             find the Zoom links on the e-bulletin app
           </li>
           <li className="pb-2 border-b border-orange-200">
-            {/* <span className="font-bold">ADVENTIST MEN ORGANIZATION:</span> */}
             Ogba district Children Ministry quiz comes up as follows: Date:
             29/3/2025 Time: 2:30pm Venue: District HQ (Ogba Church){" "}
             <span className="font-bold">
