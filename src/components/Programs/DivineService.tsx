@@ -11,42 +11,42 @@ const DivineService = () => {
         <div className="grid grid-cols-4 gap-2">
           <div className="col-span-3 text-sm "> Prelude</div>
           <div className="text-xs"> Organist/Student Praise Team</div>
-          <div className="col-span-3 text-sm">Call to Worship: (SDAH 736)</div>
-          <div className="text-xs">Pst. Stanley Ojeabu</div>
+          <div className="col-span-3 text-sm">Call to Worship: (SDAH 694)</div>
+          <div className="text-xs"> M.G. Fikayo Alonge</div>
           <div className="col-span-3 text-sm"> Invocation</div>
           <div className="text-xs">Congregation</div>
           <div className="col-span-3 text-sm"> Doxology</div>
           <div className="text-xs">Izuchukwu Ihesiaba</div>
 
-          <div className="col-span-3 text-sm">Adoration Hymn: (SDAH 163)</div>
-          <div className="text-xs"> Elder Gbenga Adeoti</div>
+          <div className="col-span-3 text-sm">Adoration Hymn: (SDAH 83)</div>
+          <div className="text-xs"> M.G. Esther Kelechi</div>
           <div className="col-span-3 text-sm"> Pastoral Prayer</div>
-          <div className="text-xs">Elder A.C. Chilaka</div>
+          <div className="text-xs">Elder (M.G.) Anthony Ajie</div>
           <div className="col-span-3 text-sm"> Stewardship/Offertory </div>
-          <div className="text-xs"> Bro. Benjamin Oshiotse </div>
+          <div className="text-xs">  M.G. Miriam Okorie </div>
 
           <div className="col-span-3 text-sm">Musical Selection(Choir)</div>
-          <div className="text-xs"> Bro. Benjamin Oshiotse </div>
+          <div className="text-xs">  M.G. Miriam Okorie </div>
 
           <div className="col-span-3 text-sm">
-            Scripture Reading: (John:19:30)
+            Scripture Reading: (1 Peter 2: 9)
           </div>
-          <div className="text-xs">Mrs. Justina Agbada </div>
+          <div className="text-xs">Com. Chinonso Nwaesiaba</div>
           <div className="col-span-3 text-sm">
-            Hymn of Consecration (SDAH 159)
+            Hymn of Consecration (SDAH 189)
           </div>
-          <div className="text-xs"> Mrs. Justina Agbada</div>
+          <div className="text-xs">  Com. Mercy Azoro</div>
           <div className="col-span-3 text-sm">
             Sermon Title:{" "}
-            <span className="font-bold text-orange-500"> “It is Finished”</span>
+            <span className="font-bold text-orange-500"> “Living for Impact”</span>
           </div>
-          <div className="text-xs">Pst. Stanley Ojeabu</div>
-          <div className="col-span-3 text-sm">Closing Hymn: (SDAH 229)</div>
-          <div className="text-xs">Elder A.C. Chilaka</div>
+          <div className="text-xs">M.G. Fikayo Alonge</div>
+          <div className="col-span-3 text-sm">Closing Hymn: (SDAH 213)</div>
+          <div className="text-xs">Com. Joshua Agbada</div>
           <div className="col-span-3 text-sm">
             Benediction / Prayer for the Church
           </div>
-          <div className="text-xs">Pst. Stanley Ojeabu</div>
+          <div className="text-xs">Elder (M.G.) Anthony Ajie</div>
           <div className="col-span-3 text-sm">Doxology</div>
           <div className="text-xs"> Congregation</div>
         </div>

@@ -30,9 +30,11 @@ const Welcome = () => {
       </div>
       <div className="space-y-2">
         <div className="text-center flex justify-center">
-          <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2  w-full ">
-            <p className="text-orange-400 underline">THEME FOR THIS QUARTER</p>
-            God’s Love and Justice
+          <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2  w-full font-bold">
+            <p className="text-orange-400 underline ">
+              THEME FOR THIS QUARTER
+            </p>
+            Allusions, Images, Symbols: How to Study Bible Prophecy
           </blockquote>
         </div>
         <div className="text-center flex justify-center">
@@ -40,21 +42,21 @@ const Welcome = () => {
             <p className="text-orange-400 underline">
               TOPIC FOR THE WEEK (Lesson 13)
             </p>
-            Love❤️ Is the Fulfillment of the Law 📖
+            Some Principles of Prophecy
           </blockquote>
         </div>
         <div className="text-center flex justify-center">
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 w-full">
             <p className="text-orange-400 underline">MEMORY TEXT</p>
-
             <span className="px-1 text-xs italic">
-              "Owe no one anything except to love one another, for he who loves
-              another has fulfilled the law”.
-              <span className="font-bold">(Romans 13:8, NKJV)</span>
+              "But let him who glories glory in this, that he understands and
+              knows Me, that I am the LORD, exercising lovingkindness, judgment,
+              and righteousness in the earth. For in these I delight," says the
+              LORD”.
+              <span className="font-bold">(Jeremiah 9:24)</span>
             </span>
           </blockquote>
         </div>
-
         <div className="text-center flex justify-center">
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 w-full  overflow-auto">
             <a
@@ -64,7 +66,6 @@ const Welcome = () => {
             >
               <div className="">
                 <p className="underline">Join us Online via Zoom</p>
-
                 <p>Click here to join us online </p>
                 <span className="text-xs text-orange-500">
                   Time 9:00 AM Every Sabbath Morning

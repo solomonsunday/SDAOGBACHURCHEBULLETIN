@@ -9,14 +9,15 @@ const PastorDesk = () => {
         </div>
         <div className="space-y-3">
           <div className="text-lg font-semibold underline">
-            <p className="dark:text-white">1 Peter 5:8</p>
+            <p className="dark:text-white">Romans 12:-1-2</p>
           </div>
           <p className="text-orange-500">
-            “Be sober-minded; be watchful. Your adversary the devil prowls
-            around like a roaring lion, seeking someone to devour. The days are
-            evil; the enemy is seeking to take advantage of us. Therefore, let
-            nothing distract you from beholding Christ daily in word, in prayer
-            with and in fellowship. Happy Sabbath.”
+            “ I beseech you therefore, brethren, by the mercies of God, that you
+            present your bodies a living sacrifice, holy acceptable to God,
+            which is your reasonable service. And do not be conformed to this
+            world, but be transformed by the renewing of your mind, that you may
+            prove what is that good and acceptable and perfect will of God.
+            Serve God with Spiritual Gifts. Happy Sabbath.”
           </p>
         </div>
       </section>

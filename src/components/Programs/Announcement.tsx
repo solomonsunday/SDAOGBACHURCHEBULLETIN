@@ -30,21 +30,16 @@ const Announcement = () => {
             find the Zoom links on the e-bulletin app
           </li>
           <li className="pb-2 border-b border-orange-200">
-            Ogba district Children Ministry quiz comes up as follows: Date:
-            29/3/2025 Time: 2:30pm Venue: District HQ (Ogba Church){" "}
-            <span className="font-bold">
-              PS: The Children are encouraged to wait behind after worship today
-              for preparations
-            </span>
+            Today is Children Ministry Day of Fasting and Prayer for community.
+            May God hear the prayers of our children.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            AMO monthly meeting holds Sunday 06/04/25 Time: 10:00am Venue: Board
-            room
+            AMO monthly meeting holds tomorrow Sunday 6/4/2025. Time is 1p.m at
+            Boardroom.
           </li>
-
           <li className="pb-2 border-b border-orange-200">
-            Adventurers Family Camp comes up on April 17th -20th, 2025. Theme: A
-            Walk with Jesus (1 John 2:6). Venue: Ogba Church. Registration Fee:
+            Adventurer Family Camp comes up on April 17th – 20th, 2025. Theme: A
+            Walk with Jesus (1John 2:6) at Ogba Church. Registration Fee is
             ₦6,000.
           </li>
 
@@ -55,15 +50,27 @@ const Announcement = () => {
           </li>
 
           <li className="pb-2 border-b border-orange-200">
-            Here is the funeral arrangements in honour of Late brother Mr.
-            Innocent O. Ogbenyia; Service of songs: SDA Church Ogba, 6/4/2025
-            time: 4:00pm. Burial service: At his hometown, Umuodu Umuakwu in
-            Isiala Ngwa L.G.A of Abia state Date: 17/4/2025 Time: 10:00am.
+            Here is the funeral arrangements in honour of our Late brother Mr.
+            Innocent O. Ogbenyia; Service of Song: SDA Church Ogba, 6/4/2025 by
+            4:p.m. Burial Service: At his hometown, Umuodu Umuakwu in Isiala
+            Ngwa L.G.A of Abia State. Date: 17/04/2025 by 10:00am.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            WNUC Pathfinders comporee holds as follows: Theme: OBEDIENCE Date:
-            August 10th - 17th, 2025 Venue: Reno Secondary School, Sagamu, Ogun
-            state Registration: #12,500
+            WNUC Pathfinders Camporee holds in August 10th – 17th, 2025 at Remo
+            Secondary School, Sagamu, Ogun State. Registration is ₦12,500
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            LMC AMO one day retreat is May 11th, 2025. Registration is ₦5,000
+            with bag, ₦3,000 without bag.
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            LMC Elders Certification comes up April 13, 2025. All Elders are to
+            prepare for this by studying the Elders' Handbook.
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            Publishing and SOP rally week is 12th-18th April, 2025. A meeting of
+            LMC LEs with the WNUC PMD holds on 20th April, 2025 at Ogba. Time is
+            10:00a.m.
           </li>
           <li className="pb-2 border-b border-orange-200">
             The church leadership is calling for a regular donation of snacks
@@ -72,11 +79,11 @@ const Announcement = () => {
           </li>
           <li className="pb-2 border-b border-orange-200">
             Keep the Church environment clean. Dispose every trash properly in
-            the waste baskets.{" "}
+            the waste baskets.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            LMC Elders Certification comes up April 13, 2025. All Elders are to
-            prepare for this by studying the Elders' Handbook.
+            GC Session holds July 3rd – 12th, 2025. Special offering for 10/40
+            windows areas will be collected next Sabbath 12th April 2025 .
           </li>
           <li className="pb-2 border-b border-orange-200">
             <span className="font-bold">
@@ -91,7 +98,6 @@ const Announcement = () => {
             Cornerstone will study the Book of Daniel- complete study, Images
             and symbols.
           </li>
-
           <li className="pb-2 border-b border-orange-200">
             Support the Church projects for this year a. Empowerment of members
             b. Oke Ira evangelism project c. Renovation and beautification of
