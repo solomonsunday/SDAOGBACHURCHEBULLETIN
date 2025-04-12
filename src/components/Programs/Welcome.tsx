@@ -32,7 +32,7 @@ const Welcome = () => {
         <div className="text-center flex justify-center">
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2  w-full font-bold">
             <p className="text-orange-400 underline ">
-              THEME FOR THIS QUARTER
+              THEME FOR THIS QUARTER (Quarter2)
             </p>
             Allusions, Images, Symbols: How to Study Bible Prophecy
           </blockquote>
@@ -40,20 +40,18 @@ const Welcome = () => {
         <div className="text-center flex justify-center">
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2  w-full">
             <p className="text-orange-400 underline">
-              TOPIC FOR THE WEEK (Lesson 13)
+              TOPIC FOR THE WEEK (Lesson 2)
             </p>
-            Some Principles of Prophecy
+            The Genesis Foundation
           </blockquote>
         </div>
         <div className="text-center flex justify-center">
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 w-full">
             <p className="text-orange-400 underline">MEMORY TEXT</p>
             <span className="px-1 text-xs italic">
-              "But let him who glories glory in this, that he understands and
-              knows Me, that I am the LORD, exercising lovingkindness, judgment,
-              and righteousness in the earth. For in these I delight," says the
-              LORD”.
-              <span className="font-bold">(Jeremiah 9:24)</span>
+              "The next day John saw Jesus coming toward him, and said, ‘Behold!
+              The Lamb of God who takes away the sin of the world!”.
+              <span className="font-bold">(John 1:29)</span>
             </span>
           </blockquote>
         </div>

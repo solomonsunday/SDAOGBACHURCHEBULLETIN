@@ -9,15 +9,12 @@ const PastorDesk = () => {
         </div>
         <div className="space-y-3">
           <div className="text-lg font-semibold underline">
-            <p className="dark:text-white">Romans 12:-1-2</p>
+            <p className="dark:text-white">Hebrew 13:4</p>
           </div>
           <p className="text-orange-500">
-            “ I beseech you therefore, brethren, by the mercies of God, that you
-            present your bodies a living sacrifice, holy acceptable to God,
-            which is your reasonable service. And do not be conformed to this
-            world, but be transformed by the renewing of your mind, that you may
-            prove what is that good and acceptable and perfect will of God.
-            Serve God with Spiritual Gifts. Happy Sabbath.”
+            “Marriage should be honoured by all, and the marriage bed kept
+            pure, for God will judge the adulterer and all the sexually immoral.
+            Happy Sabbath.”
           </p>
         </div>
       </section>

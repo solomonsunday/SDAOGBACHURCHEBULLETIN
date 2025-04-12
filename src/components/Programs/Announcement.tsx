@@ -30,30 +30,49 @@ const Announcement = () => {
             find the Zoom links on the e-bulletin app
           </li>
           <li className="pb-2 border-b border-orange-200">
-            Today is Children Ministry Day of Fasting and Prayer for community.
-            May God hear the prayers of our children.
+            There will be a Special offering for 10/40 window areas today 12
+            April 2025. This is a GC offering for mission to reach the unreached
+            places, Please give for the furtherance of God’s word
           </li>
           <li className="pb-2 border-b border-orange-200">
-            AMO monthly meeting holds tomorrow Sunday 6/4/2025. Time is 1p.m at
-            Boardroom.
+            ⁠GC 100 days of prayer program commenced April 4th - July 12th, 2025
+            via zoom, Time: 6:30am - 7:00am daily. This has begun and will end
+            on the last day of the GC Session.
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            There will be an emergency AMO meeting after the divine service
+            today.
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            LMC Elders Certification comes up April 13, 2025. All Elders are to
+            prepare for this by studying the Elders Handbook.
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            Publishing and SOP rally week holds from 12 -18 April 2025.
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            10. There will be a meeting of LMC LEs with the WNUC PMD on
+            20/4/2025 here in Ogba church Time: 10:00am.
+          </li>{" "}
+          <li className="pb-2 border-b border-orange-200 font-bold">
+            Thanks to all who donated towards our yearly Zoom subscription, God
+            bless you all.
           </li>
           <li className="pb-2 border-b border-orange-200">
             Adventurer Family Camp comes up on April 17th – 20th, 2025. Theme: A
             Walk with Jesus (1John 2:6) at Ogba Church. Registration Fee is
             ₦6,000.
           </li>
-
           <li className="pb-2 border-b border-orange-200">
             Appeal for Donation towards Zoom Subscription: Our yearly Zoom
             subscription is $160. Please kindly donate towards it, preferably in
             dollars as the Lord impresses it in your heart.
           </li>
-
           <li className="pb-2 border-b border-orange-200">
             Here is the funeral arrangements in honour of our Late brother Mr.
-            Innocent O. Ogbenyia; Service of Song: SDA Church Ogba, 6/4/2025 by
-            4:p.m. Burial Service: At his hometown, Umuodu Umuakwu in Isiala
-            Ngwa L.G.A of Abia State. Date: 17/04/2025 by 10:00am.
+            Innocent O. Ogbenyia; Burial Service: At his hometown, Umuodu
+            Umuakwu in Isiala Ngwa L.G.A of Abia State. Date: 17/04/2025 by
+            10:00am.
           </li>
           <li className="pb-2 border-b border-orange-200">
             WNUC Pathfinders Camporee holds in August 10th – 17th, 2025 at Remo
@@ -62,15 +81,6 @@ const Announcement = () => {
           <li className="pb-2 border-b border-orange-200">
             LMC AMO one day retreat is May 11th, 2025. Registration is ₦5,000
             with bag, ₦3,000 without bag.
-          </li>
-          <li className="pb-2 border-b border-orange-200">
-            LMC Elders Certification comes up April 13, 2025. All Elders are to
-            prepare for this by studying the Elders' Handbook.
-          </li>
-          <li className="pb-2 border-b border-orange-200">
-            Publishing and SOP rally week is 12th-18th April, 2025. A meeting of
-            LMC LEs with the WNUC PMD holds on 20th April, 2025 at Ogba. Time is
-            10:00a.m.
           </li>
           <li className="pb-2 border-b border-orange-200">
             The church leadership is calling for a regular donation of snacks

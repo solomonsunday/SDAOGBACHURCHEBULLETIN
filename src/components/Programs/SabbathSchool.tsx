@@ -17,75 +17,67 @@ const SabbathSchool = () => {
           Welcome / Opening Remark
         </div>
         <div className="text-xs">Bro. Chimezie Mbagwu</div>
-        <div className="col-span-3 text-sm capitalize">Opening Prayer</div>
-        <div className="text-xs">Com. Bridget Ifeanyi</div>
         <div className="col-span-3 text-sm capitalize">
-          Opening Hymn (SDAH 212)
+          Opening Hymn (SDAH 016)
         </div>
-        <div className="text-xs capitalize">Sis. Kelechi Nwachukwu</div>
-
+        <div className="text-xs capitalize">Bro. Benjamin Oshiotse </div>
+        <div className="col-span-3 text-sm capitalize">Opening Prayer</div>
+        <div className="text-xs">Sis. Kelechi Nwachukwu</div>
         <div className="col-span-3 text-sm capitalize">
           {" "}
           Mission Spotlight / Keeping on Course (5 - 7 Mins){" "}
         </div>
-        <div className="text-xs capitalize"> Bro. Benjamin Oshiotse</div>
-
+        <div className="text-xs capitalize">Sis. Gift Christopher</div>
         <div className="col-span-3 text-sm capitalize">
           Scripture Reading (2mins){" "}
         </div>
-        <div className="text-xs capitalize"> Sis. Chika Promise</div>
-
+        <div className="text-xs capitalize">Sis. Nkeiruka Ihesiaba Wogu</div>
         <div className="col-span-3 text-sm capitalize">
           {" "}
           Special Music / (Choir) (3-5mins)
         </div>
         <div className="text-xs capitalize">-</div>
-
         <div className="col-span-3 text-sm capitalize">
           Lesson Study / Introduction (9:30am-10:15a.m)
         </div>
-        <div className="text-xs capitalize">Bro. Chimezie Mbagwu</div>
-        <div className="col-span-3 text-sm capitalize">
-          Unit Activities / Lesson Study (40 Mins)
-        </div>
-        <div className="text-xs capitalize">-</div>
-
+        <div className="text-xs capitalize">Bro. Chimezie Mbagwu </div>
         <div className="col-span-3 text-sm capitalize">
           {" "}
           Interactive Session (Quarters Recap)
         </div>
-        <div className="text-xs capitalize">Sis. Chika Promise</div>
+        <div className="text-xs capitalize">Bro. Chimezie Mbagwu </div>
+        <div className="col-span-3 text-sm capitalize">
+          Unit Activities / Lesson Study (40 Mins)
+        </div>
+        <div className="text-xs capitalize">-</div>
         <div className="col-span-3 text-sm capitalize">
           Lesson Summary / Discussion
         </div>
         <div className="text-xs capitalize">-</div>
-
         <div className="col-span-3 text-sm capitalize">
           Welcome / Friend's time (5mins)
         </div>
-        <div className="text-xs capitalize">Bro. Benjamin Oshiotse</div>
+        <div className="text-xs capitalize">Sis. Nkeiruka Ihesiaba Wogu</div>
         <div className="col-span-3 text-sm capitalize">
           Special Presentation: (Sis. Kelechi & Co)
         </div>
         <div className="text-xs capitalize">Sis. Chika Promise</div>
-
-        <div className="col-span-3 text-sm capitalize">
+        {/* <div className="col-span-3 text-sm capitalize">
           Sabbath School Report
         </div>
-        <div className="text-xs capitalize">Bro. Benjamin Oshiotse</div>
-
+        <div className="text-xs capitalize">Bro. Benjamin Oshiotse</div> */}
         <div className="col-span-3 text-sm capitalize">
           Closing Remark / Announcement (3mins)
         </div>
-        <div className="text-xs capitalize">Bro. Chimezie Mbagwu</div>
+        <div className="text-xs capitalize">Bro. Benjamin Oshiotse</div>
         <div className="col-span-3 text-sm capitalize">
-          Closing Hymn (SDAH 272) (2mins)
+          Closing Hymn (SDAH 246) (2mins)
         </div>
         <div className="text-xs capitalize">Sis. Kelechi Nwachukwu</div>
         <div className="col-span-3 text-sm capitalize">
           Closing Prayer (2mins)
         </div>
-        <div className="text-xs">Sis. Chika Promise</div>
+        <div className="text-xs">Sis. Gift Christopher</div>
       </div>
     </section>
   );
