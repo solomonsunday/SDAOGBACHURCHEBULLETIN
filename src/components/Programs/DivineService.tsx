@@ -14,41 +14,49 @@ const DivineService = () => {
           <div className="col-span-3 text-sm">
             Call to Worship: (Philippians 4:8)
           </div>
-          <div className="text-xs"> Pastor Happy Kona</div>
-          <div className="col-span-3 text-sm"> Invocation</div>
+          <div className="text-xs">Elder Emeka Agbara</div>
+          {/* <div className="col-span-3 text-sm"> Invocation</div>
           <div className="text-xs">Congregation</div>
           <div className="col-span-3 text-sm"> Doxology</div>
           <div className="text-xs">Izuchukwu Ihesiaba</div>
           <div className="col-span-3 text-sm">Adoration Hymn: (SDAH 308)</div>
-          <div className="text-xs">Elder Gbenga Adeoti</div>
+          <div className="text-xs">Elder Gbenga Adeoti</div> */}
           <div className="col-span-3 text-sm"> Pastoral Prayer</div>
-          <div className="text-xs"> Deacon Kelechi Nwogu</div>
+          <div className="text-xs"> Justina Agbada</div>
           <div className="col-span-3 text-sm"> Stewardship/Offertory </div>
-          <div className="text-xs">Elder Tunde Aina</div>
-          <div className="col-span-3 text-sm">Musical Selection(Choir)</div>
-          <div className="text-xs">Elder Tunde Aina</div>
+          <div className="text-xs">Blessing Chimezie</div>
           <div className="col-span-3 text-sm">
+            Musical Selection(Choir Time) (SDAH 125, 34, 340){" "}
+          </div>
+          <div className="text-xs"> Blessing Chimezie</div>
+
+          <div className="col-span-3 text-sm">
+            Congregational (SDAH 506, 485, 337, 171, 526){" "}
+          </div>
+          <div className="text-xs">Elder Emeka Agbara</div>
+
+          {/* <div className="col-span-3 text-sm">
             Scripture Reading: (1 Corinthians 6:18-20)
           </div>
-          <div className="text-xs">Mrs. Chioma Kingsley</div>
-          <div className="col-span-3 text-sm">
+          <div className="text-xs">Mrs. Chioma Kingsley</div> */}
+          {/* <div className="col-span-3 text-sm">
             Hymn of Consecration (SDAH 500)
           </div>
-          <div className="text-xs">Mrs. Chioma Kingsley</div>
-          <div className="col-span-3 text-sm">
+          <div className="text-xs">Mrs. Chioma Kingsley</div> */}
+          {/* <div className="col-span-3 text-sm">
             Sermon Title:{" "}
             <span className="font-bold text-orange-500">
               {" "}
               “Sex as a Blessing in Marriage”
             </span>
-          </div>
-          <div className="text-xs"> Pastor Happy Kona</div>
-          <div className="col-span-3 text-sm">Closing Hymn: (SDAH 567)</div>
-          <div className="text-xs">Deacon Kelechi Nwogu</div>
+          </div> */}
+          {/* <div className="text-xs"> Pastor Happy Kona</div> */}
+          <div className="col-span-3 text-sm">Closing Hymn: (SDAH 422) </div>
+          <div className="text-xs">Justina Agbada</div>
           <div className="col-span-3 text-sm">
             Benediction / Prayer for the Church
           </div>
-          <div className="text-xs">Pastor Happy Kona</div>
+          <div className="text-xs">Elder Emeka Agbara</div>
           <div className="col-span-3 text-sm">Doxology</div>
           <div className="text-xs"> Congregation</div>
         </div>

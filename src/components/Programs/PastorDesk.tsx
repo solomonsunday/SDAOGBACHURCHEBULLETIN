@@ -9,12 +9,14 @@ const PastorDesk = () => {
         </div>
         <div className="space-y-3">
           <div className="text-lg font-semibold underline">
-            <p className="dark:text-white">Hebrew 13:4</p>
+            <p className="dark:text-white">Psalm 92:1-2</p>
           </div>
           <p className="text-orange-500">
-            “Marriage should be honoured by all, and the marriage bed kept
-            pure, for God will judge the adulterer and all the sexually immoral.
-            Happy Sabbath.”
+            “ It is good to give thanks to the Lord, And to sing praises to Your
+            name, O Most High; To declare Your lovingkindness in the morning,
+            And Your faithfulness every night, Man the Lord accept our
+            expressions of praise and worship as sweet smelling incense before
+            His altar of Praise in Jesus Christ name. Amen Happy Sabbath.”
           </p>
         </div>
       </section>

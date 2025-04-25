@@ -32,7 +32,7 @@ const Welcome = () => {
         <div className="text-center flex justify-center">
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2  w-full font-bold">
             <p className="text-orange-400 underline ">
-              THEME FOR THIS QUARTER (Quarter2)
+              THEME FOR THIS QUARTER (Quarter 2)
             </p>
             Allusions, Images, Symbols: How to Study Bible Prophecy
           </blockquote>
@@ -40,18 +40,20 @@ const Welcome = () => {
         <div className="text-center flex justify-center">
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2  w-full">
             <p className="text-orange-400 underline">
-              TOPIC FOR THE WEEK (Lesson 2)
+              TOPIC FOR THE WEEK (Lesson 4)
             </p>
-            The Genesis Foundation
+            The Nations: Part 1
           </blockquote>
         </div>
         <div className="text-center flex justify-center">
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 w-full">
             <p className="text-orange-400 underline">MEMORY TEXT</p>
             <span className="px-1 text-xs italic">
-              "The next day John saw Jesus coming toward him, and said, ‘Behold!
-              The Lamb of God who takes away the sin of the world!”.
-              <span className="font-bold">(John 1:29)</span>
+              ‘Then to Him was given dominion and glory and a kingdom, that all
+              peoples, nations, and languages should serve Him. His dominion is
+              an everlasting dominion, which shall not pass away, and His
+              kingdom the one which shall not be destroyed’.
+              <span className="font-bold">(Daniel 7:14, NKJV)</span>
             </span>
           </blockquote>
         </div>
