@@ -17,28 +17,24 @@ const SabbathSchool = () => {
           Welcome / Opening Remark
         </div>
         <div className="text-xs">Bro. Chimezie Mbagwu</div>
-
-        <div className="col-span-3 text-sm capitalize">
-          Congregational (SDAH 249)
-        </div>
         <div className="text-xs">Obumneke Onuoha</div>
         <div className="col-span-3 text-sm capitalize">Opening Prayer</div>
         <div className="text-xs capitalize">Chioma Anyanwoke</div>
         <div className="col-span-3 text-sm capitalize">
-          Opening Hymn (SDAH 016)
+          Opening Hymn (SDAH 008)
         </div>
-        <div className="text-xs capitalize">Bro. Benjamin Oshiotse</div>
-        {/* <div className="col-span-3 text-sm capitalize">Opening Prayer</div>
-        <div className="text-xs">Sis. Kelechi Nwachukwu</div> */}
+        <div className="text-xs capitalize">Mrs. Chika Promise</div>
+        <div className="col-span-3 text-sm capitalize">Opening Prayer</div>
+        <div className="text-xs">Mrs. Esther Elisha</div>
         <div className="col-span-3 text-sm capitalize">
           {" "}
-          Mission Spotlight / Keeping on Course (SDAH 159) (5 - 7 Mins)
+          Mission Spotlight / Keeping on Course (5 - 7 Mins)
         </div>
-        <div className="text-xs capitalize">Timileyin Abioye</div>
+        <div className="text-xs capitalize"> Elder Davies </div>
         <div className="col-span-3 text-sm capitalize">
           Scripture Reading (2mins){" "}
         </div>
-        <div className="text-xs capitalize">Nwankaego Chidinda</div>
+        <div className="text-xs capitalize">Mrs. Chika Promise</div>
         <div className="col-span-3 text-sm capitalize">
           {" "}
           Special Music / (Choir) (3-5mins)
@@ -64,23 +60,15 @@ const SabbathSchool = () => {
         <div className="col-span-3 text-sm capitalize">
           Welcome / Friend's time (5mins)
         </div>
-        <div className="text-xs capitalize">Chioma Anyanwoke</div>
+        <div className="text-xs capitalize">Mrs. Chika Promise</div>
         <div className="col-span-3 text-sm capitalize">
           Special Presentation
         </div>
         <div className="text-xs capitalize">
-          Esther Okorie
+          Elder Davies
           <br />
-          Choir (SDAH 221)
-          <br /> Ogbonna Adiele
-          <br /> Faithful Brothers
-          <br /> Miriam Okorie.
-          <br />
+          Elder & Mrs Katchy Onwulata
         </div>
-        <div className="col-span-3 text-sm capitalize">
-          Congregational (SDAH 341)
-        </div>
-        <div className="text-xs capitalize"> Nwankaego Chidinda</div>
         {/* <div className="col-span-3 text-sm capitalize">
           Sabbath School Report
         </div>
@@ -88,17 +76,17 @@ const SabbathSchool = () => {
         <div className="col-span-3 text-sm capitalize">
           Closing Remark / Announcement (3mins)
         </div>
-        <div className="text-xs capitalize">Bro. Benjamin Oshiotse</div>
+        <div className="text-xs capitalize">Bro. Chimezie Mbagwu</div>
         <div className="col-span-3 text-sm capitalize">
-          Closing Hymn (SDAH 246) (2mins)
+          Closing Hymn (SDAH 100) (2mins)
         </div>
-        <div className="text-xs capitalize">Sis. Kelechi Nwachukwu</div>
+        <div className="text-xs capitalize"> the Senior Citizens – Mrs. Esther Elisha</div>
         <div className="col-span-3 text-sm capitalize">
           Closing Prayer (2mins)
         </div>
         <div className="text-xs">Obumneke Onuoha</div>
         <div className="col-span-3 text-sm capitalize">
-          Closing Prayer (2mins)
+        Prayer for the Senior Citizens and the Church (2mins)
         </div>
         <div className="text-xs">Obumneke Onuoha</div>
         <div className="col-span-3 text-sm capitalize">

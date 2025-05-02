@@ -30,23 +30,22 @@ const Announcement = () => {
             find the Zoom links on the e-bulletin app
           </li>
           <li className="pb-2 border-b border-orange-200">
-            ⁠GC 100 days of prayer program commenced April 4th - July 12th, 2025
-            via zoom, Time: 6:30am - 7:00am daily. This has begun and will end
-            on the last day of the GC Session.
+            GC 100 days of prayers program commenced April 4th – July 12th, 2025
+            via zoom, time is 6:30a.m – 7:00a.m daily. This has begun and will
+            end on the last day of GC Session.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            Post Camp Meeting holds tomorrow 27th April, 2025 at Ogba Church.
-            Time is 10:00a.m. Participants: All Pastors, All Elders, Sabbath
-            School Superintendent, Youth Leaders, AWM Leaders, AMO Leaders and
-            Personal Ministry Leaders.
+            Today is Senior Citizens (age 65yrs and above) celebration Sabbath,
+            let’s come prepared to celebrate the Elderly in our midst.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            Ogba Church Singles breakfast fellowship holds tomorrow 27/04/2025
-            at the children’s church by 9:00a.m.
+            AMO Monthly meeting holds tomorrow 04/05/2025. Venue: Board room.
+            Time: 10:00a.m.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            Next sabbath is Senior Citizens (age 65yrs and above) Celebration
-            Sabbath, lets come prepared to celebrate the Elderly in our midst.
+            Next Sabbath is AMO day. We shall be having Pastor Theodore Dickson
+            from Babcock University to talk on issues of Marriage. Come prepared
+            to share your thoughts and ask your questions.
           </li>
           <li className="pb-2 border-b border-orange-200">
             Please support the School (ANPS) Project as we anticipate responses
@@ -58,6 +57,12 @@ const Announcement = () => {
             with bag, ₦3,000 without bag.
           </li>
           <li className="pb-2 border-b border-orange-200">
+            LMC Stewardship/Treasury Training comes up as follows: Date:
+            29/06/2025. Venue: SDA Church Ogba. Expected attendees: Pastors,
+            Elders, Stewardship leaders, Local Church and district treasury
+            workers, Personal Ministry leaders.
+          </li>
+          <li className="pb-2 border-b border-orange-200">
             The church leadership is calling for a regular donation of snacks
             and support from members for our children in Baby steps and
             beginners class upstairs.
@@ -67,8 +72,17 @@ const Announcement = () => {
             the waste baskets.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            GC Session holds July 3rd – 12th, 2025. Special offering for 10/40
-            windows areas will be collected next Sabbath 12th April 2025 .
+            GC Session comes up July 3rd – 12th, 2025. Lets pray for its
+            success.
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            WNUC Pathfinders Camporee holds in August 10th – 17th, 2025 at Reno
+            Secondary School, Sagamu, Ogun State. Theme: OBEDIENCE. Registration
+            is ₦12,500
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            LMC Women’s Convention comes up as follows: Date: 26th – 31st
+            August, 2025. Venue: Ikorodu, Lagos State. Registration: ₦20,000.
           </li>
           <li className="pb-2 border-b border-orange-200">
             Support the Church projects for this year a. Empowerment of members

@@ -9,14 +9,14 @@ const PastorDesk = () => {
         </div>
         <div className="space-y-3">
           <div className="text-lg font-semibold underline">
-            <p className="dark:text-white">Psalm 92:1-2</p>
+            <p className="dark:text-white">Luke 19:32 ESV</p>
           </div>
           <p className="text-orange-500">
-            “ It is good to give thanks to the Lord, And to sing praises to Your
-            name, O Most High; To declare Your lovingkindness in the morning,
-            And Your faithfulness every night, Man the Lord accept our
-            expressions of praise and worship as sweet smelling incense before
-            His altar of Praise in Jesus Christ name. Amen Happy Sabbath.”
+            “You shall stand up before the gray head and honor the face of an
+            old man, and you shall fear your God: I am the LORD. Today is Senior
+            Citizens Sabbath. Let us learn to treat the aged and elderly with
+            respect and dignity, not only for their sake, but also for the
+            Lord’s sake who commands us to do so. Happy Sabbath."
           </p>
         </div>
       </section>
