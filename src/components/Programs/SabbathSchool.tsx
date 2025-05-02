@@ -17,7 +17,6 @@ const SabbathSchool = () => {
           Welcome / Opening Remark
         </div>
         <div className="text-xs">Bro. Chimezie Mbagwu</div>
-        <div className="text-xs">Obumneke Onuoha</div>
         <div className="col-span-3 text-sm capitalize">Opening Prayer</div>
         <div className="text-xs capitalize">Chioma Anyanwoke</div>
         <div className="col-span-3 text-sm capitalize">
@@ -80,20 +79,18 @@ const SabbathSchool = () => {
         <div className="col-span-3 text-sm capitalize">
           Closing Hymn (SDAH 100) (2mins)
         </div>
-        <div className="text-xs capitalize"> the Senior Citizens – Mrs. Esther Elisha</div>
-        <div className="col-span-3 text-sm capitalize">
+        <div className="text-xs capitalize">
+          {" "}
+          the Senior Citizens – Mrs. Esther Elisha
+        </div>
+        {/* <div className="col-span-3 text-sm capitalize">
           Closing Prayer (2mins)
         </div>
-        <div className="text-xs">Obumneke Onuoha</div>
+        <div className="text-xs">Obumneke Onuoha</div> */}
         <div className="col-span-3 text-sm capitalize">
-        Prayer for the Senior Citizens and the Church (2mins)
+          Prayer for the Senior Citizens and the Church (2mins)
         </div>
-        <div className="text-xs">Obumneke Onuoha</div>
-        <div className="col-span-3 text-sm capitalize">
-          Congregational Hymns <br />
-          Choir Procession <br />
-          Announcement
-        </div>
+        <div className="text-xs">-</div>
       </div>
     </section>
   );
