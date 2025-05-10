@@ -57,15 +57,23 @@ const Announcement = () => {
             towards the development of our School.
           </li>{" "}
           <li className="pb-2 border-b border-orange-200 italic bg-pink-400 rounded-md text-center p-2">
-            <span className="font-bold capitalize underline">Wedding Bell:<br/> </span>
+            <span className="font-bold capitalize underline">
+              Wedding Bell:
+              <br />{" "}
+            </span>
             You are cordially invited to the wedding ceremonies of our dearly
-            beloved sister and brother as follows: i. Sis. Chinonso Divinefavour
-            Uzomba and Mr. Promise U. Nwauzor Date: 11/05/2025 Time: 10:00am
-            Venue: SDA Church Iheorji Umuogele District Aba, Abia State. ii.{" "}
+            beloved sister and brother as follows:
+            <br /> i.{" "}
+            <span className="font-bold">
+              Sis. Chinonso Divinefavour Uzomba{" "}
+            </span>
+            and Mr. Promise U. Nwauzor Date: 11/05/2025 Time: 10:00am Venue: SDA
+            Church Iheorji Umuogele District Aba, Abia State.
             <br />
             <br />
-            Sis. Chinweike Glory Fredrick and Bro. Iruka Innocent Johnson Date:
-            25/05/2025 Time: 12:00 noon Venue: Umuokegwu Omoba, Isialangwa
+            ii. Sis. Chinweike Glory Fredrick and{" "}
+            <span className="font-bold">Bro. Iruka Innocent Johnson</span>
+            Date: 25/05/2025 Time: 12:00 noon Venue: Umuokegwu Omoba, Isialangwa
             south, Abia State.
           </li>
           <li className="pb-2 border-b border-orange-200">
