@@ -40,18 +40,20 @@ const Welcome = () => {
         <div className="text-center flex justify-center">
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2  w-full">
             <p className="text-orange-400 underline">
-              TOPIC FOR THE WEEK (Lesson 5)
+              TOPIC FOR THE WEEK (Lesson 6)
             </p>
-            The Nations: Part 2
+            Understanding Sacrifice
           </blockquote>
         </div>
         <div className="text-center flex justify-center">
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 w-full">
             <p className="text-orange-400 underline">MEMORY TEXT</p>
             <span className="px-1 text-xs italic">
-              “Be still, and know that I am God; I will be exalted among the
-              nations, I will be exalted in the earth!”.
-              <span className="font-bold">(Psalm 46:10, NKJV)</span>
+              “And they sang a new song, saying: ‘You are worthy to take the
+              scroll, and to open its seals; for You were slain, and have
+              redeemed us to God by Your blood out of every tribe and tongue and
+              people and nation’”.
+              <span className="font-bold">(Revelation 5:9, NKJV)</span>
             </span>
           </blockquote>
         </div>

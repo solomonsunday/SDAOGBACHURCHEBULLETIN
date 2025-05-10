@@ -35,25 +35,41 @@ const Announcement = () => {
             end on the last day of GC Session.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            Today is Senior Citizens (age 65yrs and above) celebration Sabbath,
-            let’s come prepared to celebrate the Elderly in our midst.
+            WNUC invites you to her Lagos Satellite Evangelism strategic meeting
+            tomorrow 11/05/2025. Venue: SDA Church Maryland. Expected
+            participants” All Pastors and Church workers, Exco members, all
+            Directors, First elders and Church leaders, all elders, all AMO
+            leaders District and local churches, AWM leaders District and local
+            churches, Youth leaders District and local churches.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            AMO Monthly meeting holds tomorrow 04/05/2025. Venue: Board room.
-            Time: 10:00a.m.
+            Today is AMO day and Pastor Theodore Dickson from Babcock University
+            is here to talk to us on issues of Marriage.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            Next Sabbath is AMO day. We shall be having Pastor Theodore Dickson
-            from Babcock University to talk on issues of Marriage. Come prepared
-            to share your thoughts and ask your questions.
+            Please support the School (ANPS) Project as we anticipate responses
+            to the appeal letters given to members and free will donations
+            towards the development of our School.
           </li>
           <li className="pb-2 border-b border-orange-200">
             Please support the School (ANPS) Project as we anticipate responses
             to the appeal letters given to members and free will donations
             towards the development of our School.
           </li>{" "}
+          <li className="pb-2 border-b border-orange-200 italic bg-pink-400 rounded-md text-center p-2">
+            <span className="font-bold capitalize underline">Wedding Bell:<br/> </span>
+            You are cordially invited to the wedding ceremonies of our dearly
+            beloved sister and brother as follows: i. Sis. Chinonso Divinefavour
+            Uzomba and Mr. Promise U. Nwauzor Date: 11/05/2025 Time: 10:00am
+            Venue: SDA Church Iheorji Umuogele District Aba, Abia State. ii.{" "}
+            <br />
+            <br />
+            Sis. Chinweike Glory Fredrick and Bro. Iruka Innocent Johnson Date:
+            25/05/2025 Time: 12:00 noon Venue: Umuokegwu Omoba, Isialangwa
+            south, Abia State.
+          </li>
           <li className="pb-2 border-b border-orange-200">
-            LMC AMO one day retreat is May 11th, 2025. Registration is ₦5,000
+            LMC AMO one day retreat is May 25th, 2025. Registration is ₦5,000
             with bag, ₦3,000 without bag.
           </li>
           <li className="pb-2 border-b border-orange-200">

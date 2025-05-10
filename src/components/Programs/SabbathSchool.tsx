@@ -12,28 +12,31 @@ const SabbathSchool = () => {
           {" "}
           Song service & Prayer (15 Mins)
         </div>
-        <div className="text-xs capitalize">Song Leader</div>
+        <div className="text-xs capitalize">AMO Song Leader</div>
         <div className="col-span-3 text-sm capitalize">
           Welcome / Opening Remark
         </div>
         <div className="text-xs">Bro. Chimezie Mbagwu</div>
-        <div className="col-span-3 text-sm capitalize">Opening Prayer</div>
-        <div className="text-xs capitalize">Chioma Anyanwoke</div>
         <div className="col-span-3 text-sm capitalize">
-          Opening Hymn (SDAH 008)
+          Opening Hymn (SDAH 246)
         </div>
-        <div className="text-xs capitalize">Mrs. Chika Promise</div>
+        <div className="text-xs capitalize">Mrs. Monturayo Olusona </div>
         <div className="col-span-3 text-sm capitalize">Opening Prayer</div>
-        <div className="text-xs">Mrs. Esther Elisha</div>
+        <div className="text-xs">Elder Gabriel Olusona</div>
+        <div className="col-span-3 text-sm capitalize">
+          SPecial Feature: “Men of Faith in Action –{" "}
+        </div>
+        <div className="text-xs"> Elder Chukwuma Ihesiaba</div>
+
         <div className="col-span-3 text-sm capitalize">
           {" "}
           Mission Spotlight / Keeping on Course (5 - 7 Mins)
         </div>
-        <div className="text-xs capitalize"> Elder Davies </div>
+        <div className="text-xs capitalize"> - </div>
         <div className="col-span-3 text-sm capitalize">
           Scripture Reading (2mins){" "}
         </div>
-        <div className="text-xs capitalize">Mrs. Chika Promise</div>
+        <div className="text-xs capitalize">Mrs. Happiness Ihesiaba</div>
         <div className="col-span-3 text-sm capitalize">
           {" "}
           Special Music / (Choir) (3-5mins)
@@ -52,22 +55,12 @@ const SabbathSchool = () => {
           Unit Activities / Lesson Study (40 Mins)
         </div>
         <div className="text-xs capitalize">-</div>
-        <div className="col-span-3 text-sm capitalize">
-          Lesson Summary / Discussion
-        </div>
-        <div className="text-xs capitalize">-</div>
+        <div className="col-span-3 text-sm capitalize">Panel Discussion</div>
+        <div className="text-xs capitalize">Elder Emeka Agbara</div>
         <div className="col-span-3 text-sm capitalize">
           Welcome / Friend's time (5mins)
         </div>
-        <div className="text-xs capitalize">Mrs. Chika Promise</div>
-        <div className="col-span-3 text-sm capitalize">
-          Special Presentation
-        </div>
-        <div className="text-xs capitalize">
-          Elder Davies
-          <br />
-          Elder & Mrs Katchy Onwulata
-        </div>
+        <div className="text-xs capitalize">Mrs. Monturayo Olusona</div>
         {/* <div className="col-span-3 text-sm capitalize">
           Sabbath School Report
         </div>
@@ -75,22 +68,15 @@ const SabbathSchool = () => {
         <div className="col-span-3 text-sm capitalize">
           Closing Remark / Announcement (3mins)
         </div>
-        <div className="text-xs capitalize">Bro. Chimezie Mbagwu</div>
+        <div className="text-xs capitalize">Elder Gabriel Olusona</div>
         <div className="col-span-3 text-sm capitalize">
-          Closing Hymn (SDAH 100) (2mins)
+          Closing Hymn (SDAH 009) (2mins)
         </div>
-        <div className="text-xs capitalize">
-          {" "}
-          the Senior Citizens – Mrs. Esther Elisha
-        </div>
-        {/* <div className="col-span-3 text-sm capitalize">
+        <div className="text-xs capitalize"> Mrs. Happiness Ihesiaba</div>
+        <div className="col-span-3 text-sm capitalize">
           Closing Prayer (2mins)
         </div>
-        <div className="text-xs">Obumneke Onuoha</div> */}
-        <div className="col-span-3 text-sm capitalize">
-          Prayer for the Senior Citizens and the Church (2mins)
-        </div>
-        <div className="text-xs">-</div>
+        <div className="text-xs"> Elder Chukwuma Ihesiaba</div>
       </div>
     </section>
   );
