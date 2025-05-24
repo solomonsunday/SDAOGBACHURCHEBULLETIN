@@ -14,43 +14,43 @@ const DivineService = () => {
           <div className="col-span-3 text-sm">
             Call to Worship: (1 Peter 3:1-12)
           </div>
-          <div className="text-xs"> Pst. (Dr) Theodore Dickson</div>
-          <div className="col-span-3 text-sm">
+          <div className="text-xs">Pst. Happy Kona</div>
+          {/* <div className="col-span-3 text-sm">
             {" "}
             Welcome/Introduction of Officiating Ministers
           </div>
-          <div className="text-xs"> Deacon Kelechi Nwogu</div>
+          <div className="text-xs"> Deacon Kelechi Nwogu</div> */}
           <div className="col-span-3 text-sm"> Invocation</div>
           <div className="text-xs">Congregation</div>
-          <div className="col-span-3 text-sm">Adoration Hymn: (SDAH 652)</div>
-          <div className="text-xs"> Mrs. Funke Adeoti</div>
+          <div className="col-span-3 text-sm">Adoration Hymn: (SDAH 422)</div>
+          <div className="text-xs">  Sister Comfort Esinwa</div>
           <div className="col-span-3 text-sm"> Pastoral Prayer</div>
-          <div className="text-xs"> Pst. Happy Kona</div>
+          <div className="text-xs"> Elder Anthony Ajie</div>
           <div className="col-span-3 text-sm"> Stewardship/Offertory </div>
-          <div className="text-xs">Elder Gbenga Adeoti</div>
-          <div className="col-span-3 text-sm">SDACWM Choir Presentation</div>
-          <div className="text-xs"> Deacon Emmanuel Obi</div>
+          <div className="text-xs"> Bro. Benjamin Oshotse</div>
+          <div className="col-span-3 text-sm">SDA Choir Presentation</div>
+          <div className="text-xs">  Bro. Benjamin Oshotse</div>
 
           <div className="col-span-3 text-sm">
             Musical Selection(Choir Time)
           </div>
           <div className="text-xs">Mrs. Francesca Azomaukwu</div>
           <div className="col-span-3 text-sm">
-            Scripture Reading: (1 King 12:4)
+            Scripture Reading: 1 Peter 2:9) 		   
           </div>
-          <div className="text-xs">Mrs. Esther Kelechi</div>
-          <div className="col-span-3 text-sm">AMO Choir: (Choir)</div>
-          <div className="text-xs"> Deacon Lucky Ezekiel</div>
+          <div className="text-xs"> Mrs. Funke Adeoti</div>
+          <div className="col-span-3 text-sm">Hymn of Consecration:(SDAH 350)</div>
+          <div className="text-xs">Mrs. Funke Adeoti</div>
           <div className="col-span-3 text-sm">
-            Sermon Title: <span className="font-bold text-orange-500"> “...”</span>
+            Sermon Title: <span className="font-bold text-orange-500"> “The Christian Commitment to our Church Community”</span>
           </div>
-          <div className="text-xs">Pst. (Dr) Theodore Dickson</div>
-          <div className="col-span-3 text-sm">Closing Hymn: (SDAH 330) </div>
-          <div className="text-xs"> Deacon Kelechi Nwogu</div>
+          <div className="text-xs">Pst. Happy Kona</div>
+          <div className="col-span-3 text-sm">Closing Hymn: (SDAH 579) </div>
+          <div className="text-xs">Elder Anthony Ajie</div>
           <div className="col-span-3 text-sm">
             Benediction / Prayer for the Church
           </div>
-          <div className="text-xs"> Pst. (Dr) Theodore Dickson</div>
+          <div className="text-xs"> Pst. Happy Kona</div>
           <div className="col-span-3 text-sm">Doxology</div>
           <div className="text-xs"> Congregation</div>
         </div>

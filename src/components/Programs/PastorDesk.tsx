@@ -10,17 +10,11 @@ const PastorDesk = () => {
         <div className="space-y-3">
           <div className="text-lg font-semibold underline">
             <p className="dark:text-white">
-              Ellen G. White, Counsels for the Church, 261
+             Romans 12:9-11(ESV)
             </p>
           </div>
           <p className="text-orange-500">
-            “God made from the man a woman, to be a companion and helpmeet for
-            him, to be one with him, to cheer encourage, and bless him, he in
-            his turn to be her strong helper. All who enter into matrimonial
-            relations with a holy purpose – the husband to obtain the pure
-            affections of a woman’s heart, the wife to soften and improve her
-            husband’s character and give completeness-fulfil God’s purpose for
-            them."
+            “Let love be genuine. Abhor what is evil; hold fast to what is good. Love one another with brotherly affection. Outdo one another in showing honor. Do not be slothful in zeal, be fervent in spirit, serve the Lord."
           </p>
         </div>
       </section>

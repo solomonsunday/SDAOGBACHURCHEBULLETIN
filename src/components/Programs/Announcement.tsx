@@ -35,47 +35,41 @@ const Announcement = () => {
             end on the last day of GC Session.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            WNUC invites you to her Lagos Satellite Evangelism strategic meeting
-            tomorrow 11/05/2025. Venue: SDA Church Maryland. Expected
-            participants” All Pastors and Church workers, Exco members, all
-            Directors, First elders and Church leaders, all elders, all AMO
-            leaders District and local churches, AWM leaders District and local
-            churches, Youth leaders District and local churches.
+            There will be Holy Communion today after worship
           </li>
           <li className="pb-2 border-b border-orange-200">
-            Today is AMO day and Pastor Theodore Dickson from Babcock University
-            is here to talk to us on issues of Marriage.
+            The family of Bro. Obinna Young is blessed with the gift of a
+            bouncing baby girl within the week to the glory of God.
           </li>
           <li className="pb-2 border-b border-orange-200">
             Please support the School (ANPS) Project as we anticipate responses
             to the appeal letters given to members and free will donations
             towards the development of our School.
           </li>
-          <li className="pb-2 border-b border-orange-200">
-            Please support the School (ANPS) Project as we anticipate responses
-            to the appeal letters given to members and free will donations
-            towards the development of our School.
-          </li>{" "}
           <li className="pb-2 border-b border-orange-200 italic bg-pink-400 rounded-md text-center p-2">
             <span className="font-bold capitalize underline">
               Wedding Bell:
               <br />{" "}
             </span>
-            You are cordially invited to the wedding ceremonies of our dearly
-            beloved sister and brother as follows:
-            <br /> i.{" "}
-            <span className="font-bold">
-              Sis. Chinonso Divinefavour Uzomba{" "}
-            </span>
-            and Mr. Promise U. Nwauzor Date: 11/05/2025 Time: 10:00am Venue: SDA
-            Church Iheorji Umuogele District Aba, Abia State.
-            <br />
-            <br />
-            ii. Sis. Chinweike Glory Fredrick and{" "}
-            <span className="font-bold">Bro. Iruka Innocent Johnson</span>
+            Sis. Chinweike Glory Fredrick and{" "}
+            <span className="font-bold">Bro. Iruka Innocent Johnson </span>
             Date: 25/05/2025 Time: 12:00 noon Venue: Umuokegwu Omoba, Isialangwa
             south, Abia State.
           </li>
+          <li className="pb-2 border-b border-orange-200">
+            Bereavement: Mrs. Etoyeaku lost her husband last week. Let’s keep
+            the family in our prayer
+          </li>{" "}
+          <li className="pb-2 border-b border-orange-200">
+            There will be District all Night prayer on 30/05/2025 here in Ogba
+            Church by 10:00p.m
+          </li>{" "}
+          <li className="pb-2 border-b border-orange-200">
+            Post Camp Meeting holds on Sunday 8th June, 2025 at Ogba Church.
+            Time is 9:00a.m. Participants are: All Pastors, all Elders, Sabbath
+            School Superintendent, Youth Leaders, AWM Leaders, AMO Leaders, and
+            Personal Ministry Leaders.
+          </li>{" "}
           <li className="pb-2 border-b border-orange-200">
             LMC AMO one day retreat is May 25th, 2025. Registration is ₦5,000
             with bag, ₦3,000 without bag.
