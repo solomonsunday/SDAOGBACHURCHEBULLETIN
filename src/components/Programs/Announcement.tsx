@@ -35,18 +35,31 @@ const Announcement = () => {
             end on the last day of GC Session.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            There will be Holy Communion today after worship
+            There will be District all Night prayer on 30/05/2025 here in Ogba
+            Church by 10:00p.m
+          </li>{" "}
+          <li className="pb-2 border-b border-orange-200">
+            Church at Business meeting holds immediately after service next
+            Sabbath.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            The family of Bro. Obinna Young is blessed with the gift of a
-            bouncing baby girl within the week to the glory of God.
-          </li>
+            Post Camp Meeting holds on Sunday 8th June, 2025 at Ogba Church.
+            Time is 9:00a.m. Participants are: All Pastors, all Elders, Sabbath
+            School Superintendent, Youth Leaders, AWM Leaders, AMO Leaders, and
+            Personal Ministry Leaders.
+          </li>{" "}
           <li className="pb-2 border-b border-orange-200">
             Please support the School (ANPS) Project as we anticipate responses
             to the appeal letters given to members and free will donations
             towards the development of our School.
           </li>
-          <li className="pb-2 border-b border-orange-200 italic bg-pink-400 rounded-md text-center p-2">
+          <li className="pb-2 border-b border-orange-200">
+            LMC Stewardship/Treasury Training comes up as follows: Date:
+            29/06/2025. Venue: SDA Church Ogba. Expected attendees: Pastors,
+            Elders, Stewardship leaders, Local Church and district treasury
+            workers, Personal Ministry leaders.
+          </li>
+          {/* <li className="pb-2 border-b border-orange-200 italic bg-pink-400 rounded-md text-center p-2">
             <span className="font-bold capitalize underline">
               Wedding Bell:
               <br />{" "}
@@ -55,31 +68,7 @@ const Announcement = () => {
             <span className="font-bold">Bro. Iruka Innocent Johnson </span>
             Date: 25/05/2025 Time: 12:00 noon Venue: Umuokegwu Omoba, Isialangwa
             south, Abia State.
-          </li>
-          <li className="pb-2 border-b border-orange-200">
-            Bereavement: Mrs. Etoyeaku lost her husband last week. Let’s keep
-            the family in our prayer
-          </li>{" "}
-          <li className="pb-2 border-b border-orange-200">
-            There will be District all Night prayer on 30/05/2025 here in Ogba
-            Church by 10:00p.m
-          </li>{" "}
-          <li className="pb-2 border-b border-orange-200">
-            Post Camp Meeting holds on Sunday 8th June, 2025 at Ogba Church.
-            Time is 9:00a.m. Participants are: All Pastors, all Elders, Sabbath
-            School Superintendent, Youth Leaders, AWM Leaders, AMO Leaders, and
-            Personal Ministry Leaders.
-          </li>{" "}
-          <li className="pb-2 border-b border-orange-200">
-            LMC AMO one day retreat is May 25th, 2025. Registration is ₦5,000
-            with bag, ₦3,000 without bag.
-          </li>
-          <li className="pb-2 border-b border-orange-200">
-            LMC Stewardship/Treasury Training comes up as follows: Date:
-            29/06/2025. Venue: SDA Church Ogba. Expected attendees: Pastors,
-            Elders, Stewardship leaders, Local Church and district treasury
-            workers, Personal Ministry leaders.
-          </li>
+          </li> */}
           <li className="pb-2 border-b border-orange-200">
             The church leadership is calling for a regular donation of snacks
             and support from members for our children in Baby steps and

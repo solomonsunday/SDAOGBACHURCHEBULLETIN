@@ -11,10 +11,8 @@ const DivineService = () => {
         <div className="grid grid-cols-4 gap-2">
           <div className="col-span-3 text-sm "> Prelude</div>
           <div className="text-xs"> Organist/Student Praise Team</div>
-          <div className="col-span-3 text-sm">
-            Call to Worship: (1 Peter 3:1-12)
-          </div>
-          <div className="text-xs">Pst. Happy Kona</div>
+          <div className="col-span-3 text-sm">Call to Worship: (SDAH 711)</div>
+          <div className="text-xs">Dr. Chineyem Obonga</div>
           {/* <div className="col-span-3 text-sm">
             {" "}
             Welcome/Introduction of Officiating Ministers
@@ -22,35 +20,38 @@ const DivineService = () => {
           <div className="text-xs"> Deacon Kelechi Nwogu</div> */}
           <div className="col-span-3 text-sm"> Invocation</div>
           <div className="text-xs">Congregation</div>
-          <div className="col-span-3 text-sm">Adoration Hymn: (SDAH 422)</div>
-          <div className="text-xs">  Sister Comfort Esinwa</div>
+          <div className="col-span-3 text-sm">Adoration Hymn: (SDAH 249)</div>
+          <div className="text-xs"> Mrs. Funmilayo Abioye</div>
           <div className="col-span-3 text-sm"> Pastoral Prayer</div>
-          <div className="text-xs"> Elder Anthony Ajie</div>
+          <div className="text-xs">Elder Promise Nwaejigh</div>
           <div className="col-span-3 text-sm"> Stewardship/Offertory </div>
-          <div className="text-xs"> Bro. Benjamin Oshotse</div>
-          <div className="col-span-3 text-sm">SDA Choir Presentation</div>
-          <div className="text-xs">  Bro. Benjamin Oshotse</div>
-
+          <div className="text-xs">Mrs Goodness Edward</div>
           <div className="col-span-3 text-sm">
             Musical Selection(Choir Time)
           </div>
-          <div className="text-xs">Mrs. Francesca Azomaukwu</div>
+          <div className="text-xs">Mrs Goodness Edward</div>
           <div className="col-span-3 text-sm">
-            Scripture Reading: 1 Peter 2:9) 		   
+            Scripture Reading: 3 John 1:2)
           </div>
-          <div className="text-xs"> Mrs. Funke Adeoti</div>
-          <div className="col-span-3 text-sm">Hymn of Consecration:(SDAH 350)</div>
-          <div className="text-xs">Mrs. Funke Adeoti</div>
+          <div className="text-xs">Mrs .Olusona</div>
           <div className="col-span-3 text-sm">
-            Sermon Title: <span className="font-bold text-orange-500"> “The Christian Commitment to our Church Community”</span>
+            Hymn of Consecration:(SDAH 254)
           </div>
-          <div className="text-xs">Pst. Happy Kona</div>
-          <div className="col-span-3 text-sm">Closing Hymn: (SDAH 579) </div>
-          <div className="text-xs">Elder Anthony Ajie</div>
+          <div className="text-xs">Mrs Olusona</div>
+          <div className="col-span-3 text-sm">
+            Sermon Title:{" "}
+            <span className="font-bold text-orange-500">
+              {" "}
+              “Health Presentation”
+            </span>
+          </div>
+          <div className="text-xs">Dr. Chineyem Obonga </div>
+          <div className="col-span-3 text-sm">Closing Hymn: (SDAH 469) </div>
+          <div className="text-xs">Elder Promise Nwaejigh</div>
           <div className="col-span-3 text-sm">
             Benediction / Prayer for the Church
           </div>
-          <div className="text-xs"> Pst. Happy Kona</div>
+          <div className="text-xs">Dr. Chineyem Obonga</div>
           <div className="col-span-3 text-sm">Doxology</div>
           <div className="text-xs"> Congregation</div>
         </div>

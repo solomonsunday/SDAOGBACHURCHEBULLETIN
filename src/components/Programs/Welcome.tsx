@@ -42,17 +42,18 @@ const Welcome = () => {
             <p className="text-orange-400 underline">
               TOPIC FOR THE WEEK (Lesson 8)
             </p>
-            In the Psalms: Part 1
+            In the Psalms: Part 2
           </blockquote>
         </div>
         <div className="text-center flex justify-center">
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 w-full">
             <p className="text-orange-400 underline">MEMORY TEXT</p>
             <span className="px-1 text-xs italic">
-              “Then I looked, and behold, a Lamb standing on Mount Zion, and
-              with Him one hundred and forty-four thousand, having His Father’s
-              name written on their foreheads”.
-              <span className="font-bold">(Revelation 14:1, NKJV)</span>
+              “Let the peoples praise You, O God; let all the peoples praise
+              You. Oh, let the nations be glad and sing for joy! For You shall
+              judge the people righteously, and govern the nations on earth.
+              Selah”.
+              <span className="font-bold">(Psalm 67:3-4, NKJV)</span>
             </span>
           </blockquote>
         </div>

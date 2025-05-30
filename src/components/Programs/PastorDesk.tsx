@@ -10,11 +10,14 @@ const PastorDesk = () => {
         <div className="space-y-3">
           <div className="text-lg font-semibold underline">
             <p className="dark:text-white">
-             Romans 12:9-11(ESV)
+              Testimony for the Church, Vol. 2 page 522
             </p>
           </div>
           <p className="text-orange-500">
-            “Let love be genuine. Abhor what is evil; hold fast to what is good. Love one another with brotherly affection. Outdo one another in showing honor. Do not be slothful in zeal, be fervent in spirit, serve the Lord."
+            “All who profess to be followers of Jesus should feel that a duty
+            rests upon them to preserve their bodies in the best condition of
+            health, that their minds may be clear to comprehend heavenly things.
+            – Happy Health Sabbath"
           </p>
         </div>
       </section>
