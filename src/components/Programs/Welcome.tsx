@@ -42,18 +42,18 @@ const Welcome = () => {
             <p className="text-orange-400 underline">
               TOPIC FOR THE WEEK (Lesson 8)
             </p>
-            In the Psalms: Part 2
+            Upon Whom the Ends Have Come
           </blockquote>
         </div>
         <div className="text-center flex justify-center">
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 w-full">
             <p className="text-orange-400 underline">MEMORY TEXT</p>
             <span className="px-1 text-xs italic">
-              “Let the peoples praise You, O God; let all the peoples praise
-              You. Oh, let the nations be glad and sing for joy! For You shall
-              judge the people righteously, and govern the nations on earth.
-              Selah”.
-              <span className="font-bold">(Psalm 67:3-4, NKJV)</span>
+              “Now all these things happened to them as examples, and they were
+              written for our admonition, upon whom the ends of the ages have
+              come. Therefore let him who thinks he stands take heed lest he
+              fall”.
+              <span className="font-bold">(1 Corinthians 10:11-12, NKJV)</span>
             </span>
           </blockquote>
         </div>

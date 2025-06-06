@@ -35,18 +35,18 @@ const Announcement = () => {
             end on the last day of GC Session.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            There will be District all Night prayer on 30/05/2025 here in Ogba
-            Church by 10:00p.m
+            Ogba Church Hymnal Sabbath holds on 28/06/2025. Individuals and
+            Groups are invited to make entries with the Sabbath School secretary
+            for participation on or before 14/06/2025 for effective planning.
           </li>{" "}
           <li className="pb-2 border-b border-orange-200">
-            Church at Business meeting holds immediately after service next
-            Sabbath.
+            Church at Business Meeting holds immediately after service today.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            Post Camp Meeting holds on Sunday 8th June, 2025 at Ogba Church.
-            Time is 9:00a.m. Participants are: All Pastors, all Elders, Sabbath
-            School Superintendent, Youth Leaders, AWM Leaders, AMO Leaders, and
-            Personal Ministry Leaders.
+            Post Camp Meeting holds tomorrow Sunday 8th June, 2025 at Ogba
+            Church. Time is 9:00a.m. Participants are: All Pastors, all Elders,
+            Sabbath School Superintendent, Youth Leaders, AWM Leaders, AMO
+            Leaders, and Personal Ministry Leaders.
           </li>{" "}
           <li className="pb-2 border-b border-orange-200">
             Please support the School (ANPS) Project as we anticipate responses

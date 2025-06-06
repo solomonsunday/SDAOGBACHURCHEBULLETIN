@@ -11,8 +11,10 @@ const DivineService = () => {
         <div className="grid grid-cols-4 gap-2">
           <div className="col-span-3 text-sm "> Prelude</div>
           <div className="text-xs"> Organist/Student Praise Team</div>
-          <div className="col-span-3 text-sm">Call to Worship: (SDAH 711)</div>
-          <div className="text-xs">Dr. Chineyem Obonga</div>
+          <div className="col-span-3 text-sm">
+            Call to Worship: (Titus 2:11-14){" "}
+          </div>
+          <div className="text-xs">Pst. Happy Kona</div>
           {/* <div className="col-span-3 text-sm">
             {" "}
             Welcome/Introduction of Officiating Ministers
@@ -20,38 +22,35 @@ const DivineService = () => {
           <div className="text-xs"> Deacon Kelechi Nwogu</div> */}
           <div className="col-span-3 text-sm"> Invocation</div>
           <div className="text-xs">Congregation</div>
-          <div className="col-span-3 text-sm">Adoration Hymn: (SDAH 249)</div>
-          <div className="text-xs"> Mrs. Funmilayo Abioye</div>
+          <div className="col-span-3 text-sm">Adoration Hymn: (SDAH 108)</div>
+          <div className="text-xs">Mrs. Happiness Ihesiaba</div>
           <div className="col-span-3 text-sm"> Pastoral Prayer</div>
-          <div className="text-xs">Elder Promise Nwaejigh</div>
+          <div className="text-xs"> Mrs. Ogechi Happy Kona</div>
           <div className="col-span-3 text-sm"> Stewardship/Offertory </div>
-          <div className="text-xs">Mrs Goodness Edward</div>
+          <div className="text-xs">Deacon Lucky Ezekiel</div>
           <div className="col-span-3 text-sm">
             Musical Selection(Choir Time)
           </div>
-          <div className="text-xs">Mrs Goodness Edward</div>
+          <div className="text-xs">Deacon Lucky Ezekiel</div>
           <div className="col-span-3 text-sm">
-            Scripture Reading: 3 John 1:2)
+            Scripture Reading: (Eph. 2:8-10)
           </div>
-          <div className="text-xs">Mrs .Olusona</div>
+          <div className="text-xs">Nifemi Adeoti</div>
           <div className="col-span-3 text-sm">
-            Hymn of Consecration:(SDAH 254)
+            Hymn of Consecration:(SDAH 109)
           </div>
-          <div className="text-xs">Mrs Olusona</div>
+          <div className="text-xs"> Nifemi Adeoti</div>
           <div className="col-span-3 text-sm">
             Sermon Title:{" "}
-            <span className="font-bold text-orange-500">
-              {" "}
-              “Health Presentation”
-            </span>
+            <span className="font-bold text-orange-500"> “Saved By Grace”</span>
           </div>
-          <div className="text-xs">Dr. Chineyem Obonga </div>
-          <div className="col-span-3 text-sm">Closing Hymn: (SDAH 469) </div>
-          <div className="text-xs">Elder Promise Nwaejigh</div>
+          <div className="text-xs">Pst. Happy Kona </div>
+          <div className="col-span-3 text-sm">Closing Hymn: (SDAH 154) </div>
+          <div className="text-xs">Mrs. Ogechi Happy Kona </div>
           <div className="col-span-3 text-sm">
             Benediction / Prayer for the Church
           </div>
-          <div className="text-xs">Dr. Chineyem Obonga</div>
+          <div className="text-xs"> Pst. Happy Kona</div>
           <div className="col-span-3 text-sm">Doxology</div>
           <div className="text-xs"> Congregation</div>
         </div>

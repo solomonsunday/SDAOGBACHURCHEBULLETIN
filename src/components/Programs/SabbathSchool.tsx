@@ -16,13 +16,13 @@ const SabbathSchool = () => {
         <div className="col-span-3 text-sm capitalize">
           Welcome / Opening Remark
         </div>
-        <div className="text-xs">Bro. Aaron Imaemugh</div>
+        <div className="text-xs">Bro. Chimezie Mbagwu</div>
         <div className="col-span-3 text-sm capitalize">
           Opening Hymn (SDAH 099)
         </div>
-        <div className="text-xs capitalize"> Sis Tofunmi Olusona </div>
+        <div className="text-xs capitalize"> Sis. Nkeiruka Ihesiaba </div>
         <div className="col-span-3 text-sm capitalize">Opening Prayer</div>
-        <div className="text-xs">Sis Tofunmi Olusona</div>
+        <div className="text-xs">Sis Tofunmi Olusona & Sis. Ejiro Edafe</div>
         {/* <div className="col-span-3 text-sm capitalize">
           SPecial Feature: “Men of Faith in Action –{" "}
         </div>
@@ -32,60 +32,50 @@ const SabbathSchool = () => {
           {" "}
           Mission Spotlight / Keeping on Course (5 - 7 Mins)
         </div>
-        <div className="text-xs capitalize"> Sis. Jessica Hillary </div>
+        <div className="text-xs capitalize"> Bro. Kelechi Nwogu </div>
         <div className="col-span-3 text-sm capitalize">
           Scripture Reading (2mins){" "}
         </div>
-        <div className="text-xs capitalize"> -</div>
-        <div className="col-span-3 text-sm capitalize">
+        <div className="text-xs capitalize"> Sis. Nkeiruka Ihesiaba </div>
+        {/* <div className="col-span-3 text-sm capitalize">
           {" "}
           Special Feature (Short Drama on Seizure) (3-5mins)
         </div>
-        <div className="text-xs capitalize">Sis. Jessica Hillary</div>
+        <div className="text-xs capitalize">Sis. Jessica Hillary</div> */}
 
         <div className="col-span-3 text-sm capitalize">
           {" "}
-          Special Song (Esther Okorie) (3-5mins)
+          Special Song (3-5mins)
         </div>
-        <div className="text-xs capitalize">Bro. Loveday Chizuruike</div>
+        <div className="text-xs capitalize">-</div>
         <div className="col-span-3 text-sm capitalize">
           Lesson Study / Introduction (9:30am-10:15a.m)
         </div>
-        <div className="text-xs capitalize">Bro. Aaron Imaemugh</div>
+        <div className="text-xs capitalize">Bro. Chimezie Mbagwu</div>
         <div className="col-span-3 text-sm capitalize">
           Unit Activities / Lesson Study (40 Mins)
         </div>
         <div className="text-xs capitalize">-</div>
-        <div className="col-span-3 text-sm capitalize">
-          First Aid (Choking intervention for both child/adult)
-        </div>
-        <div className="text-xs capitalize">Sis. Jessica Hillary</div>
-
-        <div className="col-span-3 text-sm capitalize">
-          Health Talk on prostrate (Sis. Miriam Okorie)
-        </div>
-        <div className="text-xs capitalize">Sis. Jessica Hillary</div>
+        <div className="col-span-3 text-sm capitalize">Interactive Session</div>
+        <div className="text-xs capitalize">Lesson Recap/Quiz</div>
 
         <div className="col-span-3 text-sm capitalize">
           Welcome / Friend's time (5mins)
         </div>
-        <div className="text-xs capitalize"> Bro. Loveday Chizuruike</div>
-        {/* <div className="col-span-3 text-sm capitalize">
-          Sabbath School Report
-        </div>
-        <div className="text-xs capitalize">Bro. Benjamin Oshiotse</div> */}
+        <div className="text-xs capitalize">Bro. Chimezie Mbagwu</div>
+
         <div className="col-span-3 text-sm capitalize">
           Closing Remark / Announcement (3mins)
         </div>
-        <div className="text-xs capitalize">Bro. Aaron Imaemugh</div>
+        <div className="text-xs capitalize">Bro. Chimezie Mbagwu</div>
         <div className="col-span-3 text-sm capitalize">
-          Closing Hymn (SDAH 590) (2mins)
+          Closing Hymn (SDAH 537) (2mins)
         </div>
-        <div className="text-xs capitalize"> Sis Tofunmi Olusona</div>
+        <div className="text-xs capitalize"> Sis. Ejiro Edafe</div>
         <div className="col-span-3 text-sm capitalize">
-          Closing Prayer (Eld. Promise) (2mins)
+          Closing Prayer (2mins)
         </div>
-        <div className="text-xs"> Sis. Jessica Hillary</div>
+        <div className="text-xs"> Bro. Kelechi Nwogu</div>
       </div>
     </section>
   );

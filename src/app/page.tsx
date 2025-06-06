@@ -1,5 +1,6 @@
 "use client";
 import Announcement from "@/components/Programs/Announcement";
+import CoverPage from "@/components/Programs/CoverPage";
 import DivineService from "@/components/Programs/DivineService";
 import Footer from "@/components/Programs/Footer";
 import Header from "@/components/Programs/Header";
@@ -15,6 +16,7 @@ const Home = () => {
     <div>
       <div ref={ref} className="duration-300 ease-in"></div>
       <Header />
+
       <div className="w-9/12 mx-auto">
         <Welcome />
         <SabbathSchool />

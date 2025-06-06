@@ -10,14 +10,14 @@ const PastorDesk = () => {
         <div className="space-y-3">
           <div className="text-lg font-semibold underline">
             <p className="dark:text-white">
-              Testimony for the Church, Vol. 2 page 522
+              Ellen White ... Message to Young people,941.
             </p>
           </div>
           <p className="text-orange-500">
-            “All who profess to be followers of Jesus should feel that a duty
-            rests upon them to preserve their bodies in the best condition of
-            health, that their minds may be clear to comprehend heavenly things.
-            – Happy Health Sabbath"
+            “Nothing is apparently more helpless, yet really more invincible,
+            than the soul that feels its nothingness, and relies wholly on the
+            merits of the Saviour. God would send every angel in heaven to the
+            aid of such an one, rather than allow him to be overcome. "
           </p>
         </div>
       </section>
