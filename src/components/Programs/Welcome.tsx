@@ -40,7 +40,7 @@ const Welcome = () => {
         <div className="text-center flex justify-center">
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2  w-full">
             <p className="text-orange-400 underline">
-              TOPIC FOR THE WEEK (Lesson 8)
+              TOPIC FOR THE WEEK (Lesson 10)
             </p>
             Upon Whom the Ends Have Come
           </blockquote>
