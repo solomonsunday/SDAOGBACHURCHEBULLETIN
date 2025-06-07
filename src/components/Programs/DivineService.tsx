@@ -15,11 +15,6 @@ const DivineService = () => {
             Call to Worship: (Titus 2:11-14){" "}
           </div>
           <div className="text-xs">Pst. Happy Kona</div>
-          {/* <div className="col-span-3 text-sm">
-            {" "}
-            Welcome/Introduction of Officiating Ministers
-          </div>
-          <div className="text-xs"> Deacon Kelechi Nwogu</div> */}
           <div className="col-span-3 text-sm"> Invocation</div>
           <div className="text-xs">Congregation</div>
           <div className="col-span-3 text-sm">Adoration Hymn: (SDAH 108)</div>

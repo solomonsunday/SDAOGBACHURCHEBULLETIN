@@ -1,6 +1,5 @@
 "use client";
 import Announcement from "@/components/Programs/Announcement";
-import CoverPage from "@/components/Programs/CoverPage";
 import DivineService from "@/components/Programs/DivineService";
 import Footer from "@/components/Programs/Footer";
 import Header from "@/components/Programs/Header";
