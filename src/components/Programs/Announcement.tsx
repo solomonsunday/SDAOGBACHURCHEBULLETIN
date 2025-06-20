@@ -35,18 +35,25 @@ const Announcement = () => {
             end on the last day of GC Session.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            Ogba Church Hymnal Sabbath holds on 28/06/2025. Individuals and
-            Groups are invited to make entries with the Sabbath School secretary
-            for participation on or before 14/06/2025 for effective planning.
+            Ogba Church Hymnal Sabbath holds on 28/06/2025.
           </li>{" "}
           <li className="pb-2 border-b border-orange-200">
-            Church at Business Meeting holds immediately after service today.
+            Today is our World Refugee Sabbath, let’s continue to pray for the
+            displaced people in our community and beyond.{" "}
           </li>
           <li className="pb-2 border-b border-orange-200">
-            Post Camp Meeting holds tomorrow Sunday 8th June, 2025 at Ogba
-            Church. Time is 9:00a.m. Participants are: All Pastors, all Elders,
-            Sabbath School Superintendent, Youth Leaders, AWM Leaders, AMO
-            Leaders, and Personal Ministry Leaders.
+            LMC ASAM holds her All Night Prayer service tonight. 21/06/2025.
+            Time is 10:00p.m after a brief meeting by 8:30p.m. Venue: Valley
+            Side SDA Church Oregun.
+          </li>{" "}
+          <li className="pb-2 border-b border-orange-200">
+            Ogba District AMO Inaugural Meeting holds tomorrow, Sunday
+            22/06/2025. Time is 10:00a.m. Venue is Akiode Church.
+          </li>{" "}
+          <li className="pb-2 border-b border-orange-200">
+            LMC ASAM holds her All Night Prayer service tonight. 21/06/2025.
+            Time is 10:00p.m after a brief meeting by 8:30p.m. Venue: Valley
+            Side SDA Church Oregun.
           </li>{" "}
           <li className="pb-2 border-b border-orange-200">
             Please support the School (ANPS) Project as we anticipate responses
@@ -54,10 +61,16 @@ const Announcement = () => {
             towards the development of our School.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            LMC Stewardship/Treasury Training comes up as follows: Date:
-            29/06/2025. Venue: SDA Church Ogba. Expected attendees: Pastors,
-            Elders, Stewardship leaders, Local Church and district treasury
-            workers, Personal Ministry leaders.
+            There will be a Fasting and Prayer program here in Ogba Church on
+            5/7/2025. Please prepare for it as all are encouraged to participate
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            2025 LMC Singles Conference holds on 6/07/2025 at SDA Church
+            Ilupeju. Time is 9:00a.m.
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            Ogba District Combine Service hold July 12, 2025 here in Ogba
+            Church.
           </li>
           {/* <li className="pb-2 border-b border-orange-200 italic bg-pink-400 rounded-md text-center p-2">
             <span className="font-bold capitalize underline">

@@ -11,41 +11,39 @@ const DivineService = () => {
         <div className="grid grid-cols-4 gap-2">
           <div className="col-span-3 text-sm "> Prelude</div>
           <div className="text-xs"> Organist/Student Praise Team</div>
-          <div className="col-span-3 text-sm">
-            Call to Worship: (Titus 2:11-14){" "}
-          </div>
-          <div className="text-xs">Pst. Happy Kona</div>
+          <div className="col-span-3 text-sm">Call to Worship: (SDAH 873) </div>
+          <div className="text-xs"> Elder Emeka Agbara</div>
           <div className="col-span-3 text-sm"> Invocation</div>
           <div className="text-xs">Congregation</div>
-          <div className="col-span-3 text-sm">Adoration Hymn: (SDAH 108)</div>
-          <div className="text-xs">Mrs. Happiness Ihesiaba</div>
+          <div className="col-span-3 text-sm">Adoration Hymn: (SDAH 499)</div>
+          <div className="text-xs"> Deacon Chibuzor Ehisianya</div>
           <div className="col-span-3 text-sm"> Pastoral Prayer</div>
-          <div className="text-xs"> Mrs. Ogechi Happy Kona</div>
+          <div className="text-xs"> Elder Anthony Ajie</div>
           <div className="col-span-3 text-sm"> Stewardship/Offertory </div>
-          <div className="text-xs">Deacon Lucky Ezekiel</div>
+          <div className="text-xs"> Bro. Sunday Oyelekan</div>
           <div className="col-span-3 text-sm">
             Musical Selection(Choir Time)
           </div>
-          <div className="text-xs">Deacon Lucky Ezekiel</div>
+          <div className="text-xs">Bro. Sunday Oyelekan</div>
           <div className="col-span-3 text-sm">
-            Scripture Reading: (Eph. 2:8-10)
+            Scripture Reading: (psalm. 50:15)
           </div>
-          <div className="text-xs">Nifemi Adeoti</div>
+          <div className="text-xs">Mrs. Dorcas Uneke</div>
           <div className="col-span-3 text-sm">
-            Hymn of Consecration:(SDAH 109)
+            Hymn of Consecration:(SDAH 632)
           </div>
-          <div className="text-xs"> Nifemi Adeoti</div>
+          <div className="text-xs"> Mrs. Dorcas Uneke</div>
           <div className="col-span-3 text-sm">
             Sermon Title:{" "}
-            <span className="font-bold text-orange-500"> “Saved By Grace”</span>
+            <span className="font-bold text-orange-500"> “Troubled? Call”</span>
           </div>
-          <div className="text-xs">Pst. Happy Kona </div>
-          <div className="col-span-3 text-sm">Closing Hymn: (SDAH 154) </div>
-          <div className="text-xs">Mrs. Ogechi Happy Kona </div>
+          <div className="text-xs">Elder Emeka Agbara</div>
+          <div className="col-span-3 text-sm">Closing Hymn: (SDAH 499) </div>
+          <div className="text-xs">Bro. Stanley Hillary </div>
           <div className="col-span-3 text-sm">
             Benediction / Prayer for the Church
           </div>
-          <div className="text-xs"> Pst. Happy Kona</div>
+          <div className="text-xs"> Elder Emeka Agbara</div>
           <div className="col-span-3 text-sm">Doxology</div>
           <div className="text-xs"> Congregation</div>
         </div>

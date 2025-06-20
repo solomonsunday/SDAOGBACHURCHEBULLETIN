@@ -18,25 +18,22 @@ const SabbathSchool = () => {
         </div>
         <div className="text-xs">Bro. Chimezie Mbagwu</div>
         <div className="col-span-3 text-sm capitalize">
-          Opening Hymn (SDAH 099)
+          Opening Hymn (SDAH 367)
         </div>
-        <div className="text-xs capitalize"> Sis. Nkeiruka Ihesiaba </div>
+        <div className="text-xs capitalize"> Elder Chuks Ihesiaba </div>
         <div className="col-span-3 text-sm capitalize">Opening Prayer</div>
-        <div className="text-xs">Sis Tofunmi Olusona & Sis. Ejiro Edafe</div>
-        {/* <div className="col-span-3 text-sm capitalize">
-          SPecial Feature: “Men of Faith in Action –{" "}
-        </div>
-        <div className="text-xs"> Elder Chukwuma Ihesiaba</div> */}
-
+        <div className="text-xs">Mrs. Eno Oguntade</div>
+        <div className="col-span-3 text-sm capitalize">Refugees Prayer</div>
+        <div className="text-xs"> Elder Gabriel Olusona</div>
         <div className="col-span-3 text-sm capitalize">
           {" "}
           Mission Spotlight / Keeping on Course (5 - 7 Mins)
         </div>
-        <div className="text-xs capitalize"> Bro. Kelechi Nwogu </div>
+        <div className="text-xs capitalize"> -</div>
         <div className="col-span-3 text-sm capitalize">
           Scripture Reading (2mins){" "}
         </div>
-        <div className="text-xs capitalize"> Sis. Nkeiruka Ihesiaba </div>
+        <div className="text-xs capitalize"> - </div>
         {/* <div className="col-span-3 text-sm capitalize">
           {" "}
           Special Feature (Short Drama on Seizure) (3-5mins)
@@ -62,20 +59,27 @@ const SabbathSchool = () => {
         <div className="col-span-3 text-sm capitalize">
           Welcome / Friend's time (5mins)
         </div>
-        <div className="text-xs capitalize">Bro. Chimezie Mbagwu</div>
+        <div className="text-xs capitalize">Bro. Stanley Hillary</div>
+
+        <div className="col-span-3 text-sm capitalize">
+          Refugees Talk, Songs and Prayer - Hymn 477, 309, 367, & 476
+        </div>
+        <div className="text-xs capitalize"> -</div>
+        <div className="col-span-3 text-sm capitalize">Refugees Offering</div>
+        <div className="text-xs capitalize"> Bro. Stanley Hillary</div>
 
         <div className="col-span-3 text-sm capitalize">
           Closing Remark / Announcement (3mins)
         </div>
         <div className="text-xs capitalize">Bro. Chimezie Mbagwu</div>
         <div className="col-span-3 text-sm capitalize">
-          Closing Hymn (SDAH 537) (2mins)
+          Closing Hymn (SDAH 367) (2mins)
         </div>
-        <div className="text-xs capitalize"> Sis. Ejiro Edafe</div>
+        <div className="text-xs capitalize">Bro. Chimezie Mbagwu</div>
         <div className="col-span-3 text-sm capitalize">
           Closing Prayer (2mins)
         </div>
-        <div className="text-xs"> Bro. Kelechi Nwogu</div>
+        <div className="text-xs"> Elder Chuks Ihesiaba</div>
       </div>
     </section>
   );

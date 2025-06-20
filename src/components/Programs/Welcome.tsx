@@ -40,20 +40,18 @@ const Welcome = () => {
         <div className="text-center flex justify-center">
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2  w-full">
             <p className="text-orange-400 underline">
-              TOPIC FOR THE WEEK (Lesson 10)
+              TOPIC FOR THE WEEK (Lesson 12)
             </p>
-            Upon Whom the Ends Have Come
+            Precursors
           </blockquote>
         </div>
         <div className="text-center flex justify-center">
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 w-full">
             <p className="text-orange-400 underline">MEMORY TEXT</p>
             <span className="px-1 text-xs italic">
-              “Now all these things happened to them as examples, and they were
-              written for our admonition, upon whom the ends of the ages have
-              come. Therefore let him who thinks he stands take heed lest he
-              fall”.
-              <span className="font-bold">(1 Corinthians 10:11-12, NKJV)</span>
+              “For God has not given us a spirit of fear, but of power and of
+              love and of a sound mind”.
+              <span className="font-bold">(2 Timothy 1:7, NKJV)</span>
             </span>
           </blockquote>
         </div>

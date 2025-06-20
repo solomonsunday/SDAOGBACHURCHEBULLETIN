@@ -10,14 +10,12 @@ const PastorDesk = () => {
         <div className="space-y-3">
           <div className="text-lg font-semibold underline">
             <p className="dark:text-white">
-              Ellen White ... Message to Young people,941.
+              Ellen G. White The Review and Herald, Oct. 9, 1900 Happy Sabbath
             </p>
           </div>
           <p className="text-orange-500">
-            “Nothing is apparently more helpless, yet really more invincible,
-            than the soul that feels its nothingness, and relies wholly on the
-            merits of the Saviour. God would send every angel in heaven to the
-            aid of such an one, rather than allow him to be overcome. "
+            "Every Christian family should illustrate to the world the power and
+            excellence of Christian influences"
           </p>
         </div>
       </section>
