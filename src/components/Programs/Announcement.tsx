@@ -51,11 +51,6 @@ const Announcement = () => {
             22/06/2025. Time is 10:00a.m. Venue is Akiode Church.
           </li>{" "}
           <li className="pb-2 border-b border-orange-200">
-            LMC ASAM holds her All Night Prayer service tonight. 21/06/2025.
-            Time is 10:00p.m after a brief meeting by 8:30p.m. Venue: Valley
-            Side SDA Church Oregun.
-          </li>{" "}
-          <li className="pb-2 border-b border-orange-200">
             Please support the School (ANPS) Project as we anticipate responses
             to the appeal letters given to members and free will donations
             towards the development of our School.
@@ -94,11 +89,6 @@ const Announcement = () => {
           <li className="pb-2 border-b border-orange-200">
             GC Session comes up July 3rd – 12th, 2025. Lets pray for its
             success.
-          </li>
-          <li className="pb-2 border-b border-orange-200">
-            WNUC Pathfinders Camporee holds in August 10th – 17th, 2025 at Reno
-            Secondary School, Sagamu, Ogun State. Theme: OBEDIENCE. Registration
-            is ₦12,500
           </li>
           <li className="pb-2 border-b border-orange-200">
             LMC Women’s Convention comes up as follows: Date: 26th – 31st
