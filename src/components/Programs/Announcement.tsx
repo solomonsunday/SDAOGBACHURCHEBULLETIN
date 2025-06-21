@@ -67,6 +67,25 @@ const Announcement = () => {
             Ogba District Combine Service hold July 12, 2025 here in Ogba
             Church.
           </li>
+          <li className="pb-2 border-b border-orange-200">
+            LMC Women’s Convention comes up as follows: Date: 26th – 31st
+            August, 2025. Venue: Ikorodu, Lagos State. Registration: ₦20,000.
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            WNUC AMO Convention holds August 6-10, 2025. More details to be
+            provided later.
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            WNUC Pathfinders Camporee holds in August 10th – 17th, 2025 at Reno
+            Secondary School, Sagamu, Ogun State. Theme: OBEDIENCE. Registration
+            is closed.
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            WNUC YAWM Convention comes up as follows: Date: 26th -31st August,
+            2025 Venue: Babcock University, Ogun State. Registration: ₦23,000
+            (early bird) deadline June 30th. Late registration: ₦25,000 (1-31
+            July, 2025)
+          </li>
           {/* <li className="pb-2 border-b border-orange-200 italic bg-pink-400 rounded-md text-center p-2">
             <span className="font-bold capitalize underline">
               Wedding Bell:
@@ -89,10 +108,6 @@ const Announcement = () => {
           <li className="pb-2 border-b border-orange-200">
             GC Session comes up July 3rd – 12th, 2025. Lets pray for its
             success.
-          </li>
-          <li className="pb-2 border-b border-orange-200">
-            LMC Women’s Convention comes up as follows: Date: 26th – 31st
-            August, 2025. Venue: Ikorodu, Lagos State. Registration: ₦20,000.
           </li>
           <li className="pb-2 border-b border-orange-200">
             Support the Church projects for this year a. Empowerment of members
