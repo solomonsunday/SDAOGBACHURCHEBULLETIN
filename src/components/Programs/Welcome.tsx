@@ -32,26 +32,28 @@ const Welcome = () => {
         <div className="text-center flex justify-center">
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2  w-full font-bold">
             <p className="text-orange-400 underline ">
-              THEME FOR THIS QUARTER (Quarter 2)
+              THEME FOR THIS QUARTER (Quarter 4)
             </p>
-            Allusions, Images, Symbols: How to Study Bible Prophecy
+            Lessons of faith from Joshua
           </blockquote>
         </div>
         <div className="text-center flex justify-center">
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2  w-full">
             <p className="text-orange-400 underline">
-              TOPIC FOR THE WEEK (Lesson 12)
+              TOPIC FOR THE WEEK (Lesson 01)
             </p>
-            Precursors
+            Recipe for Success
           </blockquote>
         </div>
         <div className="text-center flex justify-center">
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 w-full">
             <p className="text-orange-400 underline">MEMORY TEXT</p>
             <span className="px-1 text-xs italic">
-              “For God has not given us a spirit of fear, but of power and of
-              love and of a sound mind”.
-              <span className="font-bold">(2 Timothy 1:7, NKJV)</span>
+              “‘Only be strong and very courageous, that you may observe to do
+              according to all the law which Moses My servant commanded you; do
+              not turn from it to the right hand or to the left, that you may
+              prosper wherever you go’”.
+              <span className="font-bold">(Joshua 1:7, NKJV)</span>
             </span>
           </blockquote>
         </div>

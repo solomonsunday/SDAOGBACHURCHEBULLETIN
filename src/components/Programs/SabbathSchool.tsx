@@ -16,15 +16,15 @@ const SabbathSchool = () => {
         <div className="col-span-3 text-sm capitalize">
           Welcome / Opening Remark
         </div>
-        <div className="text-xs">Bro. Chimezie Mbagwu</div>
+        <div className="text-xs"> Sis. Nkeiru Ihesiaba Wogu </div>
         <div className="col-span-3 text-sm capitalize">
-          Opening Hymn (SDAH 367)
+          Opening Hymn (SDAH 518)
         </div>
-        <div className="text-xs capitalize"> Elder Chuks Ihesiaba </div>
+        <div className="text-xs capitalize">Sis. Chinyere Nwachukwu </div>
         <div className="col-span-3 text-sm capitalize">Opening Prayer</div>
-        <div className="text-xs">Mrs. Eno Oguntade</div>
-        <div className="col-span-3 text-sm capitalize">Refugees Prayer</div>
-        <div className="text-xs"> Elder Gabriel Olusona</div>
+        <div className="text-xs"> Sis. Nkeiru Ihesiaba Wogu</div>
+        <div className="col-span-3 text-sm capitalize">Insider Story</div>
+        <div className="text-xs"> Sis. Blessing Chimezie</div>
         <div className="col-span-3 text-sm capitalize">
           {" "}
           Mission Spotlight / Keeping on Course (5 - 7 Mins)
@@ -41,11 +41,6 @@ const SabbathSchool = () => {
         <div className="text-xs capitalize">Sis. Jessica Hillary</div> */}
 
         <div className="col-span-3 text-sm capitalize">
-          {" "}
-          Special Song (3-5mins)
-        </div>
-        <div className="text-xs capitalize">-</div>
-        <div className="col-span-3 text-sm capitalize">
           Lesson Study / Introduction (9:30am-10:15a.m)
         </div>
         <div className="text-xs capitalize">Bro. Chimezie Mbagwu</div>
@@ -59,27 +54,25 @@ const SabbathSchool = () => {
         <div className="col-span-3 text-sm capitalize">
           Welcome / Friend's time (5mins)
         </div>
-        <div className="text-xs capitalize">Bro. Stanley Hillary</div>
-
+        <div className="text-xs capitalize"> Sis. Nkeiru Ihesiaba Wogu</div>
         <div className="col-span-3 text-sm capitalize">
-          Refugees Talk, Songs and Prayer - Hymn 477, 309, 367, & 476
+          {" "}
+          Special Song/Testimony (Mrs. Rejoice Ugochukwu) (3-5mins)
         </div>
-        <div className="text-xs capitalize"> -</div>
-        <div className="col-span-3 text-sm capitalize">Refugees Offering</div>
-        <div className="text-xs capitalize"> Bro. Stanley Hillary</div>
+        <div className="text-xs capitalize">Sis. Blessing Chimezie</div>
 
         <div className="col-span-3 text-sm capitalize">
           Closing Remark / Announcement (3mins)
         </div>
         <div className="text-xs capitalize">Bro. Chimezie Mbagwu</div>
         <div className="col-span-3 text-sm capitalize">
-          Closing Hymn (SDAH 367) (2mins)
+          Closing Hymn (SDAH 422) (2mins)
         </div>
-        <div className="text-xs capitalize">Bro. Chimezie Mbagwu</div>
+        <div className="text-xs capitalize">Sis. Nkeiru Ihesiaba Wogu</div>
         <div className="col-span-3 text-sm capitalize">
           Closing Prayer (2mins)
         </div>
-        <div className="text-xs"> Elder Chuks Ihesiaba</div>
+        <div className="text-xs">Sis. Chinyere Nwachukwu </div>
       </div>
     </section>
   );

@@ -30,61 +30,45 @@ const Announcement = () => {
             find the Zoom links on the e-bulletin app
           </li>
           <li className="pb-2 border-b border-orange-200">
-            GC 100 days of prayers program commenced April 4th – July 12th, 2025
-            via zoom, time is 6:30a.m – 7:00a.m daily. This has begun and will
-            end on the last day of GC Session.
+            Today is GC Quarterly day of prayer, we are waiting on the Lord in
+            fasting and prayer program.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            Ogba Church Hymnal Sabbath holds on 28/06/2025.
+            Our weekly Bible Study holds today by 4:00p.m
           </li>{" "}
           <li className="pb-2 border-b border-orange-200">
-            Today is our World Refugee Sabbath, let’s continue to pray for the
-            displaced people in our community and beyond.{" "}
+            AMO Monthly meeting holds tomorrow. Time is 10:00a.m. Venue is Board
+            room.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            LMC ASAM holds her All Night Prayer service tonight. 21/06/2025.
-            Time is 10:00p.m after a brief meeting by 8:30p.m. Venue: Valley
-            Side SDA Church Oregun.
+            The burial of Pastor Alabi’s late mother is slated to hold on the
+            9th – 10th of October, 2025. Let’s pray for the family and reach out
+            to them in this time of grief.
           </li>{" "}
           <li className="pb-2 border-b border-orange-200">
-            Ogba District AMO Inaugural Meeting holds tomorrow, Sunday
-            22/06/2025. Time is 10:00a.m. Venue is Akiode Church.
+            October 11th, 2025 is Our Sabbath School Community Guest Day, let’s
+            start inviting our friends, neighbours and colleagues to church and
+            make it a memorable Sabbath for our community.
           </li>{" "}
+          <li className="pb-2 border-b border-orange-200">
+            Every man in the church is reminded of the school project which AMO
+            pledged to support the school board with the sum of ₦500,000. To
+            achieve this, every man is to pay the minimum sum of 10k. The school
+            is our heritage.
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            Pastors appreciation day is scheduled to hold on 11/10/2025 but Ogba
+            District will have it done on a later date pending our district
+            Pastor’s return.
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            Global Annual Week of Prayer holds 1st-8th November, 2025. Personal
+            ministry leader please take note.
+          </li>
           <li className="pb-2 border-b border-orange-200">
             Please support the School (ANPS) Project as we anticipate responses
             to the appeal letters given to members and free will donations
             towards the development of our School.
-          </li>
-          <li className="pb-2 border-b border-orange-200">
-            There will be a Fasting and Prayer program here in Ogba Church on
-            5/7/2025. Please prepare for it as all are encouraged to participate
-          </li>
-          <li className="pb-2 border-b border-orange-200">
-            2025 LMC Singles Conference holds on 6/07/2025 at SDA Church
-            Ilupeju. Time is 9:00a.m.
-          </li>
-          <li className="pb-2 border-b border-orange-200">
-            Ogba District Combine Service hold July 12, 2025 here in Ogba
-            Church.
-          </li>
-          <li className="pb-2 border-b border-orange-200">
-            LMC Women’s Convention comes up as follows: Date: 26th – 31st
-            August, 2025. Venue: Ikorodu, Lagos State. Registration: ₦20,000.
-          </li>
-          <li className="pb-2 border-b border-orange-200">
-            WNUC AMO Convention holds August 6-10, 2025. More details to be
-            provided later.
-          </li>
-          <li className="pb-2 border-b border-orange-200">
-            WNUC Pathfinders Camporee holds in August 10th – 17th, 2025 at Reno
-            Secondary School, Sagamu, Ogun State. Theme: OBEDIENCE. Registration
-            is closed.
-          </li>
-          <li className="pb-2 border-b border-orange-200">
-            WNUC YAWM Convention comes up as follows: Date: 26th -31st August,
-            2025 Venue: Babcock University, Ogun State. Registration: ₦23,000
-            (early bird) deadline June 30th. Late registration: ₦25,000 (1-31
-            July, 2025)
           </li>
           {/* <li className="pb-2 border-b border-orange-200 italic bg-pink-400 rounded-md text-center p-2">
             <span className="font-bold capitalize underline">
@@ -106,8 +90,13 @@ const Announcement = () => {
             the waste baskets.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            GC Session comes up July 3rd – 12th, 2025. Lets pray for its
-            success.
+            Our District Pastor Happy Kona is currently away for his study leave
+            in Kenya from 27th August – 30th October, 2025. Let’s keep him in
+            our prayers and give him all the needed support.
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            Hope Channel Media Evangelism holds Feb. 28 –March 14, 2026. There
+            will be 150 downlinks centres in LMC.
           </li>
           <li className="pb-2 border-b border-orange-200">
             Support the Church projects for this year a. Empowerment of members

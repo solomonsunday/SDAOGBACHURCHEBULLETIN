@@ -9,13 +9,12 @@ const PastorDesk = () => {
         </div>
         <div className="space-y-3">
           <div className="text-lg font-semibold underline">
-            <p className="dark:text-white">
-              Ellen G. White The Review and Herald, Oct. 9, 1900 Happy Sabbath
-            </p>
+            <p className="dark:text-white">Hebrew 4:16 (NIV)</p>
           </div>
           <p className="text-orange-500">
-            "Every Christian family should illustrate to the world the power and
-            excellence of Christian influences"
+            "Let us the approach God’s throne of grace with confidence, so that
+            we may receive mercy and find grace to help us in our time of need".
+            Happy Sabbath.
           </p>
         </div>
       </section>
