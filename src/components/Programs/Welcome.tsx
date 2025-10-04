@@ -49,10 +49,10 @@ const Welcome = () => {
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 w-full">
             <p className="text-orange-400 underline">MEMORY TEXT</p>
             <span className="px-1 text-xs italic">
-              “‘Only be strong and very courageous, that you may observe to do
+              “Only be strong and very courageous, that you may observe to do
               according to all the law which Moses My servant commanded you; do
               not turn from it to the right hand or to the left, that you may
-              prosper wherever you go’”.
+              prosper wherever you go”.
               <span className="font-bold">(Joshua 1:7, NKJV)</span>
             </span>
           </blockquote>
