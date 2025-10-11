@@ -34,26 +34,24 @@ const Welcome = () => {
             <p className="text-orange-400 underline ">
               THEME FOR THIS QUARTER (Quarter 4)
             </p>
-            Lessons of faith from Joshua
+            EXODUS
           </blockquote>
         </div>
         <div className="text-center flex justify-center">
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2  w-full">
             <p className="text-orange-400 underline">
-              TOPIC FOR THE WEEK (Lesson 01)
+              TOPIC FOR THE WEEK (Lesson 02)
             </p>
-            Recipe for Success
+            Surprised by Grace
           </blockquote>
         </div>
         <div className="text-center flex justify-center">
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 w-full">
             <p className="text-orange-400 underline">MEMORY TEXT</p>
             <span className="px-1 text-xs italic">
-              “Only be strong and very courageous, that you may observe to do
-              according to all the law which Moses My servant commanded you; do
-              not turn from it to the right hand or to the left, that you may
-              prosper wherever you go”.
-              <span className="font-bold">(Joshua 1:7, NKJV)</span>
+              “By faith the harlot Rahab did not perish with those who did not
+              believe, when she had received the spies with peace”
+              <span className="font-bold">(Hebrews 11:31, NKJV)</span>
             </span>
           </blockquote>
         </div>

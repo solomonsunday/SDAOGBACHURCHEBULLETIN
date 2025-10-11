@@ -16,15 +16,15 @@ const SabbathSchool = () => {
         <div className="col-span-3 text-sm capitalize">
           Welcome / Opening Remark
         </div>
-        <div className="text-xs"> Sis. Nkeiru Ihesiaba Wogu </div>
+        <div className="text-xs"> Bro. Benjamin Oshiotse </div>
         <div className="col-span-3 text-sm capitalize">
-          Opening Hymn (SDAH 518)
+          Opening Hymn (SDAH 109)
         </div>
-        <div className="text-xs capitalize">Sis. Chinyere Nwachukwu </div>
+        <div className="text-xs capitalize">Sis. Mourine Gospel </div>
         <div className="col-span-3 text-sm capitalize">Opening Prayer</div>
-        <div className="text-xs"> Sis. Nkeiru Ihesiaba Wogu</div>
+        <div className="text-xs"> Mourine Gospel</div>
         <div className="col-span-3 text-sm capitalize">Insider Story</div>
-        <div className="text-xs"> Sis. Blessing Chimezie</div>
+        <div className="text-xs">Sis. Bessy Francis</div>
         <div className="col-span-3 text-sm capitalize">
           {" "}
           Mission Spotlight / Keeping on Course (5 - 7 Mins)
@@ -57,22 +57,40 @@ const SabbathSchool = () => {
         <div className="text-xs capitalize"> Sis. Nkeiru Ihesiaba Wogu</div>
         <div className="col-span-3 text-sm capitalize">
           {" "}
-          Special Song/Testimony (Mrs. Rejoice Ugochukwu) (3-5mins)
+          Special Song/Testimony (D’ Hope Wave) (3-5mins)
         </div>
-        <div className="text-xs capitalize">Sis. Blessing Chimezie</div>
+        <div className="text-xs capitalize">Benjamin Oshiotse </div>
+
+        <div className="col-span-3 text-sm capitalize"> Panel Discussion</div>
+        <div className="text-xs capitalize">Bro. Chimezie Mbagwu</div>
+
+        <div className="col-span-3 text-sm capitalize">
+          {" "}
+          Songs of Praise (Praise Team)
+        </div>
+        <div className="text-xs capitalize">Bro. Uchendu Imo</div>
+
+        <div className="col-span-3 text-sm capitalize"> Guest Special Time</div>
+        <div className="text-xs capitalize">Bro. Uchendu Imo</div>
+
+        <div className="col-span-3 text-sm capitalize">
+          {" "}
+          Special Song (Sis. Chinweike Iruka)
+        </div>
+        <div className="text-xs capitalize"> Mourine Gospel</div>
 
         <div className="col-span-3 text-sm capitalize">
           Closing Remark / Announcement (3mins)
         </div>
         <div className="text-xs capitalize">Bro. Chimezie Mbagwu</div>
         <div className="col-span-3 text-sm capitalize">
-          Closing Hymn (SDAH 422) (2mins)
+          Closing Hymn (SDAH 633) (2mins)
         </div>
-        <div className="text-xs capitalize">Sis. Nkeiru Ihesiaba Wogu</div>
+        <div className="text-xs capitalize"> Benjamin Oshiotse </div>
         <div className="col-span-3 text-sm capitalize">
           Closing Prayer (2mins)
         </div>
-        <div className="text-xs">Sis. Chinyere Nwachukwu </div>
+        <div className="text-xs">Bessy Francis </div>
       </div>
     </section>
   );

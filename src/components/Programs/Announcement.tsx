@@ -30,20 +30,20 @@ const Announcement = () => {
             find the Zoom links on the e-bulletin app
           </li>
           <li className="pb-2 border-b border-orange-200">
-            Today is GC Quarterly day of prayer, we are waiting on the Lord in
-            fasting and prayer program.
+            Today is Our Community Guest Day. Friends you are welcome to Church.
           </li>
           <li className="pb-2 border-b border-orange-200">
             Our weekly Bible Study holds today by 4:00p.m
           </li>{" "}
           <li className="pb-2 border-b border-orange-200">
-            AMO Monthly meeting holds tomorrow. Time is 10:00a.m. Venue is Board
-            room.
+            AWM Leadership Training Certificate Level 4 is currently ongoing
+            (9th – 12th Oct. 2025) at Mount Carmel Playing Ground, Ilewara, Ife,
+            Osun State. Let’s continue to pray for its success and safe journey
+            back home to all delegates.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            The burial of Pastor Alabi’s late mother is slated to hold on the
-            9th – 10th of October, 2025. Let’s pray for the family and reach out
-            to them in this time of grief.
+            Next Sabbath is Heritage Sabbath, please come prepared to celebrate
+            our heritage.
           </li>{" "}
           <li className="pb-2 border-b border-orange-200">
             October 11th, 2025 is Our Sabbath School Community Guest Day, let’s
@@ -70,6 +70,15 @@ const Announcement = () => {
             to the appeal letters given to members and free will donations
             towards the development of our School.
           </li>
+          <li className="pb-2 border-b border-orange-200">
+            Our District Pastor Happy Kona is currently away for his study leave
+            in Kenya from 27th August – 30th October, 2025. Let’s keep him in
+            our prayers and give him all the needed support.
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            LMC 2025 Annual Family Camp meeting is coming up between 6th -9th
+            November, 2025. Venue; Gberigbe, Ikorodu. Lagos
+          </li>
           {/* <li className="pb-2 border-b border-orange-200 italic bg-pink-400 rounded-md text-center p-2">
             <span className="font-bold capitalize underline">
               Wedding Bell:
@@ -88,11 +97,6 @@ const Announcement = () => {
           <li className="pb-2 border-b border-orange-200">
             Keep the Church environment clean. Dispose every trash properly in
             the waste baskets.
-          </li>
-          <li className="pb-2 border-b border-orange-200">
-            Our District Pastor Happy Kona is currently away for his study leave
-            in Kenya from 27th August – 30th October, 2025. Let’s keep him in
-            our prayers and give him all the needed support.
           </li>
           <li className="pb-2 border-b border-orange-200">
             Hope Channel Media Evangelism holds Feb. 28 –March 14, 2026. There

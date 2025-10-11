@@ -9,12 +9,15 @@ const PastorDesk = () => {
         </div>
         <div className="space-y-3">
           <div className="text-lg font-semibold underline">
-            <p className="dark:text-white">Hebrew 4:16 (NIV)</p>
+            <p className="dark:text-white">Psalm 92:1-2 (NIV)</p>
           </div>
           <p className="text-orange-500">
-            "Let us the approach God’s throne of grace with confidence, so that
-            we may receive mercy and find grace to help us in our time of need".
-            Happy Sabbath.
+            "It is good to give thanks to the Lord, And to sing praises to Your
+            name, O Most High; To declare Your loving kindness in the morning,
+            And Your Faithfulness every night. May the Lord accept our
+            expressions of praise and worship as sweet smelling incense before
+            His altar of Praise in Jesus Christ name. Amen" <br />
+            Happy Sabbath
           </p>
         </div>
       </section>
