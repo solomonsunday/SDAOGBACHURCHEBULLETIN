@@ -18,9 +18,8 @@ const raleWay = Open_Sans({
 });
 
 export const metadata: Metadata = {
-  title:
-    "Haggerston Holiday Park Navigator App | Simplifying Guest Navigation ",
-  description: "Simplifying Guest Navigation",
+  title: "Seventh-Day Adventist Church, Ogba  | E-Bulletin ",
+  description: "Stay Updated Globally & Remain Blessed",
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
