@@ -34,7 +34,7 @@ const Welcome = () => {
             <p className="text-orange-400 underline ">
               THEME FOR THIS QUARTER (Quarter 4)
             </p>
-            EXODUS
+            Lessons of Faith from Joshua
           </blockquote>
         </div>
         <div className="text-center flex justify-center">
