@@ -40,18 +40,21 @@ const Welcome = () => {
         <div className="text-center flex justify-center">
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2  w-full">
             <p className="text-orange-400 underline">
-              TOPIC FOR THE WEEK (Lesson 02)
+              TOPIC FOR THE WEEK (Lesson 03)
             </p>
-            Surprised by Grace
+            Memorials of Grace
           </blockquote>
         </div>
         <div className="text-center flex justify-center">
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 w-full">
             <p className="text-orange-400 underline">MEMORY TEXT</p>
             <span className="px-1 text-xs italic">
-              “By faith the harlot Rahab did not perish with those who did not
-              believe, when she had received the spies with peace”
-              <span className="font-bold">(Hebrews 11:31, NKJV)</span>
+              “‘For the LORD your God dried up the waters of the Jordan for you
+              until you passed over, as the LORD your God did to the Red Sea,
+              which he dried up for us until we passed over, so that all the
+              peoples of the earth may know that the hand of the LORD is mighty,
+              that you may fear the LORD your God forever’ ”
+              <span className="font-bold">(Joshua 4:23-24, ESV)</span>
             </span>
           </blockquote>
         </div>

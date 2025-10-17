@@ -30,25 +30,23 @@ const Announcement = () => {
             find the Zoom links on the e-bulletin app
           </li>
           <li className="pb-2 border-b border-orange-200">
-            Today is Our Community Guest Day. Friends you are welcome to Church.
+            Today is Our Heritage Sabbath Celebration.
           </li>
           <li className="pb-2 border-b border-orange-200">
             Our weekly Bible Study holds today by 4:00p.m
           </li>{" "}
           <li className="pb-2 border-b border-orange-200">
-            AWM Leadership Training Certificate Level 4 is currently ongoing
-            (9th – 12th Oct. 2025) at Mount Carmel Playing Ground, Ilewara, Ife,
-            Osun State. Let’s continue to pray for its success and safe journey
-            back home to all delegates.
+            District AWM Meeting holds tomorrow 19/10/2025 at Ogba Church
+            auditorium. Time is 10:00a.m.
           </li>
           <li className="pb-2 border-b border-orange-200">
             Next Sabbath is Heritage Sabbath, please come prepared to celebrate
             our heritage.
           </li>{" "}
           <li className="pb-2 border-b border-orange-200">
-            October 11th, 2025 is Our Sabbath School Community Guest Day, let’s
-            start inviting our friends, neighbours and colleagues to church and
-            make it a memorable Sabbath for our community.
+            AWM Skill acquisition program is scheduled to hold on 26/10/2025 at
+            Ogba Church. Time is 10:00a.m. Available Skills: Tofu and Liquid
+            Soap making.
           </li>{" "}
           <li className="pb-2 border-b border-orange-200">
             Every man in the church is reminded of the school project which AMO
