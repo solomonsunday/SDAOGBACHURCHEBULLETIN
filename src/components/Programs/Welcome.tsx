@@ -40,21 +40,18 @@ const Welcome = () => {
         <div className="text-center flex justify-center">
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2  w-full">
             <p className="text-orange-400 underline">
-              TOPIC FOR THE WEEK (Lesson 03)
+              TOPIC FOR THE WEEK (Lesson 05)
             </p>
-            Memorials of Grace
+            God Fights for You
           </blockquote>
         </div>
         <div className="text-center flex justify-center">
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 w-full">
             <p className="text-orange-400 underline">MEMORY TEXT</p>
             <span className="px-1 text-xs italic">
-              “‘For the LORD your God dried up the waters of the Jordan for you
-              until you passed over, as the LORD your God did to the Red Sea,
-              which he dried up for us until we passed over, so that all the
-              peoples of the earth may know that the hand of the LORD is mighty,
-              that you may fear the LORD your God forever’ ”
-              <span className="font-bold">(Joshua 4:23-24, ESV)</span>
+              “And Joshua captured all these kings and their land at one time,
+              because the LORD God of Israel fought for Israel”
+              <span className="font-bold">(Joshua 10:42, ESV)</span>
             </span>
           </blockquote>
         </div>

@@ -30,23 +30,16 @@ const Announcement = () => {
             find the Zoom links on the e-bulletin app
           </li>
           <li className="pb-2 border-b border-orange-200">
-            Today is Our Heritage Sabbath Celebration.
+            Global Annual Week of Prayer starts today 1st -8th November, 2025.
+            Week of Prayer Materials is ₦500 per copy.
           </li>
           <li className="pb-2 border-b border-orange-200">
             Our weekly Bible Study holds today by 4:00p.m
           </li>{" "}
           <li className="pb-2 border-b border-orange-200">
-            District AWM Meeting holds tomorrow 19/10/2025 at Ogba Church
-            auditorium. Time is 10:00a.m.
-          </li>
-          <li className="pb-2 border-b border-orange-200">
-            Next Sabbath is Heritage Sabbath, please come prepared to celebrate
-            our heritage.
-          </li>{" "}
-          <li className="pb-2 border-b border-orange-200">
-            AWM Skill acquisition program is scheduled to hold on 26/10/2025 at
-            Ogba Church. Time is 10:00a.m. Available Skills: Tofu and Liquid
-            Soap making.
+            Tomorrow’s AWM Skill Acquisition program hols a follows: Date:
+            2/11/2025. Time: 9a.m. Venue: SDA Church Ogba. Available Skills:
+            Tofu and Liquid Soap making.
           </li>{" "}
           <li className="pb-2 border-b border-orange-200">
             Every man in the church is reminded of the school project which AMO
@@ -55,13 +48,8 @@ const Announcement = () => {
             is our heritage.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            Pastors appreciation day is scheduled to hold on 11/10/2025 but Ogba
-            District will have it done on a later date pending our district
-            Pastor’s return.
-          </li>
-          <li className="pb-2 border-b border-orange-200">
-            Global Annual Week of Prayer holds 1st-8th November, 2025. Personal
-            ministry leader please take note.
+            AMO Monthly Meeting holds tomorrow 2/11/2025. Time is 10:00a.m and
+            Venue is: Board room.
           </li>
           <li className="pb-2 border-b border-orange-200">
             Please support the School (ANPS) Project as we anticipate responses
@@ -69,13 +57,11 @@ const Announcement = () => {
             towards the development of our School.
           </li>
           <li className="pb-2 border-b border-orange-200">
-            Our District Pastor Happy Kona is currently away for his study leave
-            in Kenya from 27th August – 30th October, 2025. Let’s keep him in
-            our prayers and give him all the needed support.
-          </li>
-          <li className="pb-2 border-b border-orange-200">
-            LMC 2025 Annual Family Camp meeting is coming up between 6th -9th
-            November, 2025. Venue; Gberigbe, Ikorodu. Lagos
+            LMC 2025 Annual Family Camp meeting is coming up next weekend
+            between 6th -9th November, 2025. Venue: Orion School, Gberigbe,
+            Ikorodu. Lagos. All interested attendees are to register with Elder
+            Adeoti for proper planning of both feeding and logistics as the
+            district intends to take care of all her members in attendance.
           </li>
           {/* <li className="pb-2 border-b border-orange-200 italic bg-pink-400 rounded-md text-center p-2">
             <span className="font-bold capitalize underline">
