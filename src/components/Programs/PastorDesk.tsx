@@ -15,8 +15,8 @@ const PastorDesk = () => {
           </div>
           <p className="text-orange-500">
             "We may not see the path before us, but we can trust the one who
-            holds the future in His hands Testimonies for the Church, Vol. 5,
-            pg.578 Happy Sabbath
+            holds the future in His hands." <br />
+            Happy Sabbath!
           </p>
         </div>
       </section>

@@ -14,41 +14,44 @@ const DivineService = () => {
           <div className="col-span-3 text-sm">
             Call to Worship: (Titus 2:3){" "}
           </div>
-          <div className="text-xs">Pst. Happy Kona</div>
-          <div className="col-span-3 text-sm"> Invocation</div>
+          <div className="text-xs">Pst. Uchegbue U.O</div>
+          <div className="col-span-3 text-sm">
+            {" "}
+            Invocation (Lord I want to be a Christian)
+          </div>
           <div className="text-xs">Congregation</div>
-          <div className="col-span-3 text-sm">Adoration Hymn: (SDAH 200)</div>
-          <div className="text-xs"> Bro. Sunday Oyelekan</div>
+          <div className="col-span-3 text-sm">Adoration Hymn: (SDAH 309)</div>
+          <div className="text-xs"> Bro. Uchendu Imo</div>
           <div className="col-span-3 text-sm"> Pastoral Prayer</div>
-          <div className="text-xs">Elder Gbenga Adeoti</div>
+          <div className="text-xs"> Elder Anthony Ajie</div>
           <div className="col-span-3 text-sm"> Stewardship/Offertory </div>
-          <div className="text-xs">Deacon Idowu Oyeniyi</div>
+          <div className="text-xs">Deacon Lucky Ezekiel</div>
           <div className="col-span-3 text-sm">
             Musical Selection(Choir Time)
           </div>
-          <div className="text-xs"> Deacon Idowu Oyeniyi</div>
+          <div className="text-xs"> Deacon Lucky Ezekiel</div>
           <div className="col-span-3 text-sm">
-            Scripture Reading: (John 14:1-3)
+            Scripture Reading: (Mathew 7:22)
           </div>
-          <div className="text-xs"> Mrs. Decent Chisom </div>
+          <div className="text-xs">Mrs. Bridget Ifeanyi </div>
           <div className="col-span-3 text-sm">
-            Hymn of Consecration:(SDAH - 478)
+            Hymn of Consecration:(SDAH - 590)
           </div>
-          <div className="text-xs"> Mrs. Decent Chisom</div>
+          <div className="text-xs"> Mrs. Bridget Ifeanyi</div>
           <div className="col-span-3 text-sm">
             Sermon Title:{" "}
             <span className="font-bold text-orange-500">
               {" "}
-              “The Hope of the Ages”
+              “Why are you here?”
             </span>
           </div>
-          <div className="text-xs">Pst. Happy Kona</div>
-          <div className="col-span-3 text-sm">Closing Hymn: (SDAH 522) </div>
-          <div className="text-xs">Elder Gbenga Adeoti</div>
+          <div className="text-xs">Pst. Uchegbue U.O</div>
+          <div className="col-span-3 text-sm">Closing Hymn: (SDAH 327) </div>
+          <div className="text-xs"> Elder Anthony Ajie</div>
           <div className="col-span-3 text-sm">
             Benediction / Prayer for the Church
           </div>
-          <div className="text-xs"> Pst. Happy Kona</div>
+          <div className="text-xs">Pst. Uchegbue U.O</div>
           <div className="col-span-3 text-sm">Doxology</div>
           <div className="text-xs"> Congregation</div>
         </div>

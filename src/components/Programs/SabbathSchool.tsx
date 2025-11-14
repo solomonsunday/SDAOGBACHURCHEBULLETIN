@@ -17,13 +17,15 @@ const SabbathSchool = () => {
         <div className="col-span-3 text-sm capitalize">
           Welcome / Opening Remark
         </div>
-        <div className="text-xs">Sis. Kelechi Nwachukwu</div>
-        <div className="col-span-3 text-sm capitalize">
-          Opening Hymn (SDAH 107)
-        </div>
-        <div className="text-xs capitalize">Bro. Lucky Njoku</div>
+        <div className="text-xs">Sis. Nkeiru Ihesiaba</div>
         <div className="col-span-3 text-sm capitalize">Opening Prayer</div>
-        <div className="text-xs"> Sis. Kelechi Nwachukwu</div>
+        <div className="text-xs">Sis. Nkeiru Ihesiaba</div>
+        <div className="col-span-3 text-sm capitalize">
+          Opening Hymn (SDAH 322)
+        </div>
+        <div className="text-xs capitalize">Bro. Chidi Patrick</div>
+        <div className="col-span-3 text-sm capitalize">Inside Story</div>
+        <div className="text-xs capitalize">Bro. Benjamin Oshiotse</div>
 
         <div className="col-span-3 text-sm capitalize">
           Scripture Reading (2mins){" "}
@@ -47,12 +49,13 @@ const SabbathSchool = () => {
         <div className="col-span-3 text-sm capitalize">
           Welcome / Friend's time (5mins)
         </div>
-        <div className="text-xs capitalize"> Sis. Kelechi Nwachukwu</div>
+        <div className="text-xs capitalize"> Sis. Nkeiru Ihesiaba</div>
         <div className="col-span-3 text-sm capitalize">
           {" "}
-          Special Song <span className="text-yellow-700">(3-5 Mins)</span>
+          Special Song{" "}
+          <span className="text-yellow-700">(3-5 Mins) (The Ogidinta’s) </span>
         </div>
-        <div className="text-xs capitalize">-</div>
+        <div className="text-xs capitalize">Bro. Benjamin</div>
         {/* 
         <div className="col-span-3 text-sm capitalize"> Panel Discussion</div>
         <div className="text-xs capitalize">Bro. Chimezie Mbagwu</div> */}
@@ -66,11 +69,11 @@ const SabbathSchool = () => {
           Closing Hymn (SDAH 100){" "}
           <span className="text-yellow-700">(2 Mins)</span>
         </div>
-        <div className="text-xs capitalize">Bro. Lucky Ezekiel </div>
+        <div className="text-xs capitalize">Sis. Nkeiru Ihesiaba </div>
         <div className="col-span-3 text-sm capitalize">
           Closing Prayer <span className="text-yellow-700">(2 Mins)</span>
         </div>
-        <div className="text-xs">Bro. Lucky Njoku</div>
+        <div className="text-xs">Bro. Chidi Patrick</div>
       </div>
     </section>
   );

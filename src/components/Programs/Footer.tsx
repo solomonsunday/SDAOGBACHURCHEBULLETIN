@@ -5,7 +5,7 @@ const Footer = () => {
   const d = new Date();
   let year = d.getFullYear();
   return (
-    <footer className="bg-[#304D30]  text-white ">
+    <footer className="bg-[#304D30] text-white">
       <div className="md:px-20 px-8 pb-10 py-5 space-y-10 text-center md:text-left">
         <div>
           <Image
@@ -69,7 +69,6 @@ const Footer = () => {
               />
             </a>
           </div>
-
           <div>
             <a
               href="https://www.instagram.com/seventhdayadventist_ogba/"

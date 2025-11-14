@@ -40,18 +40,18 @@ const Welcome = () => {
         <div className="text-center flex justify-center">
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2  w-full">
             <p className="text-orange-400 underline">
-              TOPIC FOR THE WEEK (Lesson 05)
+              TOPIC FOR THE WEEK (Lesson 07)
             </p>
-            God Fights for You
+            Ultimate Loyalty: Worship in a War Zone
           </blockquote>
         </div>
         <div className="text-center flex justify-center">
           <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 w-full">
             <p className="text-orange-400 underline">MEMORY TEXT</p>
             <span className="px-1 text-xs italic">
-              “And Joshua captured all these kings and their land at one time,
-              because the LORD God of Israel fought for Israel”
-              <span className="font-bold">(Joshua 10:42, ESV)</span>
+              “But seek first the kingdom of God and his righteousness, and all
+              these things will be added to you”
+              <span className="font-bold">(Matthew 6:33, ESV)</span>
             </span>
           </blockquote>
         </div>

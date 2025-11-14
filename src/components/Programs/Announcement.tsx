@@ -30,38 +30,56 @@ const Announcement = () => {
             find the Zoom links on the e-bulletin app
           </li>
           <li className="pb-2 border-b border-orange-200">
-            Global Annual Week of Prayer starts today 1st -8th November, 2025.
-            Week of Prayer Materials is ₦500 per copy.
+            Welcome back from the annual family camp meeting,
+          </li>
+          <li className="pb-2 border-b border-orange-200">
+            Our first Elder, Elder Gbenga Adeoti lost one of his younger brother
+            within the week, let’s call and encourage them in this time of
+            grief.
           </li>
           <li className="pb-2 border-b border-orange-200">
             Our weekly Bible Study holds today by 4:00p.m
           </li>{" "}
           <li className="pb-2 border-b border-orange-200">
-            Tomorrow’s AWM Skill Acquisition program hols a follows: Date:
-            2/11/2025. Time: 9a.m. Venue: SDA Church Ogba. Available Skills:
-            Tofu and Liquid Soap making.
+            AMO Sports challenge between AMO Ogba and AMO Mafoluku holds
+            tomorrow 16/11/2025. Time is 9:00a.m and venue is Ogba church.
           </li>{" "}
+          <li className="pb-2 border-b border-orange-200">
+            29/11/2025 is Ogba church harvest of Gratitude and Pastor’s
+            appreciation day. Let’s come prepared with our individual and
+            collective gifts in thanksgiving to God and also appreciate our
+            Pastor. Harvest goal per family: Two bags of cement or it’s
+            equivalent.
+          </li>
           <li className="pb-2 border-b border-orange-200">
             Every man in the church is reminded of the school project which AMO
             pledged to support the school board with the sum of ₦500,000. To
             achieve this, every man is to pay the minimum sum of 10k. The school
             is our heritage.
           </li>
-          <li className="pb-2 border-b border-orange-200">
-            AMO Monthly Meeting holds tomorrow 2/11/2025. Time is 10:00a.m and
-            Venue is: Board room.
-          </li>
+          <div>
+            <li className="pb-2 border-b border-orange-200">
+              Ogba Church Choir End of Year Music Concert holds on 6/12/2025.
+            </li>
+            <li>
+              <div className="text-center text-yellow-600 font-bold">AWM</div>
+            </li>
+            <ol>
+              <li className="pb-2 border-b border-orange-200">
+                i) AWM Fasting and Prayer program now holds same day with the
+                monthly meeting on 4th Sabbath of this month (23/11/2025)
+                immediately after service
+              </li>
+              <li>
+                ii) District AWM Meeting now holds on the 23/11/2025 due to a
+                scheduled conference meeting tomorrow.
+              </li>
+            </ol>
+          </div>
           <li className="pb-2 border-b border-orange-200">
             Please support the School (ANPS) Project as we anticipate responses
             to the appeal letters given to members and free will donations
             towards the development of our School.
-          </li>
-          <li className="pb-2 border-b border-orange-200">
-            LMC 2025 Annual Family Camp meeting is coming up next weekend
-            between 6th -9th November, 2025. Venue: Orion School, Gberigbe,
-            Ikorodu. Lagos. All interested attendees are to register with Elder
-            Adeoti for proper planning of both feeding and logistics as the
-            district intends to take care of all her members in attendance.
           </li>
           {/* <li className="pb-2 border-b border-orange-200 italic bg-pink-400 rounded-md text-center p-2">
             <span className="font-bold capitalize underline">
