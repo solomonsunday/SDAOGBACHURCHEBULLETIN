@@ -10,12 +10,12 @@ const PastorDesk = () => {
         <div className="space-y-3 text-center">
           <div className="text-lg font-semibold underline">
             <p className="dark:text-white">
-              Testimonies for the Church, Vol. 5, pg.578
+              Testimonies for the Church, Vol. 5
             </p>
           </div>
           <p className="text-orange-500">
             "We may not see the path before us, but we can trust the one who
-            holds the future in His hands." <br />
+            holds the future in His hands, pg.578 Happy Sabbath" <br />
             Happy Sabbath!
           </p>
         </div>

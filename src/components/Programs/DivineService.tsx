@@ -12,46 +12,46 @@ const DivineService = () => {
           <div className="col-span-3 text-sm "> Prelude</div>
           <div className="text-xs"> Organist/Student Praise Team</div>
           <div className="col-span-3 text-sm">
-            Call to Worship: (Titus 2:3){" "}
+            Call to Worship: (){" "}
           </div>
-          <div className="text-xs">Pst. Uchegbue U.O</div>
+          <div className="text-xs">-</div>
           <div className="col-span-3 text-sm">
             {" "}
             Invocation (Lord I want to be a Christian)
           </div>
           <div className="text-xs">Congregation</div>
           <div className="col-span-3 text-sm">Adoration Hymn: (SDAH 309)</div>
-          <div className="text-xs"> Bro. Uchendu Imo</div>
+          <div className="text-xs"> -</div>
           <div className="col-span-3 text-sm"> Pastoral Prayer</div>
-          <div className="text-xs"> Elder Anthony Ajie</div>
+          <div className="text-xs"> -</div>
           <div className="col-span-3 text-sm"> Stewardship/Offertory </div>
-          <div className="text-xs">Deacon Lucky Ezekiel</div>
+          <div className="text-xs">-</div>
           <div className="col-span-3 text-sm">
             Musical Selection(Choir Time)
           </div>
-          <div className="text-xs"> Deacon Lucky Ezekiel</div>
+          <div className="text-xs"> -</div>
           <div className="col-span-3 text-sm">
-            Scripture Reading: (Mathew 7:22)
+            Scripture Reading: ()
           </div>
-          <div className="text-xs">Mrs. Bridget Ifeanyi </div>
+          <div className="text-xs">- </div>
           <div className="col-span-3 text-sm">
-            Hymn of Consecration:(SDAH - 590)
+            Hymn of Consecration:(SDAH -)
           </div>
-          <div className="text-xs"> Mrs. Bridget Ifeanyi</div>
+          <div className="text-xs">-</div>
           <div className="col-span-3 text-sm">
             Sermon Title:{" "}
             <span className="font-bold text-orange-500">
               {" "}
-              “Why are you here?”
+              “”
             </span>
           </div>
-          <div className="text-xs">Pst. Uchegbue U.O</div>
-          <div className="col-span-3 text-sm">Closing Hymn: (SDAH 327) </div>
-          <div className="text-xs"> Elder Anthony Ajie</div>
+          <div className="text-xs">-</div>
+          <div className="col-span-3 text-sm">Closing Hymn: () </div>
+          <div className="text-xs">-</div>
           <div className="col-span-3 text-sm">
             Benediction / Prayer for the Church
           </div>
-          <div className="text-xs">Pst. Uchegbue U.O</div>
+          <div className="text-xs">-</div>
           <div className="col-span-3 text-sm">Doxology</div>
           <div className="text-xs"> Congregation</div>
         </div>

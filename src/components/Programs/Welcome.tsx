@@ -73,7 +73,7 @@ const Welcome = () => {
           </blockquote>
         </div>
         <div className="text-center flex justify-center">
-          <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 w-full overflow-auto bg-cover bg-no-repeat bg-[url('/assets/imgs/welcome/midweek-img.jpg')] h-[190px]">
+          <blockquote className="rounded-lg capitalize bg-[#EEF0E5] py-2 w-full overflow-auto bg-cover bg-no-repeat md:bg-none bg-[url('/assets/imgs/welcome/midweek-img.jpg')] md:h-auto h-[190px]">
             <a
               href="https://us02web.zoom.us/j/83976497702?pwd=TmJpa3VBU05XUWlHb1JVOTY3S1gyQT09"
               target="_blank"
@@ -81,14 +81,14 @@ const Welcome = () => {
             >
               <div className=" text-green-950 font-bold shadow-2xl">
                 {/* <p className="underline">Join us to pray on Midweek</p> */}
-                <p>Click here to join us online</p>
+                <p className="underline">Click here to join us online</p>
                 <span className="">Time: 8:00 PM Every Wednesday</span>
               </div>
             </a>
           </blockquote>
         </div>
         <div className="text-center flex justify-center">
-          <blockquote className="rounded-lg capitalize py-2 w-full relative overflow-auto bg-cover bg-no-repeat bg-[url('/assets/imgs/welcome/early-morning.jpg')] h-[190px]">
+          <blockquote className="rounded-lg capitalize py-2 w-full relative overflow-auto bg-cover bg-no-repeat md:bg-[#EEF0E5] md:bg-none bg-[url('/assets/imgs/welcome/early-morning.jpg')] md:h-auto h-[190px]">
             <div className="right-0 pr-1 pt-0 absolute">
               {/* <div className="bg-red-700 text-white px-2 rounded-lg">New</div> */}
             </div>
@@ -99,8 +99,8 @@ const Welcome = () => {
             >
               <div className="text-black text-lg font-bold shadow-2xl">
                 {/* <p className="underline">Early Morning Prayer</p> */}
-                <p className="">Click here to join us online</p>
-                <span className=" text-white">
+                <p className="underline">Click here to join us online</p>
+                <span className="md:text-black text-white">
                   5AM Every Wednesday & Sunday
                 </span>
               </div>

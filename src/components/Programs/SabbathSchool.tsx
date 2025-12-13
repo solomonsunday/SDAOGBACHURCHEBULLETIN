@@ -17,20 +17,21 @@ const SabbathSchool = () => {
         <div className="col-span-3 text-sm capitalize">
           Welcome / Opening Remark
         </div>
-        <div className="text-xs">Sis. Nkeiru Ihesiaba</div>
+        <div className="text-xs">Sis. Dawn Walson</div>
         <div className="col-span-3 text-sm capitalize">Opening Prayer</div>
-        <div className="text-xs">Sis. Nkeiru Ihesiaba</div>
+        <div className="text-xs">Nkeiru Ihesiaba Wogu</div>
         <div className="col-span-3 text-sm capitalize">
-          Opening Hymn (SDAH 322)
+          Opening Hymn (SDAH 500)
         </div>
-        <div className="text-xs capitalize">Bro. Chidi Patrick</div>
-        <div className="col-span-3 text-sm capitalize">Inside Story</div>
         <div className="text-xs capitalize">Bro. Benjamin Oshiotse</div>
+
+        <div className="col-span-3 text-sm capitalize">Inside Story</div>
+        <div className="text-xs capitalize">Bro. Bright Enyi</div>
 
         <div className="col-span-3 text-sm capitalize">
           Scripture Reading (2mins){" "}
         </div>
-        <div className="text-xs capitalize"> - </div>
+        <div className="text-xs capitalize"> Bro. Benjamin Oshiotse </div>
         {/* <div className="col-span-3 text-sm capitalize">
           {" "}
           Special Feature (Short Drama on Seizure) (3-5mins)
@@ -49,13 +50,13 @@ const SabbathSchool = () => {
         <div className="col-span-3 text-sm capitalize">
           Welcome / Friend's time (5mins)
         </div>
-        <div className="text-xs capitalize"> Sis. Nkeiru Ihesiaba</div>
+        <div className="text-xs capitalize">Sis. Nkeiru Ihesiaba Wogu</div>
         <div className="col-span-3 text-sm capitalize">
           {" "}
-          Special Song{" "}
+          Special Presentation{" "}
           <span className="text-yellow-700">(3-5 Mins) (The Ogidinta’s) </span>
         </div>
-        <div className="text-xs capitalize">Bro. Benjamin</div>
+        <div className="text-xs capitalize">Sis. Dawn Walson</div>
         {/* 
         <div className="col-span-3 text-sm capitalize"> Panel Discussion</div>
         <div className="text-xs capitalize">Bro. Chimezie Mbagwu</div> */}
@@ -64,16 +65,16 @@ const SabbathSchool = () => {
           Closing Remark / Announcement{" "}
           <span className="text-yellow-700">(3 Mins)</span>
         </div>
-        <div className="text-xs capitalize">Bro. Chimezie Mbagwu</div>
+        <div className="text-xs capitalize">Chimezie Mbagwu/Dawn Walson</div>
         <div className="col-span-3 text-sm capitalize">
-          Closing Hymn (SDAH 100){" "}
+          Closing Hymn (SDAH 506){" "}
           <span className="text-yellow-700">(2 Mins)</span>
         </div>
-        <div className="text-xs capitalize">Sis. Nkeiru Ihesiaba </div>
+        <div className="text-xs capitalize"> Bro. Bright Enyi</div>
         <div className="col-span-3 text-sm capitalize">
           Closing Prayer <span className="text-yellow-700">(2 Mins)</span>
         </div>
-        <div className="text-xs">Bro. Chidi Patrick</div>
+        <div className="text-xs">Bro. Benjamin Oshiotse </div>
       </div>
     </section>
   );
