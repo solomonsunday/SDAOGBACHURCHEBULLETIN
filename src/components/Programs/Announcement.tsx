@@ -4,7 +4,6 @@ import { Spinner } from "../Common/Spinner";
 
 const Announcement = () => {
   const { loading, publishedData } = useFilteredPublishedBulletin();
-  console.log(publishedData, "announcement");
 
   return (
     <section className="pt-10 " id="announcement">
@@ -21,7 +20,6 @@ const Announcement = () => {
         <div className="space-y-4 dark:text-white">
           <ol className="space-y-4 list-decimal">
             {publishedData.announcements?.map((item) => {
-              console.log(item, "announcement");
               return (
                 <li className="pb-2 border-b border-orange-200" key={item.id}>
                   {item?.content}
