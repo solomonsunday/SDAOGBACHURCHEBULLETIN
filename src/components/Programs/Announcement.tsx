@@ -90,6 +90,7 @@ const Announcement = () => {
             <span className="font-bold">Bro. Iruka Innocent Johnson </span>
             Date: 25/05/2025 Time: 12:00 noon Venue: Umuokegwu Omoba, Isialangwa
             south, Abia State.
+            I am just adding this as a back up for when i come back to it.
           </li> */}
           <li className="pb-2 border-b border-orange-200">
             The church leadership is calling for a regular donation of snacks
